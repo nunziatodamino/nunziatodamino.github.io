@@ -1,6 +1,13 @@
 ---
-title: Welcome to Quartz
+title: Welcome to COSM-OS-2
 ---
+Welcome to COSM-OS-2.
+A wiki on Physics, Mathematics ans all.
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+You can start from here:
+[[Projects/Solid State Physics/Solid State Physics|Solid State Physics]]
+[[Zettelkasten/Introduction to Nanophysics/Introduction to Nanophysics|Introduction to Nanophysics]]
+[[Zettelkasten/Basic Mathematics/Basic Mathematics|Basic Mathematics]]
+[[Projects/Equilibrium Statistical Mechanics/Equilibrium Statistical Mechanics|Equilibrium Statistical Mechanics]]
+
+
