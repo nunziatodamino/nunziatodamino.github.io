@@ -1,0 +1,8 @@
+E' possibile scrivere la serie di Taylor in 1 o più dimensioni in questo modo:
+
+- 1 dim
+$$ f(x_0 + t) = f(x_0) + f'(x_0)t + f''(x_0)\frac{t^2}{2!} + \dots $$
+- n dim
+$$ f(\bar{x_0} + \bar{t}) = f(\bar{x_0}) + (\bar{t} \cdot \nabla)f(\bar{x_0}) +\frac{(\bar{t} \cdot \nabla)^2}{2!}f(\bar{x_0}) + \dots   $$
+Dove $\bar{x_0}$ rappresenta la posizione di equilibrio, mentre $\bar{t}$ lo spostamento da essa.
+Per una dimostrazione vedi [qui]

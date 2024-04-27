@@ -1,0 +1,38 @@
+#### 3 dimensioni
+
+Il reticolo di Bravais  è un insieme di vettori dato dalla seguente relazione:
+$$\bar{R} = n\bar{a}_1+m\bar{a}_2+l\bar{a}_3 \qquad n,m,l \in \mathbb{Z}$$
+I vettori $\bar{a}_1, \bar{a}_2, \bar{a}_3$ vengono detti #vettori_primitivi del reticolo di Bravais.
+
+Il parallelepipedo avente come spigoli i vettori primitivi è detto #cella_unitaria, il cui volume si trova banalmente tramite il prodotto misto $V_u = \bar{a}_1 \cdot (\bar{a}_2 \times \bar{a}_3)$
+
+In 3 dimensioni vi sono 14 possibili reticoli di Bravais:
+![[Ortoleva_Bragg_2_ok.jpg]]
+Specialmente importanti nelle applicazioni sono i primi 3, il cubo semplice, cubo a facce centrate (FCC), cubo a corpo centrato (BCC), di questi si faranno alcune considerazioni supplementari [qui](<file:\\\"C:\Users\Nunziato Damino\Documents\Obsidian Vault\Note\Note_Solid_State\Calcoli_su_particolari_reticoli_di_Bravais.xopp">)
+
+#### 2 dimensioni
+Vale quanto detto precedentemente a livello di definizioni, con la particolare attenzione che i vettori primitivi devono essere 2.
+Ne risulta che la cella unitaria ha superfice pari al modulo del prodotto vettoriale dei vettori primitivi.
+Ulteriormente esistono in 2 dimensioni un totale di 5 reticoli di Bravais:![[Two-dimensional-Bravais-lattices-of-different-symmetry-103.png|500]]
+
+#### 1 dimensione
+
+In una dimensione la definizione di reticolo di Bravais contiene 1 solo vettore primitivo, la cella unitaria ha dimensioni pari alla lunghezza del vettore primitivo ed esiste quindi solamente un tipo di reticolo di Bravais in una dimensione.
+
+### Numero di coordinazione (nearest neighbour)
+Dato un reticolo di Bravais è fondamentale, ai fini delle applicazioni, conoscere il numero di atomi equidistanti ad un atomo dato. 
+Diremo numero di coordinazione (nearest neighbour number) il numero di atomi che hanno distanza minima da un atomo dato in un reticolo di Bravais. Vista la periodicità del reticolo questo numero non dipende dall'atomo scelto per fare i conti, ma dalla struttura a priori, ovvero ogni tipo di reticolo di Bravais ha il proprio numero di coordinazione.
+
+
+### Cella di Wigner-Seitz
+E' essenziale, ai fini delle applicazioni, stabilire la cella primitiva in un modo differente. 
+Nello specifico vogliamo scegliere una cella primitiva che contenga interamente un atomo al suo centro.
+Si dice cella di Wigner-Seitz una regione di spazio che contiene tutti i punti con distanza inferiore a quella minima, dato un atomo.
+
+Un modo per costruire geometricamente tale cella è il seguente: 
+- si seleziona un atomo 
+- si identificano i vicini prossimi
+- si uniscono questi atomi con quello centrale tramite combinazione lineare dei vettori primitivi
+- si considera il punto medio del segmento che unisce l'atomo e il suo vicino prossimo e si considera un piano passante per tale punto e che abbia come vettore direttore il vettore che unisca l'atomo centrale al vicino prossimo.
+La cella ottenuta dall'intersezione chiusa e limitata di tali pianiè detta cella di Wigner-Seitz.
+Tale cella primitiva è raramente utilizzata nella descrizione del cristallo (ovvero nel cosiddetto spazio diretto), ma è essenziale nella descrizione del reticolo reciproco

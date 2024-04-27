@@ -1,0 +1,1 @@
+![[Hue-luminance plot of exp(1 over z), centered on the essential singularity at zero..png|600]]

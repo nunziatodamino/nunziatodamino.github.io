@@ -1,0 +1,7 @@
+Possiamo definire una distribuzione normale (o Gaussiana) di n variabili casuali continue $\bar{x} = \left( x_1, x_2, \dots, x_n \right)$ a partire dall' [[Integrale gaussiano multidimensionale]] che viene utilizzato in questo caso come [[Funzione generatrice]].
+Definiamo nello specifico la densità di probabilità associata a tale distribuzione come:
+$$ p(\bar{x}) =  \frac{1}{Z[A;0]} \exp \left( -\frac{1}{2} \bar{x}^t A \bar{x}  \right) $$
+Con funzione generatrice dei momenti $\frac{Z[A;\bar{b}]}{Z[A;\bar{0}]}$, [[nota]] dove $\bar{b}$ è la collezione di parametri ausiliari.
+
+Un interessante risultato è relativo alla media dei prodotti di $k \leq n$ variabili casuali. Si [mostra] che, posto $C = A^{-1}$ :
+$$ \braket{x_1, x_2, \dots, x_k} = \left[ \partial_{\bar{b}_1}\partial_{\bar{b}_2}\dots\partial_{\bar{b}_k} \exp \left( -\frac{1}{2} \bar{b}^t C \bar{b}  \right) \right]_{\bar{b}= \bar{0}}$$

@@ -1,0 +1,23 @@
+Convenzioni a parte l'idea generale è la seguente:
+
+##### 1 dimensione
+Sia $f(x)$ una funzione che rispetti le guenti proprietà:
+- Sia periodica di periodo $L$ :      $f(x)=f(x+nL)\qquad n\in \mathbb{Z}$ 
+- Nell'intervallo di periodicità $L=b-a$  la funzione $f(x)$ è limitata (da verificare)
+E' allora possibile la seguente rappresentazione:
+$$ f(x) = \frac{1}{L} \sum_{n=-\infty}^{+\infty}f_n\ e^{2 \pi ni x/L} $$
+Dove i coefficenti $f_n$ si trovano con la seguente formula detta di inversione:
+$$f_n = \int_a^b dx\ f(x)e^{-2 \pi ni x/L}$$
+##### 3 dimensioni
+
+Sia $f(\bar{r})$ una funzione che rispetti le guenti proprietà:
+- Sia periodica di periodo $\bar{R}=(R_x,R_y,R_z)$ :      $f(\bar{r})=f(\bar{r}+\bar{R}_{nml})= f(\bar{r}+nR_x+mR_y+lR_z) \qquad n,m,l\in \mathbb{Z}$ 
+- Nell'intervallo di periodicità la funzione è limitata (da verificare)
+E' allora possibile la seguente rappresentazione:
+$$ f(\bar{r}) = \sum_{\bar{G}}f_{\bar{G}}\ e^{i\ \bar{G}\cdot\bar{r}}=\sum_{n=-\infty}^{+\infty}\sum_{m=-\infty}^{+\infty}\sum_{l=-\infty}^{+\infty} f_{nml} e^{inG_xr_x}\ e^{imG_yr_y}\ e^{ilG_zr_z} $$
+Dove i coefficenti $f_{nml}$ si trovano con la seguente formula detta di inversione:
+$$f_{nml} = \int_V\ d^3\bar{r}\ f(\bar{r})e^{-i\ \bar{G}\cdot\bar{r}} $$
+Con $V=R_xR_yR_z$ 
+
+Nota bene che quest'ultima visione si adatta perfettamente al concetto di [[Reticolo di Bravais]] e di [[Reticolo reciproco]].
+Nello specifico ogni funzione periodica sul reticolo di Bravais è espandibile come somma di onde piane che si propagano nel reticolo reciproco.

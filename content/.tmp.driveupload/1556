@@ -1,0 +1,17 @@
+Un reticolo reciproco è una struttura che si costruisce a partire da un [[Reticolo di Bravais]] nel seguente modo.
+
+#### 3 dimensioni
+Definiamo reticolo reciproco di un reticolo di Bravais con vettori primitivi $\bar{a}_1,\bar{a}_2,\bar{a}_3$, e volume della cella unitaria $V_u$,  l'insieme di vettori:
+$$\bar{G} = n'\ \bar{b}_1+m'\ \bar{b}_2+l'\ \bar{b}_3 \qquad n',m',l' \in \mathbb{Z}$$
+Dove $\bar{b}_1,\bar{b}_2,\bar{b}_3$ sono vettori primitivi costruiti tramite le seguenti leggi:
+$$ \bar{b}_1 = \frac{2 \pi }{V_u} (\bar{a}_2 \times\bar{a}_3) \qquad \bar{b}_2 = \frac{2 \pi }{V_u} (\bar{a}_3 \times\bar{a}_1) \qquad \bar{b}_3 = \frac{2 \pi }{V_u} (\bar{a}_1 \times\bar{a}_2) $$
+Capiamo subito che il reticolo reciproco è esso stesso (matematicamente) un reticolo di Bravais.
+E' inoltre interessante osservare che vale:
+$$\bar{b}_i \cdot \bar{a}_j= 2 \pi \delta_{ij}$$
+Il volume della cella unitaria del reticolo reciproco $V'_u$  è legato al volume della cella unitaria dello spazio diretto dalla relazione:
+$$ V'_u = \frac{(2 \pi )^d}{V_u} $$
+Dove $d$ è la dimensione del reticolo diretto, nel nostro caso $d=3$.
+
+
+##### Zona di Brillouin
+La zona di Brillouin è la cella di Wigner-Seitz del reticolo reciproco.

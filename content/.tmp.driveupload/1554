@@ -1,0 +1,23 @@
+In una catena lineare esiste un solo possibile reticolo di Bravais, quindi la sua scelta risulta sottointesa.
+Per una derivazione dettagliata vedi [qui](file:\\\"D:\UniPd\Solid_State_Physics\Note\catena_monoatomica_lineare.xopp").
+Dopo alcune considerazioni basate sull' [[Approccio alla dinamica reticolare]], si ottiene la seguente equazione del moto:
+$$m \frac{d u_n^2}{dt^2} = \tilde{K} (u_{n+1} + u_{n-1} - 2u_{n})\qquad \forall \ n \in \mathbb{Z}$$
+Proponendo una soluzione del tipo:
+$$u_n(R,t) = A\exp{i(kR-\omega t)}= A\exp{i(kna-\omega t)} $$
+Con $R$ posizione nel reticolo di Bravais e $a$ costante cristallina, si ottiene per $\omega$ la seguente relazione di dispersione:
+
+$$\omega(k)  = \sqrt{\frac{4\tilde{K}}{M}} \left| \sin \left( \frac{ka}{2} \right) \right|$$
+Con $\tilde{K}$ costante elastica reticolare e $M$ massa della atomo considerato.
+
+N.B. Abbiamo una sola relazione di dispersione in quanto l'atomo può oscillare solo in un modo (1 modo normale per cella primitiva)
+
+### Condizioni di periodicità al contorno (Born-Von Karman)
+
+E' essenziale notare ulteriormente che non tutti i valori di $k$ sono disponibili. Questo perchè oltre la relazione di dispersione è necessario considerare le condizioni Born-Von Karman (dette anche condizioni periodiche al contorno). L'applicazione di quest'ultime restringe i valori di k concordemente alla lunghezza della catena considerata:
+
+$$ k = \frac{2 \pi n}{L} = \frac{2 \pi n}{Na} \qquad n \in \mathbb{Z} $$
+Quindi in realtà, fissata la lunghezza della catena, io non troverò mai la relazione di dispersione continua, ma dei punti in corrispondenza dei k permessi dalle PBC.
+
+
+
+

@@ -1,0 +1,2 @@
+Sono mezzo brillo di sake, dopo l'ultimo incontro al teatro coppola, bianca é ubriaca fradicia perché non sa controllarsi, mi infastidisce badare a lei come se fosse una bambina.  
+Ricordo in questa nota la scrittura dei 20 anni, mi sento allo stesso modo appoggiato al letto nella soppalcata mentre scrivo sulla moleskine, eppure...quanto sono diverso

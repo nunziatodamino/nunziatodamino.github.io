@@ -1,0 +1,5 @@
+Si definisce funzione gamma la funzione
+
+$$\Gamma(x) = \int_0^{+\infty} dt\ t^{x-1}e^{-t}, \qquad x>0 $$
+Tale funzione è strettamente legata alla definizione di fattoriale reale, tanto che vale la fontamentale:
+$$ \Gamma(n) = (n-1)! $$

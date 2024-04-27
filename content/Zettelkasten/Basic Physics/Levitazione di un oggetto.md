@@ -1,0 +1,1 @@
+La levitazione può anche essere dovuta al diamagnetismo

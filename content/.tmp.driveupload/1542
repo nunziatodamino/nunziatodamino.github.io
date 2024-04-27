@@ -1,0 +1,15 @@
+Si parte dal fatto che ho già effettuato l' [[Approssimazione di Born-Oppenheimer]] e voglio usare questa approssimazione unitamente al fatto che i miei N nuclei si trovano in un [[Reticolo cristallino (o cristallo)]].
+
+Questo approccio si basa dunque su due fatti: 
+
+il primo, usato insieme l'approssimazione di Born-Oppenheimer, è il fatto che piuttosto che risolvere l'equazione del moto elettronico per trovare la funzione $\mathcal{E}(\{\bar{R}\})$ da mettere poi nell'equazione del moto dei nuclei, si fa un ipotesi di comodo sulla sua forma, basata generalmente su ipotesi sperimentali.
+Si sceglie come $\mathcal{E}(\{\bar{R}\})$ una somma di potenziali che dipende solo dalle distanze reciproche (dunque un'interazione a 2 corpi):
+$$\mathcal{E}(\{\bar{R}\}) =\frac{1}{2} \sum_{\bar{R},\bar{R} '} \phi(|\bar{R}-\bar{R}'|)$$
+Attenzione, ricordiamo che $\{\bar{R}\} = (\bar{R}_1,\bar{R}_2, \dots, \bar{R}_N)$ è una particolare configurazione nucleare fissa.
+Vedi inoltre [[Nota sulle somme di coppie reticolari]].
+N.B: Questa approssimazione va bene solo se ci troviamo di fronte a gas. Già nel caso di un metallo sono importanti le interazioni a 3 corpi, e andrebbe utilizzata una funzione del tipo $\Phi(\bar{R},\bar{R}',\bar{R}'')$.
+
+
+Il secondo su ulteriori due assunzioni 
+1) Durante il moto reticolare le posizioni medie di equilibrio coincidono con quelle del reticolo di Bravais. Questo ci permette di associare al cristallo in moto una struttura di reticolo di Bravais nonostante i suoi ioni non occupino istantaneamente quella posizione.
+2) Lo spostamento degli ioni dalla posizione di equilibrio deve essere molto minore rispetto la costante reticolare. (N.B. Questa cosa succede se il cristallo si trova molto sotto il suo punto di fusione)

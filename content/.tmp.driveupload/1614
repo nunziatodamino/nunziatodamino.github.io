@@ -1,0 +1,33 @@
+Questo esempio, nonostante non sia di carattere generale, è alla base dell'intuizione che riguarda i modi di oscillazione normale.
+
+### 2 molle accoppiate 
+
+^e99f22
+
+Consideriamo la situazione in figura:
+![[modi_normali_2_molle.png]]
+Detti $u_1$ e $u_2$ gli spostamenti rispettivamente della prima e della seconda massa da sinistra a destra, abbiamo per tale sistema le seguenti equazioni del moto:
+$$
+\begin{cases}
+m\ddot{u}_1 = -ku_1 - \kappa(u_1-u_2) \\
+m\ddot{u}_2 = -ku_2- \kappa(u_2-u_1)
+\end{cases}
+$$
+Per risolvere questo sistema utilizziamo il seguente metodo: Propongo una soluzione del tipo:
+$$ \bar{u} = \begin{bmatrix}u_1 \\u_2\end{bmatrix} = \begin{bmatrix}A_1 e^{i\omega t} \\A_2 e^{i\omega t}\end{bmatrix}= \begin{bmatrix}A_1 \\A_2\end{bmatrix} e^{i \omega t}  $$
+Sostituendo ottengo un sistema del tipo:
+$$\begin{bmatrix} -m \omega^2+k+\kappa & -\kappa \\ -\kappa &-m \omega^2+k+\kappa \end{bmatrix}\begin{bmatrix}A_1 \\A_2\end{bmatrix} = \begin{bmatrix}0 \\0\end{bmatrix}  \qquad \Rightarrow \qquad M\bar{A} = \bar{0}$$
+Facciamo alcune considerazioni su questo sistema. Supponiamo che la matrice M abbia determinante diverso da 0. Allora esisterebbe la sua inversa $M^{-1}$ e questo ci permetterebbe di moltiplicare a sinistra il sistema lineare per la matrice inversa e risolverlo, trovando come soluzione $\bar{A} = \bar{0}$, soluzione banale, fisicamente inutile.
+Per tale ragione le uniche soluzioni fisiche sono quelle per le quali il determinante di M è diverso da 0.
+Risolvendo allora il vincolo $det(M)=0$ trovo le due soluzioni:
+$$\omega_1^2 = \frac{k}{m} \qquad\omega_2^2 = \frac{k+2\kappa}{m}$$
+Queste si chiamano frequenze normali di oscillazione. Ricordiamo che per questi valori di $\omega$ trovo delle ampiezze diverse da 0. Per cui vado a trovarle risostituendo nel sistema lineare.
+Troverò, per $\omega_1$ il vettore $[x,x]^t$ , mentre per $\omega_2$ il vettore $[y,-y]^t$.
+Se ora scelgo (arbitrariamente) $x=1$ e $y=1$, una soluzione generale del sistema è data dalla combinazione lineare delle soluzioni particolari, per cui:
+
+$$\begin{bmatrix}u_1 \\u_2\end{bmatrix}=C_1\begin{bmatrix}1\\1\end{bmatrix}e^{i\omega_1t}+C_2\begin{bmatrix}1\\1\end{bmatrix}e^{-i\omega_1t} +C_3\begin{bmatrix}1\\-1\end{bmatrix}e^{i\omega_2t}+C_4\begin{bmatrix}1\\-1\end{bmatrix}e^{-i\omega_2t}$$
+E dunque semplificando:
+$$\begin{bmatrix}u_1 \\u_2\end{bmatrix}=A^*_1\begin{bmatrix}1\\1\end{bmatrix}\cos(\omega_1t+\phi_1)+ A^*_2\begin{bmatrix}1\\-1\end{bmatrix}\cos(\omega_2t+\phi_2)$$
+N.B. Se adesso riscrivessi il sistema lineare utilizzando il cambio di base:
+$$U_1=u_1+u_2 \qquad U_2=u_1-u_2$$
+Otterrei un sistema lineare con matrice diagonale. Le coordinate $U_1, U_2$ si dicono coordinate normali di oscillazione.

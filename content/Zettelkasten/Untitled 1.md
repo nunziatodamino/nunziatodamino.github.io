@@ -1,0 +1,1 @@
+High school student is a replenishing market (Typical recruit point of pyramid schemes)

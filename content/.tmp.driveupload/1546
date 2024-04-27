@@ -1,0 +1,10 @@
+Fare estrema attenzione al seguente fatto:
+
+$$  \sum _{\bar{R}, \bar{R}'} \Phi (|\bar{R}-\bar{R}'|) \neq \sum _{i \neq j} \Phi (|\bar{R}_i-\bar{R}_j|) $$
+La prima è una somma sulle COPPIE, mentre la seconda è UNA SOLA SOMMA.
+Si dovrebbe scrivere, per essere chiari:
+$$\sum _{\bar{R}, \bar{R}'} \Phi (|\bar{R}-\bar{R}'|) = \sum _{i}\sum_j \Phi (|\bar{R}_i-\bar{R}_j|)$$
+Dando per scontato che le somme a stesso indice non hanno senso, oppure per essere precisi:
+$$\sum _{\bar{R}, \bar{R}'} \Phi (|\bar{R}-\bar{R}'|) = \sum _{\substack{i \\i\neq j}}\sum _{\substack{j \\j\neq i}} \Phi (|\bar{R}_i-\bar{R}_j|)$$
+Per aumentare la confusione, c'è chi scrive anche:
+$$  \sum _{\bar{R}, \bar{R}'} \Phi (|\bar{R}-\bar{R}'|) = \sum _{\substack{i,j \\j\neq i}} \Phi (|\bar{R}_i-\bar{R}_j|) $$

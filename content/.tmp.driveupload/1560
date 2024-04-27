@@ -1,0 +1,17 @@
+Ulteriore piaga dello Stato Solido è postulare tale scambio senza le opportune precisazioni:
+
+$$ \sum_{\bar{k}} \iff \frac{V}{(2\pi)^3} \int d^3\bar{k} $$
+Cominciamo migliorando lo scambio sistemando la notazione. Sarebbe più corretto scrivere:
+
+$$ \sum_{\bar{k}\in A} \iff \frac{V}{(2\pi)^3} \int_A d^3\bar{k} $$
+Con $A$ sottoinsieme dello spazio reciproco (vale anche per un generico k-spazio).
+
+Spieghiamo adesso da quale idea deriva questo scambio.
+Se io voglio contare degli oggetti $p$ in uno spazio $S$ ho 2 modi di procedere: o, banalmente, li conto, oppure conosco la densità degli oggetti per unità di spazio e integro sullo spazio per trovare il numero.
+
+Analogia: ho 5 pali, distanziati l'uno dall'altro 2 m. O li conto, oppure dico che su 10 m ho una densita di palo di 1/2 (5/10) e per calcolare farò $\int_0^{10} (1/2) dx=5$
+
+Quindi, l'idea primordiale è:
+$$ \sum_{p\in S} p = \int_S dS \rho_p $$
+Semplicemente, nel caso dello Stato Solido la funzione densità è costante e si può portare fuori dall'integrale.
+$$ \sum_{p\in S} p = \rho_p \int_S dS $$

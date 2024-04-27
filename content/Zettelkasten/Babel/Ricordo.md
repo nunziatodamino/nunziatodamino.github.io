@@ -1,0 +1,1 @@
+Questo metodo di processing dei dati mi ricorda un metodo che avevo ideato tempo fa chiamato "Il Giardino"

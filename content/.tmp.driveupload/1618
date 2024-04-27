@@ -1,0 +1,29 @@
+E' un insieme di fermioni non interagenti (da qui la dicitura 'gas') con degenerazione di spin pari a 2. ($g= 2  * (1/2) + 1$ ).
+Indichiamone le caratteristiche generali.
+
+Supponiamo che l'intero sistema abbia energia limite $E$. Noi sappiamo che le energie ammissibili per il sistema sono:
+$$E(\bar{k}) = \frac{\hbar^2}{2m} (k_x^2+k_y^2+k_z^2)$$
+Si dirà una terna $(k_x,k_y,k_z)$ stato fermionico, o semplicemente stato.
+Il numero di stati con energia minore o uguale all'energia limite $E$ è ben approssimato dalla frazione:
+
+$$ N = g \frac{V_{ph}}{V_u'}$$
+Dove g è la degenerazione di spin, $V_{ph}$ è il volume dello spazio reciproco (spazio-k) che contiene tutti gli stati e $V'_u$ è il volume della cella unitaria dello spazio reciproco che contiene un solo stato.
+(Per farsene convinti, vedi [qui](<file:\\\"C:\Users\Nunziato Damino\Documents\Obsidian Vault\Note\Note_Solid_State\Modello_gas_Fermi_metalli.xopp">))
+
+### $T = 0\ K$
+
+Da quanto noto sulla [[Statistica di Fermi-Dirac]], sappiamo che ad una temperatura di $T=0\ K$ risultano occupati solamente gli stati con energia inferiore alla cosiddetta energia di Fermi.
+Se considero allora come energia limite l'energia di Fermi avrò:
+
+- Impulso di Fermi : $k_F = \sqrt{\frac{2mE_F}{\hbar^2}}$
+- Temperatura di Fermi: $k_b T_F = E_F$
+- Velocità di Fermi :  $m v_F = \hbar k_F$
+- Numero di stati occupati con energia pari o inferiore all'energia di Fermi: $N = \left(g \frac{3}{2} \pi^2 n \right)^{1/3}= \left(3 \pi^2 n \right)^{1/3}$ 
+   con $n$ densità di elettroni per unità di volume   
+
+Ulteriormente è possibile valutare l'energia dello stato fondamentale di tale gas, sommando le energie di tutti gli stati contenuti nella sfera di raggio pari all'impulso di Fermi, moltiplicata opportunamente per la degenerazione di spin. Si ha:
+$$ E_0= g\ \sum_{k\leq k_F} \frac{\hbar^2k^2}{2m} =g \frac{3}{10}NE_F = \frac{3}{5}NE_F   $$
+Con $N$ numero totale degli stati. Scopriamo qui che energia totale ed energia limite sono proporzionali, ma non uguali.
+E' inoltre possibile valutare la pressione esercitata dal gas di elettroni:
+$$ P = \frac{\partial E_0}{\partial V} = g \frac{2}{10} nE_F $$
+Tale pressione è detta pressione di Pauli.

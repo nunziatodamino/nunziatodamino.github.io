@@ -1,0 +1,11 @@
+Tramite l'approssimazione di Born-Oppenheimer (approssimazione adiabatica ) riesco a disaccoppiare il movimento nucleare da quello elettronico.
+Vado a definire un sistema di 2 equazioni:
+
+Moto elettronico
+$$ T_e + (V_{ee}+V_{nn} + V_{en}) \psi_e = \mathcal{E} \psi_e$$
+Moto nucleare
+$$ M \frac{d^2\vec{R}_I}{dt^2} = - \frac{\partial \mathcal{E}}{\partial \vec{R}_I} $$
+
+Questa approssimazione è giustificata solamente dal fatto che gli elettroni hanno masse molto minori di quelle dei nucleoni
+
+Fare attenzione: c'è una differenza qui rispetto a quanto si fa in un atomo polielettronico, li' studio il moto di un nucleo circondato da Z elettroni, qui sto studiando il moto di N nuclei circondati da ZN elettroni.

@@ -1,0 +1,11 @@
+Sono principalmente 2 le assunzioni fondamentali alla base dell' [[Approssimazione di Born-Oppenheimer]].
+
+Consideriamo prima da capo il problema originale.
+Ho N nuclei con ZN=n elettroni. Questi obbediscono all'equazione di Schrodinger stazionaria:
+$$ \hat{H}\Psi(\bar{r}_1, \bar{r}_2 \dots, \bar{r}_n, \bar{R}_1, \bar{R}_2, \dots, \bar{R}_N ) = E \Psi $$
+Dove con $\bar{R}$ indico le posizioni nucleari e con $\bar{r}$ indico le posizioni elettroniche.
+Denotata in modo conciso: $(\bar{r}_1, \bar{r}_2 \dots, \bar{r}_n, \bar{R}_1, \bar{R}_2, \dots, \bar{R}_N ) = (\bar{r},\bar{R})$ è possibile scrivere la funzione d'onda soluzione dell'equazione di Schrodinger come:
+$$ \Psi(\bar{r},\bar{R}) = \Psi_n(\bar{R})\Psi_e(\bar{r},\bar{R}) $$
+Questa condizione indica che li moto dei nuclei non dipende dalla posizione degli elettroni, in quanto questi hanno una massa troppo piccola per influenzare il moto nucleare $(m<<M)$ .
+Ulteriormente, se io sedessi su un elettrone vedrei un nucleo sostanzialmente fermo. Questa ipotesi è allora di fatto pari alla condizione:
+$$ \braket{\bar{r},\bar{R} | \hat{p}_I | \Psi_e} =0 \qquad \Rightarrow \qquad \nabla_I\Psi(\bar{r},\bar{R}) = 0$$

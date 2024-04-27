@@ -1,0 +1,21 @@
+Se una particella è un fermione, questa obbedisce alla statistica di Fermi-Dirac.
+Nello specifico la funzione di Fermi-Dirac:
+$$\bar{n}_i = \frac{1}{e^{\beta(\epsilon_i-\mu)}+1}$$
+(Con $\epsilon_i$ energia dell'autostato i-esimo, $\mu$ potenziale chimico e $\beta=1/k_B T$)
+Indica il numero medio di fermioni presenti nell'autostato $i$.
+Essendo che vale il [[Principio di esclusione di Pauli]] solo un fermione può occupare un autostato, creando il vincolo $0<\bar{n}_i<1$.
+Questo particolare vincolo fa si che la funzione di Fermi abbia una ulteriore interpretazione, ovvero che $n_i$ indica la probabilità che uno stato di energia $\epsilon_i$ sia occupato da un fermione.
+Questo perchè deve anche vale la condizione di normalizzazione per la quale la somma dei diversi numeri medi deve essere pari al numero totale di fotoni $N$:
+$$\sum_i \bar{n}_i = N $$
+
+
+### Alcune considerazioni
+
+- Valutiamo il grafico della funzione a diversi valori di temperatura:
+	![[fermi_dirac_statistics.png]]
+Per $T \simeq 0$ (linea blu) oltre un valore di energia (che coincide con il potenziale chimico $\mu$, che in questo caso chiameremo energia di Fermi $E_F$) non ho stati occupati, mentre gli stati con valori inferiori a quella soglia sono sicuramente occupati.
+All'aumentare di T la funzione diventa una sigmoide e vi un cosiddetto "svuotamento dei livelli".
+L'intervallo di energia in cui la probabilità passa da 1 a 0 è dell'ordine di $k_bT$.
+
+- Un' altra importante considerazione è che il potenziale chimico è funzione della temperatura:
+$$ \mu(T) = E_F -\frac{\pi^2}{12}\frac{(k_bT)^2}{E_F} $$

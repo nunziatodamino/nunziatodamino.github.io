@@ -1,0 +1,1 @@
+- [ ] spiegare meglio equilibrium distance, cohesive energy, bulk modulus compressibility e varie.

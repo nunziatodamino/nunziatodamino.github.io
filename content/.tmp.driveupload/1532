@@ -1,0 +1,11 @@
+- La parte sulla teoria elementare della conducibilità dimostrata a partire dalla sfera di Fermi non ha alcun senso. Quando scrive
+$$f(k) = f_o (k + \delta k)$$
+Va specificato che questa equazione deriva dall'aver posto una condizione particolare sulla equazione di trasporto di Boltzmann (cfr. pg. 252 Ibach-Luth, eq. 9.36 oppure pg.501 Grosso-Parravicini l'equazione prima di eq.(11.28)).
+Va quindi prima fatto almeno un cappello introduttivo su questa cosa prima di fare la dimostrazione
+
+- La discussione sui plasmoni è completamente sterile. Manca il parallelismo plasmoni-fononi, oltre che il fatto fondamentale che i plasmoni sono fenomeni di superficie, responsabili della brillantezza dei metalli.
+Ulteriormente non fa il discorso sul fatto che questo dovrebbe essere una semplice estensione del modello di Drude ad un campo elettrico oscillante.
+
+- La regola di Matthiessen è una regola empirica, è semplicemente spiegata dal modello di Drude, ma non da esso prevista.
+
+- La dimostrazione che porta alla definizione dell'equazione centrale è di fatto una dimostrazione del teorema di Bloch.

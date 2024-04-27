@@ -1,0 +1,15 @@
+La trattazione di tale oggetto è strettamente legata a quella della [[Catena monoatomica lineare]].
+Nello specifico abbiamo, per posizione reticolare, le seguenti equazioni del moto:
+$$
+\begin{cases} M\ddot{u_n}^{(1)} = -\tilde{K}(u_n^{(1)}-u_{n-1}^{(2)}) +\tilde{G}(u_n^{(2)}-u_{n}^{(1)}) \\
+M\ddot{u_n}^{(2)} = +\tilde{K}(u_{n+1}^{(1)}-u_n^{(2)}) -\tilde{G}(u_n^{(2)}-u_{n}^{(1)})
+\end{cases}
+$$
+Con notazione utilizzata nella trattazione dettagliata [qui](file:\\\"D:\UniPd\Solid_State_Physics\Note\catena_biatomica_lineare.xopp").
+Riconosciamo in questo sistema una situazione simile a quella de [[Modi normali in molle accoppiate#^e99f22]], con l'unica differenza che bisogna qui proporre una soluzione del tipo forzato (check):
+$$\bar{u_n} = \begin{bmatrix} A_1 \\ A_2 \end{bmatrix} e^{i(kR-\omega t)}$$
+Troverò allora come frequenze normali di oscillazione:
+$$ \omega^2(k) = \frac{\tilde{K}+\tilde{G}}{M} \pm \sqrt{\tilde{K}+\tilde{G}+2\tilde{K}\tilde{G}\cos{ka}}$$
+Trovo dunque 2 modi normali di oscillazione (2 modi di oscillare per posizione reticolare).
+Chiamiamo le due bande che si trovano banda ottica (+) e banda acustica (-).
+Il nome deriva dal fatto che una delle due (nel nostro caso quella con il segno -) deve restituire al limite dei k infinitesimi il comportamento del modello continuo vibrazionale ($k \to 0 \Rightarrow \omega \to 0$ ). 

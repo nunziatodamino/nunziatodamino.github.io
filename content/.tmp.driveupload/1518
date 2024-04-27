@@ -1,0 +1,18 @@
+Questa approssimazione delle derivate sembra essere alla base del [[Metodo delle differenze finite]]
+Si consideri un incremento positivo finito $\Delta x >0$.
+Possiamo approssimare una funzione in un ''intorno'' di $x_0$ in 2 modi 
+I ) o in avanti:
+$$ \begin{equation} f(x_0 +  \Delta x) = f(x_0) + f'(x_0)\Delta x + f''(x_0)\frac{(\Delta x)^2}{2!}+  f'''(x_0)\frac{(\Delta x)^3}{3!} + \dots \end{equation} $$
+II )O all'indietro:
+$$ f(x_0 +  \Delta x) = f(x_0) - f'(x_0)\Delta x + f''(x_0)\frac{(\Delta x)^2}{2!}- f'''(x_0)\frac{(\Delta x)^3}{3!} + \dots $$
+Adesso abbiamo due modi di procedere, a seconda che vogliamo l'approssimazione di una derivata di ordine pari o dispari.
+
+Derivate di ordine dispari) Faccio I - II e approssimo all'ordine che mi interessa
+
+Derivate di ordine dispari) Faccio I + II e approssimo all'ordine che mi interessa
+
+e.g.
+
+$$ f''(x_0) \simeq \frac{f(x_0 + \Delta x) + f(x_0 - \Delta x) - f(x_0)}{(\Delta x)^2} $$
+
+

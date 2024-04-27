@@ -1,0 +1,10 @@
+Cominciamo con la sua definizione: Sia $\bar{x} \in \mathbb{R}^n$  e $A$ matrice quadrata di ordine n, simmetrica e definita positiva. Si definisce integrale gaussiano multidimensionale:
+$$ Z[A] = \int_{R^n} dx^n \ \exp{\left(-\frac{1}{2} \bar{x}^tA\bar{x}\right)} $$
+E' possibile [mostrare](file:\\\"D:\UniPd\Models_of_Theoretical_Physics\Note\integrale_gaussiano_multidimensionale.xopp") che tale integrale è pari a:
+$$Z[A] = \sqrt{\frac{(2\pi)^n}{det A}}$$
+E' inoltre possibile ulteriormente generalizzare considerando una traslazione del tipo:
+
+$$ Z[A, \bar{b}] = \int_{R^n} dx^n \ \exp{\left(-\frac{1}{2} \bar{x}^tA\bar{x} + \bar{b} \cdot \bar{x}\right)} $$
+In questo caso si mostra che:
+$$Z[A, \bar{b}] = Z[A, 0] \exp\left( -\frac{1}{2} \bar{b}^tA^{-1}\bar{b} \right)$$
+

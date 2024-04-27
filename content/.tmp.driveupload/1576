@@ -1,0 +1,23 @@
+Abbiamo, dall'approccio alla dinamica elettronica, la seguente equazione di Schrodinger:
+$$\left(-\frac{\hbar^2}{2m}\nabla^2 + V(\bar{r}) \right) \Psi(\bar{r})= E  \Psi(\bar{r}) $$
+Con $V(\bar{r})$ potenziale efficace che deve soddisfare le condizioni di simmetria reticolare:
+$$V(\bar{r})=V(\bar{r}+ \bar{R})$$
+Con $\bar{R}$ generico vettore appartenente ad un reticolo di Bravais.
+Il modo più semplice di scegliere un potenziale che soddisfi tali condizioni di simmetria è sceglierlo costante. Se infatti $V(\bar{r}) = V_0$, la mia equazione diventerà semplicemente: 
+$$-\frac{\hbar^2}{2m}\nabla^2  \Psi(\bar{r})= E' \Psi(\bar{r})\qquad E' = E-V_0 $$
+Ovvero è come se l'elettrone fosse libero nel metallo, da cui il nome del modello.
+
+Si fa notare a questo punto un fatto estremamente importante di questo modello, ovvero che l'ipotesi di potenziale costante fa di fatto perdere ogni informazione sulla tipologia di reticolo di Bravais.
+Non avrò dunque un modello differenziato per i diversi tipi di reticoli, ma devo comunque sceglierne uno di comodo, per fare la mia estensione da sistema finito ad infinito tramite le [[Condizioni di Born-Von Karman]].
+Si sceglie, per ovvi motivi, un reticolo cubico semplice.
+
+Ulteriormente, visto che gli elettroni sono fermioni, e che abbiamo supposto gli elettroni non interagenti, possiamo vedere gli elettroni come un [[Gas di Fermi completamente degenere]].
+
+Vediamo brevemente soluzioni e condizioni al contorno di questo modello.
+
+Considerando un generico cristallo di volume $V=L^3$ avrò:
+$$\Psi(\bar{r}) \equiv \Psi_{\bar{k}}(\bar{r}) = \frac{1}{\sqrt{V}} e^{i(\bar{k} \cdot \bar{r})} \qquad E(\bar{k})  =\frac{\hbar^2k^2}{2m}$$
+Per tenere infine conto che mi trovo in un reticolo cubico semplice devo imporre delle [[Condizioni di Born-Von Karman]], che mi porteranno ad una discretizzazione delle energie.
+Avrò allora:
+$$ k_{i} = \frac{2 \pi}{L} n_i \qquad \Rightarrow \qquad  E(\bar{k})  =\frac{\hbar^2}{2m} \left( \frac{2\pi}{L} \right)^2 (n_x^2+n_y^2+ n_z^2) \qquad n_x,n_y,n_z \in \mathbb{Z}  $$
+(==Secondo me il puntone definitivo è che il boxing da un tipo di discretizzazione, mentre Born-Von Karman un'altra==)

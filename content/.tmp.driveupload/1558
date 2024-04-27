@@ -1,0 +1,29 @@
+Supponiamo di aver risolto il problema del moto a molti corpi tramite l'[[Approssimazione di Born-Oppenheimer]], e di analizzare la parte elettronica del moto.
+$$ [T_e + (V_{ee}+V_{nn} + V_{en})] \psi_e = \mathcal{E}(\{\bar{R}_I\}) \psi_e$$
+E' adesso essenziale per poter risolvere il problema, effettuare alcune approssimazioni:
+
+- Il primo passo è donare simmetria al nostro problema, postulando che i nuclei dell'equazione sovrastante occupino posizioni fisse $\{\bar{R}_I\}$ all'interno di un reticolo di Bravais scelto a priori.
+- Si riduce poi il problema del potenziale specificando al posto dei contributi specifici visti sopra un unico potenziale $V$ detto potenziale efficace.
+- E'  infine essenziale considerare gli elettroni non interagenti fra di loro.
+Questo implica intanto $V_{ee} \simeq 0$, ma più importante il fatto che:
+$$ \psi_e(\bar{r}_1,\bar{r}_2, \dots\bar{r}_1,\bar{r}_n,\{\bar{R}_I\})=\Psi(\bar{r}_1, \{\bar{R}_I\})\Psi(\bar{r}_2, \{\bar{R}_I\})\dots\Psi(\bar{r}_n, \{\bar{R}_I\}) $$
+Considerando il fatto che gli elettroni risultano indistinguibili.
+
+Ma allora, il problema a molti corpi iniziale si riduce a un problema a corpo singolo, dove vogliamo risolvere l'equazione per un singolo elettrone:
+$$ (T+V(\bar{r}))\Psi  = E\Psi    $$
+Dove il potenziale efficace deve rispettare l'essenziale proprietà di simmetria:
+$$V(\bar{r}) = V(\bar{r} + \bar{R})$$
+Con $\bar{R}$ generico vettore del reticolo di Bravais considerato nel nostro problema.
+
+==(Nota: va tutto bene, sarebbe ottimo se si mettessero meglio in relazione le 2 eq. di Schrodinger.)==
+
+A partire da questo approccio possiamo procedere in due modi:
+
+- Considerare il potenziale costante su tutto il cristallo (e quindi di fatto pari a 0 se ridefiniamo la scala delle energie).
+Si osserva che questo è perfettamente in linea con l'approccio e costituisce la base del [[Modello ad elettroni liberi per i metalli]].
+
+- Se invece ragioniamo sulle generiche proprietà di una Hamiltoniana come quella definita in precedente, sarà naturale enunciare il [[Teorema di Bloch]] , che costituirà la base del [[Modello a bande]]
+
+
+
+

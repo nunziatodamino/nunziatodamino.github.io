@@ -1,0 +1,11 @@
+Dato un sistema quantistico descritto dallo stato $\ket{\psi(t)}$, è possibile studiarne la sua evoluzione nel tempo tramite la fondamentale equazione:
+$$i\hbar \partial_t \ket{\psi(t)} = \hat{H}\ket{\psi(t)}$$
+Con $\hat{H}$ hamiltoniana del sistema, operatore hermitiano autoaggiunto.
+
+N.B. La scelta di $\hat{H}$ specifica il sistema in esame.
+
+Se siamo interessati invece a misurare l'energia, e dunque il nostro stato coincide con un autostato dell'operatore hamiltoniano, che denominiamo con $\ket{\phi(t)}$, questo, per sua natura è un cosiddetto stato stazionario, ovvero definito a meno di una fase complessa:
+$$ \ket{\phi(t)} = \ket{\varphi} e^{i \omega t} $$
+Per tale ragione, non ci interessa risolvere l'equazione di Schroedinger vista sopra, ma bensì l'equazione agli autovalori dell'operatore energia:
+$$\hat{H}\ket{\varphi} = E\ket{\varphi}$$
+Detta volgarmente equazione di Schrodinger stazionaria.

@@ -1,0 +1,17 @@
+- Le mille e una notte
+- M. De Cervantes - Il Don Chischiotte
+- Storia di Genji il Principe Splendente
+- H. Michaux - Un barbaro in Asia
+- Il Ciclo della Fondazione
+- I Ching
+- L' arte di ricordare tutto
+- Foglie d'erba
+- La provincia dell'uomo
+- Il Colosso di Marussi
+- Il Codex Seraphinianus
+- H. Hesse - Siddharta
+- L'Odissea e L'Iliade
+- G. Seferis - Poesie
+- Lev D. Landau - Teoria dei campi
+- J.D.Jackson - Elettrodinamica Classica
+- V. Barone - Relatività

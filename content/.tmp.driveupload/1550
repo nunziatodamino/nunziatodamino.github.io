@@ -1,0 +1,25 @@
+Le condizioni di Born-Von Karman sono condizioni periodiche al contorno (note in letteratura anche con il nome di PBC) e sono delle condizioni al contorno di tipo squisitamente matematico, che non hanno alcun significato fisico (==qui oso==)
+
+### 1 dimensione
+Data una catena di $N$ atomi con costante reticolare $a$,  posso porre le condizioni di Born-Von Karman su una funzione $\psi(x)$, usando il vincolo:
+$$ \psi(x) = \psi(x+ Na) = \psi(x+ L) $$
+Con $L= Na$ pari alla lunghezza della catena. Questa operazione permette di estendere una catena di lunghezza L al reticolo di Bravais 1-dimensionale.
+
+### 3 dimensioni
+L'estensione parte dalla ripetizione di un numero generico di volte della cella primitiva del reticolo di Bravais che voglio estendere. 
+- Facciamo un esempio con il reticolo cubico semplice.
+	Dato un cubo di $N_xN_yN_z$ atomi con costante reticolare $a$, posso porre le condizioni di Born-Von Karman su una funzione $\psi(x)$, usando il vincolo:
+$$ \begin{cases}
+\psi(x,y,z) = \psi(x+ N_xa, y, z) = \psi(x+ L_x, y, z) \\
+\psi(x,y,z) = \psi(x, y+N_ya, z) = \psi(x, y+L_y, z) \\
+\psi(x,y,z) = \psi(x, y, z+ N_za) = \psi(x, y, z+ L_z) \\
+\end{cases}
+$$
+	Questa operazione permette di estendere un parallelepipedo con spigoli $L_x, L_y, L_z$ al reticolo di Bravais cubico semplice.
+	Osserviamo che possiamo scrivere in maniera più compatta
+$$ \psi(\bar{r}) = \psi(\bar{r}+(N_x\bar{a}_1+N_y\bar{a}_2+N_z\bar{a}_3)) $$
+	Dove $\bar{a}_1,\bar{a}_2,\bar{a}_3$ sono i vettori primitivi del reticolo cubico semplice.
+
+- Nel caso generale, dirò più semplicemente che:
+$$\Psi(\bar{r}) = \Psi(\bar{r}+ \bar{R}') $$
+Con $\bar{R}'$ vettore appartente al reticolo di Bravais che delimita i confini del cristallo nelle tre direzioni date dai vettori primitivi.

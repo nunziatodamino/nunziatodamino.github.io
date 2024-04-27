@@ -1,0 +1,60 @@
+E' essenziale, nel quadro della Fisica dello Stato Solido, capire cos'è la densità degli stati.
+E' possibile fare un discorso matematico generale, tuttavia è forse più semplice declinare prima la densità degli stati nelle 2 forme che incontreremo (vibrazionale ed elettronica).
+
+### Densità degli stati fononica (o vibrazionale)
+
+Dato un cristallo, qualsiasi restrizione sulle sue dimensioni, e dunque la successiva applicazione delle [[Condizioni di Born-Von Karman]] andrà a generare una discretizzazione dei possibili valori dei $\bar{k}$ vibrazionali, ovvero di quei $\bar{k}$ che abbiamo trovato risolvendo le equazioni derivanti dall' [[Approccio alla dinamica reticolare]].
+Oltre alla discretizzazione abbiamo una relazione di dispersione divisa in diversi rami $\omega_s(\bar{k})$ , etichettati a seconda del tipo di polarizzazione e a seconda che siano ottici o acustici. (e.g TO, LA, etc.) (che ricordiamo inoltre non dipendono dalla discretizzazione, ma solo dal sistema che stiamo andando a studiare).
+Infine, per procedere alla definizione, definiamo la 4-upla $(\bar{k}, \omega_s(\bar{k}))$ stato vibrazionale (o fononico).
+Possiamo a questo punto definire  $g_s(\omega)$ densità degli stati vibrazionale di tipo s (o fononica di tipo s) come
+$$g_s(\omega)d\omega = \mbox{numero di stati per i quali}\ \omega_s\in [\omega, \omega+d\omega] $$
+E in maniera naturale, densità degli stati totale (o semplicemente densità degli stati) come:
+$$g(\omega)= \sum_sg_s(\omega)$$
+#### Una nota sugli stati degeneri
+Supponiamo di avere un sistema con 1 ramo LA e 2 rami TA degeneri, per cui noi nel grafico vedremo solo 2 relazioni di dispersione, $\omega_{LA}(\bar{k})$ e $\omega_{TA}(\bar{k})$ .
+Dovremo fare particolare attenzione quando calcoleremo la densità degli stati, perchè:
+$$g(\omega) = \sum_sg_s(\omega) = g_{LA}(\omega) + g_{TA}(\omega) + g_{TA}(\omega) = g_{LA}(\omega) + 2g_{TA}(\omega)  $$Ovvero calcolo la densità degli stati per ogni ramo, ma devo poi fare attenzione nel moltiplicare il risultato per la relativa degenerazione.
+
+
+#### Una nota sul conteggio
+Vediamo come si effettua il conteggio data la definizione precedente:
+![[density of states.png]]
+Prendo la relazione di dispersione, scelgo un intervallo $[\omega, \omega +d\omega]$ (la striscia gialla) e conto quanti punti (stati) ho.
+Infine divido questo numero per la larghezza della striscia ($d\omega$) e ottengo la densità degli stati al valore $\omega$
+
+
+Vediamo come possiamo estendere questa definizione per renderla utile da un punto di vista analitico. Prendendo spunto da [[Nota sullo scambio somma-integrale nello Stato Solido]] l'idea principale per calcolare la densità degli stati è la seguente:
+$$ g_s(\omega)d\omega = \int_A w_s(\bar{k}) dk$$
+Dove $w_s(\bar{k})$ è la densità di stati sul ramo s per unità di $\bar{k}$ e $A$ è l'insieme definito come segue: $A=\{ \bar{k}\  |\  \omega_s(\bar{k}) \in (\omega,\omega+d\omega)\}$  
+Si osserva che $w_s(\bar{k})$ è una funzione costante e non dipende dall'insieme $A$. Si ha, data una dimensionalità del sistema pari a $d$:
+$$w_s(\bar{k}) = \frac{V}{(2 \pi)^d}$$
+Con $V$ ipervolume (se $d=1$ è una lunghezza, se $d=2$ è una superficie, etc.).
+Data questa visione è possibile ottenere una espressione analitica per la densità degli stati, che esprimiamo qui di seguito nel caso delle 3 dimensioni:
+$$g_s(\omega) = \frac{V}{(2 \pi)^3} \int_{shell} dS_{\omega} \frac{1}{\nabla_{\bar{k}}(\omega_s(\bar{k}))} $$
+Per una dimostrazione vedi [qui](<file:\\\"C:\Users\Nunziato Damino\Documents\Obsidian Vault\Note\Note_Solid_State\dos_fononi.xopp">)
+
+### Densità degli stati elettronica
+
+Dato un cristallo, qualsiasi restrizione sulle sue dimensioni, e dunque la successiva applicazione delle [[Condizioni di Born-Von Karman]] andrà a generare una discretizzazione dei possibili valori dei $\bar{k}$ elettronici, ovvero di quei $\bar{k}$ che abbiamo trovato risolvendo le equazioni derivanti dall' [[Approccio alla dinamica elettronica]].
+Oltre alla discretizzazione abbiamo una struttura energetica divisa in diversi $E(\bar{k})$ , etichettati a seconda del modello nel quale stiamo operando.
+Avremo infatti densità degli stati elettronici speciche del [[Modello ad elettroni liberi per i metalli]] e densità degli stati elettronici pecifiche per il [[Modello a bande]].
+A prescindere comunque dal modello utilizzato, chiameremo la 4-upla $(\bar{k}, E(\bar{k}))$ stato elettronico, e andremo a definire la densità degli stati elettronici come:
+$$D(E)dE = \mbox{numero di stati per i quali}\ E\in [E, E+dE] $$
+(==forse un pochino tautologica come definizione==)
+##### DOS nel modello ad elettroni liberi
+In questo modello $E(\bar{k})$ è di fatto un iperparaboloide ellittico (==ci devo pensare==), dato dall'espressione:
+$$ E(\bar{k}) = \frac{\hbar^2}{2m} (k_x^2+k_y^2+k_z^2) $$
+Per valutare la densità degli stati useremo:
+$$D(E) = 2 \frac{V}{(2 \pi)^3} \int_{shell} dS_{E} \frac{1}{\nabla_{\bar{k}}(E(\bar{k}))} $$
+Che è la stessa espressione per il caso fononico, con l'accortezza che va corretta per la degenerazione di spin, e che non vi sono rami da considerare. Si riportano (per un dettaglio dei calcoli vedere [qui](<file:\\\"C:\Users\Nunziato Damino\Documents\Obsidian Vault\Note\Note_Solid_State\dos_elettroni_liberi.xopp">)) di seguito le espressioni analitiche per le densità degli stati elettroniche secondo il modello ad elettroni liberi con i relativi grafici: 
+
+- 0-d :    $D(E) = 2 \delta (E-E_0)$
+- 1-d :    $D(E) = \frac{L}{\pi} \frac{\sqrt{2m}}{\hbar} \frac{1}{\sqrt{E}}$
+- 2-d :    $D(E) = \frac{S}{\pi} \frac{m}{\hbar^2}$
+- 3-d :    $D(E) = \frac{V}{2\pi^2} \left(\frac{2m}{\hbar^2}\right)^{3/2} \sqrt{E}$
+![[Pasted image 20230203123324.png|500]]
+E' possibile inoltre ricavare una espressione indipendente dalla dimensionalità del sistema:
+$$ D(E) = \frac{3}{2} \left( \frac{N'}{E} \right) $$
+Con $N'$ numero degli stati elettronici con energia pari o inferiore ad $E$. Questa riformulazione risulta utile se viene valutata all'energia di Fermi. Questo ci permetterà infatti di assumere che $N'= N$ numero totale di elettroni nel sistema:
+$$ D(E_F) = \frac{3}{2} \left( \frac{N}{E_F} \right) $$
+Nota bene che questo è esattamente vero solo a $T=0\ K$, dove il potenziale chimico coincide con l'energia di Fermi

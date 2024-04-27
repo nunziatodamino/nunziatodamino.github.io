@@ -1,0 +1,19 @@
+Si definiscono capacità termica a volume o pressione costante rispettivamente:
+
+$$C_v = \left(\frac{\partial Q}{\partial T} \right)_V \qquad C_p = \left(\frac{\partial Q}{\partial T} \right)_P$$
+Ovvero quanto come varia il calore al variare della temperatura mantenendo il sistema a volume costante o a pressione costante rispettivamente.
+
+### Capacità termica nei solidi
+
+Nei solidi vale che, per temperature pari o inferiori alla temperatura ambiente:
+$$C_p \simeq C_v$$
+Il motivo è dato dal fatto che sussiste la relazione:
+$$C_p-C_v = \frac{VT\alpha^2}{\beta}$$
+con $\alpha$ coefficente di espansione termica e $\beta$ coefficente di compressibilità isoterma, e vale per i solidi che in tale range di temperatura $\alpha$ è estremamente piccolo, rendendo la differenza circa 0.
+![[Pasted image 20230118105116.png]]
+In generale possiamo osservare che per valori di temperatura superiori alla temperatura ambiente la differenza fra i due calori specifici cresce e nello specifico quello a pressione costante risulta più alto.
+
+#### Legge di Dulong-Petit
+Vale per temperature sopra la [[Temperatura di Debye]]:
+$$C_v = 3Nk_b$$
+Dove N è il numero di atomi del sistema, e $k_b$ la costante di Stefan-Boltzmann.

@@ -1,0 +1,6 @@
+Il potenziale di Lennard-Jones è un potenziale semiempirico che descrive l'interazione fra atomi o molecole neutre.
+Per tale ragione tiene conto alle piccole distanze del [[Principio di esclusione di Pauli]] mentre a grandi distanze dell'[[Interazione di Van der Waals]].
+Tale potenziale è della forma:
+$$ U(R) = 4 \varepsilon \left[ \left(\frac{\sigma}{R}\right)^{12}-\left(\frac{\sigma}{R}\right)^{6}\right]$$
+Con $\varepsilon, \sigma$ parametri sperimentali.
+Si riporta di seguito il plot: ![[Pasted image 20230124121702.png]]

@@ -1,0 +1,5 @@
+Cominciamo dicendo che la trasformata di Fourier soffre cronicamente di un [problema di convenzione] 
+Introduciamo le trasformate:
+$$\mathcal{F}(f(t)) = \tilde{f}(\omega) = \int_{\mathbb{R}} dt f(t)e^{-i\omega t} \qquad \qquad \mathcal{F}^{-1}(\tilde{f}(\omega)) = f(t) = \frac{1}{2 \pi} \int_{\mathbb{R}} d\omega \tilde{f}(\omega) e^{i\omega t}$$
+Colloquialmente si dice che si passa dal dominio del tempo al dominio della frequenza.
+Un'altro modo di vedere la questione è pensare $f(t)$ come una somma infinita di onde piane con coefficenti $\tilde{f}(\omega)$.

@@ -1,0 +1,11 @@
+Versione 1-dim
+Si consideri l'Hamiltoniana $H(\lambda)$, e un suo autostato normalizzato $\Psi(\lambda)$ .
+Vale che:
+$$\frac{d}{d \lambda}\braket{\Psi |H| \Psi } = \braket{\Psi |\frac{dH}{d \lambda}| \Psi }$$
+Versione generale
+Si consideri l'Hamiltoniana $H(\lambda_1, \lambda_2, \dots \lambda_n)$, e un suo autostato normalizzato $\Psi(\lambda_1, \lambda_2, \dots \lambda_n)$ .
+Vale che:
+$$\frac{\partial}{\partial \lambda_i}\braket{\Psi |H| \Psi } = \braket{\Psi |\frac{\partial H}{\partial \lambda_i}| \Psi }$$
+Questo metodo permette di semplificare enormemente i calcoli nell' [[Approssimazione di Born-Oppenheimer]].
+
+Per una dimostrazione: [qui](file:///"D:\UniPd\Solid_State_Physics\Dimostrazione_Hellman_Feynman.xopp")

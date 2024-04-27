@@ -1,0 +1,13 @@
+Vi è intanto una definizione tecnica del residuo di una funzione, ovvero esso il coefficente $a_{-1}$ del suo sviluppo in serie di Laurent, quando questo è possibile.
+Esistendo una formula per i coefficenti, potremmo dire che:
+
+$$ Res(f(z); z_0) = \frac{1}{2 \pi i} \int_{+\gamma} f(z) dz$$
+Dove $\gamma$ è una qualsiasi circonferenza che circonda la singolarità $z_0$.
+Risulta invece più semplice nel contesto delle applicazioni usera delle proposizione atte alla valutazione del residuo senza passare dalla definizione.
+
+- Se $z_0$ è polo di ordine $n$, vale la formula:
+$$ Res(f(z); z_0)= \lim_{z \to z_0} \frac{1}{(n-1)!}D^{n-1}[f(z)(z-z_0)^n] $$
+- Siano $f,g$ funzione olomorfe e sia ulteriormente $z_0$ polo del primo ordine per la funzione $g$. Vale allora la formula:
+$$ Res \left( \frac{f(z)}{g(z)} ; z_0 \right) = \frac{f(z_0)}{g'(z_0)} $$
+- Dati $z_1, z_2, \dots, z_n \in \mathbb{C}$ e $f(z)$ olormorfa in $\mathbb{C} / \{ z_1, z_2, \dots, z_n \}$ vale che:
+$$ \sum_j Res(f(z); z_j) + Res(f(z); \infty) = 0 $$

@@ -1,0 +1,19 @@
+Vogliamo dare una interpretazione al parametro di conducibilità presente nella [[Legge di Ohm]] nella sua forma microscopica:
+$$\bar{J} = \sigma \bar{E}$$
+Dove ricordiamo brevemente che $\bar{J}$ è il vettore densità di corrente, mentre $\bar{E}$ è il campo elettrico.
+Vi sono principalmente 2 modelli elementari che vanno a dare una descrizione microscopica del parametro, entrambe basate sul [[Modello ad elettroni liberi per i metalli]], e dunque sul fatto che gli elettroni si comportano come un [[Gas di Fermi completamente degenere]].
+
+### Modello di Drude
+
+Si ipotizza che durante il moto elettronico all'interno di un cristallo, dovuto all'applicazione di un campo elettrico esterno, esista una probabilità non nulla nell'unità di tempo che questo esegua un processo di diffusione (per colpa di vibrazioni reticolari o difetti).
+Definisco questa probabilità per unità di tempo come:
+$$\frac{d\mathbb{P}}{dt} = \frac{1}{\tau}$$
+Detto $\tau$ tempo di rilassamento, il tempo medio in cui tali diffusioni avvengono. Si arriva per l'elettrone ad un'equazione del tipo:
+$$ \frac{d\bar{v}}{dt} = -e\bar{E} - \frac{v}{\tau} $$
+L'analisi di tale equazione nel caso di campo costante porta a due fondamentali conclusioni. L'esistenza di una velocità non nulla quando è applicato un campo elettrico, chiamata velocità di deriva, e pari a:
+$$\bar{v}_{drift} = -\frac{e\tau}{m} \bar{E}$$
+E ulteriormente a poter definire la conducibilità (e conseguentemente la resistività ) tramite parametri microscopici come:
+$$ \sigma = \frac{1}{\rho} = \frac{ne^2\tau}{m}$$
+Con $n$ densità elettronica per unità di volume.
+
+### Teoria elementare tramite sfera di Fermi
