@@ -14,4 +14,5 @@ You can start from here:
 
 [[Projects/Equilibrium Statistical Mechanics/Equilibrium Statistical Mechanics|Equilibrium Statistical Mechanics]]
 
+[[Zettelkasten/Models of Theoretical Physics/Models of Theoretical Physics|Models of Theoretical Physics]]
 
