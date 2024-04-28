@@ -2,7 +2,7 @@
 title: Welcome to COSM-OS-2
 ---
 Welcome to COSM-OS-2.
-A wiki on Physics, Mathematics ans all.
+A wiki on Physics, Mathematics and all.
 
 You can start from here:
 
