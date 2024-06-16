@@ -1,0 +1,210 @@
+{
+  "main": {
+    "id": "54e8f4df96433b2e",
+    "type": "split",
+    "children": [
+      {
+        "id": "72c4eeee889059fd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "69519023ffea5aaf",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "b1c8c24c85a4dc43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Computational methods for Material science/Ab initio Quantum Mechanics/Kohn-Sham equations.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "edd9309bc5fe1bda",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "bd201c3ae243d609",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "acd15de4635a11e9",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": true,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "ca348ae81bfb636d",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "1fbb78e71d2cbf6a",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      },
+      {
+        "id": "6ca2319dc4924c83",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "6425f35da4a7196f",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "312909ad2790da19",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Projects/Computational methods for Material science/Ab initio Quantum Mechanics/Kohn-Sham equations.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "cad71a205b6164b0",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Projects/Computational methods for Material science/Ab initio Quantum Mechanics/Kohn-Sham equations.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "d04cd21fddb6cf1f",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Projects/Computational methods for Material science/Ab initio Quantum Mechanics/Kohn-Sham equations.md"
+          }
+        }
+      },
+      {
+        "id": "67027d66ffcda0b1",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "random-note:Open random note": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "b1c8c24c85a4dc43",
+  "lastOpenFiles": [
+    "Projects/Computational methods for Material science/Ab initio Quantum Mechanics/Hartree-Fock theory.md",
+    "Projects/Computational methods for Material science/Computational methods for Material science.md",
+    "Projects/Vathek.md",
+    "Zettelkasten/Models of Theoretical Physics/Probability.md",
+    "Projects/Computational methods for Material science/How to evaluate temperature and pressure in a given ensemble.md",
+    "Projects/Lettura libri/Lettura della Bibbia/Giobbe.md",
+    "Zettelkasten/Basic Physics/A note on waves.md",
+    "Projects/Computational methods for Material science",
+    "Projects/Lettura libri/Lettura della Bibbia/Struttura.md",
+    "Projects/Levitico.md",
+    "Zettelkasten/Models of Theoretical Physics/Function of a random variable.md",
+    "Vault",
+    "Projects/Progetto Uni 1° semestre/Models of Theoretical Physics/The Curie-Weiss model.md",
+    "Projects/Progetto Uni 1° semestre/Models of Theoretical Physics/The Laplace method.md",
+    "Projects/Progetto Uni 1° semestre/Models of Theoretical Physics/Models of Theoretical Physics.md",
+    "Projects/Progetto Uni 1° semestre/Models of Theoretical Physics/Gaussian integrals.md",
+    "Projects/Progetto Uni 1° semestre/Models of Theoretical Physics/Wick's probability theorem (also known as Isserlis' theorem).md",
+    "Zettelkasten/Introduction to Nanophysics/Approfondimenti/Nucleation theory - Growth regimes.md",
+    "Zettelkasten/Introduction to Nanophysics/Approfondimenti/Metamaterials  with periodic nanostructures.md",
+    "Zettelkasten/Introduction to Nanophysics/Approfondimenti/Negative index materials.md",
+    "Zettelkasten/Basic Mathematics/Lemmas for complex integration.md",
+    "Zettelkasten/Basic Mathematics/Integration by parts using the tabular method.md",
+    "Integration by parts using the tabular method.png",
+    "Zettelkasten/Basic Mathematics/Stability for linear autonomous systems.md",
+    "Zettelkasten/Basic Mathematics/Basic Mathematics.md",
+    "Zettelkasten/Basic Mathematics/Autonomous system.md",
+    "Projects/Progetto Uni 1° semestre/Models of Theoretical Physics/Diffusion process in 1D - PDE resolution.md",
+    "Projects/Progetto Uni 1° semestre/Models of Theoretical Physics/Characteristic function.md",
+    "Projects/Progetto Uni 1° semestre/Models of Theoretical Physics/Reaction rate of an irreversible chemical reaction.md",
+    "Proof of the Kramers-Kronig relations_231104_095654.pdf",
+    "Approfondimenti/Calculations/The Sokhotski-Plemelj formula_231103_172040.pdf",
+    "The Sokhotski-Plemelj formula_231103_172040.pdf",
+    "Notes_231102_114045.pdf",
+    "Diffusion equation - reasoning scheme.png",
+    "Immagini/tartaglia_numbers.png",
+    "Immagini/gaussian_support.png",
+    "Immagini/Binomial_pmf.png",
+    "Immagini/Continuum_limit.png",
+    "Immagini/tartaglia_coefficients.png",
+    "Continuum_limit.png",
+    "Screenshot_2023-09-20-21-51-38-32_3aea4af51f236e4932235fdada7d1643.jpg",
+    "Zettelkasten/Babel/Pasted image 20230331215122.png",
+    "Persico.pdf"
+  ]
+}

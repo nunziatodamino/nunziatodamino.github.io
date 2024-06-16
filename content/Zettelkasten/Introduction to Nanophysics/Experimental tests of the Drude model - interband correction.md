@@ -1,4 +1,4 @@
-We see now experimental result for $Ag$ for [[The dielectric function for the free electron model]].
+We see now experimental result for $Ag$ for [[Projects/Solid State Physics/Electron dynamics/The dielectric function for the free electron model]].
 Here we have the theoretical dielectric function predicted by the Drude model:
 
 $$  \varepsilon_r \equiv \varepsilon(\omega)= 1-\frac{\omega_P^2}{\omega^2+i\gamma\omega} $$

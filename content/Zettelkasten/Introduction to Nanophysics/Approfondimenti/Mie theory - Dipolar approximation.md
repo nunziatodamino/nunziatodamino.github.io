@@ -214,7 +214,7 @@ $$ \Re(\varepsilon(\omega)) + 2\varepsilon_m =0 $$
 Which is called Frohlich resonance condition.
 What happen is that the field in the nanocluster is greater than the external field, and this enhancement is maximum when the frequency of the external field meets the Frohlich condition.
 We call this phenomenon local field enhancement, and the $\omega$ for which the Frohlich condition is met $\omega_{SPR}$ where SPR stands for surface plasmon resonance.
-One can find an easy expression for $\omega_{SPR}$ if we consider the expression for dielectric function from [[Drude Theory]] in the high frequency limit $(\omega>>\gamma)$, typically achieved at optical frequencies.
+One can find an easy expression for $\omega_{SPR}$ if we consider the expression for dielectric function from [[Projects/Solid State Physics/Electron dynamics/Drude Theory]] in the high frequency limit $(\omega>>\gamma)$, typically achieved at optical frequencies.
 In that specific case $\varepsilon(\omega) = 1- \frac{\omega_P^2}{\omega^2}$ so that the Frohlich condition can be rewrote as:
 
 $$  1- \frac{\omega_P^2}{\omega_{SPR}^2} + 2\varepsilon_m =0 \qquad \iff \qquad \omega_{SPR} = \frac{\omega_P}{\sqrt{1+2\varepsilon_m}} $$

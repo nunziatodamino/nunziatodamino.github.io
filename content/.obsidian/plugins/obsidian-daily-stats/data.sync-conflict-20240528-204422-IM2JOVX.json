@@ -1,0 +1,38 @@
+{
+  "dayCounts": {
+    "2024/3/10": 170,
+    "2024/3/11": 489,
+    "2024/3/12": 529,
+    "2024/3/13": 7,
+    "2024/3/15": 678,
+    "2024/3/28": 0,
+    "2024/4/1": 1157,
+    "2024/4/2": 271,
+    "2024/4/3": 384,
+    "2024/4/4": 21,
+    "2024/4/7": 703,
+    "2024/4/8": 1068,
+    "2024/4/9": 335,
+    "2024/4/10": 1017,
+    "2024/4/13": 207,
+    "2024/4/14": 225,
+    "2024/4/15": 1270,
+    "2024/4/16": 469,
+    "2024/4/17": 55,
+    "2024/4/21": 11
+  },
+  "todaysWordCount": {
+    "Solid State Physics_buffer/Wavevectors discretisation in the band model.md": {
+      "initial": 223,
+      "current": 223
+    },
+    "Solid State Physics_buffer/The central equation as a proof of the Bloch theorem.md": {
+      "initial": 1228,
+      "current": 1237
+    },
+    "Projects/Solid State Physics/Matricial form of the central equation.md": {
+      "initial": 461,
+      "current": 463
+    }
+  }
+}

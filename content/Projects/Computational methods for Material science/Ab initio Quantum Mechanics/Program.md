@@ -1,0 +1,8 @@
+- Adiabatic approximation
+- Hellman-Feynman theorem
+- Hartree-Fock approximation
+- Variational principle
+- Variational calculus
+- Thomas-Fermi functional
+- Honberg-Kohn Theorem
+- Kohn-Sham equations

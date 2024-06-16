@@ -1,0 +1,239 @@
+{
+  "main": {
+    "id": "de0c4aa227291dc9",
+    "type": "split",
+    "children": [
+      {
+        "id": "378b9a96ee9dff79",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "02146241761aa79e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Esodo.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ec8d0f5d8bd32ac3",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a82e7d5d3cf28f9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b749f45cdf600629",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "00c7d0d140faf83a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "926d6dc55633b071",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "1cd8631d7c3153bf",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 297.5004348754883
+  },
+  "right": {
+    "id": "17359a017802a181",
+    "type": "split",
+    "children": [
+      {
+        "id": "c46ed151ca4deeea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "020fddc87c29544f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Projects/Esodo.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7771a21dc60aa06e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Projects/Esodo.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "00e0b5add7115b68",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6d3b5d1b0b4e00f1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Projects/Esodo.md"
+              }
+            }
+          },
+          {
+            "id": "0d24afb0fd5efd8c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "9df0bfe3c3a5b312",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "88027dc0f4d2b48b",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "02146241761aa79e",
+  "lastOpenFiles": [
+    "Projects/Lettura libri/Lettura della Bibbia/Struttura.md",
+    "Projects/Esodo.md",
+    "Zettelkasten/Basic Physics/On sum notation in Physics.md",
+    "Projects/On sum notation in Physics.md",
+    "Projects/Deuteronomio.md",
+    "Projects/Progetto Uni 1° semestre/Solid State Physics/Lattice dynamics approach.md",
+    "Solid State Physics_buffer/Note on lattice pair sums.md",
+    "Solid State Physics_buffer/Equilibrium parameters in a crystal.md",
+    "Projects/Progetto Uni 1° semestre/Solid State Physics/Justification of the adiabatic approximation.md",
+    "Solid State Physics_buffer/Note on the summation-integration exchange in Solid State physics.md",
+    "Zettelkasten/Models of Theoretical Physics/The Curie-Weiss model.md",
+    "Projects/Progetto Uni 1° semestre/Solid State Physics/Hypotheses underlying the adiabatic approximation.md",
+    "Projects/Progetto Uni 1° semestre/Solid State Physics/Total energy in an ionic bond and Madelung constant.md",
+    "Projects/Progetto Uni 1° semestre/Solid State Physics/Ionic bond.md",
+    "Projects/Progetto Uni 1° semestre/Solid State Physics/Solid state Topics.md",
+    "Projects/Progetto Uni 1° semestre/Solid State Physics/Notable periodic crystals.md",
+    "Projects/Progetto Uni 1° semestre/Solid State Physics/Solid State Physics.md",
+    "Projects/Progetto Uni 1° semestre/Solid State Physics/Zincblende and Wurtzite.md",
+    "Projects/Progetto Uni 1° semestre/Solid State Physics/Types of chemical bonds.md",
+    "Projects/Progetto Uni 1° semestre/Solid State Physics/Equilibrium in an ionic bond.md",
+    "Projects/Progetto Uni 1° semestre/Solid State Physics/Born-Mayer potential.md",
+    "Projects/Progetto Uni 1° semestre/Solid State Physics/Lennard-Jones potential.md",
+    "Solid State Physics_buffer/Surface plasmon polaritons at a single interface.md",
+    "Solid State Physics_buffer/To do e osservazioni.md",
+    "Solid State Physics_buffer/Van der Waals interaction.md",
+    "Projects/Progetto Uni 1° semestre/Solid State Physics/Van der Waals bond.md",
+    "Immagini/Van der Waals bond_plot.png",
+    "Projects/Lettura libri/Lettura della Bibbia",
+    "Immagini/Decay scheme of Sodium-22.png",
+    "Pasted image 20240129105547.png",
+    "Immagini/Probability of collision in a slab of thickness dx-1.png",
+    "Immagini/Probability of collision in a slab of thickness dx.png",
+    "Immagini/Cross section.png",
+    "Projects/Progetto Uni 1° semestre/Solid State Physics",
+    "Immagini/TAC ( Time to Amplitude Converter )_out_overlap.png",
+    "Immagini/TAC ( Time to Amplitude Converter )_overlap.png",
+    "Immagini/TAC ( Time to Amplitude Converter )_SRS_TAC.png",
+    "Immagini/TAC ( Time to Amplitude Converter )_funct2.png",
+    "Projects/Progetto Uni 1° semestre/Physics Lab/General knowledge",
+    "Projects/Progetto Uni 1° semestre/Physics Lab/Positronium",
+    "Projects/Progetto Uni 1° semestre/Models of Theoretical Physics/~syncthing~The Curie-Weiss model.md.tmp",
+    "Calculations/translated_multidimensional_gaussian.pdf",
+    "Calculations/The Sokhotski-Plemelj formula_231103_172040.pdf",
+    "Projects/Progetto Uni 1° semestre/Physics Lab/Compton's effect",
+    "Calculations/Cauchy distribution characteristic function proof.pdf",
+    "Approfondimenti/Calculations/Cauchy distribution characteristic function proof 1.pdf",
+    "Second partial.canvas",
+    "Untitled 1.canvas",
+    "Untitled 2.canvas",
+    "Nucleation scheme.canvas"
+  ]
+}

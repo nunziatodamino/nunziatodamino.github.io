@@ -16,7 +16,7 @@ Given an autonomous system we have the following concepts of stability for a giv
 
 We provide a geometric interpretation of the 2 stabilities via picture:
 
-![[Stabilities differences for autonomous systems.png|500]]==
+![[Immagini/Stabilities differences for autonomous systems 1.png|500]]==
 
 Moreover we define:
 

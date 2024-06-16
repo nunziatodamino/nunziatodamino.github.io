@@ -30,4 +30,4 @@ As a result, a measurement of $R_H$ , called Hall coefficient allows us to evalu
 
 **Notice that we expect from the classical theory that $R_H>0$, but experiment shows that for some materials, say aluminium, $R_H<0$**
 
-This can only by explain by the [[Band model]]
+This can only by explain by the [[Projects/Solid State Physics/Electron dynamics/Band theory]]

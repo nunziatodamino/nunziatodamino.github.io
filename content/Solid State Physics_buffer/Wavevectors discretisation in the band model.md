@@ -1,5 +1,4 @@
-
-We want to see if in the context of the band model, and so in the context of [[Bloch Theorem]], considering a finite system leads to the same wavevectors discretisation found in the [[Free electron model for metals (Sommerfeld model)]].
+We want to see if in the context of the band model, and so in the context of [[Projects/Solid State Physics/Electron dynamics/Bloch Theorem]], considering a finite system leads to the same wavevectors discretisation found in the [[Projects/Solid State Physics/Electron dynamics/Free electron model for metals (Sommerfeld model)]].
 Consider a wavefunction to which the general [[Born-Von Karman boundary condition]] are applied:
 
 $$ \Psi_{\bar{k}}(\bar{r}+N_i\bar{a}_i) = \Psi_{\bar{k}}(\bar{r}) \qquad i=1,2,3 $$

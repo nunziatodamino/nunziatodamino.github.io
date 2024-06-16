@@ -2,7 +2,7 @@ Understanding the concept of density of states is essential in the framework of 
 
 ### Phonon Density of States
 
-Consider a crystal, where any restrictions on its dimensions, followed by the application of [[Born-Von Karman boundary conditions]], result in a discretization of possible vibrational wave vectors $\bar{k}$. These wave vectors are obtained by solving equations derived from the [[Lattice dynamics approach]].
+Consider a crystal, where any restrictions on its dimensions, followed by the application of [[Born-Von Karman boundary conditions]], result in a discretization of possible vibrational wave vectors $\bar{k}$. These wave vectors are obtained by solving equations derived from the [[Projects/Solid State Physics/Lattice dynamics/Lattice dynamics approach]].
 In addition to the discretization, we have a dispersion relation divided into different branches $\omega_s(\bar{k})$, labeled according to their polarization and whether they are optical or acoustic modes (e.g., TO, LA, etc.) (which, we recall, do not depend on the discretization but only on the system being studied).
 Finally, to proceed with the definition, we introduce the 4-tuple $(\bar{k}, \omega_s(\bar{k}))$ as a vibrational (or phononic) state.
 We can define the vibrational density of states for branch $s$ as:
@@ -43,5 +43,5 @@ With this view, it is possible to obtain an analytical expression for the densit
 
 $$g_s(\omega) = \frac{V}{(2 \pi)^3} \int_{\text{shell}} dS_{\omega} \frac{1}{\nabla_{\bar{k}}(\omega_s(\bar{k}))} $$
 
-For a proof, refer to [[Vibrational density of states]]
-[[Electronic density of states]]
+For a proof, refer to [[Projects/Solid State Physics/Lattice dynamics/Vibrational density of states]]
+[[Projects/Solid State Physics/Electron dynamics/Electronic density of states]]

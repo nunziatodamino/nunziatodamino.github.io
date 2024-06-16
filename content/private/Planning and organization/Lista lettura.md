@@ -1,0 +1,2 @@
+- [ ] Fare una lista dei libri che mi hanno influenzato
+- [ ] Fare una lista dei libri che voglio leggere e perchè (cfr lista Miller)

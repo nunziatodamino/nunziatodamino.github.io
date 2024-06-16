@@ -1,4 +1,4 @@
-In order to correct the discrepancies with experiments found in [[Drude Theory]], we must take account in our model the bound electrons of the metal, not just the free one.
+In order to correct the discrepancies with experiments found in [[Projects/Solid State Physics/Electron dynamics/Drude Theory]], we must take account in our model the bound electrons of the metal, not just the free one.
 This implies that we must add an harmonic term to the equation of motion.
 For a single bound electron:
 

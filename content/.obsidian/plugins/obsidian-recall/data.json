@@ -1,0 +1,14 @@
+{
+  "maxNewPerDay": 15,
+  "repeatItems": true,
+  "dataLocation": "In Vault Folder",
+  "locationPath": "",
+  "algorithm": "Anki",
+  "algorithmSettings": {
+    "easyBonus": 1.3,
+    "startingEase": 2.5,
+    "lapseInterval": 0.5,
+    "graduatingInterval": 1,
+    "easyInterval": 4
+  }
+}

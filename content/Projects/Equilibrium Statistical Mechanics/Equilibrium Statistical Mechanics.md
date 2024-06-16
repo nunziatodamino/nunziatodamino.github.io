@@ -9,7 +9,6 @@
 - [[Liouville's theorem]]
 - [[Microstate vs macrostate description]]
 - [[Statistical ensemble]]
-- [[The canonical ensemble]]
 - [[The concept of statistical ensemble]]
 - [[The fundamental problem of high degrees of freedom systems]]
 - [[The microcanonical ensemble]]

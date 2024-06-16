@@ -1,0 +1,4 @@
+https://chem.libretexts.org/Courses/Pacific_Union_College/Quantum_Chemistry/07%3A_Approximation_Methods/7.02%3A_Linear_Variational_Method_and_the_Secular_Determinant
+
+
+https://chem.libretexts.org/Courses/Pacific_Union_College/Quantum_Chemistry/07%3A_Approximation_Methods

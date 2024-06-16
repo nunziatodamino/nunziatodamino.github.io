@@ -1,0 +1,261 @@
+{
+  "main": {
+    "id": "de0c4aa227291dc9",
+    "type": "split",
+    "children": [
+      {
+        "id": "4b49470253a38f54",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8bdd46c5b77d19a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Solid State Physics/Semiconductors/Thermal equilibrium carrier densities of impure semiconductors (Grosso-Parravicini).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ec8d0f5d8bd32ac3",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a82e7d5d3cf28f9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b749f45cdf600629",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "00c7d0d140faf83a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "926d6dc55633b071",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "1cd8631d7c3153bf",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "b56a1834828c51a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Computational methods for Material science/Ab initio Quantum Mechanics/Hohenberg-Kohn theorem.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 285.5004348754883,
+    "collapsed": true
+  },
+  "right": {
+    "id": "17359a017802a181",
+    "type": "split",
+    "children": [
+      {
+        "id": "c46ed151ca4deeea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "020fddc87c29544f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Projects/Solid State Physics/Semiconductors/Thermal equilibrium carrier densities of impure semiconductors (Grosso-Parravicini).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7771a21dc60aa06e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Projects/Solid State Physics/Semiconductors/Thermal equilibrium carrier densities of impure semiconductors (Grosso-Parravicini).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "00e0b5add7115b68",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6d3b5d1b0b4e00f1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Projects/Solid State Physics/Semiconductors/Thermal equilibrium carrier densities of impure semiconductors (Grosso-Parravicini).md"
+              }
+            }
+          },
+          {
+            "id": "0d24afb0fd5efd8c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "9df0bfe3c3a5b312",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "88027dc0f4d2b48b",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {}
+            }
+          },
+          {
+            "id": "7f7cd1e1eed59476",
+            "type": "leaf",
+            "state": {
+              "type": "simple-note-review-sidebar-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "random-note:Open random note": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "8bdd46c5b77d19a2",
+  "lastOpenFiles": [
+    "Thermal equilibrium carrier densities of impure semiconductors (Grosso-Parravicini)-1.png",
+    "Thermal equilibrium carrier densities of impure semiconductors (Grosso-Parravicini).png",
+    "Projects/Solid State Physics/Semiconductors/Thermal equilibrium carrier densities of impure semiconductors (ibach e vari).md",
+    "Projects/Solid State Physics/Semiconductors/Thermal equilibrium carrier densities of impure semiconductors (Grosso-Parravicini).md",
+    "Projects/Solid State Physics/Semiconductors/Population of impurity levels in thermal equilibrium in a semiconductor.md",
+    "Projects/Solid State Physics/Semiconductors/Charge neutrality in a doped semiconductor.md",
+    "Projects/Solid State Physics/Semiconductors/Number density of carriers in thermal equilibrium for an intrinsic (homogeneous) semiconductor.md",
+    "Projects/Solid State Physics/Semiconductors/Typical semiconductor band structure.md",
+    "Projects/Solid State Physics/Electron dynamics/Electronic density of states.md",
+    "Projects/Solid State Physics/Semiconductors/Specific evaluations of the law of mass action for an homogeneous semiconductor.md",
+    "Projects/Solid State Physics/Note on the summation-integration exchange in Solid State physics.md",
+    "Zettelkasten/Models of Theoretical Physics/Working cheatsheet for Gradenigo's part.md",
+    "Zettelkasten/Models of Theoretical Physics/Models of Theoretical Physics.md",
+    "Zettelkasten/Models of Theoretical Physics/Curie-Weiss model solution with h=0.md",
+    "Zettelkasten/Models of Theoretical Physics/The ''Ising model'' framework.md",
+    "Zettelkasten/Models of Theoretical Physics/Hopfield model.md",
+    "Zettelkasten/Models of Theoretical Physics/The Sherrington-Kirkpatrick (S-K) model.md",
+    "Solid State Physics_buffer/Density of states.md",
+    "Solid State Physics_buffer/Lennard-Jones potential.md",
+    "Solid State Physics_buffer/List of the 2-d Bravais lattices.md",
+    "Solid State Physics_buffer/List of the 3-d Bravais lattices.md",
+    "Solid State Physics_buffer/Wavevectors discretisation in the band model.md",
+    "Solid State Physics_buffer/Notable periodic crystals.md",
+    "Projects/Variational principle.md",
+    "Projects/Untitled 1.md",
+    "Projects/Untitled.md",
+    "Projects/Solid State Physics/Solid State Physics.md",
+    "Projects/Solid State Physics/Thermal transport",
+    "Projects/Solid State Physics/Electron dynamics",
+    "Projects/Solid State Physics/Lattice dynamics",
+    "Projects/Solid State Physics/Semiconductors",
+    "Immagini/Effect on the energy bands in doped semiconductors.png",
+    "Effect on the energy bands of doping in semiconductors-1.png",
+    "Effect on the energy bands of doping in semiconductors.png",
+    "Immagini/Effect on the energy bands of doping in semiconductors-2.png",
+    "Immagini/Optical transitions in a semiconductor.png",
+    "Immagini/Optical transitions in a semiconductor-1.png",
+    "Immagini/Typical semiconductor band structure_germanium.png",
+    "Immagini/Typical semiconductor band structure_silicon.png",
+    "Pasted image 20240611182213.png",
+    "Calculations/electron_velocity_lemma.pdf",
+    "Projects/Computational methods for Material science/Molecular dynamics",
+    "Projects/Computational methods for Material science/Ab initio Quantum Mechanics",
+    "private",
+    "Calculations/Electron DOS for free electron model.pdf",
+    "Calculations/linear monoatomic chain with mass defect - calculations.pdf",
+    "Second partial.canvas",
+    "Untitled 1.canvas",
+    "Untitled 2.canvas",
+    "Nucleation scheme.canvas"
+  ]
+}

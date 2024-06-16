@@ -1,0 +1,58 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"Solid State Physics\"",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:\"Approfondimenti\"",
+      "color": {
+        "a": 1,
+        "rgb": 5526240
+      }
+    },
+    {
+      "query": "path:\"Introduction to Nanophysics\"",
+      "color": {
+        "a": 1,
+        "rgb": 5431485
+      }
+    },
+    {
+      "query": "path:\"Projects/Progetto Uni 1° semestre/Models of Theoretical Physics\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": -1.1,
+  "nodeSizeMultiplier": 1.89597920277296,
+  "lineSizeMultiplier": 3.60412478336222,
+  "collapse-forces": false,
+  "centerStrength": 0.250770811921891,
+  "repelStrength": 20,
+  "linkStrength": 0.76377183967112,
+  "linkDistance": 128,
+  "scale": 0.32529565023422885,
+  "close": true
+}

@@ -1,4 +1,4 @@
-Given [[The dielectric function for the free electron model]] is useful for application to study for application purpose the high frequency $(\omega>>\gamma)$ limit.
+Given [[Projects/Solid State Physics/Electron dynamics/The dielectric function for the free electron model]] is useful for application to study for application purpose the high frequency $(\omega>>\gamma)$ limit.
 
 ==This because this limit is typical for wavelenght of the visible range==
 
