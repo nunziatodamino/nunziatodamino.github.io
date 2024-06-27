@@ -1,4 +1,4 @@
-We start from the fact that I have already made the [[The Born-Oppenheimer approximation]] and I want to use this approximation together with the fact that my N nuclei are in a [[Crystalline solid (or crystal)]].
+We start from the fact that I have already made the [[Projects/Solid State Physics/Lattice dynamics/The Born-Oppenheimer approximation|The Born-Oppenheimer approximation]] and I want to use this approximation together with the fact that my N nuclei are in a [[Projects/Solid State Physics/Crystal structures and bonds/Crystalline solid (or crystal)|Crystalline solid (or crystal)]].
 
 One can simplify further the study of the motion if it follows the approach based mainly on these facts:
 
@@ -8,7 +8,7 @@ Instead of solving the electronic motion equation found with the Born-Oppenheime
 $$\mathcal{E}({\bar{R}_{I}}) =\frac{1}{2} \sum_{\bar{R}_{I},\bar{R}_{i} '} \phi(|\bar{R}_{I}-\bar{R}_{I}'|)$$
 
 Note that ${\bar{R}_{I}} = (\bar{R}_1,\bar{R}_2, \dots, \bar{R}_N)$ is a particular fixed nuclear configuration. 
-See also [[Note on lattice pair sums]] for the sum meaning.
+See also [[Projects/Solid State Physics/Crystal structures and bonds/Note on lattice pair sums|Note on lattice pair sums]] for the sum meaning.
 
 Note that this approximation is good only for crystals made of rare-gas elements. In the case of a metal, 3-body interactions are important, and a function of the form $\Phi(\bar{R}_{I},\bar{R}_{I}',\bar{R}_{I}'')$ should be used.
 

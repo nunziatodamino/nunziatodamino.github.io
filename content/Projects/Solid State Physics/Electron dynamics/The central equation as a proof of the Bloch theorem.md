@@ -1,7 +1,7 @@
 We want to prove [[Projects/Solid State Physics/Electron dynamics/Bloch Theorem|Bloch Theorem]].
 We begin by expanding the eigenstate of the Hamiltonian in Fourier series.
 Despite the eigenstate not being periodic, we can use the following fact: any function that satisfies the Born-von Karman conditions can be expanded in a basis of plane waves subject to the same periodic condition. (This in fact makes the functions artificially periodic)
-These plane waves are of the form $\varphi(\bar{r}) = e^{i\bar{q}\cdot\bar{r}}$, where $\bar{q}$ is a wavevector that satisfies the conditions described in [[Wavevectors discretisation in the band model]].
+These plane waves are of the form $\varphi(\bar{r}) = e^{i\bar{q}\cdot\bar{r}}$, where $\bar{q}$ is a wavevector that satisfies the conditions described in [[Projects/Solid State Physics/Electron dynamics/Wavevectors discretisation in the band model]].
 
 We then obtain from the expansion:
 

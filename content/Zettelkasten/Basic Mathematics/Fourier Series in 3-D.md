@@ -35,7 +35,7 @@ In order to have $\bar{G}$ represented in the canonical base, one must choose:
 
 $$ G_x =\frac{2\pi n}{V_u} (\bar{R}_y\times \bar{R}_z) \qquad G_y =\frac{2\pi m}{V_u} (\bar{R}_x\times \bar{R}_z) \qquad G_z =\frac{2\pi l}{V_u} (\bar{R}_x\times \bar{R}_y)$$
 
-Note that this latter representation perfectly aligns with the concepts of [[Bravais lattice]] and [[Reciprocal lattice]]. 
+Note that this latter representation perfectly aligns with the concepts of [[Projects/Solid State Physics/Crystal structures and bonds/Bravais lattice]] and [[Projects/Solid State Physics/Crystal structures and bonds/Reciprocal lattice]]. 
 
 Specifically if we choose to change from the canonical basis to the basis of the primitive vectors of the Bravais lattice, we have that our periodic function becomes:
 

@@ -1,4 +1,4 @@
-We study the monoatomic linear chain by using [[Projects/Solid State Physics/Lattice dynamics/The harmonic approximation]]
+We study the monoatomic linear chain by using [[Projects/Solid State Physics/Lattice dynamics/The harmonic approximation|The harmonic approximation]]
 
 In this case, there is no need to identify the crystal structure, as it is implicit since it is possible to define only one Bravais lattice in one dimension. Therefore, once any atom is chosen, denoting by $a$ its lattice constant, a Bravais lattice structure is established with the following law (vector notation is unnecessary):
 

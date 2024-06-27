@@ -1,4 +1,4 @@
-The harmonic approximation is the main idea in solving problems in lattice dynamics, specifically we are using the approximations stated in [[Projects/Solid State Physics/Lattice dynamics/Lattice dynamics approach]] and using together to justify the expansion of the $\mathcal{E}$, up to the second order, hence the name.
+The harmonic approximation is the main idea in solving problems in lattice dynamics, specifically we are using the approximations stated in [[Projects/Solid State Physics/Lattice dynamics/Lattice dynamics approach|Lattice dynamics approach]] and using together to justify the expansion of the $\mathcal{E}$, up to the second order, hence the name.
 First we use the pair-wise interaction approximation
 
 $$\mathcal{E}({\bar{R}_{I}}) =\frac{1}{2} \sum_{\bar{R}_{I},\bar{R}_{i} '} \phi(|\bar{R}_{I}-\bar{R}_{I}'|)$$

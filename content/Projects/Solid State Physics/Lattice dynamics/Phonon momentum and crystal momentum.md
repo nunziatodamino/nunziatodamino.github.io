@@ -6,7 +6,7 @@ Corresponding to a general displacement $u_n = Ae^{i(kna-\omega t)}=Q(t)e^{ikna}
 
 $$ \begin{aligned} P_k  & = \sum_{n=0}^{N-1} m|\dot{u}_n(k)| = m|\dot{Q}(t)|\sum_{n=0}^{N-1} e^{ikna} =m|\dot{Q}(t)| \frac{1-e^{ikNa}}{1-e^{ika}}= \\ & = m|\dot{Q}(t)| \frac{1-e^{i2 \pi m}}{1-e^{i2\pi m/N}}=0 \end{aligned}   $$
 
-Where we implicitly used the [[Born-Von Karman boundary condition|PBC]] to discretize the $k$ values, i.e. $k=\frac{2\pi}{Na} m$
+Where we implicitly used the [[Projects/Solid State Physics/Crystal structures and bonds/Born-Von Karman boundary condition|PBC]] to discretize the $k$ values, i.e. $k=\frac{2\pi}{Na} m$
 So in fact, a phonon with wavevector $k \neq 0$ has momentum 0.
 Moreover is interesting to show that a phonon with wavevector $k=0$ has momentum different from 0:
 
@@ -30,4 +30,4 @@ $$ \frac{\hbar^2K_i^2}{2m} = \frac{\hbar^2K_f^2}{2m} \pm \hbar\omega(\bar{k})$$
 
 $$\hbar\bar{K}_i = \hbar\bar{K}_f \pm \hbar\bar{k}+\bar{G}$$
 
-The crystal momentum conservation law is strictly related to the [[Considerations on the Bragg scattering within a Bravais lattice|Bragg's law]]
+The crystal momentum conservation law is strictly related to the [[Projects/Solid State Physics/Crystal structures and bonds/Considerations on the Bragg scattering within a Bravais lattice|Bragg's law]]

@@ -63,7 +63,7 @@ $$ \mu(T) = E_c + k_BT \ln\left( \frac{N_d}{N_c(T)} \right)  $$
 
 There is no need to plug the expression of the chemical potential in the free carrier density expression because we already found that $n \simeq N_d$ in the charge neutrality equation
 
-#### Higher temperature (intrinsic region) $T \gg T_g$
+#### Higher temperature (intrinsic region) $T \gg T_d$
 
 If we increase further the temperature, the thermal excitation of valence electrons into the conduction band increases, and eventually the intrinsic situation is recovered.
 In this regime in fact all donors level are fully ionized, the intrinsic carriers are much larger than the concentration of donor impurities, doping becomes irrelevant and we expect that the chemical potential approaches the middle of the band gap.
@@ -80,5 +80,5 @@ Which is the charge neutrality condition in an intrinsic semiconductor ($n=p$)
 
 We report in the following a graph reporting the free carrier density and the chemical potential in the various regimes:
 
-![[Thermal equilibrium carrier densities of impure semiconductors (Grosso-Parravicini).png|500]]
-![[Thermal equilibrium carrier densities of impure semiconductors (Grosso-Parravicini)-1.png|500]]
+![[Immagini/Thermal equilibrium carrier densities of impure semiconductors (Grosso-Parravicini).png|500]]
+![[Immagini/Thermal equilibrium carrier densities of impure semiconductors (Grosso-Parravicini)-1.png|500]]

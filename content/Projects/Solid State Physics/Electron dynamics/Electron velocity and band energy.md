@@ -25,7 +25,7 @@ Then one simply derivate both sides respect the $\bar{k}$ vector using the gradi
 
 $$\nabla_{\bar{k}}E_n(\bar{k})  = \nabla_{\bar{k}}\left[\braket{u_{n\bar{k}}|\frac{(\bar{p}+\hbar \bar{k})^2}{2m}+V(\bar{r})|u_{n\bar{k}}}\right]  $$
 
-Then, by [[Solid State Physics_buffer/Hellman-Feynman Theorem|Hellman-Feynman Theorem]]:
+Then, by [[Projects/Solid State Physics/Lattice dynamics/Hellman-Feynman Theorem|Hellman-Feynman Theorem]]:
 
 $$\nabla_{\bar{k}}E_n(\bar{k})  = \braket{u_{n\bar{k}}|\nabla_{\bar{k}}\left[\frac{(\bar{p}+\hbar \bar{k})^2}{2m}+V(\bar{r})\right]|u_{n\bar{k}}}  $$
 

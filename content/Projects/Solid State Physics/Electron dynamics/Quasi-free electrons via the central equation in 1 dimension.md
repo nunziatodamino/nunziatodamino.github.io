@@ -18,7 +18,7 @@ Given the equation in the frame of our approximation, this happens when:
 $$ k^2 \simeq |\bar {k}-\bar{G}|^2 $$
 
 For a specific value of the vector $\bar{G}$.
-Notice that this is [[Solid State Physics_buffer/Considerations on the Bragg scattering within a Bravais lattice|Bragg condition]], and is satisfied by $\bar{k}$ vectors at the edge of the first Brillouin zone.
+Notice that this is [[Projects/Solid State Physics/Crystal structures and bonds/Considerations on the Bragg scattering within a Bravais lattice|Bragg condition]], and is satisfied by $\bar{k}$ vectors at the edge of the first Brillouin zone.
 We conclude that the coefficients $C_{ k - G}=C_{k}$ and that they are the biggest, hence in the summation only these 2 survives.
 So we find them setting the relative central equations:
 

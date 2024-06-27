@@ -37,7 +37,7 @@ Considering a generic crystal with volume $V=L^3$, we have:
 
 $$\Psi(\bar{r}) \equiv \Psi_{\bar{k}}(\bar{r}) = \frac{1}{\sqrt{V}} e^{i(\bar{k} \cdot \bar{r})} \qquad E(\bar{k})  =\frac{\hbar^2k^2}{2m}$$
 
-To account for the fact that we are in a simple cubic lattice, we need to impose [[Born-Von Karman boundary condition]], 
+To account for the fact that we are in a simple cubic lattice, we need to impose [[Projects/Solid State Physics/Crystal structures and bonds/Born-Von Karman boundary condition]], 
 that we report here for a simple cubic lattice of lattice constant $a$ and composed by $N_xN_yN_z$ atoms:
 
 $$\begin{cases}\psi(x,y,z) = \psi(x+ N_xa, y, z) = \psi(x+ L_x, y, z) \\ \psi(x,y,z) = \psi(x, y+N_ya, z) = \psi(x, y+L_y, z) \\ \psi(x,y,z) = \psi(x, y, z+ N_za) = \psi(x, y, z+ L_z) \\ \end{cases}$$

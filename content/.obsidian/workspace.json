@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4b49470253a38f54",
+        "id": "54e57f328630ca32",
         "type": "tabs",
         "children": [
           {
-            "id": "8bdd46c5b77d19a2",
+            "id": "253d8c03854817ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Solid State Physics/Semiconductors/Thermal equilibrium carrier densities of impure semiconductors (Grosso-Parravicini).md",
+                "file": "Projects/Solid State Physics/Solid State Physics.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Solid State Physics/Semiconductors/Thermal equilibrium carrier densities of impure semiconductors (Grosso-Parravicini).md",
+                "file": "Projects/Solid State Physics/Solid State Physics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Solid State Physics/Semiconductors/Thermal equilibrium carrier densities of impure semiconductors (Grosso-Parravicini).md",
+                "file": "Projects/Solid State Physics/Solid State Physics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Solid State Physics/Semiconductors/Thermal equilibrium carrier densities of impure semiconductors (Grosso-Parravicini).md"
+                "file": "Projects/Solid State Physics/Solid State Physics.md"
               }
             }
           },
@@ -205,54 +205,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8bdd46c5b77d19a2",
+  "active": "253d8c03854817ff",
   "lastOpenFiles": [
-    "Thermal equilibrium carrier densities of impure semiconductors (Grosso-Parravicini)-1.png",
-    "Thermal equilibrium carrier densities of impure semiconductors (Grosso-Parravicini).png",
-    "Projects/Solid State Physics/Semiconductors/Thermal equilibrium carrier densities of impure semiconductors (ibach e vari).md",
-    "Projects/Solid State Physics/Semiconductors/Thermal equilibrium carrier densities of impure semiconductors (Grosso-Parravicini).md",
-    "Projects/Solid State Physics/Semiconductors/Population of impurity levels in thermal equilibrium in a semiconductor.md",
-    "Projects/Solid State Physics/Semiconductors/Charge neutrality in a doped semiconductor.md",
-    "Projects/Solid State Physics/Semiconductors/Number density of carriers in thermal equilibrium for an intrinsic (homogeneous) semiconductor.md",
-    "Projects/Solid State Physics/Semiconductors/Typical semiconductor band structure.md",
-    "Projects/Solid State Physics/Electron dynamics/Electronic density of states.md",
-    "Projects/Solid State Physics/Semiconductors/Specific evaluations of the law of mass action for an homogeneous semiconductor.md",
-    "Projects/Solid State Physics/Note on the summation-integration exchange in Solid State physics.md",
-    "Zettelkasten/Models of Theoretical Physics/Working cheatsheet for Gradenigo's part.md",
-    "Zettelkasten/Models of Theoretical Physics/Models of Theoretical Physics.md",
-    "Zettelkasten/Models of Theoretical Physics/Curie-Weiss model solution with h=0.md",
-    "Zettelkasten/Models of Theoretical Physics/The ''Ising model'' framework.md",
-    "Zettelkasten/Models of Theoretical Physics/Hopfield model.md",
-    "Zettelkasten/Models of Theoretical Physics/The Sherrington-Kirkpatrick (S-K) model.md",
-    "Solid State Physics_buffer/Density of states.md",
-    "Solid State Physics_buffer/Lennard-Jones potential.md",
-    "Solid State Physics_buffer/List of the 2-d Bravais lattices.md",
-    "Solid State Physics_buffer/List of the 3-d Bravais lattices.md",
-    "Solid State Physics_buffer/Wavevectors discretisation in the band model.md",
-    "Solid State Physics_buffer/Notable periodic crystals.md",
-    "Projects/Variational principle.md",
-    "Projects/Untitled 1.md",
-    "Projects/Untitled.md",
+    "Projects/Solid State Physics/Lattice dynamics/Phonon heat capacity in solids - Quantum treatment.md",
     "Projects/Solid State Physics/Solid State Physics.md",
+    "Projects/Solid State Physics/Crystal structures and bonds/Born-Von Karman boundary condition.md",
+    "Projects/Solid State Physics/nota.md",
+    "Projects/Solid State Physics/Crystal structures and bonds/Note on lattice pair sums.md",
+    "index.md",
+    "Projects/Solid State Physics/Lattice dynamics/The harmonic approximation.md",
+    "Projects/Solid State Physics/Lattice dynamics/Lattice dynamics approach.md",
+    "Projects/Solid State Physics/Lattice dynamics/Infinite monoatomic linear chain.md",
+    "Projects/Solid State Physics/Lattice dynamics/Infinite biatomic linear chain.md",
+    "Projects/Solid State Physics/Lattice dynamics/Infinite linear atomic chain with a mass defect.md",
+    "Projects/Solid State Physics/Lattice dynamics/Hellman-Feynman Theorem.md",
+    "Projects/Solid State Physics/Lattice dynamics/Heat conduction by phonons with the Boltzmann equation.md",
+    "Projects/Solid State Physics/Lattice dynamics/The Born-Oppenheimer approximation.md",
+    "Projects/Solid State Physics/Lattice dynamics/Technical consideration on the Born-Oppenheimer approximation (opt).md",
+    "Projects/Solid State Physics/Fundamental constants and typical values in material for important quantities in Solid State Physics.md",
+    "Projects/Solid State Physics/Lattice dynamics/Taylor's series of the potential energy in a 3D monoatomic crystal - classic derivation.md",
+    "Projects/Solid State Physics/Lattice dynamics/Justification of the adiabatic approximation.md",
+    "Projects/Variational principle.md",
+    "Projects/Solid State Physics/Crystal structures and bonds/Born-Mayer potential.md",
+    "Projects/Solid State Physics/Crystal structures and bonds/Van der Waals bond.md",
+    "Projects/Solid State Physics/Crystal structures and bonds/Types of chemical bonds.md",
+    "Projects/Solid State Physics/Crystal structures and bonds/Ionic bond.md",
+    "Projects/Solid State Physics/Crystal structures and bonds/Equilibrium in an ionic bond.md",
+    "Projects/Solid State Physics/Crystal structures and bonds/Total energy in an ionic bond and Madelung constant.md",
+    "Projects/Solid State Physics/Crystal structures and bonds/Lennard-Jones potential.md",
+    "Immagini/List of the 3-d Bravais lattices-1.png",
+    "Immagini/List of the 3-d Bravais lattices.png",
+    "Projects/Solid State Physics/Crystal structures and bonds",
+    "Immagini/Flux quantization in a superconductor.png",
+    "Immagini/Type I and type II superconductors_typeII_2.png",
+    "Immagini/Type I and type II superconductors_type_2.png",
+    "Immagini/Type I and type II superconductors_typeI_2.png",
+    "Immagini/Type I and type II superconductors_typeI.png",
+    "Immagini/Meissner-Ochsenfeld effect.png",
+    "Immagini/Why Cooper pairs forms a bound state.png",
+    "Immagini/Cooper pair formation.png",
+    "Description of the Meissner effect via the London's equations.png.~tmp",
+    "Projects/Solid State Physics/Superconductors",
     "Projects/Solid State Physics/Thermal transport",
     "Projects/Solid State Physics/Electron dynamics",
     "Projects/Solid State Physics/Lattice dynamics",
     "Projects/Solid State Physics/Semiconductors",
-    "Immagini/Effect on the energy bands in doped semiconductors.png",
-    "Effect on the energy bands of doping in semiconductors-1.png",
-    "Effect on the energy bands of doping in semiconductors.png",
-    "Immagini/Effect on the energy bands of doping in semiconductors-2.png",
-    "Immagini/Optical transitions in a semiconductor.png",
-    "Immagini/Optical transitions in a semiconductor-1.png",
-    "Immagini/Typical semiconductor band structure_germanium.png",
-    "Immagini/Typical semiconductor band structure_silicon.png",
-    "Pasted image 20240611182213.png",
     "Calculations/electron_velocity_lemma.pdf",
     "Projects/Computational methods for Material science/Molecular dynamics",
     "Projects/Computational methods for Material science/Ab initio Quantum Mechanics",
-    "private",
-    "Calculations/Electron DOS for free electron model.pdf",
-    "Calculations/linear monoatomic chain with mass defect - calculations.pdf",
     "Second partial.canvas",
     "Untitled 1.canvas",
     "Untitled 2.canvas",

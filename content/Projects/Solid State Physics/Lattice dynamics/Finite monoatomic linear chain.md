@@ -3,7 +3,7 @@ In our treatment, we assumed an [[Projects/Solid State Physics/Lattice dynamics/
 It depends if we are in a situation in which we can neglect the surfaces effect. 
 This is [[When the surface becomes important|easy to check]].
 
-If we are in this situation, we apply the so-called [[Born-Von Karman boundary condition]], which are periodic boundary conditions that essentially allow a finite chain to be transformed into an infinite one. If our chain is made up of N atoms, the condition is imposed so that the displacement from the equilibrium position of the Nth atom coincides with that of the initial atom of the chain:
+If we are in this situation, we apply the so-called [[Projects/Solid State Physics/Crystal structures and bonds/Born-Von Karman boundary condition]], which are periodic boundary conditions that essentially allow a finite chain to be transformed into an infinite one. If our chain is made up of N atoms, the condition is imposed so that the displacement from the equilibrium position of the Nth atom coincides with that of the initial atom of the chain:
 
 $$u(R_0,t) = u(R_N,t) \iff u_0 = u_N $$
 

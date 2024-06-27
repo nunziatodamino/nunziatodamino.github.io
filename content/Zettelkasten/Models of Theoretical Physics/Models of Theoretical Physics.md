@@ -37,7 +37,7 @@
 - [[Multidimensional Gaussian integrals]]
 - [[Multivariate Gaussian probability density function]]
 - [[Newton's binomial formula]]
-- [[nota]]
+- [[Zettelkasten/Models of Theoretical Physics/nota]]
 - [[Passage from diffusion PMF to diffusion PDF]]
 - [[Patterns and neural network]]
 - [[Probability generating functions]]

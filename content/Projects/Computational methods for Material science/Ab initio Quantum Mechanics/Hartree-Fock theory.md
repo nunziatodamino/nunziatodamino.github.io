@@ -1,4 +1,4 @@
-Consider the TISO arising from [[Solid State Physics_buffer/The Born-Oppenheimer approximation|The Born-Oppenheimer approximation]]:
+Consider the TISO arising from [[Projects/Solid State Physics/Lattice dynamics/The Born-Oppenheimer approximation|The Born-Oppenheimer approximation]]:
 
 $$(\hat{T}_e +\hat{V}_{NN}+\hat{V}_{eN}+\hat{V}_{ee})\Phi_e(\{\bar{R}_I\}, \bar{r}) = \mathcal{E}_0(\{\bar{R}_I\})\Phi_e(\{\bar{R}_I\}, \bar{r})$$
 
