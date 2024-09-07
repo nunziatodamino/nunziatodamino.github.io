@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Physics Lab/General knowledge/Mean free path.md",
+                "file": "private/Daily/07-09-24.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Physics Lab/General knowledge/Mean free path.md",
+                "file": "private/Daily/07-09-24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Physics Lab/General knowledge/Mean free path.md",
+                "file": "private/Daily/07-09-24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Physics Lab/General knowledge/Mean free path.md"
+                "file": "private/Daily/07-09-24.md"
               }
             }
           },
@@ -183,10 +183,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b749f45cdf600629",
+  "active": "f562ffcd7315fa1a",
   "lastOpenFiles": [
-    "Projects/Computational methods for Material science/Ab initio Quantum Mechanics/Hohenberg-Kohn theorem.md",
+    "private/Regole PKM.md",
+    "private/Daily/07-09-24.md",
     "Projects/Physics Lab/General knowledge/Mean free path.md",
+    "Projects/Computational methods for Material science/Ab initio Quantum Mechanics/Hohenberg-Kohn theorem.md",
     "Projects/Physics Lab/Physics Lab.md",
     "Projects/Physics Lab/Topics.md",
     "private/Daily/06-09-24.md",
@@ -217,8 +219,6 @@
     "Zettelkasten/Master's degree/Basic Physics/Hall effect.md",
     "Zettelkasten/Master's degree/Models of Theoretical Physics/Sokhotski–Plemelj formula extension for function with n first order poles.md",
     "Zettelkasten/Master's degree/Basic Physics/Fundamentals of electronics/Definitions.md",
-    "Projects/Physics Lab/Compton's effect/The photoelectric effect.md",
-    "Zettelkasten/Babel/Virtual unwrapping of a papyrus.md",
     "Study plan-4.png",
     "Projects/Computational methods for Material science/Numerical methods",
     "Zettelkasten/Babel/Persico.pdf",
