@@ -1,0 +1,34 @@
+{
+	"nodes":[
+		{"id":"0f1bb5401108d5a3","type":"text","text":"# The Born - Oppenheimer approximation\n","x":-434,"y":-800,"width":485,"height":120},
+		{"id":"58306db3c818d39a","type":"text","text":"# Electron dynamics -Reduction of  the many-body problem\n\n## Given that this is a quantum problem, we need to have more care respect the classical counterpart and reduce the many-body problem (Hartree-Fock theory)","x":-460,"y":-520,"width":536,"height":240},
+		{"id":"9de8a65b8f02d8e4","type":"text","text":"# Sommerfeld model (free electron)","x":-720,"y":207,"width":361,"height":99},
+		{"id":"c62bb69b4ba1f512","type":"text","text":"# Band theory (periodic potential)","x":76,"y":202,"width":317,"height":104},
+		{"id":"e7f263ea83b99dd2","type":"text","text":"# One electron approximation\n\n## Upon reduction of the many-body problem we can reduce all to the product of one electron functions","x":-424,"y":-160,"width":464,"height":200},
+		{"id":"0b0b901911b637f9","type":"text","text":"## This model is a crude approximation, but is still good to predict properties of alkali metals","x":-739,"y":440,"width":400,"height":160},
+		{"id":"75823bbba329ae7f","type":"text","text":"# Easy model for electrical conductivity (Drude theory)","x":-1160,"y":800,"width":280,"height":200},
+		{"id":"3b5bc89f7765d00d","type":"text","text":"# Easy DOS evaluation and consequently easy heat capacity evaluation","x":-806,"y":804,"width":366,"height":156},
+		{"id":"b3de45e572631c51","type":"text","text":"# Beyond the one electron approximation\n## We must include the electron-electron interactions","x":393,"y":-320,"width":439,"height":200},
+		{"id":"c2da3ef7a888e01b","type":"text","text":"## We can have electron-electron interactions as a collective motion to which a quasiparticle called plasmon can be associated. \n\n## This can be described easily by using the Jellium model. Note that a plasmon is not generally spontaneously formed inside a metal ","x":1200,"y":-556,"width":459,"height":336},
+		{"id":"8f3bd5e593fb942c","type":"text","text":"## We can have electron-electron interaction as binary scattering due to Coulomb interaction\n\n## These are described by the Thomas-Fermi model for screening","x":1200,"y":-120,"width":459,"height":240},
+		{"id":"9153a686ef2d04f4","x":93,"y":440,"width":284,"height":70,"type":"text","text":"# Bloch Theorem"},
+		{"id":"e2b25f34a4db2350","x":580,"y":440,"width":280,"height":66,"type":"text","text":"# Central equation"},
+		{"id":"5948fc2defc10d94","x":-46,"y":719,"width":281,"height":85,"type":"text","text":"# Tight binding approximation"}
+	],
+	"edges":[
+		{"id":"747a7f888c520b52","fromNode":"58306db3c818d39a","fromSide":"bottom","toNode":"e7f263ea83b99dd2","toSide":"top"},
+		{"id":"d416c5c0c4f80c25","fromNode":"e7f263ea83b99dd2","fromSide":"bottom","toNode":"9de8a65b8f02d8e4","toSide":"top"},
+		{"id":"3d59d3b336b8b721","fromNode":"e7f263ea83b99dd2","fromSide":"bottom","toNode":"c62bb69b4ba1f512","toSide":"top"},
+		{"id":"cdcb47d1fcd00e71","fromNode":"0f1bb5401108d5a3","fromSide":"bottom","toNode":"58306db3c818d39a","toSide":"top"},
+		{"id":"551a7a74f9ce0178","fromNode":"9de8a65b8f02d8e4","fromSide":"bottom","toNode":"0b0b901911b637f9","toSide":"top"},
+		{"id":"80584ba4cba890c7","fromNode":"0b0b901911b637f9","fromSide":"bottom","toNode":"75823bbba329ae7f","toSide":"top"},
+		{"id":"20495dd35dd47a1c","fromNode":"0b0b901911b637f9","fromSide":"bottom","toNode":"3b5bc89f7765d00d","toSide":"top"},
+		{"id":"9cd5d88f3cb8b61d","fromNode":"e7f263ea83b99dd2","fromSide":"right","toNode":"b3de45e572631c51","toSide":"left"},
+		{"id":"0ee7c4125c8ae7f2","fromNode":"b3de45e572631c51","fromSide":"right","toNode":"c2da3ef7a888e01b","toSide":"left"},
+		{"id":"95e69082b13d5820","fromNode":"b3de45e572631c51","fromSide":"right","toNode":"8f3bd5e593fb942c","toSide":"left"},
+		{"id":"0f397f9fe8897b37","fromNode":"c62bb69b4ba1f512","fromSide":"bottom","toNode":"9153a686ef2d04f4","toSide":"top"},
+		{"id":"8fa1109a247b3cfc","fromNode":"9153a686ef2d04f4","fromSide":"right","toNode":"e2b25f34a4db2350","toSide":"left"},
+		{"id":"7dc3d93b7dc50dfb","fromNode":"e2b25f34a4db2350","fromSide":"left","toNode":"9153a686ef2d04f4","toSide":"right"},
+		{"id":"0c4396484ee24044","fromNode":"9153a686ef2d04f4","fromSide":"bottom","toNode":"5948fc2defc10d94","toSide":"top"}
+	]
+}

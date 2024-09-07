@@ -1,0 +1,40 @@
+{
+	"nodes":[
+		{"id":"bf2c929c506d02d0","type":"text","text":"# Lattice dynamics \n\n## We make an hypothesis on the energy eigenvalues of the electronic problem instead of solving it","x":-680,"y":-80,"width":445,"height":200},
+		{"id":"72d42619a110e6e6","type":"text","text":"# Harmonic approximation\n\n## We expand the functional form we decided for our potential up to 2nd order","x":-680,"y":160,"width":445,"height":171},
+		{"id":"19de6e21f540fcf6","type":"text","text":"# 1D monoatomic chain with a defect","x":-320,"y":535,"width":517,"height":53},
+		{"id":"b6eda2db1e9dfb94","type":"text","text":"# 3D monoatomic crystal","x":-654,"y":760,"width":394,"height":93},
+		{"id":"9e34cb99601cc83f","type":"text","text":"# From this we find an expression of $U$ for a generic solid","x":-710,"y":1003,"width":450,"height":131},
+		{"id":"55aaa2aad40badba","type":"text","text":"## But sometimes anharmonic terms can be difficult to treat, so is used an in between approach: we still use the harmonic approximation but make an assumption on the dispersion relation form (Gruneisen parameter approach)","x":-1444,"y":222,"width":532,"height":218},
+		{"id":"6fe2ecd5c7573329","type":"text","text":"## One example of such property is thermal expansion","x":-1880,"y":98,"width":357,"height":124},
+		{"id":"aec52842f8c9f660","type":"text","text":"# From the phonon interpretation we can study the heat conduction as a non-equilibrium phenomenon using the Boltzmann transport equation","x":320,"y":1306,"width":440,"height":259},
+		{"id":"9de1b932c4a933ab","type":"text","text":"## Sometimes, in order to predict experimental properties of solids we have to include higher terms in the expansion. We call these terms anharmonic terms","x":-1390,"y":-180,"width":425,"height":200},
+		{"id":"370c4b3daede6ea0","type":"text","text":"# We consider $U$ as an energy in the classical sense","x":-931,"y":1356,"width":370,"height":133},
+		{"id":"c4294a54671ee7b5","type":"text","text":"# We consider $U$ as an energy in the quantum sense : so is in reality an Hamiltonian that can be quantized in quasiparticles called phonons","x":-463,"y":1356,"width":605,"height":160},
+		{"id":"1b99c667499a107b","type":"text","text":"# Evaluation of the classical heat capacity: Dulong-Petit limit\n\n","x":-1098,"y":1596,"width":394,"height":151},
+		{"id":"01864824f98828e8","type":"text","text":"# Evaluation of the (quantum) heat capacity : Debye theory","x":-266,"y":1615,"width":410,"height":133},
+		{"id":"546eb9f7eea8b75b","type":"text","text":"# Suppose we want to evaluate the heat capacity at constant volume for a solid $\\left(\\frac{dU}{dT}\\right)_V$, how do we do it ? There will be 2 main contributions: one due to the lattice vibrations and one due to the electrons moving inside the lattice\n","x":320,"y":694,"width":400,"height":375},
+		{"id":"5e8eed7d4ffe216f","type":"text","text":"# 1D biatomic chain","x":-1019,"y":588,"width":365,"height":55},
+		{"id":"17849cdb5eb5255f","type":"text","text":"# 1D monoatomic chain","x":-965,"y":480,"width":365,"height":55},
+		{"id":"d9f7f391defe7d87","type":"text","text":"# The Born - Oppenheimer approximation\n","x":-700,"y":-560,"width":485,"height":120}
+	],
+	"edges":[
+		{"id":"94b89c11aafac079","fromNode":"d9f7f391defe7d87","fromSide":"bottom","toNode":"bf2c929c506d02d0","toSide":"top"},
+		{"id":"f494495dba1eb527","fromNode":"bf2c929c506d02d0","fromSide":"bottom","toNode":"72d42619a110e6e6","toSide":"top"},
+		{"id":"955b1da2fbd944f5","fromNode":"72d42619a110e6e6","fromSide":"bottom","toNode":"17849cdb5eb5255f","toSide":"right"},
+		{"id":"8b0c18db04dd81fa","fromNode":"72d42619a110e6e6","fromSide":"bottom","toNode":"19de6e21f540fcf6","toSide":"left"},
+		{"id":"abd4dbf9ea9d861e","fromNode":"72d42619a110e6e6","fromSide":"bottom","toNode":"5e8eed7d4ffe216f","toSide":"right"},
+		{"id":"32f6402870285b71","fromNode":"72d42619a110e6e6","fromSide":"bottom","toNode":"b6eda2db1e9dfb94","toSide":"top"},
+		{"id":"bca7ce500b6a2555","fromNode":"546eb9f7eea8b75b","fromSide":"left","toNode":"9e34cb99601cc83f","toSide":"right","label":"lattice contribution"},
+		{"id":"f419cd1bca823d0d","fromNode":"b6eda2db1e9dfb94","fromSide":"bottom","toNode":"9e34cb99601cc83f","toSide":"top"},
+		{"id":"b5170c1a32119b8e","fromNode":"9e34cb99601cc83f","fromSide":"bottom","toNode":"370c4b3daede6ea0","toSide":"top"},
+		{"id":"95d509347acd57c6","fromNode":"370c4b3daede6ea0","fromSide":"bottom","toNode":"1b99c667499a107b","toSide":"top"},
+		{"id":"a591bb6753deea98","fromNode":"9e34cb99601cc83f","fromSide":"bottom","toNode":"c4294a54671ee7b5","toSide":"top"},
+		{"id":"6e68b70a4ad591f3","fromNode":"c4294a54671ee7b5","fromSide":"bottom","toNode":"01864824f98828e8","toSide":"top"},
+		{"id":"5474622a43ecf84e","fromNode":"72d42619a110e6e6","fromSide":"left","toNode":"9de1b932c4a933ab","toSide":"right"},
+		{"id":"a322bee6811db69f","fromNode":"9de1b932c4a933ab","fromSide":"left","toNode":"6fe2ecd5c7573329","toSide":"top"},
+		{"id":"18cfb2eac52e9a52","fromNode":"6fe2ecd5c7573329","fromSide":"bottom","toNode":"55aaa2aad40badba","toSide":"left"},
+		{"id":"7daae5d929618e7d","fromNode":"55aaa2aad40badba","fromSide":"right","toNode":"72d42619a110e6e6","toSide":"left"},
+		{"id":"8ebacdcae17a741a","fromNode":"c4294a54671ee7b5","fromSide":"right","toNode":"aec52842f8c9f660","toSide":"left"}
+	]
+}

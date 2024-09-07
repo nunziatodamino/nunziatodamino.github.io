@@ -1,4 +1,4 @@
-Consider the TISO arising from [[Projects/Solid State Physics/Lattice dynamics/The Born-Oppenheimer approximation|The Born-Oppenheimer approximation]]:
+Consider the TISO arising from [[Zettelkasten/Master's degree/Solid State Physics/Lattice dynamics/The Born-Oppenheimer approximation|The Born-Oppenheimer approximation]]:
 
 $$(\hat{T}_e +\hat{V}_{NN}+\hat{V}_{eN}+\hat{V}_{ee})\Phi_e(\{\bar{R}_I\}, \bar{r}) = \mathcal{E}_0(\{\bar{R}_I\})\Phi_e(\{\bar{R}_I\}, \bar{r})$$
 
@@ -38,8 +38,8 @@ These equations presents big problems:
 
 ## Hartree-Fock approximation
 
-As we seen in the preceding paragraph, we need a wavefunction that satisfies the [[Zettelkasten/Basic Physics/Bosons and fermions - the symmetrization postulate|Bosons and fermions - the symmetrization postulate]].
-To do so one can state that the wavefunction is in form of a [[Zettelkasten/Basic Physics/Slater determinant]]:
+As we seen in the preceding paragraph, we need a wavefunction that satisfies the [[Zettelkasten/Master's degree/Basic Physics/Bosons and fermions - the symmetrization postulate|Bosons and fermions - the symmetrization postulate]].
+To do so one can state that the wavefunction is in form of a [[Zettelkasten/Master's degree/Basic Physics/Slater determinant]]:
 
 $$\Phi_e( \bar{\xi}_1,\bar{\xi}_2,\dots,\bar{\xi}_n)= 
 \frac{1}{\sqrt{n!}} \det 

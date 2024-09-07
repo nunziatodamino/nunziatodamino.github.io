@@ -9,13 +9,14 @@ So, in order to achieve a coherent theory, is of paramount importance the follow
 
 We begin by defining the most intuitive type of average: the time-average
 #### Time-average
-Suppose to have at a time instant $t$ a microstate $\mu(t) = \{\bar{\mathbb{q}}(t),\bar{\mathbb{p}}(t) \}$, and to know the system Hamiltonian, so that one can set the time evolution of the system.
+Suppose to have at a time instant $t$ a microstate $\bar{\mu}(t)=\{\bar{q}_1(t) \dots \bar{q}_N(t) , \bar{p}_1(t) \dots \bar{p}_N(t) \} \equiv \{ \bar{q}^N(t),\bar{p}^N(t)\}$ of an $N$ particle system, where $N$ is very large, and to know the system Hamiltonian, so that one can set the time evolution of the system.
 Suppose also to have an observable $f$, e.g. an extensive property of the system, that depends upon the generalized coordinates and the conjugated momenta.
 One can then evaluate the time average as:
 
-$$ \braket{f}_{time} = \lim_{T \to \infty} \frac{1}{T} \int_0^T f(\mathbb{q}(t),\mathbb{p}(t))\ dt $$
+$$ \braket{f}_{time} = \lim_{T \to \infty} \frac{1}{T} \int_0^T f( \bar{q}^N(t),\bar{p}^N(t))\ dt $$
 
 And impose that in fact the system, at equilibrium, will take as value of $f$ the average value $\braket{f}_{time}$.
+Note that one can require the time to be finite only if is long enough for the point in the phase space for it to visit most (all in principle) of the possible microstates.
 This approach, even if totally reasonable, is simply not applicable in a real situation, due to the enormous amount of equations involved.
 So one has to devise another strategy.
 #### Ensemble average

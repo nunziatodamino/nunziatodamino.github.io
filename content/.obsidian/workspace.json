@@ -4,23 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "54e57f328630ca32",
+        "id": "8e5ba622a738c01f",
         "type": "tabs",
         "children": [
           {
-            "id": "253d8c03854817ff",
+            "id": "f562ffcd7315fa1a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Solid State Physics/Solid State Physics.md",
+                "file": "Projects/Physics Lab/General knowledge/Mean free path.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "stacked": true
+        ]
       }
     ],
     "direction": "vertical"
@@ -49,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "path:\"Approfondimenti/Quantum Theory of many-particles systems/\" ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -59,39 +58,18 @@
             }
           },
           {
-            "id": "926d6dc55633b071",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
             "id": "1cd8631d7c3153bf",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {}
             }
-          },
-          {
-            "id": "b56a1834828c51a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/Computational methods for Material science/Ab initio Quantum Mechanics/Hohenberg-Kohn theorem.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 285.5004348754883,
-    "collapsed": true
+    "width": 281.5004348754883
   },
   "right": {
     "id": "17359a017802a181",
@@ -107,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Solid State Physics/Solid State Physics.md",
+                "file": "Projects/Physics Lab/General knowledge/Mean free path.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Solid State Physics/Solid State Physics.md",
+                "file": "Projects/Physics Lab/General knowledge/Mean free path.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -147,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Solid State Physics/Solid State Physics.md"
+                "file": "Projects/Physics Lab/General knowledge/Mean free path.md"
               }
             }
           },
@@ -205,54 +183,56 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "253d8c03854817ff",
+  "active": "b749f45cdf600629",
   "lastOpenFiles": [
-    "Projects/Solid State Physics/Lattice dynamics/Phonon heat capacity in solids - Quantum treatment.md",
-    "Projects/Solid State Physics/Solid State Physics.md",
-    "Projects/Solid State Physics/Crystal structures and bonds/Born-Von Karman boundary condition.md",
-    "Projects/Solid State Physics/nota.md",
-    "Projects/Solid State Physics/Crystal structures and bonds/Note on lattice pair sums.md",
+    "Projects/Computational methods for Material science/Ab initio Quantum Mechanics/Hohenberg-Kohn theorem.md",
+    "Projects/Physics Lab/General knowledge/Mean free path.md",
+    "Projects/Physics Lab/Physics Lab.md",
+    "Projects/Physics Lab/Topics.md",
+    "private/Daily/06-09-24.md",
+    "private/Daily/2024-09-05.md",
+    "Projects/2024-09-05.md",
+    "private/Daily",
+    "Projects/Daily",
+    "Projects/Untitled.md",
+    "On the ambiguity of the adjective ''self-consistent''.png",
+    "Floating point representation.png",
+    "Projects/Physics Lab/Compton's effect/Photon-matter interaction.md",
+    "Projects/Physics Lab/Positronium/Electron-positron annihilation.md",
+    "Projects/Physics Lab/VESPA/Debye sheath theory.md",
+    "Projects/Physics Lab/General knowledge/TAC ( Time to Amplitude Converter ).md",
     "index.md",
-    "Projects/Solid State Physics/Lattice dynamics/The harmonic approximation.md",
-    "Projects/Solid State Physics/Lattice dynamics/Lattice dynamics approach.md",
-    "Projects/Solid State Physics/Lattice dynamics/Infinite monoatomic linear chain.md",
-    "Projects/Solid State Physics/Lattice dynamics/Infinite biatomic linear chain.md",
-    "Projects/Solid State Physics/Lattice dynamics/Infinite linear atomic chain with a mass defect.md",
-    "Projects/Solid State Physics/Lattice dynamics/Hellman-Feynman Theorem.md",
-    "Projects/Solid State Physics/Lattice dynamics/Heat conduction by phonons with the Boltzmann equation.md",
-    "Projects/Solid State Physics/Lattice dynamics/The Born-Oppenheimer approximation.md",
-    "Projects/Solid State Physics/Lattice dynamics/Technical consideration on the Born-Oppenheimer approximation (opt).md",
-    "Projects/Solid State Physics/Fundamental constants and typical values in material for important quantities in Solid State Physics.md",
-    "Projects/Solid State Physics/Lattice dynamics/Taylor's series of the potential energy in a 3D monoatomic crystal - classic derivation.md",
-    "Projects/Solid State Physics/Lattice dynamics/Justification of the adiabatic approximation.md",
-    "Projects/Variational principle.md",
-    "Projects/Solid State Physics/Crystal structures and bonds/Born-Mayer potential.md",
-    "Projects/Solid State Physics/Crystal structures and bonds/Van der Waals bond.md",
-    "Projects/Solid State Physics/Crystal structures and bonds/Types of chemical bonds.md",
-    "Projects/Solid State Physics/Crystal structures and bonds/Ionic bond.md",
-    "Projects/Solid State Physics/Crystal structures and bonds/Equilibrium in an ionic bond.md",
-    "Projects/Solid State Physics/Crystal structures and bonds/Total energy in an ionic bond and Madelung constant.md",
-    "Projects/Solid State Physics/Crystal structures and bonds/Lennard-Jones potential.md",
+    "Study plan-2.png",
+    "Study plan-3.png",
+    "Study plan-1.png",
+    "Study plan.png",
+    "Zettelkasten/Master's degree/Solid State Physics/Lattice dynamics/Phonon momentum and crystal momentum.md",
+    "Zettelkasten/Master's degree/Probability and Statistics/Cumulative density function (CDF).md",
+    "Zettelkasten/Master's degree/Solid State Physics/Thermal transport/Thermal expansion.md",
+    "Zettelkasten/Master's degree/Solid State Physics/Lattice dynamics/The Gruneisen parameter.md",
+    "Zettelkasten/Master's degree/Basic Mathematics/Triangle inequality.md",
+    "Zettelkasten/Master's degree/Solid State Physics/Crystal structures and bonds/Particular evaluations for the Bravais lattice structures of the cubic system - atoms per unit cell and nearest neighbors calculation.md",
+    "Zettelkasten/Master's degree/Models of Theoretical Physics/Discrete stochastic process.md",
+    "Zettelkasten/Babel/Ho commesso promessa di morte.md",
+    "Zettelkasten/Master's degree/Basic Physics/Hall effect.md",
+    "Zettelkasten/Master's degree/Models of Theoretical Physics/Sokhotski–Plemelj formula extension for function with n first order poles.md",
+    "Zettelkasten/Master's degree/Basic Physics/Fundamentals of electronics/Definitions.md",
+    "Projects/Physics Lab/Compton's effect/The photoelectric effect.md",
+    "Zettelkasten/Babel/Virtual unwrapping of a papyrus.md",
+    "Study plan-4.png",
+    "Projects/Computational methods for Material science/Numerical methods",
+    "Zettelkasten/Babel/Persico.pdf",
+    "Zettelkasten/Master's degree",
+    "Zettelkasten/Master's degree/Solid State Physics/Solid State mind map -lattice dynamics.canvas",
+    "Zettelkasten/Master's degree/Solid State Physics/Solid State mind map -electronic dynamics.canvas",
+    "Immagini/Fundamental constants and typical values in material for important quantities in Solid State Physics.png",
+    "Immagini/The central equation as a proof of the Bloch theorem 1.png",
+    "Calculations/Electron DOS for free electron model.pdf",
+    "Calculations/equation of motion 3d crystal.pdf",
+    "Zettelkasten/Master's degree/Solid State Physics/Miscellanea",
+    "Calculations/D matrix calculations.pdf",
     "Immagini/List of the 3-d Bravais lattices-1.png",
-    "Immagini/List of the 3-d Bravais lattices.png",
-    "Projects/Solid State Physics/Crystal structures and bonds",
-    "Immagini/Flux quantization in a superconductor.png",
-    "Immagini/Type I and type II superconductors_typeII_2.png",
-    "Immagini/Type I and type II superconductors_type_2.png",
-    "Immagini/Type I and type II superconductors_typeI_2.png",
-    "Immagini/Type I and type II superconductors_typeI.png",
-    "Immagini/Meissner-Ochsenfeld effect.png",
-    "Immagini/Why Cooper pairs forms a bound state.png",
-    "Immagini/Cooper pair formation.png",
-    "Description of the Meissner effect via the London's equations.png.~tmp",
-    "Projects/Solid State Physics/Superconductors",
-    "Projects/Solid State Physics/Thermal transport",
-    "Projects/Solid State Physics/Electron dynamics",
-    "Projects/Solid State Physics/Lattice dynamics",
-    "Projects/Solid State Physics/Semiconductors",
-    "Calculations/electron_velocity_lemma.pdf",
-    "Projects/Computational methods for Material science/Molecular dynamics",
-    "Projects/Computational methods for Material science/Ab initio Quantum Mechanics",
+    "Zettelkasten/Master's degree/Solid State Physics/Crystal structures and bonds",
     "Second partial.canvas",
     "Untitled 1.canvas",
     "Untitled 2.canvas",

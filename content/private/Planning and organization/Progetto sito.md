@@ -1,3 +1,0 @@
-- [ ] Comprare dominio
-- [ ] Capire come modificare l' estetica (css o soluzione preimpacchettata?)
-- [ ] Caricare portfolio

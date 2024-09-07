@@ -62,7 +62,7 @@ $$\bar{A}(\bar{r},t) = \sum_{\bar{k}}\sum_s\left[\frac{1}{\sqrt{V}} A_{\bar{k}s}
 
 We now have to plug in this expression in the $H$ integral.
 
-The explicit calculations are made [[Explicit calculation of the electromagnetic density integral in the second quantization of light|here]].
+The explicit calculations are made [[Projects/Structure of Matter/Explicit calculation of the electromagnetic density integral in the second quantization of light|here]].
 
 Finally one has the expression:
 

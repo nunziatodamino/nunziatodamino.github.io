@@ -1,0 +1,2 @@
+If God is a programmer, and every input has an output, how free will enters the picture ?
+Easy, as a pseudo random number generator, output is in fact deterministic, but has the characteristics of randomness.

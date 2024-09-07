@@ -6,13 +6,13 @@ A wiki on Physics, Mathematics and all.
 
 You can start from here:
 
-[[Projects/Solid State Physics/Solid State Physics|Solid State Physics]]
+[[Zettelkasten/Master's degree/Solid State Physics/Solid State Physics|Solid State Physics]]
 
-[[Zettelkasten/Introduction to Nanophysics/Introduction to Nanophysics|Introduction to Nanophysics]]
+[[Zettelkasten/Master's degree/Introduction to Nanophysics/Introduction to Nanophysics|Introduction to Nanophysics]]
 
-[[Zettelkasten/Basic Mathematics/Basic Mathematics|Basic Mathematics]]
+[[Zettelkasten/Master's degree/Basic Mathematics/Basic Mathematics|Basic Mathematics]]
 
 [[Projects/Equilibrium Statistical Mechanics/Equilibrium Statistical Mechanics|Equilibrium Statistical Mechanics]]
 
-[[Zettelkasten/Models of Theoretical Physics/Models of Theoretical Physics|Models of Theoretical Physics]]
+[[Zettelkasten/Master's degree/Models of Theoretical Physics/Models of Theoretical Physics|Models of Theoretical Physics]]
 

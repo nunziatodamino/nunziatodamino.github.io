@@ -26,9 +26,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "18100dd5ef29d8f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Computational methods for Material science/Ab initio Quantum Mechanics/Program.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,7 +118,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Projects/Computational methods for Material science/Ab initio Quantum Mechanics/Kohn-Sham equations.md",
+            "file": "Projects/Computational methods for Material science/Ab initio Quantum Mechanics/Program.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -123,7 +135,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Projects/Computational methods for Material science/Ab initio Quantum Mechanics/Kohn-Sham equations.md",
+            "file": "Projects/Computational methods for Material science/Ab initio Quantum Mechanics/Program.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -135,7 +147,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Projects/Computational methods for Material science/Ab initio Quantum Mechanics/Kohn-Sham equations.md"
+            "file": "Projects/Computational methods for Material science/Ab initio Quantum Mechanics/Program.md"
           }
         }
       },
@@ -161,8 +173,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b1c8c24c85a4dc43",
+  "active": "18100dd5ef29d8f9",
   "lastOpenFiles": [
+    "Projects/Computational methods for Material science/Ab initio Quantum Mechanics/Kohn-Sham equations.md",
     "Projects/Computational methods for Material science/Ab initio Quantum Mechanics/Hartree-Fock theory.md",
     "Projects/Computational methods for Material science/Computational methods for Material science.md",
     "Projects/Vathek.md",
@@ -191,7 +204,6 @@
     "Zettelkasten/Basic Mathematics/Autonomous system.md",
     "Projects/Progetto Uni 1° semestre/Models of Theoretical Physics/Diffusion process in 1D - PDE resolution.md",
     "Projects/Progetto Uni 1° semestre/Models of Theoretical Physics/Characteristic function.md",
-    "Projects/Progetto Uni 1° semestre/Models of Theoretical Physics/Reaction rate of an irreversible chemical reaction.md",
     "Proof of the Kramers-Kronig relations_231104_095654.pdf",
     "Approfondimenti/Calculations/The Sokhotski-Plemelj formula_231103_172040.pdf",
     "The Sokhotski-Plemelj formula_231103_172040.pdf",

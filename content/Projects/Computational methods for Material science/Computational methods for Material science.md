@@ -1,4 +1,4 @@
-%% Begin Waypoint %%
+{7%% Begin Waypoint %%
 - **Ab initio Quantum Mechanics**
 	- [[Density functional theory]]
 	- [[Functional derivative]]
@@ -19,5 +19,8 @@
 	- [[Translational order parameter]]
 	- [[Velocity correlation function]]
 	- [[What the pair distribution function tells us about a system]]
+- **Numerical methods**
+	- [[Floating point representation]]
+	- [[On the ambiguity of the adjective ''self-consistent'']]
 
 %% End Waypoint %%

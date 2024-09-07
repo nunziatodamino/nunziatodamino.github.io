@@ -2,7 +2,7 @@ Sometimes we are interested in the following question.
 What is the probability of a particle to not suffer any interaction in a distance $x$ ?
 In order to answer this question we can use the results derived in [[Probability of collision in a slab of thickness dx]]. Suppose we call $\bar{\mathbb{P}}(x+dx)$ the probability to not have any interaction between $x$ and $x+dx$, and consequently we call  $\mathbb{P}(x+dx)$ the probability to have any interaction between $x$ and $x+dx$
 
-We also suppose that the process starts from $x_0$. Assuming a Markov's process we use the the [[Markov's process|Markov chain property]] to write:
+We also suppose that the process starts from $x_0$. Assuming a Markov's process we use the the [[Zettelkasten/Master's degree/Models of Theoretical Physics/Markov's process|Markov chain property]] to write:
 
 $$\bar{\mathbb{P}}(x+dx|x_0) = \bar{\mathbb{P}}(x+dx|x)\bar{\mathbb{P}}(x|x_0) $$
 
@@ -14,7 +14,7 @@ So that one has:
 
 $$\bar{\mathbb{P}}(x+dx|x_0) = (1-\mathbb{P}(x+dx|x))\bar{\mathbb{P}}(x|x_0) $$
 
-Now we do something similar to what we saw in the [[Transition rate]] definition. We can define $\mathbb{P}(x+dx|x)\equiv w dx$ , so that one has:
+Now we do something similar to what we saw in the [[Zettelkasten/Master's degree/Models of Theoretical Physics/Transition rate]] definition. We can define $\mathbb{P}(x+dx|x)\equiv w dx$ , so that one has:
 
 $$\bar{\mathbb{P}}(x+dx|x_0) = (1-w dx)\bar{\mathbb{P}}(x|x_0) \qquad \iff \frac{d\bar{\mathbb{P}}(x|x_0)}{dx}=-w $$
 

@@ -1,0 +1,1 @@
+Review only what’s become relevant; Now my answer is simple but if you’re using Zettelkasten method it’s all you need to do since your notes are interconnected via their contexts.
