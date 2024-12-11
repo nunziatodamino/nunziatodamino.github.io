@@ -25,9 +25,9 @@
 	- [[Wigner-Seitz Cell]]
 	- [[Zincblende and Wurtzite]]
 - **Electron dynamics**
-	- [[Approach to the electron dynamics - the one electron aprroximation]]
+	- [[Approach to the electron dynamics - the one electron approximation]]
 	- [[Band theory]]
-	- [[Bloch's Theorem]]
+	- [[Bloch Theorem]]
 	- [[Consideration on the effective mass]]
 	- [[Difference between intraband and interband transitions]]
 	- [[Difference between metal and insulator according to band theory]]
@@ -66,6 +66,7 @@
 - **Lattice dynamics**
 	- [[Anharmonic effects in solids]]
 	- [[Connection between heat conductivity and heat capacity for phonons]]
+	- [[Examples in evaluating particular vibrational density of states]]
 	- [[Finite monoatomic linear chain]]
 	- [[Gruneisen parameter evaluation for a linear monoatomic chain]]
 	- [[Heat capacity in solids due to lattice vibrations - Classical treatment]]
@@ -89,7 +90,6 @@
 	- [[The Gruneisen parameter]]
 	- [[The harmonic approximation]]
 	- [[The long wavelength limit in a monoatomic 3D harmonic crystal]]
-	- [[Vibrational density of states]]
 - **Miscellanea**
 	- [[Density of states]]
 	- [[Fundamental constants and typical values in material for important quantities in Solid State Physics]]
@@ -97,7 +97,6 @@
 	- [[polarizzazione- fotoni contro fononi]]
 	- [[Verità sui fononi]]
 - **Semiconductors**
-	- [[Charge neutrality in a doped semiconductor]]
 	- [[Effect on the energy bands of doping in semiconductors]]
 	- [[Extrinsic or inhomogeneous semiconductor]]
 	- [[Intrinsic or homogeneous semiconductor]]

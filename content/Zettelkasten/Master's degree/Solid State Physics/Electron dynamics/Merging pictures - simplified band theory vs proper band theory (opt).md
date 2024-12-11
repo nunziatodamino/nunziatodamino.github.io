@@ -1,6 +1,6 @@
 When searching for band theory it's extremely probable that images of the following kinds appears
 
-![[Immagini/Merging pictures - ''blocky'' band theory vs proper band theory-1.png|300]]![[Immagini/Merging pictures - ''blocky'' band theory vs proper band theory-2.png|300]]
+![[Images/Merging pictures - ''blocky'' band theory vs proper band theory-1.png|300]]![[Images/Merging pictures - ''blocky'' band theory vs proper band theory-2.png|300]]
 
 These images are extremely different from the one derived, say, in [[Zettelkasten/Master's degree/Solid State Physics/Electron dynamics/Tight binding calculation to an s-band arising from a single atomic s-level in a cubic lattice|Tight binding calculation to an s-band arising from a single atomic s-level in a cubic lattice]] , [[Zettelkasten/Master's degree/Solid State Physics/Electron dynamics/Free electrons (Empty lattice) via the central equation in 1 dimension|Free electrons (Empty lattice) via the central equation in 1 dimension]] or [[Zettelkasten/Master's degree/Solid State Physics/Electron dynamics/Quasi-free electrons via the central equation in 1 dimension|Quasi-free electrons via the central equation in 1 dimension]].
 
@@ -25,12 +25,12 @@ We know try to merge the different schemes.
 
 ### Simplified band theory vs. Electron energy dispersion curves
 
-![[Immagini/Merging pictures - simplified band theory vs proper band theory.png|500]]
+![[Images/Merging pictures - simplified band theory vs proper band theory.png|500]]
 
 The idea is simple: given that in a typical material sample (in our previous sample we estimated to be $\sim 1\ \text{cm}^3$) we have that the distance between each possible allowed $k$ value is $\sim 10^{-22}$ , also the energies will be distanced by the same amount, leaving in fact a range of energy that the electron can occupy. (even if in reality energy is discretized, not continuous)
 
 ### Simplified band theory vs. Tight binding scheme
 
-![[Immagini/Merging pictures - simplified band theory vs proper band theory-1.png]]
+![[Images/Merging pictures - simplified band theory vs proper band theory-1.png]]
 
 Same reasoning applies to the tight binding scheme, while in this case is more clear the role of the valence and the conduction band.

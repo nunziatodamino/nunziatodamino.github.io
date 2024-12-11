@@ -7,7 +7,7 @@ The idea is to calculate the number density of electrons $n^0_d$, (or holes $n^0
 
 $$ n^0_d = N_d\braket{n_e} \qquad n^0_a = N_a\braket{n_h}  $$
 
-We use this notation in function of what we will see in [[Zettelkasten/Master's degree/Solid State Physics/Semiconductors/Charge neutrality in a doped semiconductor|Charge neutrality in a doped semiconductor]]
+We use this notation in function of what we will see in [[Projects/Physics of semiconductors/General doping/Charge neutrality in a doped semiconductor|Charge neutrality in a doped semiconductor]]
 ### Donor case 
 
 If we ignored electron-electron interactions the level could either be empty, could contain one electron of either spin, or two electrons of opposite spins. 

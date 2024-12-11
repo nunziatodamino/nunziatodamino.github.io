@@ -23,7 +23,7 @@ $$A(R) = A_{\infty} \left( 1+ \frac{C_R}{R^\alpha} \right) \qquad C_R \in \mathb
 
 With the same consideration. We also offer a plot of the latter equation:
 
-![[Pasted image 20230304102658.png|300]]
+![[Images/Pasted image 20230304102658.png|300]]
 
 A detailed account on temperature size effects is given [[Zettelkasten/Master's degree/Introduction to Nanophysics/Approfondimenti/Thermodynamic size effect (TSE)|here]] .
 

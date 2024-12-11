@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: xadnk-pudf2
+created: 2024-09-26T17:51:28+02:00

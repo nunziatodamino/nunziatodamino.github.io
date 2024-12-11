@@ -14,7 +14,7 @@ We then obtain, according to dimensionality : (notice that the given formula is 
 - 3D:    $D(E) = \frac{V}{2\pi^2} \left(\frac{2m}{\hbar^2}\right)^{3/2} \sqrt{E}$
 
 
-![[Pasted image 20230203123324.png|300]]
+![[Images/Pasted image 20230203123324.png|300]]
 
 It is also possible to derive an expression that is independent of the system's dimensionality if we know the number of electrons in the system with energy lower than $E$. 
 By using the density of states definition, we have:

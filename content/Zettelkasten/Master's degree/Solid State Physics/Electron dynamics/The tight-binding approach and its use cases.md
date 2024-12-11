@@ -6,7 +6,7 @@ Moreover we must agree that these localized electrons description must not diffe
 Let's take the example of sodium. Let's start by 2 isolated atoms and then we put them together at the typical lattice constant of a BCC sodium crystal.
 
 
-![[Immagini/The tight-binding approach and its use cases.png|400]]
+![[Images/The tight-binding approach and its use cases.png|400]]
 
 We have that up to the $2p$ curves we have essentially no overlap, so there is no significant deviation from the isolated atom description.
 For the case of the $3s$ orbitals, we have a definite orbital, so that the isolated atom description is wrong and a linear combination of the orbitals must be used.

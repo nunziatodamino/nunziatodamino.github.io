@@ -31,7 +31,7 @@ $$
 
 This form is valid only if one find the 3 principal axis for the solid in question in which the mass effective tensor is diagonal. We report them in the following for the principal homogeneous semiconductor, i.e. silicon and germanium:
 
-![[Immagini/Typical semiconductor band structure_silicon.png|400]]
+![[Images/Typical semiconductor band structure_silicon.png|400]]
 
-![[Immagini/Typical semiconductor band structure_germanium.png|400]]
+![[Images/Typical semiconductor band structure_germanium.png|400]]
 

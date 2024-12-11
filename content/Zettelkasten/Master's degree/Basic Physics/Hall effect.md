@@ -2,7 +2,7 @@ Let's consider a current flowing in a conductor. Then if this conductor is immer
 Yet we observe a force on the whole conductor, of electric nature.
 Let's consider the situation in figure. 
 
-![[Hall effect.png|300]]
+![[Images/Hall effect.png|300]]
 
 (a) We start with a conducting slab in which a current $\bar{J}=\sigma \bar{E}=\rho \bar{v}$ is established. The electron will then move in the opposite direction of the electric field.
 (b) We then turn on a magnetic field $\bar{B}$ perpendicular to the slab. Then the electrons will experience a Lorentz force that forces them on the bottom of the plate, leading to a charge separation and thus to the formation of an electric field inside the material.

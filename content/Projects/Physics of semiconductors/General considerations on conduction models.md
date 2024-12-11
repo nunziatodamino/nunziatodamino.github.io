@@ -1,0 +1,2 @@
+One electron model (independent electrons approximations), is generally sufficient for the description of most semiconductors.
+Only in the case of high doping interaction terms become relevant but in that case one just adds a correction term in the one electron in the hamiltonian instead of doing it in the proper way.

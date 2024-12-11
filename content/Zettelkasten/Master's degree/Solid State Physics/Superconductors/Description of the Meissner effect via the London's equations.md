@@ -1,5 +1,5 @@
 
-![[Immagini/Description of the Meissner effect via the London's equations.png|300]]
+![[Images/Description of the Meissner effect via the London's equations.png|300]]
 
 Suppose to have a semi-infinite superconductor as in figure, and an homogeneous (constant magnitude and direction over the entire region of interest) magnetic field $\bar{B}=(0,B_{0y},0)$ in the vacuum part ($x<0$) and we don't know how this field behaves inside the material.
 

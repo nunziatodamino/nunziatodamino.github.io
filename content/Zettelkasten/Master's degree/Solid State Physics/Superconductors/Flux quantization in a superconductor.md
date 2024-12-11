@@ -5,7 +5,7 @@ The temperature is decreased below $T_c$ and the field lines are expelled from t
 
 We can show by that the magnetic flux enclosed by the ring is quantized.
 
-![[Immagini/Flux quantization in a superconductor.png|500]]
+![[Images/Flux quantization in a superconductor.png|500]]
 
 We consider a path $\gamma$ encircling the aperture of the ring as in the picture. We consider now the Maxwell's equation $\nabla \times \bar {H}=\bar{J}$ in its integral form. Considering that we have no magnetic field inside the material due to [[Zettelkasten/Master's degree/Solid State Physics/Superconductors/Meissner-Ochsenfeld effect|Meissner-Ochsenfeld effect]] we obtain:
 

@@ -55,7 +55,7 @@ That at the Brillouin zone border (where $k^2 \simeq |\bar {k}-\bar{G}|^2$, and 
 
 $$ \Delta E_{\text{BZ border}} = 2|V_{G}| $$
 
-![[Immagini/Quasi-free electrons via the central equation in 1 dimension.png|300]]
+![[Images/Quasi-free electrons via the central equation in 1 dimension.png|300]]
 
 #### Far from Brillouin zone border
 

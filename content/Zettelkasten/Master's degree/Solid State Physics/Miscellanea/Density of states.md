@@ -1,4 +1,13 @@
-Understanding the concept of density of states is essential in the framework of Solid State Physics. We can provide a general mathematical discussion, but it might be simpler to first explain the density of states in the two forms we encounter (vibrational and electronic).
+Understanding the concept of density of states is essential in the framework of Solid State Physics. We can provide a general mathematical discussion, but it might be simpler to first explain the density of states in the two forms we encounter, 
+
+
+
+
+
+
+
+
+
 
 ### Phonon Density of States
 
@@ -24,7 +33,7 @@ corresponding degeneracy.
 #### Note on Counting
 
 Let's see how the counting is performed based on the previous definition:
-![[density of states.png]]
+![[Images/density of states.png]]
 
 We take the dispersion relation, choose an interval $[\omega, \omega +d\omega]$ (the yellow strip), and count the number of points (states) within it.
 Finally, we divide this number by the width of the strip ($d\omega$) to obtain the density of states at the value $\omega$.
@@ -43,5 +52,5 @@ With this view, it is possible to obtain an analytical expression for the densit
 
 $$g_s(\omega) = \frac{V}{(2 \pi)^3} \int_{\text{shell}} dS_{\omega} \frac{1}{\nabla_{\bar{k}}(\omega_s(\bar{k}))} $$
 
-For a proof, refer to [[Zettelkasten/Master's degree/Solid State Physics/Lattice dynamics/Vibrational density of states]]
+For a proof, refer to [[Zettelkasten/Master's degree/Solid State Physics/Lattice dynamics/Examples in evaluating particular vibrational density of states]]
 [[Zettelkasten/Master's degree/Solid State Physics/Electron dynamics/Electronic density of states]]

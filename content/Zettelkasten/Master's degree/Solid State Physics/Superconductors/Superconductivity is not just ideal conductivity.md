@@ -4,7 +4,7 @@ We now show in the following that this is wrong, based on phenomenological fact,
 
 **Moreover we make the observation that, if the superconductor state would be just an ''ideal conductor'' state, it would not be a thermodynamic state**.
 
-![[Immagini/Superconductivity is not just ideal conductivity.png|500]]
+![[Images/Superconductivity is not just ideal conductivity.png|500]]
 
 **We show in the following that a superconductor cannot be described by the Maxwell's equation with the additional constraint that when $T<T_c$ the resistance tends to 0.**
 

@@ -5,7 +5,7 @@ $$  \varepsilon_r \equiv \varepsilon(\omega)= 1-\frac{\omega_P^2}{\omega^2+i\gam
 
 Splitted in the real and imaginary part.
 
-![[Pasted image 20230520120852.png]]
+![[Images/Pasted image 20230520120852.png]]
 
 We observe a good agreement for energies $<3\ eV$ in both spectra (energy  typical of the visible range) whereas in the region $> 3 \ eV$ the agreement is poor (energy typical of the near UV range).
 The problem stands in the fact that the Drude model does not consider the contribution to the polarization of the electrons (the bounded electrons, which are typical of metals) and just focus on the free electrons, which are coming from the outer most shell in the atomic configuration.

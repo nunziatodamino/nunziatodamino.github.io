@@ -1,6 +1,6 @@
 Suppose we want to describe an isolated system (this automatically implies that the number of particles $N$ is fixed) where the energy $E$ and the volume $V$ are fixed.
 Let's see, from an ensemble point of view, the effect of this restriction with an example first.
-![[NVE.png | 300]]
+![[Images/NVE.png| 300]]
 Suppose to have, at time $t$, an ensemble with no energy constraint. We will have that all the possible points in the phase space, i.e. the microstates, are available.
 Now we fix an energy between $E$ and $E+ \Delta$. We see that only the microstates in the plotted shells are available to the ensemble. We make then the following remark.
 Restricting the energy to a certain gap implies that, other than the energy, we are fixing particular positions in the phase space for the microstates, so that one can say that to fix a certain energy means to fix the generalized coordinates of the microstates $\mathbb{q}$ in the phase space.

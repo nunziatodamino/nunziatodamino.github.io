@@ -1,4 +1,4 @@
-![[The DONE Manifesto.png]]
+![[Images/The DONE Manifesto.png]]
 
 **The Cult of Done Manifesto**
 

@@ -1,4 +1,4 @@
-We want to prove [[Zettelkasten/Master's degree/Solid State Physics/Electron dynamics/Bloch's Theorem|Bloch's Theorem]].
+We want to prove [[Zettelkasten/Master's degree/Solid State Physics/Electron dynamics/Bloch Theorem|Bloch Theorem]].
 We begin by expanding the eigenstate of the Hamiltonian in Fourier series.
 Despite the eigenstate not being periodic, we can use the following fact: any function that satisfies the Born-von Karman conditions can be expanded in a basis of plane waves subject to the same periodic condition. (This in fact makes the functions artificially periodic)
 These plane waves are of the form $\varphi(\bar{r}) = e^{i\bar{q}\cdot\bar{r}}$, where $\bar{q}$ is a wavevector that satisfies the conditions described in [[Zettelkasten/Master's degree/Solid State Physics/Electron dynamics/Wavevectors discretisation in the band model|Wavevectors discretisation in the band model]].
@@ -41,7 +41,7 @@ $$\bar{q} = \bar{k} - \bar{G}$$
 
 Where $\bar{k}$ lies in the first Brillouin zone, and $\bar{G}$ lies in the reciprocal space. This decomposition can always be found (or also the equivalent $\bar{q} = \bar{k}' + \bar{G}$, where respect to the precedent decomposition $\bar{k}' = \bar{k}$ ) as seen in the particular example shown in the picture for the reciprocal space of a square lattice:
 
-![[Immagini/The central equation as a proof of the Bloch theorem.png|300]]
+![[Images/The central equation as a proof of the Bloch theorem.png|300]]
 
 We hence find:
 
@@ -88,7 +88,7 @@ $$ \Psi_{\bar{k}}(\bar{r}) =\sum_{\bar{q}}C_{\bar{q}} e^{i\bar{q}\cdot\bar{r}} =
 
 Notice that we go from $\sum_{\bar{q}} \to \sum_{\bar{G}}$ because given 2 different $\bar{q}$ 's I can fix the same $\bar{k}$ in the $1^{st}$ BZ and find 2 different $\bar{G}$ 's that give the different $\bar{q}$ 's (see picture): 
 
-![[Immagini/The central equation as a proof of the Bloch theorem 1.png|200]]
+![[Images/The central equation as a proof of the Bloch theorem 1.png|200]]
 
 But if I consider:
 

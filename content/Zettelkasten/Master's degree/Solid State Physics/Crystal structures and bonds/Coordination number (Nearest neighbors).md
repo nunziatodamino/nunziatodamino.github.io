@@ -3,4 +3,4 @@ Due to the periodicity of the lattice, this number does not depend on the atom c
 
 Note that in literature coordination numbers tables exists only for types of bonds:
 
-![[Coordination number (Nearest neighbors).png|300]]
+![[Images/Coordination number (Nearest neighbors).png|300]]

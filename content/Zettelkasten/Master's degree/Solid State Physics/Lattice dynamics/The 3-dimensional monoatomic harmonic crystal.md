@@ -53,7 +53,7 @@ $$\sum_{\bar{R}}D(\bar{R}) e^{-i(\bar{k} \cdot \bar{R}) } = D(\bar{k})$$
 The so called dynamical matrix.
 We spend some lines in order to justify the the fact that the summation index changed, by taking as example the square lattice.
 
-![[Pasted image 20230907124711.png|200]]
+![[Images/Pasted image 20230907124711.png|200]]
 
 Considering that $\bar{R}$ is fixed. we see that summing over $\bar{R}'$ is the same as summing over $\bar{R}''$. The only thing that changes is the origin of the vector, but because a Bravais lattice is invariant under translation, i.e. because I have to sum over all the atoms, this is irrelevant, and we can change the summation.  
 

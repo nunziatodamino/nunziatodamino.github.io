@@ -22,7 +22,7 @@ tags:
 wisdom, remove things every day.  
 —Lao Tzu, ancient Chinese philosopher
 
-![[tempFileForShare_20230920-214746.jpg|500]]
+![[Images/tempFileForShare_20230920-214746.jpg|500]]
 
 - As knowledge workers, attention is our most scarce and precious resource.
 

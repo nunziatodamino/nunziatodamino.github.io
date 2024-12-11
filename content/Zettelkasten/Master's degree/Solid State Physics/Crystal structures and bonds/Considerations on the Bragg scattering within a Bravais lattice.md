@@ -1,6 +1,6 @@
 We want to study the condition for which 2 incoming photons ==non è per le onde in generale ?== makes constructive interference inside a [[Zettelkasten/Master's degree/Solid State Physics/Crystal structures and bonds/Bravais lattice|Bravais lattice]].
 
-![[Pasted image 20230213162454.png|400]]
+![[Images/Pasted image 20230213162454.png|400]]
 
 For wave 1 and wave 2 to interfere constructively, the difference in their optical paths (highlighted in red in the figure) must be an integer multiple of wavelengths:
 
@@ -42,4 +42,4 @@ $$ \bar{k} \cdot \bar{G} = \frac{G^2}{2}\ \iff\ \bar{k} \cdot \hat{G} = \frac{G}
 
 This last result permits us to give an interesting geometrical interpretation of the Bragg condition, i.e. a wave will make Bragg scattering in a crystal if its $\bar{k}$ plotted in the crystal reciprocal space touches to border of the first Brillouin zone.
 
-![[Pasted image 20230214095856.png|400]]
+![[Images/Pasted image 20230214095856.png|400]]

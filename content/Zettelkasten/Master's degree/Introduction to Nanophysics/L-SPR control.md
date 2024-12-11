@@ -17,12 +17,12 @@ We study in this section the L-SPR control of nanoparticles which doesnt' intera
 In an approach to the Mie theory in which the dielectric function is size dependent, I expect to have the Frohlich condition also to be size dependent, so that one expect different extinction cross sections for different radiuses.
 Let's plot here the results for a gold nanoparticle in a silica matrix for different radiuses while restricting ourselves to the dipolar approximation first:
 
-![[Pasted image 20230704161319.png|300]]![[Pasted image 20230704161454.png|300]]
+![[Images/Pasted image 20230704161319.png|300]]![[Images/Pasted image 20230704161454.png|300]]
 
 We see here the same results reported twice, one where we plot the cross section, and one where we plot the efficiencies. We see that there is no great variation in the Frohlich resonance condition while in dipole approximation, i.e. $R<<\lambda$.
 Let's now see the result for bigger particles, where the multipolar expansion is essential in the treatment:
 
-![[Pasted image 20230704162427.png|300]]![[Pasted image 20230704162450.png|300]]
+![[Images/Pasted image 20230704162427.png|300]]![[Images/Pasted image 20230704162450.png|300]]
 
 We see now a clear peak redshift and broadening, where also the maximum diminishes.
 Also we cannot distinguish a single Frohlich peak, but must resort to a more detailed analysis using the full Mie theory.
@@ -34,7 +34,7 @@ In order to describe the phenomenon one can resort to the Gans theory ([[Zettelk
 Note that this theory is based on the dipolar approximation, so in the visible range is applicable only to smaller size particles.
 We obtain as result the following:
 
-![[Pasted image 20230527123237.png|400]]
+![[Images/Pasted image 20230527123237.png|400]]
 
 So that when the NP eccentricity rises we have a peak redshift and a maximum rise, while conserving in proportion the original Frohlich resonance peak.
 
@@ -44,7 +44,7 @@ Let's consider the following problem: we have a plasmonic material $A$ with its 
 How the spectrum of the alloy $A_xB_{1-x}$ is related to the pure spectra ?
 Let's consider the case for gold and silver:
 
-![[Pasted image 20230704164330.png|400]]
+![[Images/Pasted image 20230704164330.png|400]]
 
 We can conclude that generally if the 2 starting material are good plasmonic materials, i.e. have defined peaks, one can expect a sort of a peak average depending on the stochiometric fraction.
 
@@ -52,11 +52,11 @@ We can conclude that generally if the 2 starting material are good plasmonic mat
 
 We propose the following experimental results for silver:
 
-![[Pasted image 20230527175709.png|400]]
+![[Images/Pasted image 20230527175709.png|400]]
 
 We are just changing the refractive index in which the NP's are embedded (done by changing the matrix) . If we plot the $\lambda_{SPR}$ versus the refractive index we obtain the following:
 
-![[Pasted image 20230527180041.png|400]]
+![[Images/Pasted image 20230527180041.png|400]]
 
 So that in general we can say that $\lambda_{SPR}$ is a quadratic function of the refractive index, where the coefficents are obtained by experimental methods:
 
@@ -71,11 +71,11 @@ $$ S = \frac{\partial \lambda_{SPR}}{\partial n} = 2b_2n+b_1  $$
 
 We propose the following experimental results for a core-shell system composed by silver core and an air shell:
 
-![[Pasted image 20230527180840.png|400]]
+![[Images/Pasted image 20230527180840.png|400]]
 
 If we plot the $\lambda_{SPR}$ versus the shell thickness we obtain the following:
 
-![[Pasted image 20230527181117.png|400]]
+![[Images/Pasted image 20230527181117.png|400]]
 
 Again one can obtain by fitting an analytical expression for the resonance wavelength:
 
@@ -110,7 +110,7 @@ $$\frac{\varepsilon_{eff}-\varepsilon_m}{\varepsilon_{eff}+2\varepsilon_m} = f\f
 
 If we now consider the extinction cross section for different values of the filling fraction $f$, we obtain the following experimental results for gold:
 
-![[Pasted image 20230529145240.png|400]]
+![[Images/Pasted image 20230529145240.png|400]]
 
 So that we can say that raising the filling fraction make us observe a redshift in the spectrum and a raise in the maximum value.
 

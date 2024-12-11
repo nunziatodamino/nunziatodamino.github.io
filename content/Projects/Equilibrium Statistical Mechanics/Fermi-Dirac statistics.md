@@ -36,7 +36,7 @@ Leading to the conclusion that the chemical potential coincides with the Fermi e
 
 As the temperature is raised we see a deviation from the Heaviside function, the function becomes a sigmoid curve, exhibiting what is a phenomenon known as "level repulsion", i.e. the electrons with energy slightly below the Fermi energy $(\Delta E \sim k_B T)$ tends to populate the levels slightly above the Fermi energy (same energy delta)
 
-![[Fermi-Dirac statistics_RAISING T.png|500]]
+![[Images/Fermi-Dirac statistics_RAISING T.png|500]]
 
 Is of interest to estimate the number of electrons that participates at the level repulsion for a given value of temperature $T$. One can prove that
 

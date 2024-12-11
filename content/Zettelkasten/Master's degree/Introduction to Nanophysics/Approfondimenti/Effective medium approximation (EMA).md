@@ -2,7 +2,7 @@ Suppose we have a sample in which spherical nanoclusters are dispersed.
 In the treatment given in [[Zettelkasten/Master's degree/Introduction to Nanophysics/Approfondimenti/Mie theory - Dipolar approximation]] we implied that the distance between clusters is such that the dipolar interaction between them is negligible.
 Of course this is not always the case, and we need a theory to describe the mutual interaction between nanoparticles upon interaction with an EM wave.
 
-![[Pasted image 20230529102511.png|600]]
+![[Images/Pasted image 20230529102511.png|600]]
 
 We will present here 2 approaches, one described in detail, and one just briefly stated, but either way the idea behind them is the same : we want to substitute the inhomogeneous dielectric function surrounding the cluster with an homogeneous one.
 
@@ -23,7 +23,7 @@ $$ \bar{P} = \rho \bar{p}_{loc} = \rho\varepsilon_0\alpha\bar{E}_{loc}  $$
 Where $\rho$ is the NP's concentration and $\alpha$ is the polarizability.
 The presence of this polarization leads to an electric field that can be evaluated by the following:
 
-![[Pasted image 20230529105323.png|300]]
+![[Images/Pasted image 20230529105323.png|300]]
 
 $$ E_P = k_e \iint_{\Sigma} \frac{\sigma \cos \vartheta d\Sigma}{r^2}  k_e \iint_{\Sigma} \frac{\bar{P} \cdot \hat{n} \cos \vartheta d\Sigma}{r^2} =  k_e \iint_{\Sigma} \frac{P \cos^2 \vartheta d\Sigma}{r^2} = k_e \iint_{\Omega} {P \cos^2 \vartheta d\Omega} =  $$
 
@@ -69,7 +69,7 @@ For higher f we a natural redshift of the resonance peak, so that we can conside
 ==Moreover the magnitude of the filling fraction can establish if our system can described by the indipendent particle approximation.
 As a rule of thumb, if $f<0.1$ one can still get a very good description of optical properties of the system by just using the independent particle approximation==
 
-![[Pasted image 20230529145240.png|500]]
+![[Images/Pasted image 20230529145240.png|500]]
 
 If $f\to 1$ Maxwell-Garnett theory does not reproduce well experimental results, and we must resort to a more sophisticated theory.
 

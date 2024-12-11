@@ -17,11 +17,11 @@ We have different way of visualize them.
 The first way is called **extended scheme**, in which we plot all the parabolas as stated in the equation:
 
 
-![[Immagini/Quasi free electrons via the central equation in 1 dimension_2.png|300]]
+![[Images/Quasi free electrons via the central equation in 1 dimension_2.png|300]]
 
 Now, given that for a given value of $E$ we have multiple equal value, all correspondent to $\bar{k}$ values differing from one another up to a reciprocal space vector $\bar{G}$, we can plot all the values in the first Brillouin zone without losing information:
 
-![[Immagini/Quasi free electrons via the central equation in 1 dimension.png|300]]
+![[Images/Quasi free electrons via the central equation in 1 dimension.png|300]]
 
 This way of showing the energy is called **reduced scheme** and is the preferred way in literature.
 

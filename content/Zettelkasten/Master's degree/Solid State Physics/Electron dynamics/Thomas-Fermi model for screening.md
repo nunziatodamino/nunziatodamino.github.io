@@ -7,7 +7,7 @@ Suppose a positive charge is introduced in a solid.
 Then the neighboring electrons will surround the positive charge, leading to local change in potential per electron $\delta V$. We also assume this perturbation is small, i.e. $|e\delta V|<<E_F$.
 Let's now consider the density of states of the neighboring electrons. This will shift of a quantity $e\delta  V$, because we are assuming that every neighboring gains the same energy.
 
-![[Thomas-Fermi model for screening.png|300]]
+![[Images/Thomas-Fermi model for screening.png|300]]
 
 So there will be $\delta n$ electrons above the Fermi energy level. Considering that the Fermi energy is a state function, and we are at thermal equilibrium, the system must conserve its Fermi energy, so that these $\delta n$ electrons must lose energy.
 One can evaluate this number by using the following approximation:
@@ -47,4 +47,4 @@ In this form is clear that the potential decays exponentially governed by the de
 As in these cases we can say that in $\sim 3 \lambda_{TF}$ the function is $\sim 0$.
 We now see in a plot the difference between the un-screened and screened potentials:
 
-![[Thomas-Fermi model for screening_potentials.png|400]]
+![[Images/Thomas-Fermi model for screening_potentials.png|400]]

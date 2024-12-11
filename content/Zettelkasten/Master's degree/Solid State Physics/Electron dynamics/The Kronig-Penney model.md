@@ -5,7 +5,7 @@ In the limit in which $b\to 0$, $V_0 \to +\infty$ and the product $bV_0$ remains
 
 $$V(x) = -V_0b \sum_{n=-\infty}^{+\infty} \delta(x-na)$$
 
-![[Immagini/The Kronig-Penney model_image.png|400]]
+![[Images/The Kronig-Penney model_image.png|400]]
 
 In order to solve the periodic problem one must remember how to tackle the Dirac delta potential problem, which we restate here with its main feature:
 In a system subject to the potential $V(x) = -\alpha\delta(x)$, with $\alpha>0$ (delta potential well) one has the following Schrodinger equation, in the neighborhood of the $x=0$ position, and radius, say, $\epsilon$:
@@ -113,15 +113,15 @@ $$  \cos(qa) = \cos(ka)+P\frac{\sin(ka)}{ka} \qquad P\equiv\frac{m\alpha a}{k\hb
 
 This equation implies a band structure for our system. This because the LHS is bounded between $(-1,+1)$, so that also the RHS must be. But this implies that only selected $k$ can be admissible for our system , and therefore, only selected $E(k)=\frac{\hbar^2k^2}{2m}$ (the energy expression is simply obtained by inverting the $k$ expression in the solution). We show here a plot that show the RHS plotted for a specific value of $P$. We see that the RHS lies within the bounds only when evaluated on the bold lines.
 
-![[Immagini/The Kronig-Penney model_compatibility.png|500]]
+![[Images/The Kronig-Penney model_compatibility.png|500]]
 
 And consequently the graph of $E(\bar{k})$ restricted in the first Brillouin zone 
 
-![[Immagini/The Kronig-Penney model_bands.png|500]]
+![[Images/The Kronig-Penney model_bands.png|500]]
 
 Of course is striking the resemblance with the bands obtained in the [[Zettelkasten/Master's degree/Solid State Physics/Electron dynamics/Free electrons (Empty lattice) via the central equation in 1 dimension|Free electrons (Empty lattice) via the central equation in 1 dimension]] and the [[Zettelkasten/Master's degree/Solid State Physics/Electron dynamics/Quasi-free electrons via the central equation in 1 dimension|Quasi-free electrons via the central equation in 1 dimension]] method. The main control parameter is the adimensional parameter $P$. A low $P$ correspond to a situation similar to the empty lattice bands, while an high $P$ corresponds to a situation similar to the quasi-free bands (shown here in half Brillouin zone):
 
-![[Pasted image 20230212123053.png|300]]
+![[Images/Pasted image 20230212123053.png|300]]
 
 
 The last presented picture seems in contrast with the one present below, because present an energy band below 0, while the former doesn't. 

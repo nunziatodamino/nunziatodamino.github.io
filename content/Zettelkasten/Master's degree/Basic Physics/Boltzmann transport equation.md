@@ -1,6 +1,6 @@
 https://en.wikipedia.org/wiki/Boltzmann_equation
 
-![[Boltzmann transport equation.png|500]]
+![[Images/Boltzmann transport equation.png|500]]
 
 ## K-space formulation
 

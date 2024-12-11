@@ -1,5 +1,0 @@
-We want to measure the voltage-current characteristic in a device operating with a hot cathode in vacuum, i.e. we have an electron source due to [[Thermoionic emission]] (hot cathode), and these electrons are accelerated through a tension $V$. Then a current density $J$ is collected and measured.
-We want to establish the functional form of this current respect to the tension.
-
-From [[The plane diode model]] we expect that the answer is the Child's law, but in its derivation we implicitly assumed that there is no upper bound for the thermoionic electrons, while there is, due to [[Thermoionic emission|Richardson's law]] (notice that the voltage parameter governing the thermoionic emission is different from the one that is responsible for the current collecting).
-So in the graph we will observe that in the first part there will be a zone where the current is described by the Child's law, while after a certain voltage a saturation will be reached, due to the upper bound posed by the Richardson's law

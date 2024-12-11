@@ -1,7 +1,7 @@
 We set the following experiment, we study the $\sigma_{ext}$ for different materials (in a real experimental setting we will obtain rather the absorbance, which is proportional) all embedded in silica, and all with size $R=\pu{5 nm}$.
 We obtain the following:
 
-![[Pasted image 20230527103804.png|400]]
+![[Images/Pasted image 20230527103804.png|400]]
 
 In each peak is highlighted the wavelength in which we have the Frolich condition.
 

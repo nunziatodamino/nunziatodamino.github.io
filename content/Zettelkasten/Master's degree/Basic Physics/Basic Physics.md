@@ -2,7 +2,7 @@
 - [[2 identical particle system in QM - exchange degeneracy]]
 - [[A note on waves]]
 - [[Absorption spectrum]]
-- [[Aufbau's Principle (Filling of Electron Orbitals).]]
+- [[Aufbau Principle (Filling of Electron Orbitals).]]
 - [[Boltzmann transport equation]]
 - [[Bosons and fermions - the symmetrization postulate]]
 - [[Classic Thermodynamics]]

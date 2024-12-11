@@ -19,7 +19,7 @@ I modi normali di un cristallo si contano per CELLA UNITARIA.
   - cristallo biatomico 3-d (e.g. reticolo cubico più base con 1 elemento)
  2 atomi per cella unitaria
  3 modi normali per atomo, per un totale di 6 di cui 3 acustici (quelli per cui $k \to 0 \Rightarrow \omega \to 0$)
-![[DOS_fononi_3_dimensioni.png]]
+![[Images/DOS_fononi_3_dimensioni.png]]
 In questo caso la direzione $[1,1,1]$  mi dice la direzione del vettore $\bar{k}$.
 Nel caso dei rami indicati come traversi $\bar{\varepsilon}_s \cdot \bar{k} \neq 0$
 Come possiamo vedere dall'esempio del Germanio si può avere che due rami siano coincidenti.

@@ -17,4 +17,4 @@ $$ f(R) = \frac{A}{R}\ \exp\left[-\frac{1}{2}\left(\frac{\ln R-\ln R^*}{\ln \sig
 
 Note that if one use the log-normal as $f(R)$ one observe effectively a difference in the absorbance respect to the monodispersed case, while, if one use a Gauss one, one usually isn't able to spot the difference between this and the monodispersed case, specifically around the resonance peak:
 
-![[Pasted image 20230527184354.png|400]]
+![[Images/Pasted image 20230527184354.png|400]]

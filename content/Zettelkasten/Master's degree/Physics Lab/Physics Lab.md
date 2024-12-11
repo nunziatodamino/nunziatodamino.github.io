@@ -1,0 +1,37 @@
+%% Begin Waypoint %%
+- [[Alpha decay]]
+- [[Beta decay]]
+- **Compton's effect**
+	- [[Photon-matter interaction]]
+	- [[The Compton effect]]
+	- [[The photoelectric effect]]
+- **General knowledge**
+	- [[CFD (Constant fraction discriminator)]]
+	- [[Coincidence unit]]
+	- [[Concept of efficiency for a source]]
+	- [[Decay scheme of Sodium-22]]
+	- [[General characteristics of detectors]]
+	- [[Geometric efficiency]]
+	- [[Mean free path]]
+	- [[Photo-multipliers]]
+	- [[Probability of collision in a slab of thickness dx]]
+	- [[Scattering cross section]]
+	- [[TAC ( Time to Amplitude Converter )]]
+	- [[Timing resolution]]
+- **Nuclear Physics**
+	- [[Basic nuclear processes in radioactive sources]]
+	- [[Main decay mechanisms in Nuclear Physics]]
+	- [[The angular momentum operator class]]
+	- [[The deuteron]]
+	- [[The nuclide chart]]
+- **Positronium**
+	- [[Electron-positron annihilation]]
+- **VESPA**
+	- [[Debye sheath theory]]
+	- [[Plasma definition]]
+	- [[Plasma formation mechanism]]
+	- [[The plane diode model]]
+	- [[Thermoionic emission]]
+	- [[Voltage-current characteristic in a device operating with a hot cathode in vacuum]]
+
+%% End Waypoint %%

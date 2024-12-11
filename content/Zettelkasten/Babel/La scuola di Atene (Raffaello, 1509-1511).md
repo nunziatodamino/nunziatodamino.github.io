@@ -1,4 +1,4 @@
-![[Pasted image 20230331215122.png]]
+![[Images/Pasted image 20230331215122.png]]
 
 ''Nella scuola di Atene l'unico uomo che ha uno strumento in mano è Euclide''
 

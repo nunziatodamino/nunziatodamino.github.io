@@ -27,7 +27,7 @@ $$ \alpha_i = \sum_{j \neq i} \frac{(\pm)}{p_{ij}} $$
 This value is called Madelung constant, and is evaluated for a single ion in the crystal structure, but because any Bravais lattice is invariant under translation, we can drop from now on the sub-index, because this value will be the same for any given ion choice.
 We report in the following a table with some values of the Madelung constant for some compounds:
 
-![[Pasted image 20230905184510.png|400]]
+![[Images/Pasted image 20230905184510.png|400]]
 
 We observe that even in structure with different crystal structures, but same fundamental Bravais lattice we have a slight difference in the Madelung constant.
 

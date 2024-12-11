@@ -12,7 +12,7 @@ Let's try to evaluate the range of the interaction by a simple 1-dimensional mod
 
 Given the previous considerations, let's consider a hydrogen atom as a positive and negative charge bound by a spring with characteristic frequency $\omega_0$ (that of the oscillating dipole).
 
-![[Pasted image 20230214155718.png|400]]
+![[Images/Pasted image 20230214155718.png|400]]
 
 Let's write the Hamiltonian for the system by writing it in 2 terms:
 
@@ -81,7 +81,7 @@ $$\Delta U_{VdW} = -\frac{\hbar k^2_ee^4}{m^2\omega_0^3R^6} \propto -\frac{1}{R^
 
 We show a plot of this type function
 
-![[Van der Waals bond_plot.png]]
+![[Images/Van der Waals bond_plot.png]]
 
 We see immediately that this cannot be the only energetic contribution, because this function present no energy minima. In fact this bond is always coupled with the [[Pauli exclusion principle]] consideration that states that there is a repulsive contribution if the atoms get too close.
 

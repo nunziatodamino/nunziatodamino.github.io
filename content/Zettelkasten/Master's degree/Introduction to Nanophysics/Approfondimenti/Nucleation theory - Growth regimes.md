@@ -7,7 +7,7 @@ We have 2 possible regimes of growth in our system:
 
 ### Diffusion limited aggregation (DLA)
 
- ![[Pasted image 20230323100953.png|300]]
+ ![[Images/Pasted image 20230323100953.png|300]]
  
 In this growth regime we have that the external pressure is much higher than the the pressure on the nucleated cluster that have randomically formed in the material. 
 For each cluster we have a supersaturation $P^* > 1$, hence $\Delta G <0$, and all clusters growth indipendently.
@@ -17,7 +17,7 @@ If a pressure is continuosly applied to our system, the clusters will growth unt
 
 ### Ostwald ripening 
 
-![[Pasted image 20230323103612.png|300]]
+![[Images/Pasted image 20230323103612.png|300]]
 
 If the external pressure is just higher than the equilibrium pressure, due to the stochastic formation of cluster,  there will clusters for which $P$ is higher than their $P(R)$ (the big ones) and viceversa (the little ones).
 This can happen also because there was before a DLA growth regime
@@ -29,7 +29,7 @@ This regime takes the name of Ostwald ripening. We see now a simulation where th
 
 Note that this 2 growing regimes are not mutually exclusive, but usually DLA is followed by the Ostwald ripening growth regime.
 
-![[Pasted image 20230510163024.png|500]]
+![[Images/Pasted image 20230510163024.png|500]]
 
 One can show it easily, because, when the cluster begins to grow the supersaturation rate for each cluster decreases.
 
@@ -41,7 +41,7 @@ Is now in our interest to study the kinetics of the different growth regimes in 
 
 ### DLA regime
 
-![[Pasted image 20230323202851.png|350]]
+![[Images/Pasted image 20230323202851.png|350]]
 
 We begin by considering that the concentration is expressed in units of a number density.
 One comment also on the notation: the concentration of the atoms in the precipitated phase (solid in this case) is the value $C_P$, . the initial concentration of the atoms putted in our matrix is $C_S$ , which is an homogeneous value all around the particles.
@@ -112,7 +112,7 @@ $$\frac{(C_S-C_e)^2}{(C_P-C_S)(C_P-C_e)} \simeq \frac{C^2_S}{C^2_P}$$
 
 ### Ostwald ripening regime
 
-![[Pasted image 20230323200835.png|350]]
+![[Images/Pasted image 20230323200835.png|350]]
 
 This analysis competes the growing cluster in an Ostwald ripening growth regime. 
 We have the same conventions : the concentration of the atoms in the precipitated phase (solid in this case) is the value $C_P$, but this time we cannot define $C_S$, because the number of clusters is changing over time. We instead define $C_e(R)$ and $C_e(R_{\infty})$, which are respectively the concentration in the matrix with which the solid solution of radius $R$  is in equilibrium with, and the concentration in the matrix with which the bulk solid solution is in equilibrium with, i.e. when the particle is the largest.
@@ -126,7 +126,7 @@ $$  \Phi_{\Sigma}(\bar{J}) = \frac{dN}{dt}_{out} -\frac{dN}{dt}_{in} = - 4\pi C_
 
 Now we consider the total flux evaluated using the formal definition, with particular emphasis on the fact that the $\bar{J}$ vector in the Fick's law points towards the center of the cluster this time, as in the picture below:
 
-![[Pasted image 20230324161749.png|150]]
+![[Images/Pasted image 20230324161749.png|150]]
 
 So one has, using the same ansatz as the DLA regime:
 

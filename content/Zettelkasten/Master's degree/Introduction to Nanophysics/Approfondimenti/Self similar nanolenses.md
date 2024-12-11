@@ -1,4 +1,4 @@
-![[Pasted image 20230627172352.png|500]]
+![[Images/Pasted image 20230627172352.png|500]]
 
 We can use a 1-dimensional self similar chain of metal spheres in order to create a system that greatly amplifies the impinging e.m. wave intensity (self similar nanolenses).
 This mechanism is already present in the near field of the [[Zettelkasten/Master's degree/Introduction to Nanophysics/Approfondimenti/Mie theory - Dipolar approximation|dipolar approximation]], where near the surface, at the Frohlich resonance condition, we expect a field amplification:
@@ -16,10 +16,10 @@ The condition $s<<1$ is necessary to remain in the near field of the first spher
 This leads to an amplification of the impinging e.m. wave of a factor $\sim f^n$, with n numbers of sphere in the chain, rendering this system a perfect candidate for a nanoantenna.
 Note that this system is extremely sensible to a wavelength variation in the impinging wave, i.e. the Frohlich condition must be satified in order to obtain the maximum amplification, as seen in the following simulation for silver:
 
-![[Pasted image 20230627174804.png|200]]
+![[Images/Pasted image 20230627174804.png|200]]
 
 Moreover, if we not are in the dipolar approximation, i.e. $\lambda >> R$ , we still expect amplification, but in a not so predictable way, and generally lower respect to the dipolar case, due to an ill defined e.m. hot spot and interference phenomena.
 
 In order to achieve better amplification, one can devise systems in which we couple more self similar nanolenses together, such as:
 
-![[Pasted image 20230627175700.png]]
+![[Images/Pasted image 20230627175700.png]]

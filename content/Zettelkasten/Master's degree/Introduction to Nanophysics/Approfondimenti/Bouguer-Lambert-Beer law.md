@@ -1,5 +1,5 @@
 
-![[Pasted image 20230518112943.png|300]]
+![[Images/Pasted image 20230518112943.png|300]]
 
 Suppose we perform the following experiment: an EM beam of intensity $I_0$ passes trough a sample in which the are some nanoparticles dispersed in, with a volumetric density $\rho$. Also this system is capable of scattering.
 We will observe an attenuated intensity $I$ coming out of the sample which depends on the sample size $z$ and of course from the type of scattering.

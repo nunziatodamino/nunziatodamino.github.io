@@ -6,7 +6,7 @@ $$ e  =\sqrt{1-\left(\frac{a_2}{a_1}\right)^2} \qquad a_1>a_2=a_3 $$
 
 So that we have not a general ellipsoid, but a rather one with cylindrical symmetry.
 
-![[Pasted image 20230527112932.png|600]]
+![[Images/Pasted image 20230527112932.png|600]]
 
 First we assume that these particles are dispersed in a medium in a random way, or they are oriented in an isotropic way. This is necessary, because otherwise there would be a preferential orientation for the polarisation vector. 
 
@@ -27,7 +27,7 @@ We also make the observation that for $L_1 = 1/3$, we regain the dipolar approxi
 
 We now show the difference in $\sigma_{ext}$ by plotting it for various values of the eccentricity for a gold NP:
 
-![[Pasted image 20230527123237.png|600]]
+![[Images/Pasted image 20230527123237.png|600]]
 
 We observe the following: no matter what the eccentricity is, we retain a peak at the Frohlich condition, but of course not we the same intensity.
 This is due to the fact that $a_2=a_3$ along all the process, so for a wave impinging from the ''left'' or the ''right'' there is no difference in cross section between the different particles.

@@ -11,7 +11,7 @@ This approximation leads to a simpler dispersion law. By evaluating the $k$ vect
 
 $$ k = \frac{\omega}{c} \sqrt{\varepsilon}\simeq \frac{\omega}{c} \sqrt{1-\frac{\omega_P^2}{\omega^2}} \qquad \iff \qquad \omega^2 = \omega_P^2 + (kc)^2  $$
 
-![[Pasted image 20230520102509.png|400]]
+![[Images/Pasted image 20230520102509.png|400]]
 
 We see here a plot of this dispersion relation against the dispersion relation of light $\omega=kc$, normalised respect to the square of the plasma frequency.
 From a simple asyntotic study we see that for $k \to 0$ it remains only $\omega^2_P$, and for $k \to \infty$ we have the $kc$ term that dominated, so that the line converges to the light line.

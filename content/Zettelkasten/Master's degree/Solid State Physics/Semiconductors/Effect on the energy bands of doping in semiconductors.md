@@ -1,6 +1,6 @@
 In a doped semiconductor with both acceptors and donors we will have the effect to introduce over the homogeneous semiconductor band structure 2 additional bands:
 
-![[Immagini/Effect on the energy bands in doped semiconductors.png|500]]
+![[Images/Effect on the energy bands in doped semiconductors.png|500]]
 
 We know show how to evaluate the additional bands with an example following the a semi-classical description, i.e. the Bohr model.
 
@@ -13,7 +13,7 @@ Lattice constant studies have verified that the pentavalent impurities enter the
 Moreover we can see the Arsenic insertion as a Silicon atom plus an extra proton (we discard the extra neutron in our picture because is irrelevant in the transport phenomena).
 In the end we can represent the Arsenic insertion as simple point charge in an homogeneous distribution of Silicon atoms, as shown in the picture:
 
-![[Immagini/Effect on the energy bands of doping in semiconductors-2.png|500]]
+![[Images/Effect on the energy bands of doping in semiconductors-2.png|500]]
 
 So in the end this kind of doping has the equivalent net effect of inserting a positive charge in the impurity site with an electron bounded to said charge with a certain radius (like adding an hydrogen-like atom to the site). When ionized the impurity will donate the electron to the conduction band.
 

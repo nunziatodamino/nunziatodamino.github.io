@@ -23,6 +23,6 @@ Note that we are denoting with $\bar{R}$ the Bravais lattice, and not the collec
 Also the displacement vector $\bar{u}$ is time dependent, and also site dependent, stating that each atom can do what it likes.
 We propose an image to clarify:
 
-![[Pasted image 20230906130543.png|400]]
+![[Images/Pasted image 20230906130543.png|400]]
 
 We make also the observation that during lattice motion, the equilibrium mean positions coincide with those of the Bravais lattice. This allows us to associate a Bravais lattice structure to the moving crystal, even though its ions do not instantaneously occupy that position.

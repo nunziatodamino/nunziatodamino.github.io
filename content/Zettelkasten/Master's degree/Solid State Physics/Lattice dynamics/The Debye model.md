@@ -3,7 +3,7 @@ Upon a rigorous quantum mechanical treatment of vibration in a crystal, one [[Ze
 
 $$C_v =\frac{d}{dT} \left[ \sum_s \int \frac{\hbar\omega_s(\bar{k})}{e^{\beta  \hbar\omega_s(\bar{k})}-1} D_s(\omega)d\omega \right]$$
 
-Which strongly depends on the [[Zettelkasten/Master's degree/Solid State Physics/Lattice dynamics/Vibrational density of states|Vibrational density of states]] functional form.
+Which strongly depends on the [[Zettelkasten/Master's degree/Solid State Physics/Lattice dynamics/Examples in evaluating particular vibrational density of states|Examples in evaluating particular vibrational density of states]] functional form.
 
 The Debye model is an approximation that permits to simplify this calculation by assuming a linear dispersion relationship for each polarization, i.e. to assume that every possible vibrational mode in the crystal is acoustic and is to be evaluated for small values of $\bar{k}$.
 

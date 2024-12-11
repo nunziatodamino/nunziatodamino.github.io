@@ -3,7 +3,7 @@ https://www.youtube.com/watch?v=mgqxywZMTjs&list=PL8W2boV7eVfnJ6X1ifa_JuOZ-Nq1Bj
 By definition a permutation is a rearrangement of an ordered set of elements.
 #### Different ways to look at a permutation 
 
-![[Immagini/Permutation.png|500]]
+![[Images/Permutation.png|500]]
 ## $N=3$ identical particles
 
 Consider the space $V = V_1 \otimes V_1 \otimes V_1$, with basis $\{\ket{u_i}_1\ket{u_j}_2\ket{u_k}_3\}$ (see [[Zettelkasten/Master's degree/Basic Physics/Tensor product state spaces|notation]] if there are doubts on the meaning ).

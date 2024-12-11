@@ -1,4 +1,4 @@
-![[Diffusion_1d.png|400]]
+![[Images/Diffusion_1d.png|400]]
 
 Note that what we want to evaluate is the conditional probability:
 
@@ -16,7 +16,7 @@ $$w_{i}(t_{1}) = P_{-}\delta_{i,i_0-1}  + P_{+}\delta_{i,i_0+1}$$
 
 Now we continue for the following time $t_2$ and propose the same question: what is the probability to find the particle in the position $x_{j}$ at the time $t_{2}$, given the fact that in the previous time $t_1$ the particle is in the position $x_{i'}$.
 
-![[Diffusion_1d_2.png|400]]
+![[Images/Diffusion_1d_2.png|400]]
 
 We see from the figure that now we have 3 possibilities, and if we postulate that each jump, given the direction, has the same probability independently of the index number, we obtain:
 

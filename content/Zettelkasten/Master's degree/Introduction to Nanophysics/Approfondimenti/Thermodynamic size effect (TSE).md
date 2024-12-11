@@ -4,7 +4,7 @@ We want to build some models in order to describe the size equations for the mel
 
 ### First order theory
 
-![[Pasted image 20230308145743.png|300]]
+![[Images/Pasted image 20230308145743.png|300]]
 
 We begin by considering a spherical cluster of atoms embedded in a solid (we also say embedded in a matrix) such that the bulk melting point of what constitutes the nanocluster is much lower that the bulk melting point of the matrix.
 We imagine then that all the cluster undergoes an equilibrium phase transition, i.e. the number of atoms in the cluster going to the liquid phase is the same of the number of atoms going to the solid phase.
@@ -29,7 +29,7 @@ Now we have to make some consideration in order to esplicitate the derivates in 
 In order to this one must use the Gibbs-Duhem relation for the internal energy:
 
 $$ SdT - VdP + Nd\mu =0 $$
-We give [[Gibbs-Duhem relations|here]] a brief derivation.  We proceed then to isolate the chemical potential differential:
+We give [[Projects/Equilibrium Statistical Mechanics/Thermodynamics/Gibbs-Duhem relations|here]] a brief derivation.  We proceed then to isolate the chemical potential differential:
 
 $$ d\mu = \frac{V}{N} dP - \frac{S}{N}dT = \frac{1}{\rho} dP - s\ dT  $$
 
@@ -111,7 +111,7 @@ Specifically in this form is easy to see that this first order correction is an 
 
 Due to the fact that we used a first order expansion, we expect that only points in the neighbourhood of the melting temperature would be in agreement with our model, so that only for ''big'' radiuses we will have an experimental agreement
 
-![[Pasted image 20230309083354.png|500]]
+![[Images/Pasted image 20230309083354.png|500]]
 
 We report here the experimental measures of a gold nanocluster melting point fitted with different models. The model that we have just derived is the green one.
 
@@ -121,21 +121,21 @@ In order to improve our predictions we can expand the chemical potential up to t
 We will not report the detailed derivation but only a blueprint.
 The idea is that upon the expansion one find a second order algebraic equation in the parameter $1-\Theta$, so that one can solve for this:
 
-![[Pasted image 20230309084648.png|400]]
-![[Pasted image 20230309084724.png|400]]
+![[Images/Pasted image 20230309084648.png|400]]
+![[Images/Pasted image 20230309084724.png|400]]
 
 ## Liquid layer model (LLM)
 
 The liquid layer model is based on an important consideration: the melting procedure cannot be istantaneously happen in the nanocluster but only on the surface (this because the atoms on the surface of a nanocluster are uncoordinated respect to one inside, this because they have less nearest neighbours)
 We will imagine then that exist a liquid layer of thickness $\delta \leq R$ around the cluster.
 
-![[Pasted image 20230309085336.png|200]]
+![[Images/Pasted image 20230309085336.png|200]]
 When this layer $\delta=R$ we will consider the cluster totally melted.
 
 #### Consistency with previous theory
 First we must prove that this model is consistent with Pawlow model, i.e. we imagine a cluster with radius $R$ that undergoes a phase transition in which $\delta =R$:
 
-![[Pasted image 20230309085732.png|500]]
+![[Images/Pasted image 20230309085732.png|500]]
 
 We begin by writing the Gibbs free energy in each phase. In general one has:
 
@@ -190,7 +190,7 @@ Which is the Pawlow model.
 #### Normal derivation
 
 Suppose now the following, we start by a completely solid cluster and the phase change is only on the outer shell of thickness $\delta$.
-![[Pasted image 20230311172742.png|400]]
+![[Images/Pasted image 20230311172742.png|400]]
 In writing the Gibbs free energy function we don't change anything in the first case, but in the second we will write:
 
 $$ G_2 = (N-N')\mu_S + N'\mu_L + 4\pi (R_S-\delta)^2\gamma_{SL} + 4\pi R_L^2\gamma_{LV} $$
@@ -233,7 +233,7 @@ More reminiscent of classical size equation.
 ## Smooth interfaces interactions (SII)
 We can introduce a further complication on the liquid layer model, specifically we can imagine that the border between the liquid layer and the solid cluster is not sharp, but is (as the model name suggest) smooth.
 In order to introduce this fact one can create a smoothing function by modifying the Heaviside function:
-![[Pasted image 20230312103136.png|400]]
+![[Images/Pasted image 20230312103136.png|400]]
 Specifically this smoothing function is defined by the expression:
 
 $$ \sigma(\delta) = 1-\exp\left(-\frac{\delta}{\xi} \right) $$

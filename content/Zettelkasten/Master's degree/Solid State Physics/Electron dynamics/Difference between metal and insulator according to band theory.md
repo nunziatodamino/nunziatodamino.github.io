@@ -11,7 +11,7 @@ Now we can calculate the current density in different situations:
 
 $$ \bar{J} = -2\frac{e}{(2\pi)^3} \int_{\text{occupied} }d\bar{k}\  \frac{1}{\hbar} \nabla_{\bar{k}} E_n(\bar{k}) = -2\frac{e}{(2\pi)^3} \int_{1^{st}\text{BZ} }d\bar{k}\  \frac{1}{\hbar} \nabla_{\bar{k}} E_n(\bar{k})=0  $$
 
-Where we used the [[Zettelkasten/Master's degree/Basic Mathematics/Green's theorem for periodic functions|Green's theorem for periodic functions]], given that $E_n(\bar{k})$ is periodic over the reciprocal space.
+Where we used the [[Zettelkasten/Master's degree/Basic Mathematics/Green theorem for periodic functions|Green theorem for periodic functions]], given that $E_n(\bar{k})$ is periodic over the reciprocal space.
 This implies that materials that have Fermi energy just above the maximum of a band must be insulators, because there is no current density.
 
 - Partially filled bands (**conductor**)

@@ -5,7 +5,7 @@ So they must conserve their momentum:
 
 $$ \bar{k}_{1}+\bar{k}_{2} = \bar{k}'_{1}+\bar{k}'_{2}= \bar{K}  $$
 
-![[Immagini/Why Cooper pairs forms a bound state.png|500]]
+![[Images/Why Cooper pairs forms a bound state.png|500]]
 
 The strength of the attractive interaction is maximum for $\bar{K}=0 \iff \bar{k}_1=-\bar{k}_2$ , so **in the following we will restrict only to this case**, even if in principle all case of the type $\bar{k}_2= \bar{K}-\bar{k_1}$ are possible.
 
@@ -98,7 +98,7 @@ Finally we use the sum exchange rule $\sum_{\bar{k}} \iff \frac{L^3}{(2\pi)^3}\i
 
 $$ 1 = \frac{V_0}{(2\pi)^3}\int_{\Omega}\frac{d\bar{k'}}{\frac{\hbar^2k'^2}{m} -2E_F-\mathcal{E}} = \frac{V_0}{(2\pi)^3}\int_{\Omega}\frac{d\bar{k'}}{2E(\bar{k}') -2E_F-\mathcal{E}}   $$
 
-Now we use the same ansatz used in writing a [[Zettelkasten/Master's degree/Solid State Physics/Lattice dynamics/Vibrational density of states|general expression for the density of states]], we divide the volume integral in one over the Fermi sphere and the energy , i.e. by using $d^3k = dS_{\bar{k}}dk_{\perp}$ and $dE =|\nabla_{\bar{k}}E(\bar{k})| d\bar{k}_{\perp}$ :
+Now we use the same ansatz used in writing a [[Zettelkasten/Master's degree/Solid State Physics/Lattice dynamics/Examples in evaluating particular vibrational density of states|general expression for the density of states]], we divide the volume integral in one over the Fermi sphere and the energy , i.e. by using $d^3k = dS_{\bar{k}}dk_{\perp}$ and $dE =|\nabla_{\bar{k}}E(\bar{k})| d\bar{k}_{\perp}$ :
 
 $$ 1  = \frac{V_0}{(2\pi)^3}\iint \frac{dS_{\bar{k'}}dk'_{\perp}}{2E(\bar{k}') -2E_F-\mathcal{E}}= \frac{V_0}{(2\pi)^3}\int_{S_{\bar{k'}}}\int_{E_F}^{E_F+\hbar\omega_D}\frac{dS_{\bar{k}'}}{|\nabla_{\bar{k}'}E(\bar{k'})|}\frac{dE}{2E(\bar{k}') -2E_F-\mathcal{E}}   $$
 

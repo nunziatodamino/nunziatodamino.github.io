@@ -1,4 +1,4 @@
-![[Pasted image 20230320163820.png]]
+![[Images/Pasted image 20230320163820.png]]
 We want to prove that the equilibrium pressure on a spherical interface is larger than a flat one.
 Proof:
 - First transformation (isothermal compression)

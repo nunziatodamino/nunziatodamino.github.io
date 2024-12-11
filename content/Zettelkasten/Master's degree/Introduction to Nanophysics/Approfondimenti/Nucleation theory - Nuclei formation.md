@@ -34,7 +34,7 @@ Note also that we have a supersaturation regime only if $P^*>1$, and hence a pos
 
 As can we observe from the graph of this free energy variation:
 
-![[Pasted image 20230510153514.png|300]]
+![[Images/Pasted image 20230510153514.png|300]]
 
 The $\Delta G$ has a global maxima, i.e. an instable equilibrium point, for a certain critical radius $R^*$.
 This can be easily found by imposing the condition:
@@ -43,7 +43,7 @@ $$\frac{\partial \Delta G}{\partial R} = 0 \qquad \Rightarrow \qquad R^* = \frac
 
 From this global maxima the cluster has 2 choices: it can either shrink or expand, but the expansion is energetically favoured.
 
-![[Pasted image 20230510161047.png|300]]
+![[Images/Pasted image 20230510161047.png|300]]
 
 With the critical radius we can recast our understanding of the nucleation formation in a simple way.
 When the nucleus is formed due to the stochastic processes, if the radius of the nucleus is more or equal than the critical radius, the nucleus doesn't shrink, and can begin its growth process.

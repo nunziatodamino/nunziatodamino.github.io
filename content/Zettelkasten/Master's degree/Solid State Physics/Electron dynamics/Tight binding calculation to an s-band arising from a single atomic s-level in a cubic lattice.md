@@ -27,4 +27,4 @@ $$E(\bar{k}) = E_j - \beta_{j0} - 2\gamma_{j0} \left[\cos(k_xa)+\cos(k_ya)+\cos(
 Finally we obtained the main characteristic of the tight binding model. The difference between the minimum and maximum of the energy $E(\bar{k})$ function is proportional to the integral $\gamma_{j0}$ (which we expect becomes larger as $j$ increases) while the main function of $\beta_{j0}$ is to lower the ''center of mass'' of the band respect to the original energy value of the isolated atom.
 We see displayed here the bands corresponding to $j=1$ and $j=2$, in function of inverse of the atom spacing $\frac{1}{r}$:
 
-![[Immagini/Tight binding calculation for a cubic lattice.png|400]]
+![[Images/Tight binding calculation for a cubic lattice.png|400]]

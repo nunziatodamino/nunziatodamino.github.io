@@ -2,7 +2,7 @@
 Consider an electron traveling in a crystal. As this passes it attract with the Coulomb interaction the ions of the lattice, leaving a deformation trail. This trail relaxes more slowly if the temperature is lower, so we consider a low temperature $(T<T_c)$.
 This lattice deformation causes a weak attraction between electrons (the lattice deformation creates a zone of net positive charge which acts as an attraction center for the electron that created the trail and a second electron. In fact one can argue that any $n$ electrons can be attracted by this center, but the pair attraction is the most probable due to the attraction weakness).
 
-![[Immagini/Cooper pair formation.png|400]]
+![[Images/Cooper pair formation.png|400]]
 
 This effect is very small because of the tiny distortion of the lattice and it is rather complicated to be described quantitatively. 
 Moreover, this interaction is non-local in space and also retarded in time because of its origin. 

@@ -3,7 +3,7 @@ Surface plasmon polaritons are quasi-particles that represent a collective oscil
 
 We will see in our analysis that are typical in metals.
 
-![[Pasted image 20230512105746.png|300]]
+![[Images/Pasted image 20230512105746.png|300]]
 
 Given the picture, we choose $x$ as the direction of propagation of the wave. We have 2 possibilities, a TE, or a TM wave.
 

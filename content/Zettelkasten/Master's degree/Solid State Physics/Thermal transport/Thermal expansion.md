@@ -33,7 +33,7 @@ This phenomenon must be treated **not** using the harmonic approximation, but in
 
 ==INSERIRE DISCORSO SULL'ASIMMETRIA DEL POTENZIALE==
 
-![[Thermal expansion_potential.png|400]]
+![[Images/Thermal expansion_potential.png|400]]
 
 In the following we use a toy model to describe quantitatively the phenomenon.
 Suppose we have a crystal in which there is a linear increase due to the temperature increasing.
@@ -63,6 +63,6 @@ $$\braket{x}_{NVT} = - \frac{3}{4} \frac{g}{c^2\beta} = - \frac{3}{4} \frac{g}{c
 
 Experimentally we have a graph like this:
 
-![[Thermal expansion_exp.png|400]]
+![[Images/Thermal expansion_exp.png|400]]
 
 So this model captures the behavior at high temperature, while for temperature close to 0 there is no significant expansion. The latter behavior is due to the zero-point energy of the phonons.

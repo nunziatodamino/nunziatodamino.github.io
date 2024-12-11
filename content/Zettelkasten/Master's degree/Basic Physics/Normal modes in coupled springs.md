@@ -3,7 +3,7 @@ This example, although not of a general nature, forms the basis of the intuition
 
 Let's consider the situation shown in the figure:
 
-![[modi_normali_2_molle.png]]
+![[Images/modi_normali_2_molle.png]]
 
 Let $u_1$ and $u_2$ be the displacements of the first and second masses from left to right, respectively. For this system, we have the following equations of motion:
 

@@ -3,7 +3,7 @@
 Suppose we want to describe the polarization effects on a nanoshell, i.e. a core-shell system in which the core is a non plasmonic material like silica and the shell is a plasmonic material.
 There is a nice way to describe these kind of systems, called L-SPR hybridization, in which we mutuate from atomic physics the idea that the shell system is a ''mixture'' of the states of a polarized sphere and a polarized cavity.
 
-![[Pasted image 20230705113348.png|400]]
+![[Images/Pasted image 20230705113348.png|400]]
 
 Let's construct our model by considering the resonance frequencies of the sphere and the cavity respect to the bulk plasmon frequency.
 We begin by considering the sphere. We have, when $\varepsilon_m = 1$, so in the case of air or vacuum that the plasmon resonance frequency is:
@@ -27,7 +27,7 @@ For a consistency check one can show that the term $\omega_{1-}$ tends to $\omeg
 
 The same mechanism of hybridization can be used to descibe the polarization of a chain of sphere composed by 2 atoms, namely a dimer:
 
-![[Pasted image 20230705122535.png|500]]
+![[Images/Pasted image 20230705122535.png|500]]
 
 Once the hybridization is complete we see that not all possible configuration are achievable by impinging a e.m. wave on the system, namely only the configuration with transverse and parallel polarization with the same phase are possible.
 We label these configurations bright plasmon modes. In contrast we label the oscillation modes that cannot be excited by an impinging e.m. wave dark plasmon modes.

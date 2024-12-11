@@ -33,7 +33,7 @@ $$ \Delta x \Delta p \sim R\hbar k_F \sim 10^{-31}\ Js > \hbar $$
 
 Where we used as estimates $R \sim \lambda_e \sim \pu{1 nm}$, $k_F \sim \pu{10^{10}  1/m}$. So we can describe electrons as particles, as we already did in the Drude model.
 
-![[Pasted image 20230525105633.png|300]]
+![[Images/Pasted image 20230525105633.png|300]]
 
 Suppose that the electron start after an interaction with the surface at the point A and then it will travel at the Fermi velocity in a linear way toward the point C in our nanoparticle. At that point C there would be another event of scattering triggered by the surface.
 We use this setting in order to evaluate the mean time of scattering due to the surface, so that:

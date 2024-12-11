@@ -12,4 +12,4 @@ This imply that for the free electron model $E = \frac{\hbar k^2}{2m}$ we have t
 This result can be extended in the following way: given that in a stationary point of the band $E(k)$ can be expanded in a parabola, then its effective mass will be constant (note that effective mass can be negative).
 We can conclude that near maxima and minima an electron behaves as a free electron if we give it an effective mass $m^*$ : $E(k)=  \frac{\hbar k^2}{2m^*},\ k \in B(k^*,\rho )$ where $k^*$ is the stationary value.
 
-![[Immagini/Consideration on the effective mass.png|300]]
+![[Images/Consideration on the effective mass.png|300]]

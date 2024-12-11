@@ -12,7 +12,7 @@ $$ \Delta U(\bar{r}-\bar{R}) = \sum_{\bar{R}'\neq\bar{R}}V_{at}(\bar{r}-\bar{R}'
 
 We report in the following its cross section:
 
-![[Immagini/General formulation of the tight binding approximation_potpot.png|400]]
+![[Images/General formulation of the tight binding approximation_potpot.png|400]]
 
 Due to the Bravais lattice invariance, we can set $\bar{R}=0$ in the potential and the Hamiltonian with no loss of generality.
 

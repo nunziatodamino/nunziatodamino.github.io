@@ -10,7 +10,7 @@ Furthermore two regimes have to be distinguished, depending on the magnitude of 
 In this regime 2 more cases has to distinguished, the one with transverse polarization (first case), where the k vector is impinging either from the left or the right, and the longitudinal polarization (second case) where the k vector is impinging either from the top or the bottom. 
 
 
-![[Pasted image 20230529165709.png|500]]
+![[Images/Pasted image 20230529165709.png|500]]
 
 Let's evaluate if the energy is different from the single particle case, and in which direction the shift happens. 
 - In the transverse polarization case the near field is approximatively the oscillating dipole field. Each particle tends to widen the electric cloud displacement of each dipole, and the effect is uniform on the chain if consider an impinging plane wave. this widened dipole field is bigger than the spherical one, and tend to restore faster the oscillation of the nearby particles, so that the electrons oscillate faster (like a seesaw motion)
@@ -18,4 +18,4 @@ Let's evaluate if the energy is different from the single particle case, and in 
 
 We report our consideration here in this recap image:
 
-![[Pasted image 20230705111337.png|500]]
+![[Images/Pasted image 20230705111337.png|500]]

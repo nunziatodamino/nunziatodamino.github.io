@@ -4,43 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "72c4eeee889059fd",
+        "id": "7a211299c91a475a",
         "type": "tabs",
         "children": [
           {
-            "id": "69519023ffea5aaf",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "b1c8c24c85a4dc43",
+            "id": "0d57aeaba1c756a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Computational methods for Material science/Ab initio Quantum Mechanics/Kohn-Sham equations.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "18100dd5ef29d8f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/Computational methods for Material science/Ab initio Quantum Mechanics/Program.md",
-                "mode": "source",
+                "file": "Zettelkasten/Master's degree/Solid State Physics/Semiconductors/Charge neutrality in a doped semiconductor.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -65,7 +44,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "Gibbs",
             "matchingCase": true,
             "explainSearch": false,
             "collapseAll": false,
@@ -118,7 +97,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Projects/Computational methods for Material science/Ab initio Quantum Mechanics/Program.md",
+            "file": "Zettelkasten/Master's degree/Solid State Physics/Semiconductors/Charge neutrality in a doped semiconductor.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -135,7 +114,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Projects/Computational methods for Material science/Ab initio Quantum Mechanics/Program.md",
+            "file": "Zettelkasten/Master's degree/Solid State Physics/Semiconductors/Charge neutrality in a doped semiconductor.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -147,7 +126,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Projects/Computational methods for Material science/Ab initio Quantum Mechanics/Program.md"
+            "file": "Zettelkasten/Master's degree/Solid State Physics/Semiconductors/Charge neutrality in a doped semiconductor.md"
           }
         }
       },
@@ -173,8 +152,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "18100dd5ef29d8f9",
+  "active": "0d57aeaba1c756a9",
   "lastOpenFiles": [
+    "Zettelkasten/Master's degree/Probability and Statistics/Cumulative density function (CDF).md",
+    "Projects/Numerical methods for soft matter/Random number generator.md",
+    "Projects/Physics of semiconductors/Notions of Solid State Physics.md",
+    "Projects/Numerical methods for soft matter",
+    "Projects/Equilibrium Statistical Mechanics/Equilibrium Statistical Mechanics.md",
+    "Projects/Equilibrium Statistical Mechanics/Gibbs-Duhem relations.md",
+    "Projects/Physics of semiconductors/Diamond structure.md",
+    "Projects/Physics of semiconductors/Rough classification of homogeneous  semiconductors in function of the energy.md",
+    "Projects/Lettura libri/2024/Libri.md",
+    "Diamond structure.png",
+    "Projects/Untitled.md",
+    "Projects/Physics of semiconductors/Physics of semiconductors.md",
+    "Projects/Physics of semiconductors/Untitled.md",
+    "Zettelkasten/Master's degree/Solid State Physics/Solid State Physics.md",
+    "Zettelkasten/Master's degree/Solid State Physics/Semiconductors/Extrinsic or inhomogeneous semiconductor.md",
+    "Zettelkasten/Master's degree/Solid State Physics/Semiconductors/Intrinsic or homogeneous semiconductor.md",
+    "Zettelkasten/Master's degree/Solid State Physics/Electron dynamics/Bloch's Theorem.md",
+    "Projects/Computational methods for Material science/Ab initio Quantum Mechanics/Program.md",
     "Projects/Computational methods for Material science/Ab initio Quantum Mechanics/Kohn-Sham equations.md",
     "Projects/Computational methods for Material science/Ab initio Quantum Mechanics/Hartree-Fock theory.md",
     "Projects/Computational methods for Material science/Computational methods for Material science.md",
@@ -186,24 +183,8 @@
     "Projects/Computational methods for Material science",
     "Projects/Lettura libri/Lettura della Bibbia/Struttura.md",
     "Projects/Levitico.md",
-    "Zettelkasten/Models of Theoretical Physics/Function of a random variable.md",
     "Vault",
-    "Projects/Progetto Uni 1° semestre/Models of Theoretical Physics/The Curie-Weiss model.md",
-    "Projects/Progetto Uni 1° semestre/Models of Theoretical Physics/The Laplace method.md",
-    "Projects/Progetto Uni 1° semestre/Models of Theoretical Physics/Models of Theoretical Physics.md",
-    "Projects/Progetto Uni 1° semestre/Models of Theoretical Physics/Gaussian integrals.md",
-    "Projects/Progetto Uni 1° semestre/Models of Theoretical Physics/Wick's probability theorem (also known as Isserlis' theorem).md",
-    "Zettelkasten/Introduction to Nanophysics/Approfondimenti/Nucleation theory - Growth regimes.md",
-    "Zettelkasten/Introduction to Nanophysics/Approfondimenti/Metamaterials  with periodic nanostructures.md",
-    "Zettelkasten/Introduction to Nanophysics/Approfondimenti/Negative index materials.md",
-    "Zettelkasten/Basic Mathematics/Lemmas for complex integration.md",
-    "Zettelkasten/Basic Mathematics/Integration by parts using the tabular method.md",
     "Integration by parts using the tabular method.png",
-    "Zettelkasten/Basic Mathematics/Stability for linear autonomous systems.md",
-    "Zettelkasten/Basic Mathematics/Basic Mathematics.md",
-    "Zettelkasten/Basic Mathematics/Autonomous system.md",
-    "Projects/Progetto Uni 1° semestre/Models of Theoretical Physics/Diffusion process in 1D - PDE resolution.md",
-    "Projects/Progetto Uni 1° semestre/Models of Theoretical Physics/Characteristic function.md",
     "Proof of the Kramers-Kronig relations_231104_095654.pdf",
     "Approfondimenti/Calculations/The Sokhotski-Plemelj formula_231103_172040.pdf",
     "The Sokhotski-Plemelj formula_231103_172040.pdf",
@@ -216,7 +197,6 @@
     "Immagini/tartaglia_coefficients.png",
     "Continuum_limit.png",
     "Screenshot_2023-09-20-21-51-38-32_3aea4af51f236e4932235fdada7d1643.jpg",
-    "Zettelkasten/Babel/Pasted image 20230331215122.png",
     "Persico.pdf"
   ]
 }

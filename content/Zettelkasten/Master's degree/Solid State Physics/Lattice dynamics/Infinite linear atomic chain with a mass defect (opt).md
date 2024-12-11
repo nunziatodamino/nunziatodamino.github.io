@@ -3,7 +3,7 @@ We want to study what the presence of impurities causes respect to the general c
 
 As shown in the figure, let's consider an infinite monoatomic chain, remove an atom from position $n=0$ and replace it with one with mass $M$.
 
-![[Infinite linear atomic chain with a mass defect.png|500]]
+![[Images/Infinite linear atomic chain with a mass defect.png|500]]
 
 
 With this operation the system loses its translational invariance, and we cannot write a single equation in order to solve the system but write site-specific equations to solve the motion.

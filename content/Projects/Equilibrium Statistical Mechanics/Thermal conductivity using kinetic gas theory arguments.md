@@ -1,7 +1,7 @@
 We want to relate the thermal conductivity coefficient in [[Fourier's law]] to more fundamental parameters of an ideal gas. 
 A more rigorous proof can be given, but its complications are of little use in understanding the physics behind the process, so a simplified version will be given.
 
-![[Thermal conductivity using kinetic gas theory arguments.png|300]]
+![[Images/Thermal conductivity using kinetic gas theory arguments.png|300]]
 
 Let's consider an ideal gas in which a temperature field dependent only on $z$ is established. While preposterous as hypothesis in general, this can be a good approximation in systems in which the height $z$ is way larger than the width.
 Considering $n = \frac{N}{V}$ as the particle number density, we can say the following: due to the isotropy hypothesis, on average $1/3$ of the particle will move along the $z$ axis (and of course $1/3$ along the $x$ axis and $1/3$ along the $y$ axis ).

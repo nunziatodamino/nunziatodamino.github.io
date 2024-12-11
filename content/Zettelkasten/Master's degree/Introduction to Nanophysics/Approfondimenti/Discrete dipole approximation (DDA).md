@@ -1,7 +1,7 @@
 This is an extension of the [[Zettelkasten/Master's degree/Introduction to Nanophysics/Approfondimenti/Mie Theory - Multipolar expansion]] and the [[Zettelkasten/Master's degree/Introduction to Nanophysics/Approfondimenti/Gans Theory]], where we want to evaluate the plasmonic response of a generic shaped object.
 The idea is simple but effective: we treat the generic shaped object as composed by interacting spheres for which is valid the dipolar approximation.
 
-![[Pasted image 20230603164541.png|600]]
+![[Images/Pasted image 20230603164541.png|600]]
 
 In order to derive the theory, we begin by assigning a position vector $\bar{r}_j$ , $j=1,2, \dots, N$ to each dipole.
 Furthermore for each dipole we consider a polarizability of :
@@ -56,9 +56,9 @@ $$ =  \left(\bar{E}_{inc}(\bar{r}_j) - \sum_{k\neq j} A_{(jk)}\bar{P}_k\right)+ 
 
 This equation can then be used to evaluate each polarization vector $\bar{P}_k$, so that in the end we can evaluate the extinction cross section and the total cross section with the following:
 
-![[Pasted image 20230705163703.png|400]]
+![[Images/Pasted image 20230705163703.png|400]]
 
 Where the asterisk represent the complex conjugate operator.
 Also is possible to obtain the total scattered field:
 
-![[Pasted image 20230705163902.png|400]]
+![[Images/Pasted image 20230705163902.png|400]]

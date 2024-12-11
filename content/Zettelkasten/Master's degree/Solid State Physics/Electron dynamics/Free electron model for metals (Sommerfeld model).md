@@ -2,12 +2,12 @@ This model, sometimes referred as the Sommerfeld model for metals, can be applie
 The main idea of the model is to consider that the effective potential that an electron fells inside the material is constant.
 We justify here this assumption for alkali metals using the linear chain model.
 
-![[Free electron model for metals_Veff.png|500]]
+![[Images/Free electron model for metals_Veff.png|500]]
 
 Suppose to have a linear chain of an alkali metal in which each ion has potential $V_{ion} = k_e \frac{Ze}{r}$. So the total potential will be the potential sum, hence the bottom part of the left figure. We can see potential walls at the chain surface because there the electron cannot move freely. In fact it requires an energy to be extracted by the material.
 In the end we can approximate this situation by a potential well. We characterize now this potential well using another picture:
 
-![[Free electron model for metals_band.png|300]]
+![[Images/Free electron model for metals_band.png|300]]
 
 We can say that an electron inside a metal if has energy between the energy of the conduction band $E_c$  and the Fermi energy $E_F$. In order to escape the metal and reach an energy $E_{\text{vac}}$, an additional energy equal to $E_{\text{vac}}-E$ is required. Moreover we can define specific energy gap, namely $E_{\text{vac}}-E_F \equiv W$ as the work function and $E_{\text{vac}}-E\equiv \chi$ as the electron affinity.
 

@@ -1,6 +1,6 @@
 ## Multilayered metal-dielectric metamaterial
 
-![[Pasted image 20230706151601.png|500]]
+![[Images/Pasted image 20230706151601.png|500]]
 
 Let's consider a periodic structure composed by alternating slabs with composed by material with different dielectric function, say $\varepsilon_1$ and $\varepsilon_2$ and relative filling fractions $f$ and $1-f$ respectively.
 The overall system would be anisotropic from a dielectric function point of view, and instead of using a single function to describe its dielectric behavior, one must resort to a tensorial description, in our case, according to anisotropy axis:
@@ -90,7 +90,7 @@ $$\varepsilon_{\perp}=\frac{1}{f\frac{1}{\varepsilon_1}+(1-f)\frac{1}{\varepsilo
 
 ## Nanowire metal-dielectric metamaterial
 
-![[Pasted image 20230706151656.png|500]]
+![[Images/Pasted image 20230706151656.png|500]]
 
 The same consideration of before applies, this time we have nanorods of dielectric function $\varepsilon_1$ disposed in a square lattice, immersed in a medium with dielectric function $\varepsilon_2$. This time the dielectric tensor is:
 
@@ -147,5 +147,5 @@ $$ \varepsilon_{\perp} = \varepsilon_1 \frac{(1+f)\varepsilon_2+ (1-f)}{(1-f)\va
 
 We report all our considerations in a recap table:
 
-![[Pasted image 20230707110926.png|500]]
+![[Images/Pasted image 20230707110926.png|500]]
 

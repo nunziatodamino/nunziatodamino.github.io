@@ -94,12 +94,12 @@ $$\bar{N}_{emn} = \frac{1}{k} \nabla \times \bar{M}_{emn} \qquad \bar{N}_{omn} =
 
 So that one can write the electric field as:
 
-![[Pasted image 20230619105727.png|500]]
+![[Images/Pasted image 20230619105727.png|500]]
 
 Note that we using as index $n$ instead of $l$. It is possible to prove that the coefficients in the electric field expansion follows the relations:
 
-![[Pasted image 20230519183033.png|500]]
-![[Pasted image 20230519183200.png|500]]
+![[Images/Pasted image 20230519183033.png|500]]
+![[Images/Pasted image 20230519183200.png|500]]
 
 ## Consequences of generalized Mie theory
 
@@ -110,14 +110,14 @@ In this section we will present the results without proof.
 Of paramount importance are the expression of the cross sections in the far field, especially the extinction one, due to is use in the [[Zettelkasten/Master's degree/Introduction to Nanophysics/Approfondimenti/Bouguer-Lambert-Beer law]].
 We report in the following the expressions found:
 
-![[Pasted image 20230519183423.png|500]]
+![[Images/Pasted image 20230519183423.png|500]]
 
 In the application is easier to consider an approximation by cutting the l index to a specified value.
 One can prove that for $l=1$  and together $R<<\lambda$ , we obtain the dipolar approximation.
 Note that we can appreciate the extend of the full Mie theory only if we are out of the dipolar approximation $R<<\lambda$. So that if we restrict ourselves in the visible range, we are able to appreciate a significant difference only for larger particles, as shown in the following:
 
-![[Pasted image 20230703120156.png|300]]
-![[Pasted image 20230703120227.png|300]]
+![[Images/Pasted image 20230703120156.png|300]]
+![[Images/Pasted image 20230703120227.png|300]]
 
 ### Rayleigh scattering
 

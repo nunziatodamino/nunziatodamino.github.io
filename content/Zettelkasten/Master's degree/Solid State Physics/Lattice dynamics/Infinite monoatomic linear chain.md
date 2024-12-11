@@ -73,6 +73,6 @@ Therefore we obtain:
 
 $$\omega(k)= \sqrt{\frac{4\tilde{K}}{M}} \left| \sin\left(\frac{ka}{2}\right) \right|$$
 
-![[Pasted image 20230215181144.png|400]]
+![[Images/Pasted image 20230215181144.png|400]]
 
 We see a plot limited to $k$ values within the first Brillouin zone. 

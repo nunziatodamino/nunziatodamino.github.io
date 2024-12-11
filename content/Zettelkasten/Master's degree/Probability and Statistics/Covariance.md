@@ -12,7 +12,7 @@ $$ \text{Cov}(X,Y) = \braket{XY}-\braket{X}\braket{Y} $$
 
 We state the following: **if two variables are independent, then they have 0 covariance, or are said to be uncorrelated**.
 
-![[Covariance.png]]
+![[Images/Covariance.png]]
 
 We report in the following the key properties of the covariance:
 

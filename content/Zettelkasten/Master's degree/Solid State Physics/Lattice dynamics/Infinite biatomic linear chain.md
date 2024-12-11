@@ -3,7 +3,7 @@ Let's already assume [[Zettelkasten/Master's degree/Solid State Physics/Lattice 
 
 Let's start by writing the potential energy for each molecule:
 
-![[Infinite biatomic linear chain.png]]
+![[Images/Infinite biatomic linear chain.png]]
 
 $$U_n = U_{0n} + \frac{\tilde{K}}{2} (u_n^{(2)}-u_n^{(1)})^2 + \frac{\tilde{G}}{2} (u_{n+1}^{(1)}-u_n^{(2)})^2$$
 
@@ -58,7 +58,7 @@ $$\begin{aligned} \left[M\omega^2-(\tilde{G}+\tilde{K})\right]^2-\left[\tilde{K}
 
 Our dispersion relation has 2 solutions, which we see plotted in the following graph in the first Brillouin zone:
 
-![[Infinite biatomic linear chain_dispersion relation.png|500]]
+![[Images/Infinite biatomic linear chain_dispersion relation.png|500]]
 
 We will call the solution with the positive sign the optical branch, while the other is called the acoustic branch. 
 This labeling is justified by the fact that the acoustic branch gives back the sound wave dispersion relation in solids as $k \to 0$, as seen in [[Zettelkasten/Master's degree/Solid State Physics/Lattice dynamics/Infinite monoatomic chain - connection with the theory of elasticity]].
@@ -76,10 +76,10 @@ $$ X^O = u_n^{(1)}-u_n^{(2)} = (A_1-A_2)e^{i(kna-\omega t)}$$
 $$ X^A = u_n^{(1)}+u_n^{(2)}= (A_1+A_2)e^{i(kna-\omega t)}$$
 
 This permits us to imply that in the limit $k \to 0$ $(\lambda \to +\infty)$ we have the motion associated only to the acoustic branch, because the normal coordinate of the optical branch is 0.
-![[Pasted image 20230216091332.png]]
+![[Images/Pasted image 20230216091332.png]]
 When $k = \pi/a$ (Brillouin zone border), we have that the exponential part becomes:
 
 $$e^{ikna} = e^{i\pi n} = (-1)^n\qquad  n \in \mathbb{Z}$$
 
-![[Pasted image 20230216091659.png]]
+![[Images/Pasted image 20230216091659.png]]
 ==Fare delle considerazioni migliori==

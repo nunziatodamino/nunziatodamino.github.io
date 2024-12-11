@@ -20,7 +20,7 @@ Due to this consideration the quantity $\hbar \bar{k}$ is then defined **not** d
 This is introduced because this quantity is conserved within a reciprocal lattice vector.
 We make an example. Suppose a neutron with initial momentum $\hbar \bar{K}_i$ is impinging on a crystal. The 2 main processes described in the diagram can happen:
 
-![[Phonon momentum and crystal momentum.png|500]]
+![[Images/Phonon momentum and crystal momentum.png|500]]
 
 In the first diagram the neutron scatters in the crystal emitting a phonon (i.e. it impinges on the crystal leading to a vibration in the crystal. To this vibration there is a phonon associates and the neutron scatters losing is energy).
 In the second the neutron absorbs a phonon and scatters (i.e. it impinges on the crystal while this is already vibrating. This leads to the fact that the scattered neutron while gain the energy associated to the vibration, i.e. the phonon).

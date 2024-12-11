@@ -1,6 +1,6 @@
 The fundamental idea of photonic crystal starts by consideration on the parallelism between photons dynamics and electron dynamics, represented in the following table:
 
-![[Pasted image 20230702105250.png|500]]
+![[Images/Pasted image 20230702105250.png|500]]
 
 The major idea is that the eigenvalue equation governing the dynamics has the same form, the only difference is the interaction description, where in the electron case is the mutual potential, while in the photon case is the dielectric function 
 
@@ -9,7 +9,7 @@ One can think then to extend the concept of crystal periodicity to photons if on
 $$ \nabla^2 \bar{E} + \frac{\omega^2}{c^2} \varepsilon(\omega, \bar{r}) \bar{E} =0 \qquad \varepsilon(\omega, \bar{r}) = \varepsilon(\omega, \bar{r} + \bar{R}) \qquad \forall \bar{R} \in B. L. $$
 
 Where we restrict ourselves for non magnetic systems $\mu=1$ and in the visible optical regime, i.e. for which $n^2 = \varepsilon(\omega, \bar{r})$.
-Given the fact that the Helmoltz equation has the same mathematical structure as the Schrodinger equation, one can state that this problem is equivalent to the [[Zettelkasten/Master's degree/Solid State Physics/Electron dynamics/Bloch's Theorem]] for photons, so that one can state that:
+Given the fact that the Helmoltz equation has the same mathematical structure as the Schrodinger equation, one can state that this problem is equivalent to the [[Zettelkasten/Master's degree/Solid State Physics/Electron dynamics/Bloch Theorem]] for photons, so that one can state that:
 
 $$ \bar{E}(\bar{r}) = u_{\bar{k}} (\bar{r}) e^{i \bar{k} \cdot \bar{r}} \qquad u_{\bar{k}} (\bar{r}) = u_{\bar{k}} (\bar{r}+ \bar{R})\qquad \forall \bar{R} \in B. L. $$
 

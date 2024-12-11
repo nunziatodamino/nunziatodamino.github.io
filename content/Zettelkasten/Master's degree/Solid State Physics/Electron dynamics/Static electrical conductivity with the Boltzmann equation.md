@@ -31,7 +31,7 @@ $$ f\simeq f_0\left(\bar{k}+\frac{e\tau}{\hbar}\bar{E}\right) $$
 
 We can then affirm the following. The application of a low electric field perturbs the Fermi sphere by a rigid shift $-\frac{e\tau}{\hbar}\bar{E}$
 
-![[Static electrical conductivity with the Boltzmann equation_fermi sphere.png|500]]
+![[Images/Static electrical conductivity with the Boltzmann equation_fermi sphere.png|500]]
 
 We are finally able to derive the general expression for the current density.
 We have, by definition

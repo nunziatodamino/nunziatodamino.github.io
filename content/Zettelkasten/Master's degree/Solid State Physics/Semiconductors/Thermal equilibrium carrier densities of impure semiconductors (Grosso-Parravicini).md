@@ -1,4 +1,4 @@
-We will treat here the case only of the n-type semiconductor ($N_a =0$) so that the [[Zettelkasten/Master's degree/Solid State Physics/Semiconductors/Charge neutrality in a doped semiconductor|Charge neutrality condition]] becomes:
+We will treat here the case only of the n-type semiconductor ($N_a =0$) so that the [[Projects/Physics of semiconductors/General doping/Charge neutrality in a doped semiconductor|Charge neutrality condition]] becomes:
 
 $$ n =p + N_d - n_d^0  $$
 
@@ -80,5 +80,5 @@ Which is the charge neutrality condition in an intrinsic semiconductor ($n=p$)
 
 We report in the following a graph reporting the free carrier density and the chemical potential in the various regimes:
 
-![[Immagini/Thermal equilibrium carrier densities of impure semiconductors (Grosso-Parravicini).png|500]]
-![[Immagini/Thermal equilibrium carrier densities of impure semiconductors (Grosso-Parravicini)-1.png|500]]
+![[Images/Thermal equilibrium carrier densities of impure semiconductors (Grosso-Parravicini).png|500]]
+![[Images/Thermal equilibrium carrier densities of impure semiconductors (Grosso-Parravicini)-1.png|500]]

@@ -1,6 +1,6 @@
 This is an extension of the [[Zettelkasten/Master's degree/Introduction to Nanophysics/Approfondimenti/Mie theory - Dipolar approximation]], in which we consider the nanocluster to be spherical, but not uniform in composition.
 
-![[Pasted image 20230527162546.png|400]]
+![[Images/Pasted image 20230527162546.png|400]]
 
 We consider the following: a nanocluster composed by an internal core of radius $R$ and dielectric function $\varepsilon_C$ covered by a shell of thickness $d$ and dielectric function $\varepsilon_S$.
 This nanocluster is embedded in a non absorbing medium with dielectric function $\varepsilon_m$.
@@ -32,7 +32,7 @@ $$ \left(\frac{R}{R+d}\right)^3 \frac{(\varepsilon_C-\varepsilon_S)}{(\varepsilo
 This equation can be solved only graphically. We try to solve it for a gold core and a generic shell:
 This plot is for a particular value of the f (filling fraction of the core).
 
-![[Pasted image 20230527165244.png|500]]
+![[Images/Pasted image 20230527165244.png|500]]
 
 Unfortunately, at optical frequencies this is not easily obtainable.
 The problem is that the $\varepsilon_2$ of the shell (green) should be a negative value, which is not normally the case for standard materials because $\varepsilon_2$ is related to extinction coefficent, as seen in [[Zettelkasten/Master's degree/Introduction to Nanophysics/Approfondimenti/Bouguer-Lambert-Beer law]] so that a negative $\varepsilon_2$ implies a gain in energy when a medium is traversed. 

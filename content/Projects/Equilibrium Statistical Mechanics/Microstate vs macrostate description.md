@@ -3,7 +3,7 @@ Imagine to have an isolated system of $N$ particles. We have different ways to d
 One possible way is to specify at a specific instant of time $t$ all the generalized coordinates $q(t)$ and all the conjugated momenta $p(t)$ of the $N$ constituents. 
 This kind of description, i.e. ==the specification of a point in the phase space $\Gamma$ is called microstate description, or simply microstate.==
 
-Another way is to define some [[Difference between extensive and intensive variables|extensive properties]] of the system, i.e. specify the system total energy $E$, its volume $V$, etc.
+Another way is to define some [[Projects/Equilibrium Statistical Mechanics/Thermodynamics/Difference between extensive and intensive variables|extensive properties]] of the system, i.e. specify the system total energy $E$, its volume $V$, etc.
 Suppose one needs $m$ extensive variables in order to describe the system, one chooses to describe the system as an m-uple $M = (A_1, A_2, \dots, A_m) \in \mathbb{R}^m$ 
 This kind of description, i.e. ==the m-uple specification of extensive variables is called macrostate description, or simply macrostate.==
 The number $m$ is small due to the [[Gibbs phase rule]].

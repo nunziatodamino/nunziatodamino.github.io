@@ -12,7 +12,7 @@ $$\kappa^{\text{el}} =\frac{\pi^2}{6V}Nk_B \frac{T}{T_F}\tau v_F^2 = \frac{\pi^2
 
 Notice that this approximation is not at all general and it depends strongly on the range of temperature in which we are working. As we can see in the picture for copper:
 
-![[Wiedemann-Franz Law_t dependance thermal conductivity.png|500]]
+![[Images/Wiedemann-Franz Law_t dependance thermal conductivity.png|500]]
 
 Only for low temperatures $\kappa \propto T$. This is strictly correlated to the mean scattering time $\tau$. For low $T$ electron scattering is dominated by defects  $(\tau \sim \text{constant} \to \kappa \propto T)$, while for high $T$ is dominated by scattering with phonons $(\tau \propto T^{-1} \to \kappa \sim \text{constant} )$.
 
@@ -24,4 +24,4 @@ $$ \frac{k^{\text{el}}}{\sigma} = \frac{\pi^2}{3}n\tau \frac{k_B^2T}{m} \frac{m}
 In this way we derived the so called Wiedemann-Lorentz law.
 The proportionality coefficient is called **Lorenz number** $[\frac{W \Omega}{K}]$ and is specific for every metal. we report in the following a table with some experimental values of said coefficient:
 
-![[Wiedemann-Franz Law_lorenz numbers table.png|500]]
+![[Images/Wiedemann-Franz Law_lorenz numbers table.png|500]]

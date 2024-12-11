@@ -1,6 +1,6 @@
 Given a superconductor, one of the properties that exhibits is perfect diamagnetism: a magnetic field (smaller than a critical value) cannot penetrate into the bulk of a superconductor, regardless of its connectivity.
 
-![[Immagini/Meissner-Ochsenfeld effect.png|400]]
+![[Images/Meissner-Ochsenfeld effect.png|400]]
 
 The magnetic field is expelled from the bulk of the sample when it is cooled below the critical temperature. Contrary to the superconductor, a normal conductor would keep the magnetic field in which it is embedded, when it becomes perfectly conducting, as shown in [[Zettelkasten/Master's degree/Solid State Physics/Superconductors/Superconductivity is not just ideal conductivity|here]].
 

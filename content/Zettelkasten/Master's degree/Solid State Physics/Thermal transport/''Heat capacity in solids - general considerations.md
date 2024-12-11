@@ -8,6 +8,6 @@ $$C_p-C_v = \frac{VT\alpha^2}{\beta}$$
 
 where $\alpha$ is the coefficient of thermal expansion and $\beta$ is the isothermal compressibility coefficient, and it holds for solids that in this range of temperature $\alpha$ is extremely small, making the difference approximately 0.
 
-![[/Immagini/dulongpetit.png|400]]
+![[Images/dulongpetit.png|400]]
 
 In general, we can observe that for temperature values higher than the ambient temperature, the difference between the two specific heats increases, and specifically the one at constant pressure is higher.

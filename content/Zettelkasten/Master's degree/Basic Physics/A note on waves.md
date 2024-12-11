@@ -31,7 +31,7 @@ Let's prove this wave has indeed a plane wavefront.
 For $t=0$ the function $\phi$, i.e. the wave, as the same value for all the point in space for which $\bar{k} \cdot \bar{r} = \mbox{constant} \to k_xx+k_yy+k_zz = \mbox{constant}$ , which is the implicit form for the equation of a plane in 3 dimensions.
 Moreover, because in this form  the wave vector is the director vector of the plane, the wave propagation is always orthogonal to the wavefront:
 
-![[plane_wave.png]]
+![[Images/plane_wave.png]]
 
 ### Spherical waves
 
@@ -44,7 +44,7 @@ $$ \phi (\bar{r}, t) =A\exp(-i(kr-\omega t)) \qquad \mbox{collapsing into the or
 Let's prove this wave has indeed a spherical wavefront. 
 With the same reasoning as before, for $t=0$ the function $\phi$, i.e. the wave, as the same value for all the point in space for which $kr = \mbox{constant} = C \to x^2 + y^2 + z^2 = \frac{C^2}{k^2}$, that is a the equation of a sphere, centered in the origin.
 
-![[spherical_wave.png]]
+![[Images/spherical_wave.png]]
 
 
 ## Vector waves

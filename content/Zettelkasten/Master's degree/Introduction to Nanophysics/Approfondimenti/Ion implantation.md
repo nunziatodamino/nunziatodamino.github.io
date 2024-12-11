@@ -9,7 +9,7 @@
 
 ### Ion-beam processing
 
-![[Pasted image 20230603103709.png|500]]
+![[Images/Pasted image 20230603103709.png|500]]
 
 ## Dynamics
 
@@ -17,7 +17,7 @@
 
 We start by simply describing the collision between two molecules.
 
-![[Pasted image 20230603104442.png|400]]
+![[Images/Pasted image 20230603104442.png|400]]
 
 Impinging energy is in the order of $E_0 \sim \pu{100 keV}$, while the mass is in the order of the atomic mass of the implantable species (rest mass $mc^2 \sim \pu{10 GeV}$).  Because we are in the condition $E_0<<mc^2$ the process can be considered not relativistic.
 
@@ -70,7 +70,7 @@ With this scheme, one can also simply evaluate how many atoms per unit surface i
 
 $$ D = \int_0^{+\infty}C(z)dz $$
 
-![[Pasted image 20230603161129.png|500]]
+![[Images/Pasted image 20230603161129.png|500]]
 
 In the figure is shown an example of the concentration profile and relative quantities superimposed to a TEM image.
 
@@ -78,14 +78,14 @@ In the figure is shown an example of the concentration profile and relative quan
 
 #### Implantation of light elements
 
-![[Pasted image 20230603155355.png|600]]
+![[Images/Pasted image 20230603155355.png|600]]
 
 We observe that for light elements, no matter the energy of implantation, the scattering due to nuclear part is negligible respect to the electronic one. 
 Moreover we see that with the energy increase the projected range increase in a linear fashion, while the straggling is somewhat constant for energy less than the MeV, while for bigger energy tends to increase in the same linear fashion as the projected range.
 
 #### Implantation of heavy elements
 
-![[Pasted image 20230603155440.png|600]]
+![[Images/Pasted image 20230603155440.png|600]]
 
 We observe that for heavier elements we can distinguish in the stopping power analysis 2 regimes.
 One in which the nuclear stopping power is greater than the electronic one, for energy less then the MeV, while the viceversa holds for greater energy.
@@ -96,9 +96,9 @@ In regard to the projected range and the straggling they tend to increase linear
 
 So we can make the observation that, fixed the mass of the implanted element, as the implantation energy increase, so does the projected range and the straggling.
 
-![[Pasted image 20230603161829.png|400]]
+![[Images/Pasted image 20230603161829.png|400]]
 
 While for fixed energy varying the mass change these parameters, specifically for lighter masses we have bigger projected ranges and bigger straggling. 
 ($m_{Cu} = \pu{63.546 amu},\ m_{Au} = \pu{196.9665 amu}$)
 
-![[Pasted image 20230603161925.png|400]]
+![[Images/Pasted image 20230603161925.png|400]]

@@ -3,7 +3,7 @@ This technique is normally operated within transmission electron microscope (TEM
 The idea is to acquire information by fast electron $(100-300\ \text{keV})$ passing near the nanoparticle surface.
 Let's set our reasoning with a picture:
 
-![[Pasted image 20230705170329.png|300]]
+![[Images/Pasted image 20230705170329.png|300]]
 
 In a reference frame with origin in the center of the sphere we can find the trajectory of the electron, considering that it moves of uniform motion:
 
@@ -21,7 +21,7 @@ If we want to recast our integrand as a Fourier transform
 So that our energy loss is strictly linked to the electric field of the nanoparticle and the geometry of the nanoparticle. 
 Let’s see the effect of this EELS technique on the characterization of the local field around a silver NP:
 
-![[Pasted image 20230705173100.png|500]]
+![[Images/Pasted image 20230705173100.png|500]]
 
 With a scanning transmission electron microscope, we scan along the highlighted line and we take point by point the EELS spectrum , by sending electrons at different energies and measuring the loss intensity, i.e. the number of electrons that suffered the specific energy loss for the settled energy .
 

@@ -1,10 +1,10 @@
 In 3 dimensions there are 14 possible Bravais lattices: 
 
-![[Immagini/List of the 3-d Bravais lattices.png]]
+![[Images/List of the 3-d Bravais lattices.png]]
 
 In order to remember them is better to categorize them further on these macro categories, called primitive crystal systems
 
-![[Immagini/List of the 3-d Bravais lattices-1.png|500]]
+![[Images/List of the 3-d Bravais lattices-1.png|500]]
 #### Cubic System
 
 1. **Simple Cubic (SC)**

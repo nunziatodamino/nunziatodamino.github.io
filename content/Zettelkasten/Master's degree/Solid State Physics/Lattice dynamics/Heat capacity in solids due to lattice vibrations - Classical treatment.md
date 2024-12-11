@@ -54,6 +54,6 @@ $$\frac{C_V}{V} = c_V = 3nk_b$$
 Where $n$ is the atom density.
 This behavior is reproduced experimentally only at high temperature (in a sense that will become clear in the following treatment), as shown in the graph below:
 
-![[Pasted image 20230216174301.png|400]]
+![[Images/Pasted image 20230216174301.png|400]]
 
 To obtain the $\sim T^3$ behavior, one must resort to a quantum mechanical theory.
