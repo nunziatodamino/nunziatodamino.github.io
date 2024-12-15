@@ -2,6 +2,7 @@
 - **Molecular dynamics**
 - **Monte Carlo methods**
 	- [[A comment on the auto-correlation time of a time series containing a transient]]
+	- [[A technical addendum on the implementation of the MHM algorithm]]
 	- [[Aperiodic Markov chain]]
 	- [[Chapman-Kolmogorov equation for the stochastic matrix]]
 	- [[Communicating states]]

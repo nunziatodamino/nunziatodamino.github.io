@@ -1,11 +1,11 @@
 {
   "dayCounts": {
-    "2024/11/11": 675
+    "2024/11/12": 320
   },
   "todaysWordCount": {
-    "Projects/Numerical methods for soft matter/Monte Carlo methods/Multiple histogram method.md": {
-      "initial": 784,
-      "current": 1459
+    "Projects/Numerical methods for soft matter/Monte Carlo methods/A technical addendum on the implementation of the MHM algorithm.md": {
+      "initial": 483,
+      "current": 803
     }
   }
 }
