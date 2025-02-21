@@ -23,4 +23,4 @@ The first is the pressure of an ideal gas, the second part is derived assuming a
 $$ {f}_{ij,\alpha} = \frac{\partial u(r_{ij})}{\partial r_{ij,\alpha}} =- {f}_{ji,\alpha}  $$
 
 Where we defined the quantity per component $\alpha=x,y,z$.
-Proof of this formula is given [[Projects/Numerical methods for soft matter/Monte Carlo methods/Estimators of the mean and the variance]]
+Proof of this formula is given [[Projects/Numerical methods for soft matter/Monte Carlo methods/Random numbers generation/Estimators of the mean and the variance]]

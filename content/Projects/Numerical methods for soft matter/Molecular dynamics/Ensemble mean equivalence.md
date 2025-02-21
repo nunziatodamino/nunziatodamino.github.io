@@ -1,0 +1,1 @@
+In the thermodynamic limit ($N \to \infty$) and as long we avoid the neighborhood of phase transitions, ensemble averages are equivalent for commonly used ensembles. (cfr. Allen, Tildesley - pg. 58) 

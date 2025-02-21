@@ -1,11 +1,15 @@
 {
   "dayCounts": {
-    "2024/11/12": 320
+    "2025/1/20": 0
   },
   "todaysWordCount": {
-    "Projects/Numerical methods for soft matter/Monte Carlo methods/A technical addendum on the implementation of the MHM algorithm.md": {
-      "initial": 483,
-      "current": 803
+    "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Metropolis-Hastings algorithm.md": {
+      "initial": 152,
+      "current": 4
+    },
+    "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Using Monte Carlo methods in Statistical Physics.md": {
+      "initial": 608,
+      "current": 608
     }
   }
 }

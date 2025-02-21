@@ -4,24 +4,51 @@
     "type": "split",
     "children": [
       {
-        "id": "9f296d65f0e2da38",
+        "id": "579ed8eb35c84073",
         "type": "tabs",
         "children": [
           {
-            "id": "6aa7d8856a615bcf",
+            "id": "a1b23d56c15b4d91",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Numerical methods for soft matter/Monte Carlo methods/A technical addendum on the implementation of the MHM algorithm.md",
+                "file": "Projects/Numerical methods for soft matter/Monte Carlo methods/Random numbers generation/Mersenne twister.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "A technical addendum on the implementation of the MHM algorithm"
+              "title": "Mersenne twister"
+            }
+          },
+          {
+            "id": "68a56211b721d384",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Using Monte Carlo methods in Statistical Physics.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Using Monte Carlo methods in Statistical Physics"
+            }
+          },
+          {
+            "id": "db2d9e99b2588688",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.7"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -40,7 +67,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -77,8 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 328.5026054382324
   },
   "right": {
     "id": "17359a017802a181",
@@ -94,6 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Using Monte Carlo methods in Statistical Physics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +131,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Using Monte Carlo methods in Statistical Physics"
             }
           },
           {
@@ -164,8 +192,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -174,8 +202,8 @@
             "state": {
               "type": "stats-tracker",
               "state": {},
-              "icon": "bar-graph",
-              "title": "Daily Stats"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -199,9 +227,18 @@
               "icon": "lucide-info",
               "title": "File properties for Crude Monte Carlo"
             }
+          },
+          {
+            "id": "cb0a63e6460f7fcb",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {},
+              "icon": "bar-graph",
+              "title": "Daily Stats"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -219,54 +256,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6aa7d8856a615bcf",
+  "active": "db2d9e99b2588688",
   "lastOpenFiles": [
-    "Projects/Numerical methods for soft matter/Monte Carlo methods/Multiple histogram method.md",
-    "Projects/Numerical methods for soft matter/Monte Carlo methods/A technical addendum on the implementation of the MHM algorithm.md",
-    "Projects/Log-sum-exp trick.md",
-    "Projects/Numerical methods for soft matter/Numerical methods for soft matter.md",
+    "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Time correlation and auto-correlation functions.md",
+    "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Sampling a configuration from a given distribution.md",
+    "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Multiple histogram method.md",
+    "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Multiple Markov Chains (MMC) (Parallel tempering) (Replica exchange method).md",
+    "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Metropolis-Hastings algorithm.md",
+    "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Log-sum-exp trick.md",
+    "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Markov chain implementation of dynamic Monte Carlo methods.md",
+    "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Gillespie algorithm.md",
+    "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Algorithms satisfying the detailed balance condition - Heat bath and Metropolis-Hasting filter.md",
+    "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/A comment on the auto-correlation time of a time series containing a transient.md",
+    "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Dynamic Monte Carlo methods for the Ising model.md",
+    "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Crude Monte Carlo.md",
+    "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Using Monte Carlo methods in Statistical Physics.md",
+    "Projects/Numerical methods for soft matter/Monte Carlo methods/Random numbers generation/Pseudorandom number generator (PRNG).md",
+    "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Umbrella sampling.md",
+    "Projects/Numerical methods for soft matter/Molecular dynamics/Methods of truncation for the potential.md",
+    "Projects/Numerical methods for soft matter/Molecular dynamics/Correction to the potential energy due to truncation and shifting.md",
+    "Projects/Numerical methods for soft matter/Molecular dynamics/Correction for the potential energy due to simple truncation.md",
+    "Projects/Numerical methods for soft matter/Molecular dynamics/Ensemble mean equivalence.md",
+    "Projects/Numerical methods for soft matter/Molecular dynamics/Second order integrator of the Langevin equation.md",
+    "Projects/Numerical methods for soft matter/Molecular dynamics/First order integrator for the Langevin equation.md",
+    "Projects/Numerical methods for soft matter/Molecular dynamics/Euler-Maruyama Method.md",
+    "Projects/Numerical methods for soft matter/Molecular dynamics/Boundary conditions in MD.md",
+    "Projects/Numerical methods for soft matter/Molecular dynamics/Berendsen thermostat (non-canonical thermostat).md",
+    "Projects/Numerical methods for soft matter/Molecular dynamics/Leap frog algorithm.md",
+    "Projects/Numerical methods for soft matter/Molecular dynamics/n-particle distribution function.md",
+    "Metropolis-Hastings algorithm.png",
+    "Continuous-time Markov process.png",
+    "Multiple Markov Chains (MMC) (Parallel tempering) (Replica exchange method).png",
+    "Wolff algorithm.png",
+    "Boundary conditions in MD.png",
+    "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics",
+    "Projects/Numerical methods for soft matter/Monte Carlo methods/Markov chains",
+    "Projects/Numerical methods for soft matter/Monte Carlo methods/Random numbers generation",
     "Projects/Numerical methods for soft matter/Molecular dynamics",
-    "private/To-do.md",
-    "modifications_log.md",
-    "Projects/Physics of semiconductors/General doping/Charge neutrality in a doped semiconductor.md",
-    "Projects/Physics of semiconductors/General doping/Electron conservation is equivalent to charge neutrality.md",
     "tracked_files.sync-conflict-20241125-134743-XYEUGGT.json",
-    "Projects/Physics of semiconductors/General doping/How to fill the states of a general doped semiconductor.md",
-    "Projects/Physics of semiconductors/General doping/How to fill the n-doping states.md",
-    "Projects/Physics of semiconductors/General doping/How to fill the p-doping states.md",
-    "Projects/Physics of semiconductors/Law of mass action for semiconductors.md",
-    "Projects/Physics of semiconductors/Non degenerate semiconductor approximation (Boltzmann approximation).md",
-    "Projects/Physics of semiconductors/Electrons and holes densities in an homogeneous semiconductor.md",
-    "Projects/Physics of semiconductors/Doping.md",
-    "Projects/Physics of semiconductors/Energy of a donor electron using the envelope function equation.md",
-    "Projects/Physics of semiconductors/Electrons and holes density in a semiconductor in the non-degenerate approximation.md",
-    "Projects/Physics of semiconductors/Structure and production/Production of microelectronic-grade silicon.md",
-    "Projects/Physics of semiconductors/Structure and production/Order of magnitude of defects in semiconductors.md",
     "Projects/Physics of semiconductors/General doping",
-    "Zettelkasten/Master's degree/Solid State Physics/Semiconductors/Typical semiconductor band structure.md",
-    "Zettelkasten/Master's degree/Solid State Physics/Semiconductors/Number density of carriers in thermal equilibrium for an intrinsic (homogeneous) semiconductor.md",
-    "Zettelkasten/Master's degree/Solid State Physics/Semiconductors/Intrinsic or homogeneous semiconductor.md",
-    "Zettelkasten/Master's degree/Solid State Physics/Semiconductors/Extrinsic or inhomogeneous semiconductor.md",
-    "Zettelkasten/Master's degree/Solid State Physics/Semiconductors/Effect on the energy bands of doping in semiconductors.md",
-    "Projects/Physics of semiconductors/Intrinsic Fermi level.md",
-    "Projects/Physics of semiconductors/Notions of Solid State Physics.md",
     "Images/Law of mass action for semiconductors-1.png",
     "Images/Intrinsic Fermi level.png",
     "Images/Law of mass action for semiconductors.png",
     "Images/A comment on the auto-correlation time of a time series containing a transient-1.png",
     "Images/A comment on the auto-correlation time of a time series containing a transient.png",
-    "Images/Electrons and holes densities evaluation in a 3D homogeneous semiconductor using the non-degenerate hypothesis.png",
-    "Images/Electrons and holes densities evaluation in a 3D homogeneous semiconductor using the non-degenerate hypothesis-1.png",
-    "Images/Electrons and holes densities evaluation in a 3D homogeneous semiconductor using the non-degenerate hypothesisa.png",
-    "Images/Electrons and holes density in a semiconductor in the non-degenerate approximation.png",
-    "Images/Electrons and holes densities in an homogeneous semiconductor.png",
     "Zettelkasten/Master's degree/Models of Theoretical Physics/Statistical mechanics",
     "Zettelkasten/Master's degree/Models of Theoretical Physics/Mathematical methods",
     "Zettelkasten/Master's degree/Models of Theoretical Physics/Probability and Stochastic processes",
     "Calculations/Electron DOS for free electron model.pdf",
-    "Projects/Numerical methods for soft matter/Monte Carlo methods",
-    "Projects/Machine learning/Supervised learning",
-    "Projects/Machine learning",
     "Zettelkasten/Master's degree/Solid State Physics/Solid State mind map -electronic dynamics.canvas",
     "Zettelkasten/Master's degree/Solid State Physics/Solid State mind map -lattice dynamics.canvas",
     "Second partial.canvas",

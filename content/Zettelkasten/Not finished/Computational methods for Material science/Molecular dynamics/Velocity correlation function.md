@@ -1,4 +1,4 @@
-Suppose we want to write the [[Zettelkasten/Not finished/Computational methods for Material science/Molecular dynamics/Time correlation and auto-correlation functions|auto-correlation function]] for the velocity vector. Then:
+Suppose we want to write the [[Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Time correlation and auto-correlation functions|auto-correlation function]] for the velocity vector. Then:
 
 $$ c_{vv}(t) = \frac{\text{Cov}(\bar{v}(t),\bar{v}(0))}{\sigma^2_\bar{v}}= \frac{\braket{(\bar{v}(t)-\braket{\bar{v}})\cdot(\bar{v}(0)-\braket{\bar{v}})}}{\braket{v^2}-\braket{\bar{v}}^2} $$
 
