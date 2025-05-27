@@ -1,15 +1,33 @@
 {
   "dayCounts": {
-    "2025/1/20": 0
+    "2025/4/12": 679,
+    "2025/4/13": 683,
+    "2025/4/14": 521,
+    "2025/4/15": 348,
+    "2025/4/16": 583,
+    "2025/4/19": 902,
+    "2025/4/20": 648,
+    "2025/4/21": 433,
+    "2025/4/23": 928,
+    "2025/4/24": 549,
+    "2025/4/26": 2628
   },
   "todaysWordCount": {
-    "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Metropolis-Hastings algorithm.md": {
-      "initial": 152,
-      "current": 4
+    "Projects/Equilibrium Statistical Mechanics/Mean field approach/Partition function and bulk free energy in the mean field Ising model.md": {
+      "initial": 1,
+      "current": 381
     },
-    "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Using Monte Carlo methods in Statistical Physics.md": {
-      "initial": 608,
-      "current": 608
+    "Projects/Equilibrium Statistical Mechanics/Mean field approach/Free energy expansion around the critical temperature for the Curie-Weiss model.md": {
+      "initial": 1,
+      "current": 734
+    },
+    "Projects/Equilibrium Statistical Mechanics/Mean field approach/Mean field exponents in the Ising model.md": {
+      "initial": 1,
+      "current": 865
+    },
+    "Projects/Equilibrium Statistical Mechanics/Expansions and recurring formulas.md": {
+      "initial": 0,
+      "current": 651
     }
   }
 }

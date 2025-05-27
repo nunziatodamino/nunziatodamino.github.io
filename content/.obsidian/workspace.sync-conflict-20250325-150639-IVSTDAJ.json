@@ -1,0 +1,287 @@
+{
+  "main": {
+    "id": "de0c4aa227291dc9",
+    "type": "split",
+    "children": [
+      {
+        "id": "d9c9d41d4f077bd1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8e103e9eed0af986",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Equilibrium Statistical Mechanics/Rumors and legends about the correlation function.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Rumors and legends about the correlation function"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ec8d0f5d8bd32ac3",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a82e7d5d3cf28f9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b749f45cdf600629",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "00c7d0d140faf83a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "point",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1cd8631d7c3153bf",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 331.500732421875
+  },
+  "right": {
+    "id": "17359a017802a181",
+    "type": "split",
+    "children": [
+      {
+        "id": "c46ed151ca4deeea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "020fddc87c29544f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Using Monte Carlo methods in Statistical Physics.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Using Monte Carlo methods in Statistical Physics"
+            }
+          },
+          {
+            "id": "7771a21dc60aa06e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "00e0b5add7115b68",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "6d3b5d1b0b4e00f1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Projects/Numerical methods for soft matter/Monte Carlo methods/Crude Monte Carlo.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Crude Monte Carlo"
+            }
+          },
+          {
+            "id": "0d24afb0fd5efd8c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "9df0bfe3c3a5b312",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "88027dc0f4d2b48b",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "7f7cd1e1eed59476",
+            "type": "leaf",
+            "state": {
+              "type": "simple-note-review-sidebar-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "a5e57de256927d56",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Projects/Numerical methods for soft matter/Monte Carlo methods/Crude Monte Carlo.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for Crude Monte Carlo"
+            }
+          },
+          {
+            "id": "cb0a63e6460f7fcb",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {},
+              "icon": "bar-graph",
+              "title": "Daily Stats"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "random-note:Open random note": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "8e103e9eed0af986",
+  "lastOpenFiles": [
+    "Projects/Equilibrium Statistical Mechanics/Equilibrium Statistical Mechanics.sync-conflict-20250325-150629-IVSTDAJ.md",
+    "Projects/Equilibrium Statistical Mechanics/Equilibrium Statistical Mechanics.sync-conflict-20250325-150609-IVSTDAJ.md",
+    "Projects/Equilibrium Statistical Mechanics/Equilibrium Statistical Mechanics.sync-conflict-20250325-150553-XYEUGGT.md",
+    "Projects/Equilibrium Statistical Mechanics/Equilibrium Statistical Mechanics.sync-conflict-20250325-150548-XYEUGGT.md",
+    "Projects/Equilibrium Statistical Mechanics/Equilibrium Statistical Mechanics.sync-conflict-20250325-150529-IVSTDAJ.md",
+    "Projects/Equilibrium Statistical Mechanics/Rumors and legends about the correlation function.md",
+    "Projects/Equilibrium Statistical Mechanics/Equilibrium Statistical Mechanics.sync-conflict-20250325-150518-IVSTDAJ.md",
+    "Projects/Equilibrium Statistical Mechanics/Equilibrium Statistical Mechanics.sync-conflict-20250325-150508-IVSTDAJ.md",
+    "Projects/Equilibrium Statistical Mechanics/What equilibrium statistical mechanics is not.md",
+    "Projects/Equilibrium Statistical Mechanics/Phase transitions/Consideration on a system Hamiltonian in Statistical Mechanics.md",
+    "Projects/Equilibrium Statistical Mechanics/Phase transitions/Order parameter.md",
+    "Projects/Equilibrium Statistical Mechanics/Phase transitions/Free energy of a finite system.md",
+    "Projects/Equilibrium Statistical Mechanics/The Ising Model/Analytic solution for the 1D spin-1 Ising model with uniform magnetic field.md",
+    "Projects/Equilibrium Statistical Mechanics/The Ising Model/Analytic solution for the 1D spin-1 Ising model without magnetic field.md",
+    "Projects/Equilibrium Statistical Mechanics/The Ising Model/Existence of the bulk free energy limit in the Ising model.md",
+    "Projects/Equilibrium Statistical Mechanics/The Ising Model/The partition function as a generating function for particular decomposition of the Hamiltonian.md",
+    "Projects/Equilibrium Statistical Mechanics/The Ising Model/k-point correlation function in the spin-1Ising model.md",
+    "Projects/Equilibrium Statistical Mechanics/The Ising Model",
+    "Projects/Equilibrium Statistical Mechanics/The Ising Model/The spin-1 Ising model.md",
+    "Projects/Equilibrium Statistical Mechanics/The Ising Model/The transfer matrix method - some general properties.md",
+    "Zettelkasten/Master's degree/Models of Theoretical Physics/Probability and Stochastic processes/s-point correlation functions.md",
+    "Projects/Equilibrium Statistical Mechanics/The Ising Model/The global spin flip symmetry (Z_2 symmetry) of the spin-1 Ising model.md",
+    "Projects/Equilibrium Statistical Mechanics/The Ising Model/Spontaneous symmetry breaking in the spin-1 Ising model.md",
+    "Projects/Equilibrium Statistical Mechanics/The Ising Model/2-point correlation function in the Ising model.md",
+    "Projects/Equilibrium Statistical Mechanics/The Ising Model/Explicit computation of important parameters in the 1D spin-1 Ising model using the transfer matrix method.md",
+    "Projects/Equilibrium Statistical Mechanics/The Ising Model/Explicit form and property of the transfer matrix for the 1D Ising model.md",
+    "Projects/Equilibrium Statistical Mechanics/The Ising Model/Order parameter in the Ising model.md",
+    "Analytic solution for the 1D spin-1 Ising model.png",
+    "Existence of the bulk free energy limit in the Ising model.png",
+    "Projects/Equilibrium Statistical Mechanics/Ensemble theory",
+    "Projects/Equilibrium Statistical Mechanics/Phase transitions",
+    "Images/Multiple Markov Chains (MMC) (Parallel tempering) (Replica exchange method).png",
+    "Images/Metropolis-Hastings algorithm.png",
+    "IMG_20241224_000321124.jpg",
+    "IMG_20241224_000317573.jpg",
+    "Images/Continuous-time Markov process.png",
+    "tracked_files.sync-conflict-20250221-170450-XYEUGGT.json",
+    "tracked_files.sync-conflict-20250221-103734-XYEUGGT.json",
+    "Images/Wolff algorithm.png",
+    "Boundary conditions in MD.png",
+    "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics",
+    "Projects/Numerical methods for soft matter/Monte Carlo methods/Markov chains",
+    "Projects/Numerical methods for soft matter/Monte Carlo methods/Random numbers generation",
+    "Projects/Numerical methods for soft matter/Molecular dynamics",
+    "tracked_files.sync-conflict-20241125-134743-XYEUGGT.json",
+    "Images/Law of mass action for semiconductors-1.png",
+    "Zettelkasten/Master's degree/Solid State Physics/Solid State mind map -electronic dynamics.canvas",
+    "Zettelkasten/Master's degree/Solid State Physics/Solid State mind map -lattice dynamics.canvas",
+    "Second partial.canvas",
+    "Untitled 1.canvas",
+    "Untitled 2.canvas",
+    "Nucleation scheme.canvas"
+  ]
+}

@@ -3,7 +3,7 @@ In our treatment, we assumed an [[Zettelkasten/Master's degree/Solid State Physi
 It depends if we are in a situation in which we can neglect, or not ,the surfaces effect. 
 This is [[Zettelkasten/Master's degree/Introduction to Nanophysics/When the surface becomes important|easy to check]].
 
-If we established that surface effects are negligible, we apply the so-called [[Zettelkasten/Master's degree/Solid State Physics/Crystal structures and bonds/Born-Von Karman boundary condition|Born-Von Karman boundary condition]], which are periodic boundary conditions that essentially allow a finite chain to be transformed into an infinite one. If our chain is made up of N atoms, the condition is imposed so that the displacement from the equilibrium position of the Nth atom coincides with that of the initial atom of the chain:
+If we established that surface effects are negligible, we apply the so-called [[Zettelkasten/Master's degree/Solid State Physics/Crystal structures and bonds/Born-Von Karman boundary conditions|Born-Von Karman boundary conditions]], which are periodic boundary conditions that essentially allow a finite chain to be transformed into an infinite one. If our chain is made up of N atoms, the condition is imposed so that the displacement from the equilibrium position of the Nth atom coincides with that of the initial atom of the chain:
 
 $$u(R_0,t) = u(R_N,t) \iff u_0 = u_N $$
 

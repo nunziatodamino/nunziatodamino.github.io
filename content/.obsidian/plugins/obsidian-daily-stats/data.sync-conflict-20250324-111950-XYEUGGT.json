@@ -1,0 +1,23 @@
+{
+  "dayCounts": {
+    "2025/2/14": 735
+  },
+  "todaysWordCount": {
+    "Projects/Equilibrium Statistical Mechanics/Phase transitions/Analytic solution for the 1D spin-1 Ising model without magnetic field.md": {
+      "initial": 953,
+      "current": 962
+    },
+    "Projects/Equilibrium Statistical Mechanics/Phase transitions/Analytic solution for the 1D spin-1 Ising model with magnetic field.md": {
+      "initial": 1,
+      "current": 139
+    },
+    "Projects/Equilibrium Statistical Mechanics/Phase transitions/Analytic solution for the 1D spin-1 Ising model with uniform magnetic field.md": {
+      "initial": 140,
+      "current": 532
+    },
+    "Projects/Equilibrium Statistical Mechanics/Phase transitions/Explicit form and property of the transfer matrix for the 1D Ising model.md": {
+      "initial": 101,
+      "current": 297
+    }
+  }
+}

@@ -3,7 +3,7 @@ Suppose we have simplified the many-body problem motion using [[Zettelkasten/Mas
 $$ [T_e + (V_{ee}+V_{nn} + V_{en})] \psi_e = \mathcal{E}(\{\bar{R}_I\}) \psi_e$$
 
 In order to reduce this many-body equation to a single-body many possibilities are available.
-The main one is called [[Zettelkasten/Not finished/Computational methods for Material science/Ab initio Quantum Mechanics/Hartree-Fock theory|Hartree-Fock theory]] and consist of the following main steps:
+The main one is called [[Projects/Computational methods for Material science/Ab initio Quantum Mechanics/Hartree-Fock theory|Hartree-Fock theory]] and consist of the following main steps:
 
 - We impose symmetry on our problem by postulating that the nuclei in the above equation occupy fixed positions $\{\bar{R}_I\}$ within a Bravais lattice chosen a priori.
 - We then simplify the potential problem by specifying, instead of the specific contributions seen above, a single potential $V\equiv V_{ee}+V_{nn} + V_{en}$ called the effective potential.

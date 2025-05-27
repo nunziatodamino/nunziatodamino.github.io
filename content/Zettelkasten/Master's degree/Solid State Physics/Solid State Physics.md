@@ -1,7 +1,7 @@
 %% Begin Waypoint %%
 - **Crystal structures and bonds**
 	- [[Born-Mayer potential]]
-	- [[Born-Von Karman boundary condition]]
+	- [[Born-Von Karman boundary conditions]]
 	- [[Bravais lattice]]
 	- [[Brillouin Zone]]
 	- [[Considerations on the Bragg scattering within a Bravais lattice]]

@@ -4,51 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "579ed8eb35c84073",
+        "id": "121d79af3909e67c",
         "type": "tabs",
         "children": [
           {
-            "id": "a1b23d56c15b4d91",
+            "id": "ba1c05860ceadb14",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/Numerical methods for soft matter/Monte Carlo methods/Random numbers generation/Mersenne twister.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Mersenne twister"
-            }
-          },
-          {
-            "id": "68a56211b721d384",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Using Monte Carlo methods in Statistical Physics.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Using Monte Carlo methods in Statistical Physics"
-            }
-          },
-          {
-            "id": "db2d9e99b2588688",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.7"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.5026054382324
+    "width": 344.5004348754883
   },
   "right": {
     "id": "17359a017802a181",
@@ -234,6 +203,16 @@
             "state": {
               "type": "stats-tracker",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "238c003ba5dbb8db",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {},
               "icon": "bar-graph",
               "title": "Daily Stats"
             }
@@ -256,56 +235,56 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "db2d9e99b2588688",
+  "active": "ba1c05860ceadb14",
   "lastOpenFiles": [
-    "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Time correlation and auto-correlation functions.md",
-    "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Sampling a configuration from a given distribution.md",
-    "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Multiple histogram method.md",
-    "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Multiple Markov Chains (MMC) (Parallel tempering) (Replica exchange method).md",
-    "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Metropolis-Hastings algorithm.md",
-    "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Log-sum-exp trick.md",
-    "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Markov chain implementation of dynamic Monte Carlo methods.md",
-    "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Gillespie algorithm.md",
-    "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Algorithms satisfying the detailed balance condition - Heat bath and Metropolis-Hasting filter.md",
-    "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/A comment on the auto-correlation time of a time series containing a transient.md",
-    "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Dynamic Monte Carlo methods for the Ising model.md",
-    "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Crude Monte Carlo.md",
-    "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Using Monte Carlo methods in Statistical Physics.md",
-    "Projects/Numerical methods for soft matter/Monte Carlo methods/Random numbers generation/Pseudorandom number generator (PRNG).md",
-    "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Umbrella sampling.md",
-    "Projects/Numerical methods for soft matter/Molecular dynamics/Methods of truncation for the potential.md",
-    "Projects/Numerical methods for soft matter/Molecular dynamics/Correction to the potential energy due to truncation and shifting.md",
-    "Projects/Numerical methods for soft matter/Molecular dynamics/Correction for the potential energy due to simple truncation.md",
-    "Projects/Numerical methods for soft matter/Molecular dynamics/Ensemble mean equivalence.md",
-    "Projects/Numerical methods for soft matter/Molecular dynamics/Second order integrator of the Langevin equation.md",
-    "Projects/Numerical methods for soft matter/Molecular dynamics/First order integrator for the Langevin equation.md",
-    "Projects/Numerical methods for soft matter/Molecular dynamics/Euler-Maruyama Method.md",
-    "Projects/Numerical methods for soft matter/Molecular dynamics/Boundary conditions in MD.md",
-    "Projects/Numerical methods for soft matter/Molecular dynamics/Berendsen thermostat (non-canonical thermostat).md",
-    "Projects/Numerical methods for soft matter/Molecular dynamics/Leap frog algorithm.md",
-    "Projects/Numerical methods for soft matter/Molecular dynamics/n-particle distribution function.md",
-    "Metropolis-Hastings algorithm.png",
-    "Continuous-time Markov process.png",
-    "Multiple Markov Chains (MMC) (Parallel tempering) (Replica exchange method).png",
-    "Wolff algorithm.png",
-    "Boundary conditions in MD.png",
-    "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics",
-    "Projects/Numerical methods for soft matter/Monte Carlo methods/Markov chains",
-    "Projects/Numerical methods for soft matter/Monte Carlo methods/Random numbers generation",
-    "Projects/Numerical methods for soft matter/Molecular dynamics",
-    "tracked_files.sync-conflict-20241125-134743-XYEUGGT.json",
-    "Projects/Physics of semiconductors/General doping",
-    "Images/Law of mass action for semiconductors-1.png",
-    "Images/Intrinsic Fermi level.png",
-    "Images/Law of mass action for semiconductors.png",
-    "Images/A comment on the auto-correlation time of a time series containing a transient-1.png",
-    "Images/A comment on the auto-correlation time of a time series containing a transient.png",
-    "Zettelkasten/Master's degree/Models of Theoretical Physics/Statistical mechanics",
-    "Zettelkasten/Master's degree/Models of Theoretical Physics/Mathematical methods",
-    "Zettelkasten/Master's degree/Models of Theoretical Physics/Probability and Stochastic processes",
-    "Calculations/Electron DOS for free electron model.pdf",
+    "Projects/Computational methods for Material science/Ab initio Quantum Mechanics/Kohn-Sham equations.md",
+    "Projects/Computational methods for Material science/Ab initio Quantum Mechanics/Hartree-Fock theory.md",
+    "Projects/Equilibrium Statistical Mechanics/Mean field approach/Mean field exponents in the Ising model.md",
+    "Projects/Equilibrium Statistical Mechanics/Mean field approach/Free energy expansion around the critical temperature for the Curie-Weiss model.md",
+    "Calculations/addendum_on_the_alpha_exponent.pdf",
+    "Projects/Equilibrium Statistical Mechanics/Expansions and recurring formulas.md",
+    "Projects/Equilibrium Statistical Mechanics/Mean field approach/Partition function and bulk free energy in the mean field Ising model.md",
+    "Projects/Equilibrium Statistical Mechanics/Mean field approach/Ising model in the mean field approximation.md",
+    "Free energy expansion around the critical temperature for the Curie-Weiss model.png",
+    "Zettelkasten/Master's degree/Models of Theoretical Physics/Statistical mechanics/Curie-Weiss model solution with h=0.md",
+    "Projects/Equilibrium Statistical Mechanics/Phase transitions/Lower critical dimension.md",
+    "Projects/Equilibrium Statistical Mechanics/Phase transitions/Maximum Slope of Observables and Phase Transitions - PLACEHOLDER.md",
+    "Projects/Equilibrium Statistical Mechanics/Phase transitions/Partition function in the O(n) model with free boundary condition in 1D.md",
+    "Projects/Equilibrium Statistical Mechanics/Phase transitions/Perron-Frobenius Theorem.md",
+    "Projects/Equilibrium Statistical Mechanics/The Ising Model/Order parameter in the Ising model.md",
+    "Projects/Equilibrium Statistical Mechanics/Miscellanea/Rumors and legends about the correlation function.md",
+    "Projects/Equilibrium Statistical Mechanics/Phase transitions/Spin stiffness energy.md",
+    "Projects/Equilibrium Statistical Mechanics/Miscellanea/Taking limits in Statistical Mechanics.md",
+    "Projects/Equilibrium Statistical Mechanics/Phase transitions/The Berezinskii-Kosterlitz-Thouless (BKT) transition.md",
+    "Projects/Equilibrium Statistical Mechanics/Miscellanea/Thermal conductivity using kinetic gas theory arguments.md",
+    "Projects/Equilibrium Statistical Mechanics/Phase transitions/Transfer matrix in the zipper model.md",
+    "Projects/Equilibrium Statistical Mechanics/The Ising Model/The spin-1 Ising model.md",
+    "Projects/Equilibrium Statistical Mechanics/Phase transitions/Transfer matrix method for the single-ended zipper model.md",
+    "Projects/Equilibrium Statistical Mechanics/Mean field approach/Mean field approximation.md",
+    "Projects/Equilibrium Statistical Mechanics/The Ising Model/Infinite range interaction Ising model.md",
+    "Projects/Equilibrium Statistical Mechanics/Mean field approach",
+    "Projects/Equilibrium Statistical Mechanics/Miscellanea",
+    "Projects/Equilibrium Statistical Mechanics/Phase transitions/Low temperature approximation of the XY model in 2-dimensions.md",
+    "Projects/Equilibrium Statistical Mechanics/Phase transitions/Free energy argument for n=1 vortices.md",
+    "Projects/Equilibrium Statistical Mechanics/The Ising Model/A technicality about the partition function in the Ising-like models.md",
+    "Images/Vortices in the 2D XY model.png",
+    "Calculations/Gradient approximation on an hypercubic lattice.pdf",
+    "Images/Spin stiffness energy.png",
+    "Images/Energy-entropy argument for the 2D Ising model with fixed boundary condition.png",
+    "Images/The Peierls argument (energy-entropy argument).png",
+    "Images/The Peierls argument.png",
+    "Images/The Energy-entropy argument (Peierls argument).png",
+    "Pasted image 20250515101539.png",
     "Zettelkasten/Master's degree/Solid State Physics/Solid State mind map -electronic dynamics.canvas",
     "Zettelkasten/Master's degree/Solid State Physics/Solid State mind map -lattice dynamics.canvas",
+    "Calculations/study of the function k in the single ended zipper model.pdf",
+    "Projects/Programming/Python",
+    "Projects/Programming/C++",
+    "Projects/Programming",
+    "IMG_20241224_000317573.jpg",
+    "IMG_20241224_000321124.jpg",
+    "Projects/Lettura libri/2025",
+    "Calculations/electron_velocity_lemma.pdf",
     "Second partial.canvas",
     "Untitled 1.canvas",
     "Untitled 2.canvas",

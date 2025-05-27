@@ -18,7 +18,7 @@ $$ w=  \frac{n}{\tau} \sim n^2v_F\lambda^2_{TF} $$
 
 This estimation is wrong, specifically is an overestimation.
 Suppose to have to electron with initial momenta $\bar{k}_1$ and $\bar{k}_2$ that interacts and then have final momenta $\bar{k}'_1$ and $\bar{k}'_2$.
-The final states must be free in order to be occupied. Then , if we consider the [[Fermi-Dirac statistics]] at $T \neq 0$ the only free states are the one with energy $E=E_F \pm k_BT$. Moreover also the initial states must have this energy, because of momentum conservation.
+The final states must be free in order to be occupied. Then , if we consider the [[Projects/Equilibrium Statistical Mechanics/Miscellanea/Fermi-Dirac statistics]] at $T \neq 0$ the only free states are the one with energy $E=E_F \pm k_BT$. Moreover also the initial states must have this energy, because of momentum conservation.
 So we must correct $n$ with the fraction of the electrons available to the scattering process, namely $n \to n \frac{T}{T_F}$.
 We then obtain:
 

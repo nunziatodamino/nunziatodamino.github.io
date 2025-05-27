@@ -1,4 +1,4 @@
-We start by considering a [[Zettelkasten/Master's degree/Probability and Statistics/Probability density function (PDF)]] $p(\bar{x})$ associated to a vector of random variables $\bar{X} = (x_1,x_2,\dots,x_n)$, and we evaluate its [[Zettelkasten/Master's degree/Models of Theoretical Physics/Probability and Stochastic processes/Characteristic function]] $\varphi(\bar{k})$.
+We start by considering a [[Zettelkasten/Master's degree/Probability and Statistics/Probability density function (PDF)|Probability density function (PDF)]] $p(\bar{x})$ associated to a vector of random variables $\bar{X} = (x_1,x_2,\dots,x_n)$, and we evaluate its [[Zettelkasten/Master's degree/Models of Theoretical Physics/Probability and Stochastic processes/Characteristic function|Characteristic function]] $\varphi(\bar{k})$.
 We can then define:
 
 >[!info] **s-point correlation function**

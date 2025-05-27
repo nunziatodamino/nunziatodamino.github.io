@@ -3,7 +3,7 @@ So again we will use the [[Zettelkasten/Master's degree/Basic Physics/Boltzmann 
 We assume also again the time relaxation ansatz, so that the perturbed distribution is:
 
 $$ f=f_0+f_1 $$ 
-Where $f_0$ is the thermal equilibrium distribution, i.e the [[Fermi-Dirac statistics|Fermi-Dirac distribution]].
+Where $f_0$ is the thermal equilibrium distribution, i.e the [[Projects/Equilibrium Statistical Mechanics/Miscellanea/Fermi-Dirac statistics|Fermi-Dirac distribution]].
 Now we want to solve the Boltzmann equation in the static limit $(\frac{\partial f}{\partial \bar {r}}=0)$ :
 
 

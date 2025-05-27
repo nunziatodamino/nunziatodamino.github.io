@@ -8,4 +8,4 @@ Given two or more simple systems, they may be considered as constituting a singl
 
 The composite system is termed **closed** if it is surrounded by a wall that is restrictive with respect to the total energy, the total volume, and the total mole numbers of each component of the composite system. The individual simple systems within a closed composite system need not themselves be closed. 
 
-Constraints that prevent the flow of energy,or volume, or matter among the simple systems constituting the composite system are known as **internal constraints**.
+Constraints that prevent the flow of energy, or volume, or matter among the simple systems constituting the composite system are known as **internal constraints**.

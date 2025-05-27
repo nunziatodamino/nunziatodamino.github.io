@@ -1,5 +1,5 @@
 We want to see if in the context of the band model, and so in the context of [[Zettelkasten/Master's degree/Solid State Physics/Electron dynamics/Bloch Theorem|Bloch Theorem]], considering a finite system leads to the same wavevectors discretisation found in the [[Zettelkasten/Master's degree/Solid State Physics/Electron dynamics/Free electron model for metals (Sommerfeld model)|Free electron model for metals (Sommerfeld model)]].
-Consider a wavefunction to which the general [[Zettelkasten/Master's degree/Solid State Physics/Crystal structures and bonds/Born-Von Karman boundary condition|Born-Von Karman boundary condition]] are applied:
+Consider a wavefunction to which the general [[Zettelkasten/Master's degree/Solid State Physics/Crystal structures and bonds/Born-Von Karman boundary conditions|Born-Von Karman boundary conditions]] are applied:
 
 $$ \Psi_{\bar{k}}(\bar{r}+\bar{R}') = \Psi_{\bar{k}}(\bar{r})  $$
 Where $\bar{R}' = (N_1\bar{a}_1,N_2\bar{a}_2,N_3\bar{a}_3)$ and $N_1N_2N_3=N$.

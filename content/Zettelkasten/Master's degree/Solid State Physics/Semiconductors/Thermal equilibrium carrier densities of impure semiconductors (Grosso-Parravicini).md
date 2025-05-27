@@ -1,4 +1,4 @@
-We will treat here the case only of the n-type semiconductor ($N_a =0$) so that the [[Projects/Physics of semiconductors/General doping/Charge neutrality in a doped semiconductor|Charge neutrality condition]] becomes:
+We will treat here the case only of the n-type semiconductor ($N_a =0$) so that the [[Zettelkasten/Not finished/Physics of semiconductors/General doping/Charge neutrality in a doped semiconductor|Charge neutrality condition]] becomes:
 
 $$ n =p + N_d - n_d^0  $$
 
