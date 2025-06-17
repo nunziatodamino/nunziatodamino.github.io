@@ -61,7 +61,7 @@ $$ \delta = 3 $$
 
 We want to evaluate:
 
-$$ C_H = -T\left(\frac {\partial f_B^2}{\partial T^2} \right) $$
+$$ C_H = -T\left(\frac {\partial^2 f_B}{\partial T^2} \right) $$
 
 I.e. the specific heat at constant magnetic field. Instead of proceeding by definition we distinguish 2 cases:
 
@@ -105,9 +105,11 @@ Then :
 
 $$ \chi_T = \frac{\beta}{1- \beta z\hat{J}+ {m^2} + \mathcal{O}(m^4) } $$
 
-Now, as $T \to T_C$ we have $\beta\to\beta_c$, $\beta z\hat{J} \to 1$,  and $m^2 \to -a/b \to \frac{a_0}{b_0}(T_C-T)$.
+Now, as we expect this quantity to be singular at the critical temperature, we study the 2 limits:
+- as $T \to T_C$ we have $\beta\to\beta_c$, $\beta z\hat{J} \to 1$,  and $m^2 \to -a/b \to \frac{a_0}{b_0}(T_C-T)$.
 Putting all together:
 
 $$\chi_T \sim \frac{1}{T_C-T} \sim |t|^{-1}$$
 
-So that we conclude that $\gamma = -1$
+So that we conclude that both from the left and the right $\gamma = 1$
+

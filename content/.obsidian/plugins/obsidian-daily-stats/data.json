@@ -10,24 +10,25 @@
     "2025/4/21": 433,
     "2025/4/23": 928,
     "2025/4/24": 549,
-    "2025/4/26": 2628
+    "2025/4/26": 2628,
+    "2025/4/27": 1725,
+    "2025/4/28": 1029,
+    "2025/4/29": 1254,
+    "2025/4/30": 873,
+    "2025/4/31": 707,
+    "2025/5/2": 1624,
+    "2025/5/3": 1319,
+    "2025/5/4": 696,
+    "2025/5/5": 1282,
+    "2025/5/9": 44,
+    "2025/5/11": 799,
+    "2025/5/12": 1219,
+    "2025/5/13": 87
   },
   "todaysWordCount": {
-    "Projects/Equilibrium Statistical Mechanics/Mean field approach/Partition function and bulk free energy in the mean field Ising model.md": {
+    "Projects/Equilibrium Statistical Mechanics/Mean field approach/Ginzburg-Landau theory/The Ginzburg-Landau theory.md": {
       "initial": 1,
-      "current": 381
-    },
-    "Projects/Equilibrium Statistical Mechanics/Mean field approach/Free energy expansion around the critical temperature for the Curie-Weiss model.md": {
-      "initial": 1,
-      "current": 734
-    },
-    "Projects/Equilibrium Statistical Mechanics/Mean field approach/Mean field exponents in the Ising model.md": {
-      "initial": 1,
-      "current": 865
-    },
-    "Projects/Equilibrium Statistical Mechanics/Expansions and recurring formulas.md": {
-      "initial": 0,
-      "current": 651
+      "current": 88
     }
   }
 }

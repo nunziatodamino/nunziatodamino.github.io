@@ -1,7 +1,7 @@
 Suppose we want to evaluate the correlation between 2 spins in a lattice.
 Then, apart from normalization, one should evaluate:
 
-$$ \Gamma_N(R) = \braket{s_1s_R}N - \braket{s_1}N\braket{s_R}N$$
+$$ \Gamma_N(R) = \braket{s_1s_R}_N - \braket{s_1}_N\braket{s_R}_N$$
 
 Note that evaluating the correlation from spin one is a matter of choice, given that we are implicitly assuming that the system is translationally invariant.
 We expect, for a large collection of spins, that the bigger the distance, the more uncorrelated the two are, namely:

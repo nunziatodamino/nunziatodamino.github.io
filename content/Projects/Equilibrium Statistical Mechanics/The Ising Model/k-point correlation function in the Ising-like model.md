@@ -24,7 +24,7 @@ $$ \frac{1}{\beta}\frac{\partial \ln \mathcal{Z}_N }{\partial H_j} = \braket{s_j
 
 If we differentiate the partition function respect $H_j$ twice:
 
-$$ \frac{\partial \mathcal{Z}_N }{\partial H_jH_k} =\beta^2 \frac{\partial \mathscr{H}_N }{\partial H_k} \text{Tr} s_j e^{-\beta \mathscr{H}} = \beta^2 \sum_i \delta_{ik}s_k \text{Tr}\ s_je^{-\beta \mathscr{H}} = \beta^2 \text{Tr}\ s_js_ke^{-\beta \mathscr{H}} = \frac{\beta^2 \mathcal{Z}_N}{\mathcal{Z}_N} \text{Tr}\ s_js_ke^{-\beta \mathscr{H}}  $$
+$$ \frac{\partial \mathcal{Z}_N }{\partial H_jH_k} =-\beta^2 \frac{\partial \mathscr{H}_N }{\partial H_k} \text{Tr} s_j e^{-\beta \mathscr{H}} = \beta^2 \sum_i \delta_{ik}s_k \text{Tr}\ s_je^{-\beta \mathscr{H}} = \beta^2 \text{Tr}\ s_js_ke^{-\beta \mathscr{H}} = \frac{\beta^2 \mathcal{Z}_N}{\mathcal{Z}_N} \text{Tr}\ s_js_ke^{-\beta \mathscr{H}}  $$
 
 Then, by reordering:
 
@@ -33,4 +33,4 @@ $$ \frac{1}{\beta^2\mathcal{Z}_N}\frac{\partial^2 \mathcal{Z}_N }{\partial H_jH_
 
 It's easy to see by induction, using the same ansatz, that
 
-$$ (-1)^{k}\frac{1}{\beta^k}\frac{\partial^k  \mathcal{Z}_N }{\partial H_j\dots\partial H_k} = \braket{s_j \dots s_k} $$
+$$ \frac{1}{\beta^k\mathcal{Z}_N}\frac{\partial^k  \mathcal{Z}_N }{\partial H_j\dots\partial H_k} = \braket{s_j \dots s_k} $$

@@ -43,5 +43,5 @@ In relation to the study in [[Zettelkasten/Master's degree/Models of Theoretical
 
 To complete the picture we plot roughly the bulk free energy against the magnetization, to further conclude our point
 
- ![[Free energy expansion around the critical temperature for the Curie-Weiss model.png|400]]
+ ![[Images/Free energy expansion around the critical temperature for the Curie-Weiss model.png|400]]
  

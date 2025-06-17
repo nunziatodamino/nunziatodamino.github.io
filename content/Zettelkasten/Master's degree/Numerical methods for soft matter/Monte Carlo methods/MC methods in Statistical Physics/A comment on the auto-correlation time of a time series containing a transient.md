@@ -5,7 +5,7 @@ If our dynamics is correct and our iterations are high enough, then we reached e
 
 $$ C_O(s, s+t) = C(0,t)\qquad \forall s $$
 
-**Note that this equality is true only when the process is stationary or weakly stationary, not on the entire time series.**
+**Note that this equality is true only when the process is [[Projects/Stationary and homogeneous random fields|(weakly) stationary]] not on the entire time series.**
 We show this with a specific example from a simulation if a 50 x 50 Ising model, using a spin flip dynamics with a Metropolis update rule, for 100000 iterations. After the energy per spin time series is acquired, we plot, for a fixed $\beta$:
 
 ```python

@@ -55,7 +55,7 @@ $$
 ==**Nota** Il professore fa questo parte dall'Ashcroft-Mermin.
 Si trova un discorso migliore nel Grosso-Parravicini==
 
-One can prove using the [[Variational principle]] that each orbital must satisfy the so called **Hartree-Fock equations**:
+One can prove using the [[Variational principle in QM]] that each orbital must satisfy the so called **Hartree-Fock equations**:
 
 $$ \left[ h_i + \frac{1}{2}k_e\sum_j(J_{ij}-K_{ij})\right]\psi_i(\bar{\xi})=\mathcal{E}_i\psi_i(\bar{\xi}) $$
 

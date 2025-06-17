@@ -118,7 +118,7 @@
 	- [[Phenomenological aspects of superconductors]]
 	- [[Superconducting elements]]
 	- [[Superconductivity is not just ideal conductivity]]
-	- [[The Ginzburg-Landau theory]]
+	- [[Zettelkasten/Master's degree/Solid State Physics/Superconductors/The Ginzburg-Landau theory]]
 	- [[Type I and type II superconductors]]
 	- [[Why Cooper pairs forms a bound state]]
 - **Thermal transport**
