@@ -1,34 +1,24 @@
 {
   "dayCounts": {
-    "2025/4/12": 679,
-    "2025/4/13": 683,
-    "2025/4/14": 521,
-    "2025/4/15": 348,
-    "2025/4/16": 583,
-    "2025/4/19": 902,
-    "2025/4/20": 648,
-    "2025/4/21": 433,
-    "2025/4/23": 928,
-    "2025/4/24": 549,
-    "2025/4/26": 2628,
-    "2025/4/27": 1725,
-    "2025/4/28": 1029,
-    "2025/4/29": 1254,
-    "2025/4/30": 873,
-    "2025/4/31": 707,
-    "2025/5/2": 1624,
-    "2025/5/3": 1319,
-    "2025/5/4": 696,
-    "2025/5/5": 1282,
-    "2025/5/9": 44,
-    "2025/5/11": 799,
-    "2025/5/12": 1219,
-    "2025/5/13": 87
+    "2025/6/6": 241,
+    "2025/6/7": 44,
+    "2025/6/8": 0,
+    "2025/6/12": 1,
+    "2025/6/13": 58,
+    "2025/6/14": 0
   },
   "todaysWordCount": {
-    "Projects/Equilibrium Statistical Mechanics/Mean field approach/Ginzburg-Landau theory/The Ginzburg-Landau theory.md": {
-      "initial": 1,
-      "current": 88
+    "Projects/Equilibrium Statistical Mechanics/Course/Ensemble theory/Statistical ensemble.md": {
+      "initial": 125,
+      "current": 125
+    },
+    "Projects/Equilibrium Statistical Mechanics/Course/Mean field approach/Critical exponents of the Van der Waals theory.md": {
+      "initial": 514,
+      "current": 513
+    },
+    "Projects/Equilibrium Statistical Mechanics/Course/The Ising Model/Fluctuation-response relation for Ising-like model.md": {
+      "initial": 505,
+      "current": 505
     }
   }
 }

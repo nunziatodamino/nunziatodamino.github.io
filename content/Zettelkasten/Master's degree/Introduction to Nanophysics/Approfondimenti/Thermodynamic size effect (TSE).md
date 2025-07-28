@@ -29,7 +29,7 @@ Now we have to make some consideration in order to esplicitate the derivates in 
 In order to this one must use the Gibbs-Duhem relation for the internal energy:
 
 $$ SdT - VdP + Nd\mu =0 $$
-We give [[Projects/Equilibrium Statistical Mechanics/Thermodynamics/Gibbs-Duhem relations|here]] a brief derivation.  We proceed then to isolate the chemical potential differential:
+We give [[Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Thermodynamics/Gibbs-Duhem relations|here]] a brief derivation.  We proceed then to isolate the chemical potential differential:
 
 $$ d\mu = \frac{V}{N} dP - \frac{S}{N}dT = \frac{1}{\rho} dP - s\ dT  $$
 

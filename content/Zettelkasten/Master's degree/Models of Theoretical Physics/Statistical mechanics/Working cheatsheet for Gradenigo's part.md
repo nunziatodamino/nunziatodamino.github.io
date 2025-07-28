@@ -1,7 +1,7 @@
 - [ ] inserite qui perchè non c'è tempo di inquadrarle nel sistema. Sarebbe bello poi sistemarle per bene quando si fa Statistical Mechanics.
 
 ####  Average quantities in a canonical ensemble at thermal equilibrium 
-Suppose to be in a canonical ensemble. Then for systems at equilibrium, see [[Projects/Equilibrium Statistical Mechanics/Ensemble theory/Thermodynamic (or thermal) equilibrium]], an average quantity of the system $X$ can be evaluated as:
+Suppose to be in a canonical ensemble. Then for systems at equilibrium, see [[Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Ensemble theory/FIX/Thermodynamic (or thermal) equilibrium]], an average quantity of the system $X$ can be evaluated as:
 
 $$ \braket{X} = \frac{\sum_{S} X[S] e^{-\beta H[S]}}{\sum_{S} e^{-\beta H[S]}} = \frac{\sum_{S} X[S] e^{-\beta H[S]}}{\mathcal{Z}}  $$
 

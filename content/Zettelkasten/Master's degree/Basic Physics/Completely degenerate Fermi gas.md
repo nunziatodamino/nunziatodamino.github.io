@@ -13,7 +13,7 @@ Here, $g$ is the spin degeneracy, $V_{ph}$ is the volume of the reciprocal space
 
 ### $T = 0\ K$
 
-Based on our knowledge of the [[Projects/Equilibrium Statistical Mechanics/Miscellanea/Fermi-Dirac statistics]], we know that at a temperature of $T=0\ K$, only states with energy lower than the so-called Fermi energy are occupied.
+Based on our knowledge of the [[Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Additional material/Fermi-Dirac statistics]], we know that at a temperature of $T=0\ K$, only states with energy lower than the so-called Fermi energy are occupied.
 If we consider the Fermi energy as the maximum energy, we have:
 
 - Fermi momentum: $k_F = \sqrt{\frac{2mE_F}{\hbar^2}}$

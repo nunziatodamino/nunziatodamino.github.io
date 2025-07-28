@@ -5,10 +5,10 @@
   "injectThemeCSS": false,
   "customCSSFile": null,
   "displayYAMLFrontmatter": false,
-  "linkStrippingBehaviour": "text",
+  "linkStrippingBehaviour": "link",
   "highDPIDiagrams": true,
-  "pandoc": "C:\\Users\\nunzi\\AppData\\Local\\Pandoc\\pandoc.exe",
-  "pdflatex": null,
+  "pandoc": "/usr/bin/pandoc",
+  "pdflatex": "/usr/bin/pdflatex",
   "outputFolder": null,
   "extraArguments": "",
   "exportFrom": "html"

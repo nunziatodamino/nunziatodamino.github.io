@@ -1,27 +1,40 @@
-Using the same idea in [[Zettelkasten/Master's degree/Basic Mathematics/Fourier series in 1-D]], we can generalize its definition in 3-D.
+Using the same idea in [[Zettelkasten/Master's degree/Basic Mathematics/Fourier series in 1-D|Fourier series in 1-D]], we can generalize its definition in 3-D.
 
+>[!info] **Fourier series in 3D**
 Let $f(\bar{r})$ be a function that satisfies the Dirichlet conditions in 3 dimension, i.e.
-- It is periodic with a period vector $\bar{R}=(R_x,R_y,R_z)$ in the fundamental volume $V_u$.
-
+>- It is periodic with a period vector $\bar{R}=(R_x,R_y,R_z)$ in the fundamental volume $V_u$.
+>
 $$f(\bar{r})=f(\bar{r}+\bar{R}_{nml})= f(\bar{r}+nR_x\hat{i}+mR_y\hat{j}+lR_z\hat{k})\qquad\forall \bar{r} \in [0,R_x]\times[0,R_y]\times[0,R_z]\ , \forall n,m,l\in \mathbb{Z}$$
-
-- Within the periodic interval, the function is bounded (to be verified).
-
+>
+>- Within the periodic interval, the function is bounded (to be verified).
+>
 In this case, the function can be represented as:
-
-$$\begin{aligned}
-f(\bar{r}) & = \sum_{n=-\infty}^{+\infty}\sum_{m=-\infty}^{+\infty}\sum_{l=-\infty}^{+\infty} f_{nml} e^{i\frac{2 \pi n }{R_x}r_x}e^{i\frac{2 \pi m}{R_y}r_y}e^{i\frac{2 \pi l }{R_z}r_z} \equiv \\ &\equiv \sum_{n=-\infty}^{+\infty}\sum_{m=-\infty}^{+\infty}\sum_{l=-\infty}^{+\infty} f_{nml} e^{iG_xr_x}\ e^{iG_yr_y}\ e^{iG_zr_z} \equiv \sum_{\bar{G}}f_{\bar{G}}\ e^{i\ \bar{G}\cdot\bar{r}} \end{aligned}
-$$
-
-Where we define:
-
-$$ G_i = \frac{2\pi m_i}{R_i},\  m_i \in \mathbb{Z}  $$
-
-And the coefficients $f_{nml}$ are obtained using the following inversion formula:
-
-$$f_{nml} = \int_{V_u}\ d^3\bar{r}\ f(\bar{r})e^{-i\ \bar{G}\cdot\bar{r}}$$
-
+>
+>$$\begin{aligned}
+f(\bar{r}) & = \sum_{n=-\infty}^{+\infty}\sum_{m=-\infty}^{+\infty}\sum_{l=-\infty}^{+\infty} f_{nml} e^{i\frac{2 \pi n }{R_x}r_x}e^{i\frac{2 \pi m}{R_y}r_y}e^{i\frac{2 \pi l }{R_z}r_z} \equiv \\ &\equiv \sum_{n=-\infty}^{+\infty}\sum_{m=-\infty}^{+\infty}\sum_{l=-\infty}^{+\infty} f_{nml} e^{iG_xr_x}\ e^{iG_yr_y}\ e^{iG_zr_z} \equiv \sum_{\bar{G}}f_{\bar{G}}\ e^{i\ \bar{G}\cdot\bar{r}} 
+\end{aligned}$$
+>
+>Note that :
+> 
+>
+$$ G_i = \frac{2\pi m_i}{R_i},\  m_i \in \mathbb{Z}$$
+>
+>And the coefficients $f_{nml}$ are obtained using the following inversion formula:
+>
+$$f_{nml} = \frac{1}{V_u}\int_{V_u}\ d^3\bar{r}\ f(\bar{r})e^{-i\ \bar{G}\cdot\bar{r}}$$
+>
 with $V_{u}=R_xR_yR_z$.
+>
+
+>[!info] **Orthogonality of the set $\{e^{i\bar{G}\cdot\bar{r}}\}$ in $V_u$**
+>
+>It holds the following fundamental relation:
+>
+>$$ \int_{V_u} d^3r \, e^{i(\bar{G} - \bar{G}') \cdot \bar{r}} = V_u \, \delta_{\bar{G}, \bar{G}'} $$
+>
+>I.e. the the set $\{e^{i\bar{G}\cdot\bar{r}}\}$ in is orthogonal in $V_u$.
+
+### Connection to the notion of reciprocal space
 
 We make also the following observation: for every component $G_i$:
 
@@ -35,7 +48,8 @@ In order to have $\bar{G}$ represented in the canonical base, one must choose:
 
 $$ G_x =\frac{2\pi n}{V_u} (\bar{R}_y\times \bar{R}_z) \qquad G_y =\frac{2\pi m}{V_u} (\bar{R}_x\times \bar{R}_z) \qquad G_z =\frac{2\pi l}{V_u} (\bar{R}_x\times \bar{R}_y)$$
 
-Note that this latter representation perfectly aligns with the concepts of [[Zettelkasten/Master's degree/Solid State Physics/Crystal structures and bonds/Bravais lattice]] and [[Zettelkasten/Master's degree/Solid State Physics/Crystal structures and bonds/Reciprocal lattice]]. 
+This implies that this definition perfectly aligns with the concepts of [[Zettelkasten/Master's degree/Solid State Physics/Crystal structures and bonds/Bravais lattice|Bravais lattice]] and [[Zettelkasten/Master's degree/Solid State Physics/Crystal structures and bonds/Reciprocal lattice|Reciprocal lattice]]. 
+This happens because historically the reciprocal space is defined as the space in which the Fouried 
 
 Specifically if we choose to change from the canonical basis to the basis of the primitive vectors of the Bravais lattice, we have that our periodic function becomes:
 
@@ -49,7 +63,7 @@ $$
 
 Where, with the same reasoning as before:
 
-$$f_{nml} = \int_{V_u}\ d^3\bar{r}\ f(\bar{r})e^{-i\ \bar{G}\cdot\bar{r}}$$
+$$f_{nml} = \frac{1}{V_u}\int_{V_u}\ d^3\bar{r}\ f(\bar{r})e^{-i\ \bar{G}\cdot\bar{r}}$$
 
 with $V_{u}= \bar{a}_1 \cdot \bar{a}_2\times \bar{a}_3$, And:
 

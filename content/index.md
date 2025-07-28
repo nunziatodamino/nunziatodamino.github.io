@@ -14,7 +14,7 @@ You can start from here:
 
 [[Zettelkasten/Master's degree/Basic Physics/Basic Physics|Basic Physics]]
 
-[[Projects/Equilibrium Statistical Mechanics/Equilibrium Statistical Mechanics|Equilibrium Statistical Mechanics]]
+[[Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Equilibrium Statistical Mechanics|Equilibrium Statistical Mechanics]]
 
 [[Zettelkasten/Master's degree/Models of Theoretical Physics/Models of Theoretical Physics|Models of Theoretical Physics]]
 

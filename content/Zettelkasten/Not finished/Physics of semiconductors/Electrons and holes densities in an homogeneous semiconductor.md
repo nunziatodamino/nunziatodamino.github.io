@@ -5,7 +5,7 @@ First we will consider an homogeneous semiconductor at $T\neq 0$ a semiconductor
 
 Moreover in our initial analysis we will restrict ourselves to the study of system under no influences of external electric and magnetic fields, and most importantly we will consider them at a thermal equilibrium , i.e. fixed $T$ so that $\partial_t T =0$ for long periods of time and $\nabla_{\bar{r}}T = 0$.
 
-Under these condition we can state that electrons are distributed in the material according to the [[Projects/Equilibrium Statistical Mechanics/Miscellanea/Fermi-Dirac statistics|Fermi-Dirac statistics]], so that the occupation function for electrons is $f^e_n(\bar{k}) = f_{FD}(E_n(\bar{k}), E_F)$ while for the holes is simply $f^h_n(\bar{k}) = 1- f_{FD}(E_n(\bar{k}), E_F)$
+Under these condition we can state that electrons are distributed in the material according to the [[Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Additional material/Fermi-Dirac statistics|Fermi-Dirac statistics]], so that the occupation function for electrons is $f^e_n(\bar{k}) = f_{FD}(E_n(\bar{k}), E_F)$ while for the holes is simply $f^h_n(\bar{k}) = 1- f_{FD}(E_n(\bar{k}), E_F)$
 
 ![[Images/Electrons and holes densities in an homogeneous semiconductor.png|400]]
 

@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a5d14fd99d3e7c0e",
+        "id": "6e2d5f9d3707ef85",
         "type": "tabs",
         "children": [
           {
-            "id": "3ee4a84bc6a09c76",
+            "id": "8cceefa4a4fe8e7b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "index"
+              "title": "New tab"
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 344.5004348754883
+    "width": 322.5004348754883
   },
   "right": {
     "id": "17359a017802a181",
@@ -94,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Using Monte Carlo methods in Statistical Physics.md",
+                "file": "Projects/Equilibrium Statistical Mechanics/Mean field approach/Simple mean field attraction potential in liquids - Van der Walls equation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Using Monte Carlo methods in Statistical Physics"
+              "title": "Backlinks for Simple mean field attraction potential in liquids - Van der Walls equation"
             }
           },
           {
@@ -217,6 +213,206 @@
             "state": {
               "type": "stats-tracker",
               "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "36793e6817fcf455",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "b58f4d3381268384",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "04c4386f11cc39e1",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "f4a2f22f381e2b20",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "353434045a147f83",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "e9b95f9a4f086b9b",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "c3936df3cae5767a",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "7b8ee6cc0241f486",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "9130e45a088141fa",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "6e7ac1b02f778f44",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "96b6910b62c119e7",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "78b000bcd3b68ad4",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "0dc726b0acbd1d1f",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "f54d2fdfe151a442",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "37ad89bddca454b0",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "996cddd51e622530",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "bc501740be1cf38e",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "1b030e4bfe0ae715",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "021cb34379f1ab5d",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "1b7d3dbb6360f1b8",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {},
               "icon": "bar-graph",
               "title": "Daily Stats"
             }
@@ -239,56 +435,56 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3ee4a84bc6a09c76",
+  "active": "b749f45cdf600629",
   "lastOpenFiles": [
-    "modifications_log.md",
-    "Projects/Equilibrium Statistical Mechanics/Mean field approach/Ginzburg-Landau theory/The Ginzburg-Landau theory.md",
-    "Projects/Equilibrium Statistical Mechanics/Mean field approach/Mean field approximation.md",
-    "Projects/Equilibrium Statistical Mechanics/Mean field approach/Ginzburg-Landau theory/Landau theory/Landau theory for first phase transition.md",
-    "Projects/Equilibrium Statistical Mechanics/Mean field approach/Ginzburg-Landau theory/Landau theory/Landau theory of phase transitions for uniform systems.md",
-    "Projects/Equilibrium Statistical Mechanics/Mean field approach/Ginzburg-Landau theory/Landau theory/On cubic terms in a Landau free‐energy expansion.md",
-    "Projects/Equilibrium Statistical Mechanics/Mean field approach/Ginzburg-Landau theory/Landau theory/Landau free energy expression for the Ising model.md",
-    "Projects/Equilibrium Statistical Mechanics/Mean field approach/Ginzburg-Landau theory/Partition function coarse-graining.md",
-    "Projects/Equilibrium Statistical Mechanics/Mean field approach/Ginzburg-Landau theory/Partition function of the Ising model using the coarse-graining procedure.md",
-    "Projects/Equilibrium Statistical Mechanics/Mean field approach/Ginzburg-Landau theory/Landau theory/Critical exponents in the Ising model using Landau theory.md",
-    "Projects/Equilibrium Statistical Mechanics/Mean field approach/Critical dimension via the Ginzburg criterion.md",
-    "Projects/Equilibrium Statistical Mechanics/Mean field approach/Mean field exponents in the Ising model.md",
-    "Projects/Equilibrium Statistical Mechanics/Mean field approach/Ginzburg criterion.md",
-    "Projects/Equilibrium Statistical Mechanics/Mean field approach/Free energy functional in the mean field approximation.md",
-    "Projects/Equilibrium Statistical Mechanics/Mean field approach/Free energy expansion around the critical temperature for the Curie-Weiss model.md",
-    "Projects/Equilibrium Statistical Mechanics/Mean field approach/Fluctuation-dissipation theorem.md",
-    "Projects/Equilibrium Statistical Mechanics/The Ising Model/The Ginzburg criterion in the Ising mean field theory.md",
-    "Projects/Equilibrium Statistical Mechanics/The Ising Model/Fluctuation-dissipation relation in the Ising model.md",
-    "Projects/Equilibrium Statistical Mechanics/Miscellanea/Correlation functions.md",
-    "Projects/Stationary and homogeneous random fields.md",
-    "Projects/Equilibrium Statistical Mechanics/The Ising Model/Connecting the correlation function and the response function in the Ising model.md",
-    "Projects/Equilibrium Statistical Mechanics/The Ising Model/k-point correlation function in the Ising-like model.md",
-    "Projects/Equilibrium Statistical Mechanics/The Ising Model/2-point correlation function in the Ising model.md",
-    "Zettelkasten/Master's degree/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/A comment on the auto-correlation time of a time series containing a transient.md",
-    "Zettelkasten/Master's degree/Solid State Physics/Electron dynamics/Consideration on the effective mass.md",
-    "Zettelkasten/Not finished/Physics of semiconductors/Envelope function method.md",
-    "Projects/Equilibrium Statistical Mechanics/Mean field approach/Ginzburg-Landau theory",
-    "Images/Landau theory for first phase transition.png",
-    "Images/Van der Walls isotherms analysis.png",
-    "Images/maxwell construction.png",
-    "Images/Landau free energy expression for the Ising model.png",
-    "Images/Equilibrium states in the Ising model via Landau theory.png",
-    "Pasted image 20250602111534.png",
-    "Calculations/addendum_on_the_alpha_exponent.pdf",
-    "Projects/Equilibrium Statistical Mechanics/Mean field approach/Ginzburg-Landau theory/Landau theory",
-    "Images/Graph notation in the cluster expansion-4.png",
-    "Images/Graph notation in the cluster expansion-3.png",
-    "Images/Graph notation in the cluster expansion-2.png",
-    "Images/Graph notation in the cluster expansion-1.png",
-    "Calculations/Critical parameters in a VdW system.pdf",
-    "Calculations/minimization of the free energy functional in the bragg-williams approximation.pdf",
-    "Projects/Equilibrium Statistical Mechanics/Mean field approach",
-    "Projects/Equilibrium Statistical Mechanics/Miscellanea",
-    "Calculations/Gradient approximation on an hypercubic lattice.pdf",
-    "Zettelkasten/Master's degree/Solid State Physics/Solid State mind map -electronic dynamics.canvas",
+    "Projects/Programming/Python/Numpy",
     "Zettelkasten/Master's degree/Solid State Physics/Solid State mind map -lattice dynamics.canvas",
+    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Scaling and Renormalization group/question_SRG.md",
+    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Miscellanea/question_M.md",
+    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Mean field approach/questionMF.md",
+    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Mean field approach/Virial expansion approximation of the Van der Walls model.md",
+    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Liquids/Weakly interacting particles - Cluster expansion.md",
+    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Mean field approach/Matrix form of the mean field pdf in the Bragg-Williams approximation.md",
+    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/The Ising Model/2-point correlation function in the Ising model.md",
+    "Projects/Equilibrium Statistical Mechanics/Course/The Ising Model/question_IM.md",
+    "Projects/Equilibrium Statistical Mechanics/Course/The Ising Model/annotation_IM.md",
+    "Projects/Equilibrium Statistical Mechanics/Course/Phase transitions/question_PT.md",
+    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Phase transitions/Symmetries of notable models.md",
+    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Thermodynamics/Definitions of critical exponents and amplitudes.md",
+    "Projects/Equilibrium Statistical Mechanics/Course/Ensemble theory/questionET.md",
+    "Projects/Equilibrium Statistical Mechanics/Course/Ensemble theory/annotation_ET.md",
+    "Projects/Equilibrium Statistical Mechanics/Course/Thermodynamics/question_T.md",
+    "Projects/Equilibrium Statistical Mechanics/Course/Thermodynamics/annotation_T.md",
+    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Thermodynamics/Consideration on the thermodynamic quantities graphs in first and second order phase transition.md",
+    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Mean field approach/Ginzburg-Landau theory/Landau theory/Landau theory of phase transitions for uniform systems.md",
+    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Mean field approach/Maxwell (equal area) construction.md",
+    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Mean field approach/Mean field configurational partition function in liquids.md",
+    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Mean field approach/Mean field approximation for the variational approach.md",
+    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Mean field approach/Mean field approximation.md",
+    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Mean field approach/Partition function and bulk free energy in the mean field Ising model.md",
+    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Mean field approach/Virial expansion approximation in mean field liquids.md",
+    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/The Ising Model/Fluctuation-dissipation relation in the Ising model.md",
+    "Images/28-01-2015 1.png",
+    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Ensemble theory/FIX",
+    "Images/Experimental proof of the Widom's scaling hypothesis.png",
+    "Images/28-01-2015.png",
+    "Images/Real space renormalization group (RSRG) in the Ising model-1.png",
+    "Images/Real space renormalization group (RSRG) in the Ising model.png",
+    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Miscellanea",
+    "Pasted image 20250628173908.png",
+    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Liquids",
+    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Compiti",
+    "Calculations/Critical parameters in a VdW system.pdf",
+    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Thermodynamics",
+    "Projects/Equilibrium Statistical Mechanics/Buffer",
     "Calculations/study of the function k in the single ended zipper model.pdf",
-    "Projects/Programming/Python",
+    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Additional material",
+    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course",
+    "Images/Definitions of critical exponents and amplitudes-1.png",
+    "Images/Kadanoff argument.png",
+    "Images/free_en.png",
+    "Images/Definitions of critical exponents and amplitudes.png",
+    "Zettelkasten/Master's degree/Solid State Physics/Solid State mind map -electronic dynamics.canvas",
     "Second partial.canvas",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
