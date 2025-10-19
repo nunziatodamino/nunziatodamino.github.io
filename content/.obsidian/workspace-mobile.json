@@ -13,12 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Multiple histogram method.md",
+                "file": "Projects/Physics of semiconductors/Notions of Solid State Physics.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Multiple histogram method"
+              }
             }
           }
         ]
@@ -36,11 +34,8 @@
         "state": {
           "type": "file-explorer",
           "state": {
-            "sortOrder": "alphabetical",
-            "autoReveal": false
-          },
-          "icon": "lucide-folder-closed",
-          "title": "Files"
+            "sortOrder": "alphabetical"
+          }
         }
       },
       {
@@ -55,9 +50,7 @@
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical"
-          },
-          "icon": "lucide-search",
-          "title": "Search"
+          }
         }
       },
       {
@@ -67,12 +60,8 @@
           "type": "tag",
           "state": {
             "sortOrder": "frequency",
-            "useHierarchy": true,
-            "showSearch": false,
-            "searchQuery": ""
-          },
-          "icon": "lucide-tags",
-          "title": "Tags"
+            "useHierarchy": true
+          }
         }
       },
       {
@@ -80,9 +69,7 @@
         "type": "leaf",
         "state": {
           "type": "bookmarks",
-          "state": {},
-          "icon": "lucide-bookmark",
-          "title": "Bookmarks"
+          "state": {}
         }
       },
       {
@@ -91,12 +78,8 @@
         "state": {
           "type": "all-properties",
           "state": {
-            "sortOrder": "frequency",
-            "showSearch": false,
-            "searchQuery": ""
-          },
-          "icon": "lucide-archive",
-          "title": "All properties"
+            "sortOrder": "frequency"
+          }
         }
       }
     ],
@@ -112,7 +95,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Multiple histogram method.md",
+            "file": "Projects/Physics of semiconductors/Notions of Solid State Physics.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -120,9 +103,7 @@
             "searchQuery": "",
             "backlinkCollapsed": false,
             "unlinkedCollapsed": true
-          },
-          "icon": "links-coming-in",
-          "title": "Backlinks"
+          }
         }
       },
       {
@@ -131,12 +112,10 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Projects/Lettura libri/2024/Untitled.md",
+            "file": "Projects/Physics of semiconductors/Notions of Solid State Physics.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
-          },
-          "icon": "links-going-out",
-          "title": "Outgoing links"
+          }
         }
       },
       {
@@ -145,13 +124,8 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Projects/Lettura libri/2024/Untitled.md",
-            "followCursor": false,
-            "showSearch": false,
-            "searchQuery": ""
-          },
-          "icon": "lucide-list",
-          "title": "Outline"
+            "file": "Projects/Physics of semiconductors/Notions of Solid State Physics.md"
+          }
         }
       },
       {
@@ -159,9 +133,7 @@
         "type": "leaf",
         "state": {
           "type": "calendar",
-          "state": {},
-          "icon": "calendar-with-checkmark",
-          "title": "Calendar"
+          "state": {}
         }
       }
     ],
@@ -178,12 +150,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e61fa6cb18b9fd1c",
+  "active": "bd201c3ae243d609",
   "lastOpenFiles": [
+    "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Multiple histogram method.md",
+    "Projects/Physics of semiconductors/Notions of Solid State Physics.md",
     "Projects/Numerical methods for soft matter/Numerical methods for soft matter.md",
     "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Gillespie algorithm.md",
     "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Continuous-time Markov process.md",
-    "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Multiple histogram method.md",
     "Projects/Numerical methods for soft matter/Molecular dynamics/Langevin dynamics.md",
     "Projects/Numerical methods for soft matter/Molecular dynamics/Reduced distribution functions.md",
     "Projects/Numerical methods for soft matter/Molecular dynamics/Berendsen thermostat (non-canonical thermostat).md",
@@ -192,7 +165,6 @@
     "IMG_20241224_000317573.jpg",
     "Zettelkasten/Master's degree/Probability and Statistics/Cumulative density function (CDF).md",
     "Projects/Numerical methods for soft matter/Random number generator.md",
-    "Projects/Physics of semiconductors/Notions of Solid State Physics.md",
     "Projects/Numerical methods for soft matter",
     "Projects/Equilibrium Statistical Mechanics/Equilibrium Statistical Mechanics.md",
     "Projects/Equilibrium Statistical Mechanics/Gibbs-Duhem relations.md",

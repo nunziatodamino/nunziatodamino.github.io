@@ -1,0 +1,15 @@
+{
+  "dayCounts": {
+    "2025/4/12": 679
+  },
+  "todaysWordCount": {
+    "Projects/Equilibrium Statistical Mechanics/The Ising Model/The transfer matrix method for the 2d Ising Model.md": {
+      "initial": 1,
+      "current": 248
+    },
+    "Projects/Equilibrium Statistical Mechanics/The Ising Model/The Peierls argument (energy-entropy argument).md": {
+      "initial": 0,
+      "current": 432
+    }
+  }
+}

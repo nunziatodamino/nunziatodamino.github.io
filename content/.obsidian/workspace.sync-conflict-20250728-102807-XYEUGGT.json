@@ -1,0 +1,293 @@
+{
+  "main": {
+    "id": "de0c4aa227291dc9",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b5c64b781deb946",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "77b36aef00a954a3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ec8d0f5d8bd32ac3",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a82e7d5d3cf28f9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b749f45cdf600629",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "00c7d0d140faf83a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "point",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1cd8631d7c3153bf",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 299.5004348754883
+  },
+  "right": {
+    "id": "17359a017802a181",
+    "type": "split",
+    "children": [
+      {
+        "id": "c46ed151ca4deeea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "020fddc87c29544f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Projects/Numerical methods for soft matter/Monte Carlo methods/MC methods in Statistical Physics/Using Monte Carlo methods in Statistical Physics.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Using Monte Carlo methods in Statistical Physics"
+            }
+          },
+          {
+            "id": "7771a21dc60aa06e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "00e0b5add7115b68",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "6d3b5d1b0b4e00f1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Projects/Numerical methods for soft matter/Monte Carlo methods/Crude Monte Carlo.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Crude Monte Carlo"
+            }
+          },
+          {
+            "id": "0d24afb0fd5efd8c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "9df0bfe3c3a5b312",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "88027dc0f4d2b48b",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "7f7cd1e1eed59476",
+            "type": "leaf",
+            "state": {
+              "type": "simple-note-review-sidebar-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "a5e57de256927d56",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Projects/Numerical methods for soft matter/Monte Carlo methods/Crude Monte Carlo.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for Crude Monte Carlo"
+            }
+          },
+          {
+            "id": "cb0a63e6460f7fcb",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "238c003ba5dbb8db",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {},
+              "icon": "bar-graph",
+              "title": "Daily Stats"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "random-note:Open random note": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "77b36aef00a954a3",
+  "lastOpenFiles": [
+    "Projects/Untitled.md",
+    "Projects/Untitled 1.md",
+    "Projects/Equilibrium Statistical Mechanics/The Ising Model/The Peierls argument (energy-entropy argument).md",
+    "Projects/Equilibrium Statistical Mechanics/The Ising Model/The transfer matrix method for the 2d Ising Model.md",
+    "Projects/Equilibrium Statistical Mechanics/The Ising Model/The spin-1 Ising model.md",
+    "Projects/Equilibrium Statistical Mechanics/The Ising Model/Analytic solution for the 1D spin-1 Ising model with uniform magnetic field.md",
+    "Projects/Equilibrium Statistical Mechanics/The Ising Model/Analytic solution for the 1D spin-1 Ising model without magnetic field.md",
+    "Projects/Equilibrium Statistical Mechanics/The zipper model.md",
+    "Projects/Equilibrium Statistical Mechanics/The Ising Model/The transfer matrix method - some general properties.md",
+    "Projects/Equilibrium Statistical Mechanics/Transfer matrix in the zipper model.md",
+    "Projects/Equilibrium Statistical Mechanics/Transfer matrix method for the single-ended zipper model.md",
+    "Projects/Equilibrium Statistical Mechanics/The Ising Model/Explicit form and property of the transfer matrix for the 1D Ising model.md",
+    "Projects/Equilibrium Statistical Mechanics/What equilibrium statistical mechanics is not.md",
+    "Projects/Equilibrium Statistical Mechanics/Rumors and legends about the correlation function.md",
+    "Projects/Equilibrium Statistical Mechanics/The Ising Model/The partition function as a generating function for particular decomposition of the Hamiltonian.md",
+    "Calculations/study of the function k in the single ended zipper model.pdf",
+    "Projects/Programming/Python",
+    "Projects/Programming/C++",
+    "Projects/Programming",
+    "Projects/Equilibrium Statistical Mechanics/Maximum Slope of Observables and Phase Transitions - PLACEHOLDER.md",
+    "Projects/Computational methods for Material science/Ab initio Quantum Mechanics/Hartree-Fock theory.md",
+    "Projects/Computational methods for Material science/Ab initio Quantum Mechanics/Hohenberg-Kohn theorem.md",
+    "Projects/Computational methods for Material science/Ab initio Quantum Mechanics/Homogeneous electron Gas in the Hartree-Fock approximation.md",
+    "Projects/Computational methods for Material science/Ab initio Quantum Mechanics/Local density approximation (LDA).md",
+    "Projects/Computational methods for Material science/Ab initio Quantum Mechanics/Functional derivative.md",
+    "Projects/Computational methods for Material science/Ab initio Quantum Mechanics/Density functional theory.md",
+    "Projects/Computational methods for Material science/secular equation.md",
+    "Projects/Computational methods for Material science/Numerical methods/On the ambiguity of the adjective ''self-consistent''.md",
+    "modifications_log.md",
+    "Projects/Lettura libri/2025/Storie di Aladino.md",
+    "IMG_20241224_000317573.jpg",
+    "IMG_20241224_000321124.jpg",
+    "Projects/Lettura libri/2025",
+    "Images/Boundary conditions in MD.png",
+    "Images/Analytic solution for the 1D spin-1 Ising model.png",
+    "Calculations/electron_velocity_lemma.pdf",
+    "Images/The Zipper model - av open links.png",
+    "The Zipper model - average open links.png",
+    "Images/The Zipper model.png",
+    "Calculations/The Sokhotski-Plemelj formula_231103_172040.pdf",
+    "Projects/Equilibrium Statistical Mechanics/The Ising Model",
+    "Images/Existence of the bulk free energy limit in the Ising model.png",
+    "Projects/Equilibrium Statistical Mechanics/Ensemble theory",
+    "Projects/Equilibrium Statistical Mechanics/Phase transitions",
+    "Images/Multiple Markov Chains (MMC) (Parallel tempering) (Replica exchange method).png",
+    "Images/Metropolis-Hastings algorithm.png",
+    "Zettelkasten/Master's degree/Solid State Physics/Solid State mind map -electronic dynamics.canvas",
+    "Zettelkasten/Master's degree/Solid State Physics/Solid State mind map -lattice dynamics.canvas",
+    "Second partial.canvas",
+    "Untitled 1.canvas",
+    "Untitled 2.canvas",
+    "Nucleation scheme.canvas"
+  ]
+}

@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6e2d5f9d3707ef85",
+        "id": "6e197dbb7e37aea0",
         "type": "tabs",
         "children": [
           {
-            "id": "8cceefa4a4fe8e7b",
+            "id": "050cd029e20e6bdf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Physics of semiconductors/Notions of Solid State Physics.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Notions of Solid State Physics"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.5004348754883
+    "width": 323.5004348754883
   },
   "right": {
     "id": "17359a017802a181",
@@ -90,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Equilibrium Statistical Mechanics/Mean field approach/Simple mean field attraction potential in liquids - Van der Walls equation.md",
+                "file": "Projects/Machine learning/Statistical Machine Learning/Finite hypothesis classes are agnostic PAC learnable.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Simple mean field attraction potential in liquids - Van der Walls equation"
+              "title": "Backlinks for Finite hypothesis classes are agnostic PAC learnable"
             }
           },
           {
@@ -181,8 +185,8 @@
             "state": {
               "type": "simple-note-review-sidebar-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "lucide-ghost",
+              "title": "simple-note-review-sidebar-view"
             }
           },
           {
@@ -426,6 +430,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "random-note:Open random note": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -435,55 +440,56 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b749f45cdf600629",
+  "active": "050cd029e20e6bdf",
   "lastOpenFiles": [
+    "Zettelkasten/Master's degree/Solid State Physics/Electron dynamics/Evaluation of an electron momentum in a crystal.md",
+    "Zettelkasten/Master's degree/Solid State Physics/Lattice dynamics/Phonon momentum and crystal momentum.md",
+    "Projects/Physics of semiconductors/Notions of Solid State Physics.md",
+    "Zettelkasten/Master's degree/Solid State Physics/Electron dynamics/Bloch Theorem.md",
+    "Zettelkasten/Master's degree/Solid State Physics/Electron dynamics/The central equation as a proof of the Bloch theorem.md",
+    "Projects/Physics of semiconductors/videolesson_topics.md",
+    "Projects/Physics of semiconductors/Structure and production/Semiconductors have mainly 2 structures type.md",
+    "Projects/Physics of semiconductors/Structure and production/Wurzite structure.md",
+    "Zettelkasten/Master's degree/Solid State Physics/Electron dynamics/Band theory.md",
+    "Zettelkasten/Master's degree/Solid State Physics/Electron dynamics/Jellium model.md",
+    "Zettelkasten/Master's degree/Solid State Physics/Electron dynamics/Mathiessen rule.md",
+    "Zettelkasten/Master's degree/Solid State Physics/Electron dynamics/Matricial form of the central equation.md",
+    "Zettelkasten/Master's degree/Solid State Physics/Electron dynamics/Merging pictures - simplified band theory vs proper band theory (opt).md",
+    "Zettelkasten/Master's degree/Solid State Physics/Electron dynamics/The tight-binding approach and its use cases.md",
+    "Zettelkasten/Master's degree/Solid State Physics/Electron dynamics/Tight binding calculation to an s-band arising from a single atomic s-level in a cubic lattice.md",
+    "Zettelkasten/Master's degree/Solid State Physics/Electron dynamics/Wavevectors discretisation in the band model.md",
+    "Zettelkasten/Master's degree/Solid State Physics/Electron dynamics/Why plasmons are usually not spontaneously formed inside a metal.md",
+    "Zettelkasten/Master's degree/Solid State Physics/Electron dynamics/Thomas-Fermi model for screening.md",
+    "Zettelkasten/Master's degree/Solid State Physics/Electron dynamics/The Kronig-Penney model.md",
+    "Zettelkasten/Master's degree/Solid State Physics/Electron dynamics/The electron quasiparticle.md",
+    "Zettelkasten/Master's degree/Solid State Physics/Electron dynamics/The dielectric function for the free electron model.md",
+    "Zettelkasten/Master's degree/Solid State Physics/Electron dynamics/The central equation in 1 dimension.md",
+    "Zettelkasten/Master's degree/Solid State Physics/Electron dynamics/Surface plasmon polaritons at a single interface (opt).md",
+    "Zettelkasten/Master's degree/Solid State Physics/Electron dynamics/Static electrical conductivity with the Boltzmann equation.md",
+    "Zettelkasten/Master's degree/Solid State Physics/Electron dynamics/Quasi-free electrons via the central equation in 1 dimension.md",
+    "Zettelkasten/Master's degree/Solid State Physics/Electron dynamics/Plasmons description using the Jellium model.md",
+    "Semiconductors have mainly 2 structures type-1.png",
+    "Semiconductors have mainly 2 structures type.png",
+    "Diamond structure- primitive.png",
+    "Projects/Physics of semiconductors/Backlog",
+    "Projects/Programming/C",
+    "Images/Diamond structure-d.png",
+    "Images/Diamond structure.png",
+    "Images/Diamond structure-1.png",
+    "Images/deuteron.png",
+    "Images/Pasted image 20250831171304.png",
+    "Projects/Quantum computing",
+    "Projects/Modern Computing (Parallel programming)",
+    "Zettelkasten/Master's degree/Machine learning/Untitled.canvas",
+    "Images/Backpropagation.png",
+    "Images/Neural Network-1.png",
+    "Zettelkasten/Master's degree/Machine learning/Statistical Machine Learning/Older notes",
+    "Zettelkasten/Master's degree/Machine learning/Models and algorithms",
     "Projects/Programming/Python/Numpy",
     "Zettelkasten/Master's degree/Solid State Physics/Solid State mind map -lattice dynamics.canvas",
-    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Scaling and Renormalization group/question_SRG.md",
-    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Miscellanea/question_M.md",
-    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Mean field approach/questionMF.md",
-    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Mean field approach/Virial expansion approximation of the Van der Walls model.md",
-    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Liquids/Weakly interacting particles - Cluster expansion.md",
-    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Mean field approach/Matrix form of the mean field pdf in the Bragg-Williams approximation.md",
-    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/The Ising Model/2-point correlation function in the Ising model.md",
-    "Projects/Equilibrium Statistical Mechanics/Course/The Ising Model/question_IM.md",
-    "Projects/Equilibrium Statistical Mechanics/Course/The Ising Model/annotation_IM.md",
-    "Projects/Equilibrium Statistical Mechanics/Course/Phase transitions/question_PT.md",
-    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Phase transitions/Symmetries of notable models.md",
-    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Thermodynamics/Definitions of critical exponents and amplitudes.md",
-    "Projects/Equilibrium Statistical Mechanics/Course/Ensemble theory/questionET.md",
-    "Projects/Equilibrium Statistical Mechanics/Course/Ensemble theory/annotation_ET.md",
-    "Projects/Equilibrium Statistical Mechanics/Course/Thermodynamics/question_T.md",
-    "Projects/Equilibrium Statistical Mechanics/Course/Thermodynamics/annotation_T.md",
-    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Thermodynamics/Consideration on the thermodynamic quantities graphs in first and second order phase transition.md",
-    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Mean field approach/Ginzburg-Landau theory/Landau theory/Landau theory of phase transitions for uniform systems.md",
-    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Mean field approach/Maxwell (equal area) construction.md",
-    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Mean field approach/Mean field configurational partition function in liquids.md",
-    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Mean field approach/Mean field approximation for the variational approach.md",
-    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Mean field approach/Mean field approximation.md",
-    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Mean field approach/Partition function and bulk free energy in the mean field Ising model.md",
-    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Mean field approach/Virial expansion approximation in mean field liquids.md",
-    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/The Ising Model/Fluctuation-dissipation relation in the Ising model.md",
-    "Images/28-01-2015 1.png",
     "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Ensemble theory/FIX",
-    "Images/Experimental proof of the Widom's scaling hypothesis.png",
-    "Images/28-01-2015.png",
-    "Images/Real space renormalization group (RSRG) in the Ising model-1.png",
-    "Images/Real space renormalization group (RSRG) in the Ising model.png",
     "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Miscellanea",
-    "Pasted image 20250628173908.png",
     "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Liquids",
-    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Compiti",
-    "Calculations/Critical parameters in a VdW system.pdf",
-    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Thermodynamics",
-    "Projects/Equilibrium Statistical Mechanics/Buffer",
-    "Calculations/study of the function k in the single ended zipper model.pdf",
-    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Additional material",
-    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course",
-    "Images/Definitions of critical exponents and amplitudes-1.png",
-    "Images/Kadanoff argument.png",
-    "Images/free_en.png",
-    "Images/Definitions of critical exponents and amplitudes.png",
     "Zettelkasten/Master's degree/Solid State Physics/Solid State mind map -electronic dynamics.canvas",
     "Second partial.canvas",
     "Untitled 1.canvas",

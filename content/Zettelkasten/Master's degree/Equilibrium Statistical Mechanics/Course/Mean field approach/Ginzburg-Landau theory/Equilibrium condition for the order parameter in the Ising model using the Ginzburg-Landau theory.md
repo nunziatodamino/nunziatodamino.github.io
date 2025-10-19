@@ -23,7 +23,7 @@ $$
 \end{aligned}
 $$
 
-Where we first used the linearity property of the functional derivative and the Laplacian operator. Now, using the results found in [[Projects/Computational methods for Material science/Ab initio Quantum Mechanics/Functional derivative|Functional derivative]], one has:
+Where we first used the linearity property of the functional derivative and the Laplacian operator. Now, using the results found in [[Zettelkasten/Not finished/Computational methods for Material science/Ab initio Quantum Mechanics/Functional derivative|Functional derivative]], one has:
 
 $$ 
 \begin{aligned}

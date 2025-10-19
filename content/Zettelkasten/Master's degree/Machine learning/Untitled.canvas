@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"2f1ec765c077ece5","type":"text","text":"# **Supervised learning**","x":-280,"y":-740,"width":280,"height":60,"color":"1"},
+		{"id":"9dac86ba0b2c6fcf","type":"text","text":"**The general problem of supervised learning**:\nLet $X$ be an instance space and $Y$ a label space. There is an unknown distribution $D$ on $X\\times Y$. We observe an i.i.d. sample\n$$\nS=\\big((x_i,y_i)\\big)_{i=1}^m \\sim D^m .\n$$\n\nLet $H\\subseteq Y^{X}$ be a hypothesis class and $\\ell:Y\\times Y\\to\\mathbb{R}_+$ a loss. A learning algorithm is a map\n$$\nA:\\ \\bigcup_{m\\ge 1}(X\\times Y)^m \\to H,\\qquad A(S)=h_S .\n$$\n\nThe empirical risk (training loss) of $h\\in H$ on $S$ is\n$$\nL_S(h)=\\frac{1}{m}\\sum_{i=1}^m \\ell\\!\\big(h(x_i),\\,y_i\\big).\n$$\n\nThe true risk (generalization error) is\n$$\nL_D(h)=\\mathbb{E}_{(x,y)\\sim D}\\!\\left[\\ell\\!\\big(h(x),y\\big)\\right].\n$$\n\nThe goal of supervised learning is to output $h_S$ with small $L_D(h_S)$ (often via minimizing $L_S$ or a regularized surrogate), with guarantees relating $L_S$ to $L_D$.\n","x":-400,"y":-640,"width":520,"height":460},
+		{"id":"1921eadfeb107b88","x":-276,"y":-140,"width":272,"height":60,"type":"text","text":"**One big problem : How big must be $m$ to have some guarantees ?**"},
+		{"id":"c1596c27be9ce226","x":-395,"y":-40,"width":510,"height":240,"type":"text","text":"**PAC LEARNABILITY DEFINITION JUSTIFICATION**:\nSuppose we want to guarantee that our true risk is smaller or equal than $\\varepsilon$ (most of the time $\\varepsilon = 0.05$) with a probability at least  $1-\\delta$ (most of the time $\\delta = 0.05$), or formally:\n\n$$ \\Pr_{S \\sim D^m}[L_D(h_S) \\leq \\varepsilon] \\geq 1-\\delta $$\n\nWhat guarantee should we give on the training set or the hypothesis class ? The size of the training set should be enough, specifically bigger than the threshold $m_H(\\varepsilon, \\delta)$ that depends on the cardinality of the hypothesis class and the parameters."}
+	],
+	"edges":[
+		{"id":"1e89d1acdd297fc3","fromNode":"2f1ec765c077ece5","fromSide":"bottom","toNode":"9dac86ba0b2c6fcf","toSide":"top"},
+		{"id":"08dfa40ecdcd38f1","fromNode":"9dac86ba0b2c6fcf","fromSide":"bottom","toNode":"1921eadfeb107b88","toSide":"top"},
+		{"id":"d14586ce40b1e0a5","fromNode":"1921eadfeb107b88","fromSide":"bottom","toNode":"c1596c27be9ce226","toSide":"top"}
+	]
+}

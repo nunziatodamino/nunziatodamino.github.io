@@ -20,6 +20,6 @@ You can start from here:
 
 [[Zettelkasten/Master's degree/Numerical methods for soft matter/Numerical methods for soft matter|Numerical methods for soft matter]]
 
-[[Projects/Computational methods for Material science/Computational methods for Material science|Computational methods for Material science]]
+[[Zettelkasten/Not finished/Computational methods for Material science/Computational methods for Material science|Computational methods for Material science]]
 
-[[Zettelkasten/Not finished/Physics of semiconductors/Physics of semiconductors|Physics of semiconductors]]
+[[Projects/Physics of semiconductors/Physics of semiconductors|Physics of semiconductors]]

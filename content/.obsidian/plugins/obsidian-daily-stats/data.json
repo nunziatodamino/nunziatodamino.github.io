@@ -1,24 +1,34 @@
 {
   "dayCounts": {
-    "2025/6/6": 241,
-    "2025/6/7": 44,
-    "2025/6/8": 0,
-    "2025/6/12": 1,
-    "2025/6/13": 58,
-    "2025/6/14": 0
+    "2025/7/27": 409,
+    "2025/7/28": 950,
+    "2025/7/30": 679,
+    "2025/7/31": 842,
+    "2025/8/1": 31,
+    "2025/9/6": 67,
+    "2025/9/9": 189,
+    "2025/9/16": 153
   },
   "todaysWordCount": {
-    "Projects/Equilibrium Statistical Mechanics/Course/Ensemble theory/Statistical ensemble.md": {
-      "initial": 125,
-      "current": 125
+    "Projects/Physics of semiconductors/videolesson_topics.md": {
+      "initial": 150,
+      "current": 162
     },
-    "Projects/Equilibrium Statistical Mechanics/Course/Mean field approach/Critical exponents of the Van der Waals theory.md": {
-      "initial": 514,
-      "current": 513
+    "Projects/Physics of semiconductors/Structure and production/Diamond structure.md": {
+      "initial": 269,
+      "current": 307
     },
-    "Projects/Equilibrium Statistical Mechanics/Course/The Ising Model/Fluctuation-response relation for Ising-like model.md": {
-      "initial": 505,
-      "current": 505
+    "Projects/Physics of semiconductors/Backlog/Zincblende structure.md": {
+      "initial": 168,
+      "current": 185
+    },
+    "Projects/Physics of semiconductors/Structure and production/Semiconductors have mainly 2 structures type.md": {
+      "initial": 4,
+      "current": 90
+    },
+    "Projects/Physics of semiconductors/Notions of Solid State Physics.md": {
+      "initial": 2151,
+      "current": 2151
     }
   }
 }

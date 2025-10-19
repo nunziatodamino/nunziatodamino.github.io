@@ -1,0 +1,38 @@
+%% Begin Waypoint %%
+- **Backlog**
+	- [[A note on GaAs doping]]
+	- [[Analysis of real band structures of typical semiconductors]]
+	- [[BJT (Bipolar Junction Transistor)]]
+	- [[Charge neutrality in a doped semiconductor]]
+	- [[Doping]]
+	- [[Electron conservation is equivalent to charge neutrality]]
+	- [[Electrons and holes densities evaluation in a 3D homogeneous semiconductor using the non-degenerate hypothesis for a non degenerate band]]
+	- [[Electrons and holes densities in an homogeneous semiconductor]]
+	- [[Electrons and holes density in a semiconductor in the non-degenerate approximation]]
+	- [[Energy of a donor electron using the envelope function equation]]
+	- [[Energy of an acceptor hole using the envelope function]]
+	- [[Envelope function method]]
+	- [[Epitaxy]]
+	- [[General considerations on conduction models]]
+	- [[How to fill the n-doping states]]
+	- [[How to fill the p-doping states]]
+	- [[How to fill the states of a general doped semiconductor]]
+	- [[Intrinsic Fermi level]]
+	- [[Law of mass action for semiconductors]]
+	- [[Non degenerate semiconductor approximation (Boltzmann approximation)]]
+	- [[Order of magnitude of defects in semiconductors]]
+	- [[Other impurities in semiconductors]]
+	- [[PN junction (diode) in forward or reverse biased mode]]
+	- [[Production of microelectronic-grade silicon]]
+- **General doping**
+- [[Notions of Solid State Physics]]
+- **Structure and production**
+	- [[Diamond structure]]
+	- [[Lattice constant and energy band gap of a 2 component alloy given their constituent]]
+	- [[Rough classification of homogeneous semiconductors in function of the energy]]
+	- [[Semiconductors have mainly 2 structures type]]
+	- [[Wurzite structure]]
+	- [[Zincblende structure]]
+- [[videolesson_topics]]
+
+%% End Waypoint %%

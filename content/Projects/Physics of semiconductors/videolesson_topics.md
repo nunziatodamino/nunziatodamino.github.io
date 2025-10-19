@@ -1,0 +1,42 @@
+- [x] Introduction part 1 ✅ 2025-10-16
+- [x] Introduction part 2 ✅ 2025-10-16
+- [x] Structural properties 1 ✅ 2025-10-16
+- [x] Structural properties 2 ✅ 2025-10-16
+- [ ] Semiconductor production
+- [ ] Epitaxy Defects
+- [ ] Bloch Theorem
+- [ ] Basic band properties 1
+- [ ] Basic band properties 2
+- [ ] Basic band properties 3
+- [ ] Basic band properties 4
+- [ ] Hole language 1
+- [ ] Hole language 2
+- [ ] Real bands 1
+- [ ] Real bands 2
+- [ ] Perturbations - Envelope function
+- [ ] Envelope function 2
+- [ ] Doping energy levels
+- [ ] Doping and defects energy levels
+- [ ] Defects energy levels - Carrier concentration
+- [ ] Carrier concentration vs T and dopant 2
+- [ ] Carrier concentration vs T and dopant 3
+- [ ] Carrier concentration vs T and dopant 4
+- [ ] High doping - Pinning
+- [ ] Acceleration Theorems
+- [ ] Scattering effects
+- [ ] Scattering model
+- [ ] Scattering models and experimental mobilities
+- [ ] High field up to min 12 (no Anisotropy)
+- [ ] Inhomogeneous semiconductor
+- [ ] Bent band scheme
+- [ ] pn junction equilibrium
+- [ ] pn junction 2
+- [ ] Continuity equation
+- [ ] Continuity and QFL
+- [ ] Generation recombination
+- [ ] Generation recombination 2
+- [ ] Generation recombination 3
+- [ ] Continuity equation 2
+- [ ] Polarized pn junction
+- [ ] Polarized pn junction 2
+- [ ] Polarized pn junction 3

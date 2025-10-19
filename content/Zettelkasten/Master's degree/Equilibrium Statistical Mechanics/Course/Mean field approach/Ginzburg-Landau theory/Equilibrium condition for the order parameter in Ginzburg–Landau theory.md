@@ -13,7 +13,7 @@ $$\mathcal{Z}_N  =\int \mathscr{D} \phi\  e^{-\beta\mathscr{H}_{\text{eff}}} \si
 
 **This imply that we are considering a zeroth-order mean field theory, i.e. we are neglecting fluctuations of the order parameter.**
 Note that $\phi$ is minimum and not maximum because we are maximizing $e^{-\beta\mathscr{H}_{\text{eff}}}$ and not $e^{\beta\mathscr{H}_{\text{eff}}}$.
-Continuing, in order to find this order parameter, we perform a [[Projects/Computational methods for Material science/Ab initio Quantum Mechanics/Functional derivative|Functional derivative]]:
+Continuing, in order to find this order parameter, we perform a [[Zettelkasten/Not finished/Computational methods for Material science/Ab initio Quantum Mechanics/Functional derivative|Functional derivative]]:
 
 $$ \frac{\delta \mathcal{Z}_N}{\delta \phi} = \sim -e^{-\beta\mathscr{H}_{\text{eff}}}\frac{\delta \beta\mathscr{H}_{\text{eff}} }{\delta \phi} = 0 \iff \frac{\delta \beta\mathscr{H}_{\text{eff}} }{\delta \phi} = 0$$
 

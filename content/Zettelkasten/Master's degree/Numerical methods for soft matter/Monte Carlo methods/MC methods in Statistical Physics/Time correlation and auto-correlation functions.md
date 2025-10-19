@@ -15,7 +15,7 @@ Or if we are interested in how the same observable changes over time:
 Where $A$ and $B$ are stochastic processes.
 
 ### Additional notes
-Sometimes in auto-correlation functions when $\braket{A}=0$, as in [[Projects/Computational methods for Material science/Molecular dynamics/Velocity correlation function|Velocity correlation function]], one can show that said functions has the form $\braket{A(t)A(0)}$, assuming further that $A(t)$ and $A(0)$ are independent .
+Sometimes in auto-correlation functions when $\braket{A}=0$, as in [[Zettelkasten/Not finished/Computational methods for Material science/Molecular dynamics/Velocity correlation function|Velocity correlation function]], one can show that said functions has the form $\braket{A(t)A(0)}$, assuming further that $A(t)$ and $A(0)$ are independent .
 In this case one has in the limit:
 
 $$\lim_{t \to 0} \braket{A(t)A(0)} = \braket{A^2} \qquad \lim_{t \to +\infty} \braket{A(t)A(0)} = \braket{A}^2 = 0$$

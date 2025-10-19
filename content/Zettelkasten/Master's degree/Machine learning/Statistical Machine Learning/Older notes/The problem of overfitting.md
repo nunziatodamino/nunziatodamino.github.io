@@ -1,0 +1,2 @@
+This problem arises when, using an [[Zettelkasten/Master's degree/Machine learning/Statistical Machine Learning/Empirical risk minimization (ERM)|Empirical risk minimization (ERM)]] approach we obtain for the training data set a perfect or good loss, but if we consider a general sample the prediction sucks.
+This can happen for different reasons, biases on the training data or because one has few data such that wrong hypothesis arises.
