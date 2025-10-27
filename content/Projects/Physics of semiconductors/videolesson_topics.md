@@ -4,8 +4,8 @@
 - [x] Structural properties 2 ✅ 2025-10-16
 - [ ] Semiconductor production
 - [ ] Epitaxy Defects
-- [ ] Bloch Theorem
-- [ ] Basic band properties 1
+- [x] Bloch Theorem ✅ 2025-10-22
+- [x] Basic band properties 1 ✅ 2025-10-22
 - [ ] Basic band properties 2
 - [ ] Basic band properties 3
 - [ ] Basic band properties 4

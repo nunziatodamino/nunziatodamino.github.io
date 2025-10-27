@@ -41,6 +41,7 @@ In the case of free electron $E_n(\bar{k})= \frac{\hbar^2 k^2}{2m}$ we obtain th
 Reciprocal lattice of an FCC is a BCC.
 Brillouin zone of FCC
 
+![[Notions of Solid State Physics.png|300]]
 ### Notion 5
 
 We have the identity:

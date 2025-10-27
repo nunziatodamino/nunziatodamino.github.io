@@ -7,28 +7,17 @@
     "2025/8/1": 31,
     "2025/9/6": 67,
     "2025/9/9": 189,
-    "2025/9/16": 153
+    "2025/9/16": 153,
+    "2025/9/22": 11
   },
   "todaysWordCount": {
     "Projects/Physics of semiconductors/videolesson_topics.md": {
-      "initial": 150,
-      "current": 162
-    },
-    "Projects/Physics of semiconductors/Structure and production/Diamond structure.md": {
-      "initial": 269,
-      "current": 307
-    },
-    "Projects/Physics of semiconductors/Backlog/Zincblende structure.md": {
-      "initial": 168,
-      "current": 185
-    },
-    "Projects/Physics of semiconductors/Structure and production/Semiconductors have mainly 2 structures type.md": {
-      "initial": 4,
-      "current": 90
+      "initial": 166,
+      "current": 170
     },
     "Projects/Physics of semiconductors/Notions of Solid State Physics.md": {
       "initial": 2151,
-      "current": 2151
+      "current": 2158
     }
   }
 }
