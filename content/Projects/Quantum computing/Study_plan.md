@@ -1,0 +1,32 @@
+## Plan for oral exam
+
+#### Macro areas
+
+- QIC theory
+  - Linear algebra
+  - Numerical calculus
+  - Many body physics methods
+
+- Final Project
+  - Slides creation
+       Constraints: Max 15 minutes for exposition
+  	    	    No constraints on the maximum number of slides
+
+       - Sections:
+       	 - Theory
+	 - Code implementation
+	 - Discussion of the results
+	 
+  - Code:
+    - General architecture
+    - MPS and MPO classes
+    - SVD algorithm regularization
+    - Serial DMRG
+    - Parallel DMRG
+ 
+
+  - Theory
+
+  - Discussion of the results
+    - Discussion of the benchmark results
+    - Discussion on the parameters used
