@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: rtbqi-ss35s
+created: 2026-03-11T09:28:03+01:00
