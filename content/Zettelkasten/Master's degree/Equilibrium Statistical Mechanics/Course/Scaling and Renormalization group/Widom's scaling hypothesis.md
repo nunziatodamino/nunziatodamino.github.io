@@ -1,4 +1,4 @@
-Considering that the free energy can be [[Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Miscellanea/Analyticity of the free energy in second-order phase transitions (optional)|decomposed]] in an analytical and a singular part for a second order phase transition:
+ Considering that the free energy can be [[Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Miscellanea/Analyticity of the free energy in second-order phase transitions (optional)|decomposed]] in an analytical and a singular part for a second order phase transition:
 
 $$F(t,h) = F_{\mathrm{an}}(t,h) + F_{\mathrm{sin}}(t,h)$$
 

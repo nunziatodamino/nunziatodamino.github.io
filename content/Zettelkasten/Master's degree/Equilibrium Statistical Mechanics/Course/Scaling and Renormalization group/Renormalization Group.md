@@ -8,7 +8,7 @@ $$ la \ll \xi  \qquad a\ll la \ll L$$
 So that inside the new resolution the degree of freedom are uncorrelated by design. Then I integrate all the the degree of freedom inside this hyper-cell. **The main idea is that the coupling of the degree of freedom will change**, from say the coupling constant $K \to K'$ .
 
 - **Identify the origin of critical behavior and explain universality**
-The coarse-grain procedure will give rise to a system with correlation lenght:
+The coarse-grain procedure will give rise to a system with correlation length:
 
 $$ \xi_l = \xi/l $$
 

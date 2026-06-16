@@ -18,5 +18,5 @@ The notion of consistency is defined respect to the type of algorithm, say for a
 
 ![[Images/On the ambiguity of the adjective ''self-consistent''.png|500]]
 
-For the notion of local truncation error see [[Zettelkasten/Not finished/Computational methods for Material science/Numerical methods/Floating point representation|Floating point representation]]
+For the notion of local truncation error see [[Floating point representation|Floating point representation]]
 

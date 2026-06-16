@@ -1,6 +1,6 @@
 Given an ensemble, the main goal of a simulation is to collect trajectories, i.e., to collect pairs $(\bar{x}_i(t), \bar{v}_i(t))$ for each particle $i = \{1,2,\dots, N\}$.
 
-A consequence of the [[Zettelkasten/Not finished/Computational methods for Material science/Molecular dynamics/Equivalence of ensembles]] is that, provided a suitable phase function can be identified in each case, the basic thermodynamic properties of a model system may be calculated as averages in any convenient ensemble.
+A consequence of the [[Equivalence of ensembles]] is that, provided a suitable phase function can be identified in each case, the basic thermodynamic properties of a model system may be calculated as averages in any convenient ensemble.
 
 ### Evaluate temperature
 
@@ -10,7 +10,7 @@ $$ \braket{K} = \frac{1}{2}m \braket{v^2}= \frac{d}{2}k_bT $$
 
 Where $d$ is the system dimensionality (for a particle that moves in space $d=3$).
 ==vedere se in realtà sono i gradi di libertà del sistema==
-The mean value of the velocity squared can be collected either manually by the trajectories or immediately if I have a [[Zettelkasten/Not finished/Computational methods for Material science/Molecular dynamics/Maxwell-Boltzmann distribution of velocities|Maxwell-Boltzmann distribution of velocities]] of the system.
+The mean value of the velocity squared can be collected either manually by the trajectories or immediately if I have a [[Maxwell-Boltzmann distribution of velocities|Maxwell-Boltzmann distribution of velocities]] of the system.
 In that case one does simply evaluate the variance, so that: $\sigma_v = \braket{v^2}- \braket{v}^2 \iff \braket{v^2} =\sigma_v + \braket{v}^2$
 ### Evaluate pressure
 

@@ -1,4 +1,4 @@
-The problem with the [[Zettelkasten/Not finished/Computational methods for Material science/Ab initio Quantum Mechanics/Kohn-Sham equations|Kohn-Sham equations]] is that we don't have an explicit form for $V_{exc}$, so in order to use them we must resort to approximation in order to find it.
+The problem with the [[Kohn-Sham equations|Kohn-Sham equations]] is that we don't have an explicit form for $V_{exc}$, so in order to use them we must resort to approximation in order to find it.
 One of the most common approximation is the **local density approximation (LDA)**, in which the energy exchange functional is written as:
 
 $$ E^{LDA}_{exc}[n(\bar{r})] = \int d\bar{r}\ n(\bar{r}) \varepsilon_{exc}(n(\bar{r})) $$

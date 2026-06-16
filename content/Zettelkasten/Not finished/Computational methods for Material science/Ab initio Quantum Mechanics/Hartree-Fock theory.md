@@ -38,8 +38,8 @@ These equations presents big problems:
 
 ## Hartree-Fock approximation
 
-As we seen in the preceding paragraph, we need a wavefunction that satisfies the [[Zettelkasten/Master's degree/Basic Physics/Bosons and fermions - the symmetrization postulate|Bosons and fermions - the symmetrization postulate]].
-To do so one can state that the wavefunction is in form of a [[Zettelkasten/Master's degree/Basic Physics/Slater determinant]]:
+As we seen in the preceding paragraph, we need a wavefunction that satisfies the [[Bosons and fermions - the symmetrization postulate|Bosons and fermions - the symmetrization postulate]].
+To do so one can state that the wavefunction is in form of a [[Slater determinant]]:
 
 $$\Phi_e( \bar{\xi}_1,\bar{\xi}_2,\dots,\bar{\xi}_n)= 
 \frac{1}{\sqrt{n!}} \det 
