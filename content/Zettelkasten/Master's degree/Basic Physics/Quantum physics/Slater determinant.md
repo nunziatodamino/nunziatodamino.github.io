@@ -1,4 +1,4 @@
-The Slater determinant is a special way to write the [[Zettelkasten/Master's degree/Basic Physics/Bosons and fermions - the symmetrization postulate|antisymmetrizer]] for the wavefunction:
+The Slater determinant is a special way to write the [[Bosons and fermions - the symmetrization postulate|antisymmetrizer]] for the wavefunction:
 
 $$\Phi_e( \bar{\xi}_1,\bar{\xi}_2,\dots,\bar{\xi}_n)=\psi_1(\bar{\xi}_1)\psi_2(\bar{\xi}_2)\dots\psi_n(\bar{\xi}_n)$$
 

@@ -7,4 +7,4 @@ $$ c_1 (\ket{\alpha}\otimes\ket{\beta})+c_2 (\ket{\beta}\otimes\ket{\alpha}) \qq
 
 **But this is problematic, because the specification of the eigenvalues should collapse the wavefunction according to our principles, and in this cause it doesn't happen.**
 
-This problem is called **exchange degeneracy** and is solved by the [[Zettelkasten/Master's degree/Basic Physics/Bosons and fermions - the symmetrization postulate|Bosons and fermions - the symmetrization postulate]]
+This problem is called **exchange degeneracy** and is solved by the [[Bosons and fermions - the symmetrization postulate|Bosons and fermions - the symmetrization postulate]]

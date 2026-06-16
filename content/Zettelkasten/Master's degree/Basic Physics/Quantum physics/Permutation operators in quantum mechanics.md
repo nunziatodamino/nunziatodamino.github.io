@@ -6,7 +6,7 @@ By definition a permutation is a rearrangement of an ordered set of elements.
 ![[Images/Permutation.png|500]]
 ## $N=3$ identical particles
 
-Consider the space $V = V_1 \otimes V_1 \otimes V_1$, with basis $\{\ket{u_i}_1\ket{u_j}_2\ket{u_k}_3\}$ (see [[Zettelkasten/Master's degree/Basic Physics/Tensor product state spaces|notation]] if there are doubts on the meaning ).
+Consider the space $V = V_1 \otimes V_1 \otimes V_1$, with basis $\{\ket{u_i}_1\ket{u_j}_2\ket{u_k}_3\}$ (see [[Tensor product state spaces|notation]] if there are doubts on the meaning ).
 We define permutation operator $\hat{P}_{mnp}$:
 
 $$ \hat{P}_{mnp}\ket{u_i}_1\ket{u_j}_2\ket{u_k}_3 = \ket{u_i}_m\ket{u_j}_n\ket{u_k}_p $$
