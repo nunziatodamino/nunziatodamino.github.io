@@ -1,7 +1,7 @@
 Now we extend our knowledge on what we discussed in [[Zettelkasten/Master's degree/Solid State Physics/Semiconductors/Effect on the energy bands of doping in semiconductors|Effect on the energy bands of doping in semiconductors]] using the [[Projects/Physics of semiconductors/Envelope function method|Envelope function method]].
 **An important detail arising from this method is that doping doesn't add new states, but reduces the total number of states due to the perturbation.**
 **In the case of n-doping for example it will modify the system in such a way to reduce the number of available state in the conduction band and make it available to the donor state, leaving the total number of states unaltered.**
-This will be seen in detail in [[Projects/Physics of semiconductors/Backlog/How to fill the n-doping states]].
+This will be seen in detail in [[How to fill the n-doping states]].
 
 Suppose to introduce 1 impurity in a semiconductor to achieve n-doping.
 To fix the idea we think simply to a slab of Si and introduce an As atom.

@@ -1,5 +1,5 @@
 The diamond structure is a single element structure of paramount importance in the description of semiconductors.
-The most important difference with the [[Projects/Physics of semiconductors/Structure and production/Zincblende structure|Zincblende structure]] is that the diamond structure contains **only 1 type of atom**.
+The most important difference with the [[Zincblende structure|Zincblende structure]] is that the diamond structure contains **only 1 type of atom**.
 This because the most relevant short range order in semiconductors is characterized by the $\text{sp}^3$  **tetragonal bonding**.
 This imply that in all the structure we have only pure covalent $\text{sp}^3$ bonds.
 

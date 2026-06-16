@@ -1,4 +1,4 @@
-We first consider the natural filling for electrons in a metal, as seen in [[Projects/Physics of semiconductors/Backlog/How to fill the n-doping states|How to fill the n-doping states]].
+We first consider the natural filling for electrons in a metal, as seen in [[How to fill the n-doping states|How to fill the n-doping states]].
 
 We arrive to $n_{electrons}=2n_{\bar{k}-states}=2n/\tilde{N}$ per unit volume where $n$ is the atom density and $\tilde{N}$ is the number of atoms that a unit cell contains.
 

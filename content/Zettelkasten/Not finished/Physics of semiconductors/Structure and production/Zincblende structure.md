@@ -1,4 +1,4 @@
-The Zincblende is a 2-element structure closely related to the [[Projects/Physics of semiconductors/Structure and production/Diamond structure|Diamond structure]].
+The Zincblende is a 2-element structure closely related to the [[Diamond structure|Diamond structure]].
 In this case we have due to the different species present mixed ionic and covalent bonds.
 
 ![[Images/Zincblende structure.png|300]]
