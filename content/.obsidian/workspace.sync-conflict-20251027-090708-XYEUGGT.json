@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d105f3048c56a9ab",
+        "id": "e0649e3483c3f3be",
         "type": "tabs",
         "children": [
           {
-            "id": "fc6d944cdd3da889",
+            "id": "a333df3b38a7971f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Quantum computing/RG methods/Decomposition of an arbitrary quantum pure state as an MPS.md",
+                "file": "Projects/Machine learning/Models and algorithms/Soft Support Vector Machines (SVM).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Decomposition of an arbitrary quantum pure state as an MPS"
+              "title": "Soft Support Vector Machines (SVM)"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 234.500732421875,
-    "collapsed": true
+    "width": 322.5004348754883
   },
   "right": {
     "id": "17359a017802a181",
@@ -166,8 +165,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -176,8 +175,8 @@
             "state": {
               "type": "stats-tracker",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "stats-tracker"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -186,8 +185,8 @@
             "state": {
               "type": "simple-note-review-sidebar-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "simple-note-review-sidebar-view"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -208,8 +207,8 @@
             "state": {
               "type": "stats-tracker",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "stats-tracker"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -218,8 +217,8 @@
             "state": {
               "type": "stats-tracker",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "stats-tracker"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -228,8 +227,8 @@
             "state": {
               "type": "stats-tracker",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "stats-tracker"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -238,8 +237,8 @@
             "state": {
               "type": "stats-tracker",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "stats-tracker"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -248,8 +247,8 @@
             "state": {
               "type": "stats-tracker",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "stats-tracker"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -258,8 +257,8 @@
             "state": {
               "type": "stats-tracker",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "stats-tracker"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -268,8 +267,8 @@
             "state": {
               "type": "stats-tracker",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "stats-tracker"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -278,8 +277,8 @@
             "state": {
               "type": "stats-tracker",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "stats-tracker"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -288,8 +287,8 @@
             "state": {
               "type": "stats-tracker",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "stats-tracker"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -298,8 +297,8 @@
             "state": {
               "type": "stats-tracker",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "stats-tracker"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -308,8 +307,8 @@
             "state": {
               "type": "stats-tracker",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "stats-tracker"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -318,8 +317,8 @@
             "state": {
               "type": "stats-tracker",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "stats-tracker"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -328,8 +327,8 @@
             "state": {
               "type": "stats-tracker",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "stats-tracker"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -338,8 +337,8 @@
             "state": {
               "type": "stats-tracker",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "stats-tracker"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -348,8 +347,8 @@
             "state": {
               "type": "stats-tracker",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "stats-tracker"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -358,8 +357,8 @@
             "state": {
               "type": "stats-tracker",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "stats-tracker"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -368,8 +367,8 @@
             "state": {
               "type": "stats-tracker",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "stats-tracker"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -378,8 +377,8 @@
             "state": {
               "type": "stats-tracker",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "stats-tracker"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -388,8 +387,8 @@
             "state": {
               "type": "stats-tracker",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "stats-tracker"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -398,8 +397,8 @@
             "state": {
               "type": "stats-tracker",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "stats-tracker"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -408,8 +407,8 @@
             "state": {
               "type": "stats-tracker",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "stats-tracker"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -418,32 +417,11 @@
             "state": {
               "type": "stats-tracker",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "stats-tracker"
-            }
-          },
-          {
-            "id": "91afbedf9fe3edc9",
-            "type": "leaf",
-            "state": {
-              "type": "stats-tracker",
-              "state": {},
               "icon": "bar-graph",
               "title": "Daily Stats"
             }
-          },
-          {
-            "id": "0441db1827bcc54c",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
-            }
           }
-        ],
-        "currentTab": 32
+        ]
       }
     ],
     "direction": "horizontal",
@@ -452,65 +430,65 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
+      "random-note:Open random note": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-spaced-repetition:Review flashcards": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "0441db1827bcc54c",
+  "active": "a333df3b38a7971f",
   "lastOpenFiles": [
-    "Projects/Quantum computing/RG methods/An MPS can represent a state with at most a bipartite entropy of log chi.md",
-    "Projects/Quantum computing/Study_plan.md",
-    "Projects/Quantum computing/Quantum computing.md",
-    "Projects/Quantum computing/Topic list.md",
-    "Projects/Quantum computing/#Study_plan.md#",
-    "Projects/Quantum computing/Study_plan.md~",
-    "Projects/Quantum computing/Numerical methods/Classical quadrature methods.md",
-    "Projects/Quantum computing/Numerical methods/Gauss-Legendre quadrature.md",
-    "Projects/Quantum computing/Numerical methods/The Lanczos algorithm.md",
-    "Projects/Quantum computing/Numerical methods/Power methods - How to find the spectrum of a non-degenerate Hermitian matrix.md",
-    "Untitled 1.base",
-    "Untitled.base",
-    "Projects/Quantum computing/Numerical methods/Tridiagonal matrix.md",
-    "Projects/Quantum computing/Numerical methods/Linear systems.md",
-    "Projects/Quantum computing/Numerical methods/Legendre polynomials.md",
-    "Projects/Quantum computing/Numerical precision/Floating point.md",
-    "Projects/Quantum computing/Numerical methods/Crank-Nicholson method.md",
-    "Projects/Structure of Matter/Structure of Matter.md",
-    "Projects/Quantum computing/RG methods/Von Neumann entropy.md",
-    "Projects/Quantum computing/RG methods/Decomposition of an arbitrary quantum pure state as an MPS.md",
-    "Projects/Quantum computing/RG methods/Connection of the reduced density matrix with the Schmidt decomposition.md",
-    "Projects/Quantum computing/RG methods/Properties of the MPS decomposition.md",
-    "Projects/Quantum computing/RG methods/The Schmidt decomposition.md",
-    "Projects/Quantum computing/RG methods/The singular value decomposition (SVD).md",
-    "Projects/Quantum computing/RG methods/Note project.md",
-    "Projects/Quantum computing/Numerical methods/Split operator method.md",
-    "Zettelkasten/Not finished/Computational methods for Material science/Computational methods for Material science.md",
-    "Projects/Quantum computing/RG methods/Connection between the Schmidt decomposition and the Von Neumann entropy.md",
-    "Images/The singular value decomposition (SVD).png",
-    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Ensemble theory/FIX/Thermodynamic (or thermal) equilibrium.md",
-    "Images/Quadrature methods.png",
-    "Projects/Quantum computing/Numerical methods/Untitled",
-    "Projects/Quantum computing/RG methods",
-    "Zettelkasten/Master's degree/Basic Physics/Quantum physics",
-    "Images/Action of the annihilation and creation operator over a state.png",
-    "Projects/Structure of Matter/backlog",
-    "Projects/Review",
-    "Projects/Quantum computing/Numerical precision",
-    "Notions of Solid State Physics.png",
-    "Semiconductors have mainly 2 structures type-1.png",
-    "Semiconductors have mainly 2 structures type.png",
-    "Diamond structure- primitive.png",
-    "Images/Diamond structure-d.png",
-    "Images/Diamond structure.png",
-    "Images/Diamond structure-1.png",
-    "Zettelkasten/Master's degree/Machine learning/Untitled.canvas",
+    "Projects/Machine learning/Models and algorithms/Hard Support Vector Machines (SVM).md",
+    "Projects/Machine learning/Models and algorithms/Soft Support Vector Machines (SVM).md",
+    "Projects/Machine learning/Statistical Machine Learning/Decomposition of the true loss.md",
+    "Projects/Machine learning/Statistical Machine Learning/Estimation of the true error - bounds on the validation set error.md",
+    "Projects/Machine learning/Statistical Machine Learning/Regularization loss minimization (RLM).md",
+    "Projects/Machine learning/Statistical Machine Learning/Setting the problem of supervised learning.md",
+    "Projects/Machine learning/Statistical Machine Learning/Stability in the learning due to an input changing (OAROS).md",
+    "Projects/Machine learning/Statistical Machine Learning/Stability and Tikhonov regularization.md",
+    "Projects/Machine learning/Statistical Machine Learning/Minimum description length.md",
+    "Projects/Machine learning/Statistical Machine Learning/Structural risk minimization (SRM).md",
+    "Projects/Machine learning/Statistical Machine Learning/Bounding structural risk.md",
+    "Projects/Machine learning/Statistical Machine Learning/Vapnik-Chervonenkis dimension (VC dimension).md",
+    "Projects/Machine learning/Statistical Machine Learning/No free lunch.md",
+    "Projects/Machine learning/Statistical Machine Learning/Finite hypothesis classes are agnostic PAC learnable.md",
+    "Projects/Machine learning/Statistical Machine Learning/Uniform convergence and PAC learnability.md",
+    "Projects/Machine learning/Statistical Machine Learning/ε-representative training sets and ERM.md",
+    "Projects/Machine learning/Untitled.canvas",
+    "Projects/Machine learning/Statistical Machine Learning/Agnostic PAC learnability.md",
+    "Projects/Machine learning/Statistical Machine Learning/Realizable PAC learnability.md",
+    "Projects/Machine learning/Statistical Machine Learning/PAC learning theorem.md",
+    "Projects/Machine learning/Models and algorithms/Least squares algorithm.md",
+    "Projects/Machine learning/Models and algorithms/Linear regression model.md",
+    "Projects/Machine learning/Statistical Machine Learning/Fundamental theorem of statistical learning.md",
+    "Projects/Machine learning/Statistical Machine Learning/How to choose a model.md",
+    "Projects/Machine learning/Machine learning.md",
+    "Projects/Machine learning/Models and algorithms/Backpropagation.md",
+    "Pasted image 20250831171304.png",
+    "Backpropagation.png",
+    "Projects/Machine learning/Models and algorithms/Neural Network.md",
+    "Images/Neural Network-1.png",
+    "Images/Neural Network.png",
+    "Images/Neural Network-1.png",
+    "Images/Preventing overfit in decision tress.png",
+    "Images/Decisions tree.png",
+    "Images/Gradient descent-3.png",
+    "Images/Gradient descent-2.png",
+    "Images/Gradient descent-1.png",
+    "Projects/Machine learning/Statistical Machine Learning/Older notes",
+    "Projects/Machine learning/Models and algorithms",
+    "Projects/Programming/Python/Numpy",
     "Zettelkasten/Master's degree/Solid State Physics/Solid State mind map -lattice dynamics.canvas",
+    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Ensemble theory/FIX",
+    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Miscellanea",
+    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Liquids",
+    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Compiti",
+    "Calculations/Critical parameters in a VdW system.pdf",
+    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Thermodynamics",
+    "Projects/Equilibrium Statistical Mechanics/Buffer",
     "Zettelkasten/Master's degree/Solid State Physics/Solid State mind map -electronic dynamics.canvas",
     "Second partial.canvas",
     "Untitled 1.canvas",

@@ -6,5 +6,9 @@
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100
-  }
+  },
+  "newLinkFormat": "absolute",
+  "spellcheckLanguages": null,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Projects"
 }

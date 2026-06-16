@@ -1,0 +1,23 @@
+{
+  "dayCounts": {
+    "2025/7/27": 409,
+    "2025/7/28": 950,
+    "2025/7/30": 679,
+    "2025/7/31": 842,
+    "2025/8/1": 31
+  },
+  "todaysWordCount": {
+    "Projects/Machine learning/Statistical Machine Learning/Finite hypothesis classes are agnostic PAC learnable.md": {
+      "initial": 642,
+      "current": 642
+    },
+    "Projects/Machine learning/Statistical Machine Learning/Bounding structural risk.md": {
+      "initial": 704,
+      "current": 735
+    },
+    "Projects/Machine learning/Statistical Machine Learning/Stability in the learning due to an input changing (OAROS).md": {
+      "initial": 653,
+      "current": 653
+    }
+  }
+}
