@@ -24,7 +24,6 @@
 	- [[Other impurities in semiconductors]]
 	- [[PN junction (diode) in forward or reverse biased mode]]
 	- [[Production of microelectronic-grade silicon]]
-- **General doping**
 - [[Notions of Solid State Physics]]
 - **Structure and production**
 	- [[Diamond structure]]

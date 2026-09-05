@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d105f3048c56a9ab",
+        "id": "37049db760303de4",
         "type": "tabs",
         "children": [
           {
-            "id": "fc6d944cdd3da889",
+            "id": "80f964c2f26aab12",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Quantum computing/RG methods/Decomposition of an arbitrary quantum pure state as an MPS.md",
+                "file": "Projects/Structure of Matter/A note on permutation operators.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Decomposition of an arbitrary quantum pure state as an MPS"
+              "title": "A note on permutation operators"
             }
           }
         ]
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -78,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 234.500732421875,
-    "collapsed": true
+    "width": 234.500732421875
   },
   "right": {
     "id": "17359a017802a181",
@@ -428,12 +429,32 @@
             "state": {
               "type": "stats-tracker",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "stats-tracker"
+            }
+          },
+          {
+            "id": "0441db1827bcc54c",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          },
+          {
+            "id": "0ce754790887f007",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {},
               "icon": "bar-graph",
               "title": "Daily Stats"
             }
           },
           {
-            "id": "0441db1827bcc54c",
+            "id": "33ee9e2921d2de48",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -462,53 +483,54 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "0441db1827bcc54c",
+  "active": "80f964c2f26aab12",
   "lastOpenFiles": [
-    "Projects/Quantum computing/RG methods/An MPS can represent a state with at most a bipartite entropy of log chi.md",
-    "Projects/Quantum computing/Study_plan.md",
-    "Projects/Quantum computing/Quantum computing.md",
-    "Projects/Quantum computing/Topic list.md",
-    "Projects/Quantum computing/#Study_plan.md#",
-    "Projects/Quantum computing/Study_plan.md~",
-    "Projects/Quantum computing/Numerical methods/Classical quadrature methods.md",
-    "Projects/Quantum computing/Numerical methods/Gauss-Legendre quadrature.md",
-    "Projects/Quantum computing/Numerical methods/The Lanczos algorithm.md",
-    "Projects/Quantum computing/Numerical methods/Power methods - How to find the spectrum of a non-degenerate Hermitian matrix.md",
-    "Untitled 1.base",
-    "Untitled.base",
-    "Projects/Quantum computing/Numerical methods/Tridiagonal matrix.md",
-    "Projects/Quantum computing/Numerical methods/Linear systems.md",
-    "Projects/Quantum computing/Numerical methods/Legendre polynomials.md",
-    "Projects/Quantum computing/Numerical precision/Floating point.md",
-    "Projects/Quantum computing/Numerical methods/Crank-Nicholson method.md",
-    "Projects/Structure of Matter/Structure of Matter.md",
-    "Projects/Quantum computing/RG methods/Von Neumann entropy.md",
-    "Projects/Quantum computing/RG methods/Decomposition of an arbitrary quantum pure state as an MPS.md",
-    "Projects/Quantum computing/RG methods/Connection of the reduced density matrix with the Schmidt decomposition.md",
-    "Projects/Quantum computing/RG methods/Properties of the MPS decomposition.md",
-    "Projects/Quantum computing/RG methods/The Schmidt decomposition.md",
-    "Projects/Quantum computing/RG methods/The singular value decomposition (SVD).md",
-    "Projects/Quantum computing/RG methods/Note project.md",
-    "Projects/Quantum computing/Numerical methods/Split operator method.md",
-    "Zettelkasten/Not finished/Computational methods for Material science/Computational methods for Material science.md",
-    "Projects/Quantum computing/RG methods/Connection between the Schmidt decomposition and the Von Neumann entropy.md",
+    "Projects/Structure of Matter/A note on perturbation theory.md",
+    "Projects/Structure of Matter/A note on permutation operators.md",
+    "Projects/Structure of Matter/Relativistic effects/The Pauli equation for a charged particle.md",
+    "Projects/Structure of Matter/Relativistic effects/Fine structure splitting.md",
+    "Projects/Structure of Matter/Relativistic effects/Zeeman effect.md",
+    "Projects/Structure of Matter/Relativistic effects/Relativistic energy corrections via perturbation theory.md",
+    "Mean value of radial functions respect the hydrogenic wavefunction.md",
+    "The non-relativistic hydrogenic atom.md",
+    "Projects/Structure of Matter/Relativistic effects/Physical analysis of the relativistic corrections for one-electron atoms and ions.md",
+    "Projects/Structure of Matter/Relativistic effects/Stationary equation of a charged particle.md",
+    "Projects/Structure of Matter/Relativistic effects/Relativistic corrections for one-electron atoms and ions.md",
+    "Darwin term simplification.md",
+    "Pauli vector dot product identity.md",
+    "Dirac equation.md",
+    "Projects/Structure of Matter/Electron transitions/Lifetime 1.md",
+    "Projects/Structure of Matter/Electron transitions/Lifetime 2.md",
+    "Projects/Structure of Matter/transcripts/2026-08-26_Study_Notes.md",
+    "Projects/Structure of Matter/Electron transitions/Time dependent perturbation theory - the interaction picture.md",
+    "Projects/Structure of Matter/Electron transitions/The dipole approximation.md",
+    "Projects/Structure of Matter/Electron transitions/Fermi Golden Rule.md",
+    "Projects/Structure of Matter/Electron transitions/Phenomenological exponential-decay ansatz.md",
+    "Projects/Structure of Matter/transcripts/2026-08-25_Study_Notes.md",
+    "Projects/Structure of Matter/transcripts/2026-08-22_Study_Notes.md",
+    "Absorption and emission.md",
+    "Phenomenological exponential-decay ansatz.png",
+    "Projects/Structure of Matter/Electron transitions/Lifetime and natural line width.md",
+    "Proof of exchange of vector potential and momentum using the Coulomb gauge in the context of the dipole approximation.md",
+    "Atomic polarizability - Classical approach.png",
+    "Projects/Structure of Matter/transcripts",
+    "Calculations/electron_velocity_lemma.pdf",
+    "Calculations/D matrix calculations.pdf",
+    "Calculations/translated_multidimensional_gaussian.pdf",
+    "Calculations/translated_gaussian_integral_1d.pdf",
+    "Calculations/The Sokhotski-Plemelj formula_231103_172040.pdf",
+    "Calculations/study of the function k in the single ended zipper model.pdf",
+    "Calculations/Proof of the Kramers-Kronig relations_231104_095654.pdf",
+    "Calculations/n_order_gaussian_1d.pdf",
+    "Calculations/multidimensional_gaussian.pdf",
+    "Calculations/d_matrix_derivation_1.jpeg",
+    "Calculations/d_matrix_derivation_2.jpeg",
+    "Calculations/harmonic_crystal_motion_eqn_derivation.jpeg",
     "Images/The singular value decomposition (SVD).png",
-    "Zettelkasten/Master's degree/Equilibrium Statistical Mechanics/Course/Ensemble theory/FIX/Thermodynamic (or thermal) equilibrium.md",
     "Images/Quadrature methods.png",
-    "Projects/Quantum computing/Numerical methods/Untitled",
-    "Projects/Quantum computing/RG methods",
-    "Zettelkasten/Master's degree/Basic Physics/Quantum physics",
     "Images/Action of the annihilation and creation operator over a state.png",
-    "Projects/Structure of Matter/backlog",
-    "Projects/Review",
-    "Projects/Quantum computing/Numerical precision",
     "Notions of Solid State Physics.png",
     "Semiconductors have mainly 2 structures type-1.png",
-    "Semiconductors have mainly 2 structures type.png",
-    "Diamond structure- primitive.png",
-    "Images/Diamond structure-d.png",
-    "Images/Diamond structure.png",
-    "Images/Diamond structure-1.png",
     "Zettelkasten/Master's degree/Machine learning/Untitled.canvas",
     "Zettelkasten/Master's degree/Solid State Physics/Solid State mind map -lattice dynamics.canvas",
     "Zettelkasten/Master's degree/Solid State Physics/Solid State mind map -electronic dynamics.canvas",

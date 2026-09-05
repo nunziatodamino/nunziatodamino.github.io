@@ -36,22 +36,9 @@ $$\begin{cases} \Box\bar{A} = 0 \\
 \end{cases}
 $$
 
-With the proper Dirichlet boundary condition we get for the first equation the plane wave solution:
+With the proper Dirichlet boundary condition we get that the general solutions are (calculations are made [[General solution of the homogeneous D'Alembertian|here]]):
 
-$$ \bar{A}(\bar{r},t) = \bar{A}_{\bar{k}s}e^{i(\bar{k}\cdot\bar{r}-\omega_k t)} $$
-
-Or a linear combination of the solutions is again a solution. We then build a solution which is real by construction (i.e. a Fourier series)
-
-$$\bar{A}(\bar{r},t) = \sum_{\bar{k}}\sum_s\left[\alpha A_{\bar{k}s}e^{i(\bar{k}\cdot\bar{r}-\omega_k t)} + \beta \left(A_{\bar{k}s}e^{i(\bar{k}\cdot\bar{r}-\omega_k t)}\right)^* \right]\hat{\varepsilon}_{\bar{k}s} $$
-
-Where $\alpha$ and $\beta$ will be chosen in the end as normalization constants. We now can find $\alpha$ and $\beta$ separately, we just show how to find $\alpha$. I want to impose:
-
-$$ \int_V d^3\bar{r}\ \vert \alpha e^{i(\bar{k}\cdot\bar{r})}\vert^2 \equiv 1 \qquad \Rightarrow \qquad\alpha^2\int_V d^3\bar{r}\ \vert e^{i(\bar{k}\cdot\bar{r})}\vert^2 = \alpha^2\int_V d^3\bar{r} = \alpha^2V = 1 \qquad \Rightarrow \qquad\alpha = \frac{1}{\sqrt{V}} $$
-
-One can show with the same ansatz that $\beta = \alpha$.
-In the end we will have then:
-
-$$\bar{A}(\bar{r},t) = \sum_{\bar{k}}\sum_s\left[\frac{1}{\sqrt{V}} A_{\bar{k}s}e^{i(\bar{k}\cdot\bar{r}-\omega_k t)} + \frac{1}{\sqrt{V}} A^*_{\bar{k}s}e^{-i(\bar{k}\cdot\bar{r}-\omega_k t)} \right]\hat{\varepsilon}_{\bar{k}s} $$
+$$\bar{A}(\bar{r},t) = \sum_{\bar{k}}\sum_s\left[\frac{1}{\sqrt{V}} A_{\bar{k}s}e^{i(\bar{k}\cdot\bar{r}-\omega_k t)} + \frac{1}{\sqrt{V}} A^*_{\bar{k}s}e^{-i(\bar{k}\cdot\bar{r}-\omega_k t)} \right]\hat{\varepsilon}_{\bar{k}s}\  ,\qquad \phi(\bar{r},t) = 0 $$
 
 We now have to plug in this expression in the $H$ integral.
 

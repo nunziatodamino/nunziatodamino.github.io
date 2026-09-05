@@ -1,10 +1,38 @@
 %% Begin Waypoint %%
-- [[Action of the annihilation and creation operator over a state]]
-- [[Canonical quantization of the electromagnetic field]]
-- [[Coherent state]]
-- [[Electric and magnetic field as operators]]
-- [[Electromagnetic energy respect the vector potential in the Coulomb gauge]]
-- [[Fock space]]
-- [[Preliminaries, mathematical and physical bits and crumbs]]
+- [[A note on permutation operators]]
+- [[A note on perturbation theory]]
+- **Electromagnetic field**
+	- [[Action of the annihilation and creation operator over a state]]
+	- [[Canonical quantization of the electromagnetic field]]
+	- [[Coherent state]]
+	- [[Electric and magnetic field as operators]]
+	- [[Electromagnetic energy respect the vector potential in the Coulomb gauge]]
+	- [[Fock space]]
+	- [[Preliminaries, mathematical and physical bits and crumbs]]
+- **Electron transitions**
+	- [[Atomic polarizability - Classical approach]]
+	- [[Atomic polarizability - Quantum approach]]
+	- [[Atomic polarizability]]
+	- [[Fermi Golden Rule]]
+	- [[Lifetime 1]]
+	- [[Lifetime 2]]
+	- [[Lifetime and natural line width]]
+	- [[Phenomenological exponential-decay ansatz]]
+	- [[The dipole approximation]]
+	- [[Time dependent perturbation theory - the interaction picture]]
+- **Many-particle systems**
+- **Relativistic effects**
+	- [[Fine structure splitting]]
+	- [[Physical analysis of the relativistic corrections for one-electron atoms and ions]]
+	- [[Relativistic corrections for one-electron atoms and ions]]
+	- [[Relativistic energy corrections via perturbation theory]]
+	- [[Stationary equation of a charged particle]]
+	- [[The Pauli equation for a charged particle]]
+	- [[Zeeman effect]]
+- **transcripts**
+	- [[2026-08-22_Study_Notes]]
+	- [[2026-08-24_Study_Notes]]
+	- [[2026-08-25_Study_Notes]]
+	- [[2026-08-26_Study_Notes]]
 
 %% End Waypoint %%

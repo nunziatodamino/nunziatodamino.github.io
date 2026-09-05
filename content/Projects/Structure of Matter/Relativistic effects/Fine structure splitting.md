@@ -1,0 +1,2 @@
+All these relativistic corrections for the hydrogenic atoms or ions we saw in [[Relativistic energy corrections via perturbation theory]] or [[]] are called **fine structure corrections**.
+The reason is quite simple, the corrections remove the $2n^2$ degeneracy for $E_n$ that one seen in [[The non-relativistic hydrogenic atom]] in favor of the $n$ degeneracy we see for $E_{nj}$.
