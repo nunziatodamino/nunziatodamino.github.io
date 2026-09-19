@@ -24,11 +24,7 @@ const PersonalPage: QuartzComponent = (props) => {
       <main class="personal-content home-content" id="main-content">
         <h1 class="home-question">Are you interested in the painter or the physicist?</h1>
         <div class="worlds" aria-label="Choose a perspective">
-          <a
-            class="world world-painter"
-            href={joinSegments(base, "painter/")}
-            aria-label="The painter"
-          >
+          <div class="world-visual world-visual-painter" aria-hidden="true">
             <img
               class="world-background"
               src={joinSegments(base, "static/home/painter.webp")}
@@ -36,7 +32,23 @@ const PersonalPage: QuartzComponent = (props) => {
               loading="eager"
               decoding="async"
             />
-            <span class="world-shade" aria-hidden="true" />
+            <span class="world-shade" />
+          </div>
+          <div class="world-visual world-visual-physicist" aria-hidden="true">
+            <img
+              class="world-background"
+              src={joinSegments(base, "static/home/physicist.svg")}
+              alt=""
+              loading="eager"
+              decoding="async"
+            />
+            <span class="world-shade" />
+          </div>
+          <a
+            class="world world-painter"
+            href={joinSegments(base, "painter/")}
+            aria-label="The painter"
+          >
             <span class="world-spotlight" aria-hidden="true" />
             <div class="world-copy">
               <h2>The painter</h2>
@@ -47,14 +59,6 @@ const PersonalPage: QuartzComponent = (props) => {
             href={joinSegments(base, "physicist/")}
             aria-label="The physicist"
           >
-            <img
-              class="world-background"
-              src={joinSegments(base, "static/home/physicist.svg")}
-              alt=""
-              loading="eager"
-              decoding="async"
-            />
-            <span class="world-shade" aria-hidden="true" />
             <span class="world-spotlight" aria-hidden="true" />
             <div class="world-copy">
               <h2>The physicist</h2>
