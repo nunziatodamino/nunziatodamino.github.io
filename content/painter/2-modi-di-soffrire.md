@@ -1,5 +1,7 @@
 ---
 title: 2 modi di soffrire
+catalogId: P02
+section: paintings
 year: 2018
 medium: Acrilico su tela
 dimensions: 100 × 80 cm

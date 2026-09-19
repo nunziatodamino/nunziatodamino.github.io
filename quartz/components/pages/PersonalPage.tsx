@@ -1,10 +1,18 @@
 import { QuartzComponent, QuartzComponentConstructor } from "../types"
 import { joinSegments, pathToRoot, resolveRelative } from "../../util/path"
-import { getArtwork, sortedArtworks, sortedExhibitions, isExhibitionPage } from "../../util/site"
+import {
+  getArtwork,
+  sortedExhibitions,
+  isExhibitionPage,
+  isPortfolioSectionPage,
+  sortedPortfolioSections,
+} from "../../util/site"
 import { htmlToJsx } from "../../util/jsx"
 import PaintingGrid from "../PaintingGrid"
 import ExhibitionList from "../ExhibitionList"
 import ExhibitionPage from "./ExhibitionPage"
+import PortfolioSectionList from "../PortfolioSectionList"
+import PortfolioSectionPage from "./PortfolioSectionPage"
 // @ts-ignore
 import homeScript from "../scripts/home.inline"
 
@@ -61,14 +69,24 @@ const PersonalPage: QuartzComponent = (props) => {
     return <ExhibitionPage {...props} />
   }
 
+  if (isPortfolioSectionPage(fileData)) {
+    return <PortfolioSectionPage {...props} />
+  }
+
   if (fileData.slug === "painter/index") {
-    const works = sortedArtworks(allFiles)
+    const sections = sortedPortfolioSections(allFiles)
     const exhibitions = sortedExhibitions(allFiles)
     return (
       <main class="personal-content painter-content" id="main-content">
         <div class="gallery-intro">
           <h1>The painter</h1>
         </div>
+        <section class="painter-portfolio" aria-labelledby="portfolio-heading">
+          <h2 class="collection-heading" id="portfolio-heading">
+            Portfolio
+          </h2>
+          <PortfolioSectionList sections={sections} files={allFiles} slug={fileData.slug!} />
+        </section>
         {exhibitions.length > 0 && (
           <section class="painter-exhibitions" aria-labelledby="exhibitions-heading">
             <div class="collection-heading-row">
@@ -82,37 +100,41 @@ const PersonalPage: QuartzComponent = (props) => {
             <ExhibitionList exhibitions={exhibitions} slug={fileData.slug!} />
           </section>
         )}
-        {works.length === 0 ? (
-          <section class="gallery-empty" aria-labelledby="coming-soon">
-            <h2 id="coming-soon">Selected paintings — coming soon.</h2>
-          </section>
-        ) : (
-          <section id="paintings" aria-labelledby="paintings-heading">
-            <h2 class="collection-heading" id="paintings-heading">
-              Selected paintings
-            </h2>
-            <PaintingGrid works={works} slug={fileData.slug!} />
-          </section>
-        )}
       </main>
     )
   }
 
   const work = getArtwork(fileData)!
+  const section = sortedPortfolioSections(allFiles).find(
+    (candidate) => candidate.id === work.section,
+  )
   const exhibitions = sortedExhibitions(allFiles).filter((exhibition) =>
     exhibition.artworks.includes(work.slug),
   )
   return (
     <main class="personal-content artwork-content" id="main-content">
-      <a class="text-link" href={joinSegments(base, "painter/")}>
-        ← All paintings
+      <a
+        class="text-link"
+        href={
+          section ? resolveRelative(fileData.slug!, section.slug) : joinSegments(base, "painter/")
+        }
+      >
+        ← {section?.title ?? "Portfolio"}
       </a>
       <figure class="artwork">
         <img src={joinSegments(base, work.image)} alt={work.alt} decoding="async" />
         <figcaption>
-          <p class="eyebrow">{work.year ? `${work.year} / Painting` : "Painting"}</p>
+          <p class="eyebrow">
+            {[work.catalogId, work.year, "Painting"].filter(Boolean).join(" / ")}
+          </p>
           <h1>{work.title}</h1>
-          <p>{[work.medium, work.dimensions].filter(Boolean).join(" · ")}</p>
+          {(work.medium || work.dimensions) && (
+            <p>{[work.medium, work.dimensions].filter(Boolean).join(" · ")}</p>
+          )}
+          {work.detailsPending && <p class="details-pending">Details forthcoming</p>}
+          {work.section === "opere-disperse" && (
+            <p class="artwork-status">{work.status ?? "Status forthcoming"}</p>
+          )}
         </figcaption>
       </figure>
       <article>{htmlToJsx(fileData.filePath!, tree)}</article>

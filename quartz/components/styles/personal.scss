@@ -310,6 +310,110 @@ body[data-section="home"] {
     margin: 1.5rem 0;
   }
 }
+.painter-portfolio {
+  margin-bottom: 5rem;
+}
+.portfolio-section-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+}
+.portfolio-section-card {
+  display: block;
+  color: var(--dark);
+  font-weight: 400;
+  .portfolio-section-image {
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    background: color-mix(in srgb, var(--lightgray) 40%, transparent);
+  }
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
+    border-radius: 0;
+    transition: transform 350ms ease;
+  }
+  &:hover img {
+    transform: scale(1.02);
+  }
+  .portfolio-section-copy {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding-top: 1rem;
+  }
+  h3 {
+    margin: 0;
+    font:
+      1.75rem Georgia,
+      serif;
+  }
+  p {
+    max-width: 30rem;
+    margin: 0.45rem 0 0;
+    color: var(--darkgray);
+    font-size: 0.9rem;
+  }
+  .portfolio-section-count {
+    flex: none;
+    color: var(--darkgray);
+    font: 0.72rem var(--codeFont);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+}
+.portfolio-section-content {
+  padding-top: 2rem;
+}
+.portfolio-section-intro {
+  max-width: 760px;
+  padding: 4rem 0 2.5rem;
+  h1 {
+    margin: 0.5rem 0 1.25rem;
+    font:
+      clamp(3.2rem, 7vw, 6rem) / 1 Georgia,
+      serif;
+  }
+  > p:last-child {
+    max-width: 620px;
+    color: var(--darkgray);
+    font-size: 1.1rem;
+  }
+}
+.portfolio-section-note {
+  max-width: 680px;
+  margin-bottom: 3rem;
+  &:empty {
+    display: none;
+  }
+}
+.series-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 3rem 2rem;
+  figure {
+    margin: 0;
+  }
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 72vh;
+    object-fit: contain;
+    margin: 0;
+    border-radius: 0;
+    background: color-mix(in srgb, var(--lightgray) 40%, transparent);
+  }
+  figcaption {
+    margin-top: 0.75rem;
+    color: var(--darkgray);
+    font: 0.78rem var(--codeFont);
+  }
+}
 .gallery-empty {
   display: flex;
   gap: 3rem;
@@ -384,6 +488,10 @@ body[data-section="home"] {
     font-size: 0.85rem;
     font-weight: 400;
   }
+  .details-pending,
+  .artwork-status {
+    color: var(--darkgray);
+  }
 }
 .artwork-content {
   padding-top: 2rem;
@@ -403,6 +511,14 @@ body[data-section="home"] {
   }
   article {
     max-width: 700px;
+  }
+  .details-pending,
+  .artwork-status {
+    color: var(--darkgray);
+    font-size: 0.9rem;
+  }
+  .artwork-status {
+    font-family: var(--codeFont);
   }
 }
 
@@ -561,8 +677,13 @@ body[data-section="home"] {
     padding: 2.5rem 0;
   }
   .worlds,
-  .painting-grid {
+  .painting-grid,
+  .portfolio-section-grid,
+  .series-gallery {
     grid-template-columns: 1fr;
+  }
+  .portfolio-section-card .portfolio-section-copy {
+    gap: 0.75rem;
   }
   body[data-section="home"] {
     .page .page-header {

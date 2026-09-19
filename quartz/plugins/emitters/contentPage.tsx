@@ -20,7 +20,13 @@ import { Content } from "../../components"
 import chalk from "chalk"
 import { write } from "./helpers"
 import DepGraph from "../../depgraph"
-import { getArtwork, getExhibition, exhibitionArtworks, isPhysicsPage } from "../../util/site"
+import {
+  getArtwork,
+  getExhibition,
+  exhibitionArtworks,
+  getPortfolioSection,
+  isPhysicsPage,
+} from "../../util/site"
 
 // get all the dependencies for the markdown file
 // eg. images, scripts, stylesheets, transclusions
@@ -102,6 +108,25 @@ export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOp
             joinSegments(ctx.argv.directory, artwork.imageSource) as FilePath,
             sourcePath,
           )
+          const section = content.find(
+            ([, candidate]) =>
+              candidate.data.frontmatter?.section === artwork.section &&
+              getPortfolioSection(candidate.data),
+          )
+          if (section) graph.addEdge(sourcePath, section[1].data.filePath!)
+        }
+        const portfolioSection = getPortfolioSection(file.data)
+        if (portfolioSection) {
+          graph.addEdge(
+            sourcePath,
+            joinSegments(ctx.argv.directory, "painter/index.md") as FilePath,
+          )
+          for (const asset of [
+            portfolioSection.coverSource,
+            ...portfolioSection.images.map((image) => image.imageSource),
+          ]) {
+            graph.addEdge(joinSegments(ctx.argv.directory, asset) as FilePath, sourcePath)
+          }
         }
         const exhibition = getExhibition(file.data)
         if (exhibition) {
@@ -136,6 +161,17 @@ export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOp
           await fs.access(path.join(ctx.argv.directory, artwork.imageSource)).catch(() => {
             throw new Error(`Painting ${file.slug}: image not found: ${artwork.imageSource}`)
           })
+        }
+        const portfolioSection = getPortfolioSection(file)
+        if (portfolioSection) {
+          for (const asset of [
+            portfolioSection.coverSource,
+            ...portfolioSection.images.map((image) => image.imageSource),
+          ]) {
+            await fs.access(path.join(ctx.argv.directory, asset)).catch(() => {
+              throw new Error(`Portfolio section ${file.slug}: file not found: ${asset}`)
+            })
+          }
         }
         const exhibition = getExhibition(file)
         if (exhibition) {

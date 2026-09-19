@@ -1,5 +1,7 @@
 ---
 title: Il Re
+catalogId: P04
+section: paintings
 year: 2018
 medium: Acrilico su tela
 dimensions: 150 × 100 cm

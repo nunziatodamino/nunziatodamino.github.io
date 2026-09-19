@@ -1,5 +1,7 @@
 ---
 title: Gli amanti di Aldebaran
+catalogId: P05
+section: paintings
 year: 2019
 medium: Tecnica mista
 dimensions: 100 × 120 cm

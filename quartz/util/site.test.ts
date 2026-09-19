@@ -7,6 +7,9 @@ import {
   getExhibition,
   sortedExhibitions,
   exhibitionArtworks,
+  getPortfolioSection,
+  sortedPortfolioSections,
+  sectionArtworks,
 } from "./site"
 import { FullSlug } from "./path"
 import { QuartzPluginData } from "../plugins/vfile"
@@ -161,4 +164,63 @@ test("incomplete or invalid paintings fail with actionable errors", () => {
     file.frontmatter!.image = image
     assert.throws(() => getArtwork(file), /local file in painter\/images/)
   }
+})
+
+const portfolioSection = (id: string, order = 10): QuartzPluginData => ({
+  slug: `painter/portfolio/${id}/index` as FullSlug,
+  frontmatter: {
+    title: id,
+    section: id,
+    description: `${id} works`,
+    order,
+    cover: `painter/images/${id}/cover.webp`,
+  },
+})
+
+test("portfolio section pages do not become paintings and group works by section", () => {
+  const section = portfolioSection("monotipi")
+  const first = painting("painter/m01", 10)
+  first.frontmatter!.section = "monotipi"
+  first.frontmatter!.catalogId = "M01"
+  const second = painting("painter/p01", 20)
+  second.frontmatter!.section = "paintings"
+  assert.equal(getArtwork(section), undefined)
+  assert.equal(getPortfolioSection(section)!.id, "monotipi")
+  assert.deepEqual(sectionArtworks(getPortfolioSection(section)!, [first, second]), [
+    getArtwork(first),
+  ])
+})
+
+test("new paintings may use stable catalogue IDs and pending metadata", () => {
+  const work = painting("painter/m01", 10)
+  delete (work.frontmatter as Record<string, unknown>).title
+  delete work.frontmatter!.medium
+  delete work.frontmatter!.dimensions
+  work.frontmatter!.catalogId = "M01"
+  work.frontmatter!.detailsPending = true
+  const parsed = getArtwork(work)!
+  assert.equal(parsed.title, "Untitled M01")
+  assert.equal(parsed.medium, undefined)
+  assert.equal(parsed.detailsPending, true)
+  const duplicate = painting("painter/m02", 20)
+  duplicate.frontmatter!.catalogId = "M01"
+  assert.throws(() => sortedArtworks([work, duplicate]), /unique catalogue identifiers/)
+})
+
+test("portfolio sections validate unique IDs and local series images", () => {
+  const section = portfolioSection("from-the-scrolls")
+  section.frontmatter!.images = [
+    {
+      image: "painter/images/scrolls/passage-01.webp",
+      alt: "A painted passage",
+      caption: "Passage 01 — Caption forthcoming",
+    },
+  ]
+  assert.equal(getPortfolioSection(section)!.images.length, 1)
+  assert.throws(() => sortedPortfolioSections([section, section]), /unique section identifiers/)
+  ;(section.frontmatter!.images as Array<Record<string, string>>)[0].image = "../outside.jpg"
+  assert.throws(() => getPortfolioSection(section), /local file/)
+  section.frontmatter!.images = []
+  section.frontmatter!.section = "unknown"
+  assert.throws(() => getPortfolioSection(section), /unknown section/)
 })

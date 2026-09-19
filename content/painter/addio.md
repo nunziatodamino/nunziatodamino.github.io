@@ -1,5 +1,7 @@
 ---
 title: Addio
+catalogId: P01
+section: paintings
 year: 2018
 medium: Acrilico su tela
 dimensions: 120 × 100 cm

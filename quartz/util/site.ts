@@ -15,6 +15,117 @@ export function isExhibitionPage(file: QuartzPluginData): boolean {
   return file.slug?.startsWith("painter/exhibitions/") ?? false
 }
 
+export function isPortfolioSectionPage(file: QuartzPluginData): boolean {
+  return file.slug?.startsWith("painter/portfolio/") ?? false
+}
+
+export interface SeriesImage {
+  image: string
+  imageSource: string
+  alt: string
+  caption: string
+}
+
+export const portfolioSectionIds = [
+  "from-the-scrolls",
+  "monotipi",
+  "paintings",
+  "opere-disperse",
+] as const
+export type PortfolioSectionId = (typeof portfolioSectionIds)[number]
+
+export interface PortfolioSection {
+  slug: FullSlug
+  id: PortfolioSectionId
+  title: string
+  description: string
+  order: number
+  cover: string
+  coverSource: string
+  images: SeriesImage[]
+}
+
+const localPainterImage = /^painter\/images\/.+\.(webp|jpe?g|png|avif)$/i
+
+function validatePainterImage(source: string, context: string): void {
+  if (!localPainterImage.test(source) || source.split("/").includes("..")) {
+    throw new Error(`${context}: image must be a local file in painter/images/`)
+  }
+}
+
+export function getPortfolioSection(file: QuartzPluginData): PortfolioSection | undefined {
+  if (!isPortfolioSectionPage(file)) return
+  const data: Record<string, unknown> = file.frontmatter ?? {}
+  const required = (key: string): string => {
+    const value = data[key]
+    if (typeof value !== "string" || value.trim() === "") {
+      throw new Error(`Portfolio section ${file.slug}: missing ${key} in frontmatter`)
+    }
+    return value
+  }
+  const order = data.order
+  if (typeof order !== "number" || !Number.isFinite(order)) {
+    throw new Error(`Portfolio section ${file.slug}: order must be a number`)
+  }
+  const coverSource = required("cover")
+  validatePainterImage(coverSource, `Portfolio section ${file.slug}`)
+  const rawImages = data.images ?? []
+  if (!Array.isArray(rawImages)) {
+    throw new Error(`Portfolio section ${file.slug}: images must be a list`)
+  }
+  const images = rawImages.map((value, index): SeriesImage => {
+    if (typeof value !== "object" || value === null || Array.isArray(value)) {
+      throw new Error(`Portfolio section ${file.slug}: image ${index + 1} must be an object`)
+    }
+    const image = value as Record<string, unknown>
+    const imageSource = image.image
+    const alt = image.alt
+    const caption = image.caption
+    if (
+      typeof imageSource !== "string" ||
+      typeof alt !== "string" ||
+      alt.trim() === "" ||
+      typeof caption !== "string" ||
+      caption.trim() === ""
+    ) {
+      throw new Error(`Portfolio section ${file.slug}: image ${index + 1} is incomplete`)
+    }
+    validatePainterImage(imageSource, `Portfolio section ${file.slug}`)
+    return {
+      image: slugifyFilePath(imageSource as FilePath),
+      imageSource,
+      alt,
+      caption,
+    }
+  })
+  const id = required("section")
+  if (!portfolioSectionIds.includes(id as PortfolioSectionId)) {
+    throw new Error(`Portfolio section ${file.slug}: unknown section ${id}`)
+  }
+  return {
+    slug: file.slug!,
+    id: id as PortfolioSectionId,
+    title: required("title"),
+    description: required("description"),
+    order,
+    cover: slugifyFilePath(coverSource as FilePath),
+    coverSource,
+    images,
+  }
+}
+
+export function sortedPortfolioSections(files: QuartzPluginData[]): PortfolioSection[] {
+  const sections = files
+    .map(getPortfolioSection)
+    .filter((section): section is PortfolioSection => section !== undefined)
+    .sort((a, b) => a.order - b.order || a.slug.localeCompare(b.slug))
+  const ids = sections.map((section) => section.id)
+  if (new Set(ids).size !== ids.length) {
+    throw new Error("Portfolio sections must use unique section identifiers")
+  }
+  return sections
+}
+
 export interface Exhibition {
   slug: FullSlug
   title: string
@@ -102,13 +213,17 @@ export function exhibitionArtworks(exhibition: Exhibition, files: QuartzPluginDa
 
 export interface Artwork {
   slug: FullSlug
+  catalogId?: string
   title: string
   image: string
   imageSource: string
   alt: string
   year?: string
-  medium: string
+  medium?: string
   dimensions?: string
+  section?: PortfolioSectionId
+  detailsPending: boolean
+  status?: string
   order: number
 }
 
@@ -117,7 +232,8 @@ export function getArtwork(file: QuartzPluginData): Artwork | undefined {
   if (
     siteSection(file.slug) !== "painter" ||
     file.slug === "painter/index" ||
-    isExhibitionPage(file)
+    isExhibitionPage(file) ||
+    isPortfolioSectionPage(file)
   )
     return
   const frontmatter: Record<string, unknown> = file.frontmatter ?? {}
@@ -129,32 +245,44 @@ export function getArtwork(file: QuartzPluginData): Artwork | undefined {
     return String(value)
   }
   const imageSource = required("image")
-  if (
-    !/^painter\/images\/.+\.(webp|jpe?g|png|avif)$/i.test(imageSource) ||
-    imageSource.split("/").includes("..")
-  ) {
-    throw new Error(`Painting ${file.slug}: image must be a local file in painter/images/`)
-  }
+  validatePainterImage(imageSource, `Painting ${file.slug}`)
   const order = frontmatter.order
   if (typeof order !== "number" || !Number.isFinite(order)) {
     throw new Error(`Painting ${file.slug}: order must be a number`)
   }
+  const section = frontmatter.section == null ? undefined : required("section")
+  if (section && !portfolioSectionIds.includes(section as PortfolioSectionId)) {
+    throw new Error(`Painting ${file.slug}: unknown section ${section}`)
+  }
   return {
     slug: file.slug!,
-    title: required("title"),
+    catalogId: frontmatter.catalogId == null ? undefined : required("catalogId"),
+    title: frontmatter.title == null ? `Untitled ${required("catalogId")}` : required("title"),
     image: slugifyFilePath(imageSource as FilePath),
     imageSource,
     alt: required("alt"),
     year: frontmatter.year == null ? undefined : required("year"),
-    medium: required("medium"),
+    medium: frontmatter.medium == null ? undefined : required("medium"),
     dimensions: frontmatter.dimensions == null ? undefined : required("dimensions"),
+    section: section as PortfolioSectionId | undefined,
+    detailsPending: frontmatter.detailsPending === true,
+    status: frontmatter.status == null ? undefined : required("status"),
     order,
   }
 }
 
+export function sectionArtworks(section: PortfolioSection, files: QuartzPluginData[]): Artwork[] {
+  return sortedArtworks(files).filter((work) => work.section === section.id)
+}
+
 export function sortedArtworks(files: QuartzPluginData[]): Artwork[] {
-  return files
+  const works = files
     .map(getArtwork)
     .filter((work): work is Artwork => work !== undefined)
     .sort((a, b) => a.order - b.order || a.slug.localeCompare(b.slug))
+  const catalogIds = works.flatMap((work) => (work.catalogId ? [work.catalogId] : []))
+  if (new Set(catalogIds).size !== catalogIds.length) {
+    throw new Error("Paintings must use unique catalogue identifiers")
+  }
+  return works
 }

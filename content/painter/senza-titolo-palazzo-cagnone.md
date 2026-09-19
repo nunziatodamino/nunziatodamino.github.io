@@ -1,5 +1,7 @@
 ---
 title: Senza titolo
+catalogId: P06
+section: paintings
 medium: Tecnica mista
 dimensions: 60 × 40 cm
 image: painter/images/palazzo-cagnone-2021/portrait.webp

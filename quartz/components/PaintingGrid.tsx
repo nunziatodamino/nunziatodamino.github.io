@@ -19,7 +19,13 @@ export default function PaintingGrid({ works, slug }: { works: Artwork[]; slug: 
             <figcaption>
               <h3>{work.title}</h3>
               {work.year && <span>{work.year}</span>}
-              <p>{[work.medium, work.dimensions].filter(Boolean).join(" · ")}</p>
+              {(work.medium || work.dimensions) && (
+                <p>{[work.medium, work.dimensions].filter(Boolean).join(" · ")}</p>
+              )}
+              {work.detailsPending && <p class="details-pending">Details forthcoming</p>}
+              {work.section === "opere-disperse" && (
+                <p class="artwork-status">{work.status ?? "Status forthcoming"}</p>
+              )}
             </figcaption>
           </figure>
         </a>
