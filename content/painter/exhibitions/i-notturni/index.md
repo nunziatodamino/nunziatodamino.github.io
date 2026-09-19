@@ -11,6 +11,7 @@ artworks:
   - painter/2-modi-di-soffrire
   - painter/senza-titolo-2018-03
   - painter/il-re
+  - painter/p08
 description: Selected works from I notturni, Nunziato Damino’s 2018 exhibition at Palazzo Cagnone in Francavilla di Sicilia.
 ---
 
