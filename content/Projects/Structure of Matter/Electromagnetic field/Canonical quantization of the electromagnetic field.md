@@ -1,7 +1,7 @@
 Consider the expression
 
 $$H = \sum_{\bar{k}}\sum_s \varepsilon_0\omega^2_k\left(A_{\bar{k}s}A^*_{\bar{k}s}+A^*_{\bar{k}s}A_{\bar{k}s}\right)$$
-found [[Electromagnetic energy respect the vector potential in the Coulomb gauge|previously]].
+found [[Electromagnetic energy with respect to the vector potential in the Coulomb gauge|previously]].
 
 Now, in order to obtain what we want essentially, we introduce a new set of adimensional quantities such as:
 
@@ -43,9 +43,10 @@ $$\begin{cases}
 \hat{a}^\dagger_{\bar{k}s} = \sqrt{\frac{\omega_k}{2\hbar}} (\hat{q}_{\bar{k}s}- \frac{i}{\omega_k}\hat{p}_{\bar{k}s}) 
 \end{cases}$$
 
-And we will call them destruction operator ($\hat{a}_{\bar{k}s}$) and creation operator ($\hat{a}^*_{\bar{k}s}$) respectively. The unusual denomination will become clear later. Is clear, by the commutation relation defined before, that
+And we will call them destruction operator ($\hat{a}_{\bar{k}s}$) and creation operator ($\hat{a}^*_{\bar{k}s}$) respectively. The unusual denomination will become clear later. Is clear, by the commutation relation defined before (proof [[annihilation and creation operator commutator]]) , that
 
 $$ [ \hat{a}_{\bar{k}s}(t), \hat{a}^\dagger_{\bar{k'}s'}(t)] = \delta_{\bar{k}\bar{k'}}\delta_{ss'}\hat{\mathbb{1}} $$
+
 With this relation we can recast the energy operator as:
 
 $$\hat{H} = \sum_{\bar{k}}\sum_s \frac{1}{2}\hbar\omega_k\left(\hat{a}_{\bar{k}s}\hat{a}^\dagger_{\bar{k}s}+\hat{a}^\dagger_{\bar{k}s}\hat{a}_{\bar{k}s}\right) =  \sum_{\bar{k}}\sum_s \frac{1}{2}\hbar\omega_k\left(\hat{\mathbb{1}}+2\hat{a}^\dagger_{\bar{k}s}\hat{a}_{\bar{k}s}\right) = \sum_{\bar{k}}\sum_s \hbar\omega_k\left(\hat{a}^\dagger_{\bar{k}s}\hat{a}_{\bar{k}s} + \frac{1}{2} \hat{\mathbb{1}} \right) $$
@@ -60,19 +61,4 @@ $$\hat{H} = \sum_{\bar{k}}\sum_s \hbar\omega_k\left(\hat{N}_{\bar{k}s} + \frac{1
 
 We now must see this expression respect to is physical meaning. 
 The creation and destruction operator act over the so called [[Fock space]].
-
-###### Cards
-#Structure_of_matter 
-
----
-
-What is the energy operator of the EM field respect the number operator ? ::$$\hat{H} = \sum_{\bar{k}}\sum_s \hbar\omega_k\left(\hat{N}_{\bar{k}s} + \frac{1}{2} \right)$$Note specifically that $\hbar\omega_k$ is nothing more than the energy of a single photon.
-<!--SR:!2026-03-15,3,250-->
-
----
-
-Give the definition of the number operator :: $$ \hat{N}_{\bar{k}s}  \equiv \hat{a}^\dagger_{\bar{k}s}\hat{a}_{\bar{k}s}$$
-<!--SR:!2026-03-15,3,250-->
-
----
 

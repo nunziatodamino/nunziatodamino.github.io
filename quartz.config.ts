@@ -11,11 +11,9 @@ const config: QuartzConfig = {
     pageTitle: "COSM-OS-2",
     enableSPA: true,
     enablePopovers: false,
-    analytics: {
-      provider: "plausible",
-    },
+    analytics: null,
     locale: "en-US",
-    baseUrl: "https://nunziatodamino.github.io",
+    baseUrl: "nunziatodamino.github.io",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
@@ -56,7 +54,7 @@ const config: QuartzConfig = {
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "filesystem"],
       }),
-      Plugin.Latex({ renderEngine: "math-jax" }),
+      Plugin.Latex({ renderEngine: "mathjax" }),
       Plugin.SyntaxHighlighting({
         theme: {
           light: "github-light",

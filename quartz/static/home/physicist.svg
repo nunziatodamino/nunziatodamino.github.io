@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
+  <defs>
+    <linearGradient id="night" x2="1" y2="1">
+      <stop stop-color="#142d43"/>
+      <stop offset=".55" stop-color="#0d202e"/>
+      <stop offset="1" stop-color="#09141f"/>
+    </linearGradient>
+    <radialGradient id="light" cx=".65" cy=".32" r=".85">
+      <stop stop-color="#59c7d8" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#59c7d8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="lattice" width="120" height="207.846" patternUnits="userSpaceOnUse">
+      <path d="M60 0 120 34.641 60 69.282 0 34.641Z M0 103.923 60 138.564 0 173.205 -60 138.564Z M120 103.923 180 138.564 120 173.205 60 138.564Z" fill="#84c4cd" fill-opacity=".07"/>
+      <path d="M0 34.641 60 69.282 60 138.564 0 103.923Z M60 138.564 120 173.205 120 242.487 60 207.846Z" fill="#4c93b8" fill-opacity=".08"/>
+      <g fill="none" stroke="#87c5d4" stroke-width=".8" stroke-opacity=".55">
+        <path d="M60 0 120 34.641V103.923L60 138.564 0 103.923V34.641Z M0 34.641 60 69.282 120 34.641 M60 69.282V138.564 M0 103.923V173.205L60 207.846 120 173.205V103.923 M0 173.205 60 138.564 120 173.205 M60 207.846V277.128"/>
+      </g>
+      <g fill="#c6edf0" fill-opacity=".55">
+        <circle cx="60" cy="69.282" r="1.6"/>
+        <circle cx="60" cy="138.564" r="1.6"/>
+      </g>
+    </pattern>
+  </defs>
+  <path fill="url(#night)" d="M0 0h1024v1536H0z"/>
+  <path fill="url(#light)" d="M0 0h1024v1536H0z"/>
+  <path fill="url(#lattice)" d="M0 0h1024v1536H0z"/>
+</svg>

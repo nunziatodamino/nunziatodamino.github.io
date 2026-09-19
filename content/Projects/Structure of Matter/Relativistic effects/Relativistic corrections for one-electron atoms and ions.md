@@ -11,7 +11,7 @@ $$
 \end{pmatrix}.  
 $$
 
-The spinor component satisfied
+The spinor component satisfies
 
 $$
 \begin{pmatrix}  

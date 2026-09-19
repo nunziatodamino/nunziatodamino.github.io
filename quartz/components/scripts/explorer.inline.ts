@@ -89,7 +89,7 @@ function setupExplorer() {
 
   currentExplorerState.map((folderState) => {
     const folderLi = document.querySelector(
-      `[data-folderpath='${folderState.path}']`,
+      `[data-folderpath='${CSS.escape(folderState.path)}']`,
     ) as MaybeHTMLElement
     const folderUl = folderLi?.parentElement?.nextElementSibling as MaybeHTMLElement
     if (folderUl) {

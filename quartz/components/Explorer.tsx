@@ -7,6 +7,7 @@ import { ExplorerNode, FileNode, Options } from "./ExplorerNode"
 import { QuartzPluginData } from "../plugins/vfile"
 import { classNames } from "../util/lang"
 import { i18n } from "../i18n"
+import { isPhysicsPage } from "../util/site"
 
 // Options interface defined in `ExplorerNode` to avoid circular dependency
 const defaultOptions = {
@@ -52,7 +53,7 @@ export default ((userOpts?: Partial<Options>) => {
 
     // Construct tree from allFiles
     fileTree = new FileNode("")
-    allFiles.forEach((file) => fileTree.add(file))
+    allFiles.filter(isPhysicsPage).forEach((file) => fileTree.add(file))
 
     // Execute all functions (sort, filter, map) that were provided (if none were provided, only default "sort" is applied)
     if (opts.order) {

@@ -31,7 +31,7 @@ $$
 \begin{aligned}
 \sum_n \Phi_n\sqrt{n}\,\langle n'|n-1\rangle &= \sum_n \phi\ \Phi_{n}\langle n'|n\rangle \\
 \sum_n \Phi_n\sqrt{n}\, \delta_{n', n-1}  &= \sum_n \phi\ \Phi_{n} \delta_{n', n} \\
-\sum_n \Phi_n\sqrt{n}\, \delta_{n' + 1, n-1}  &= \sum_n \phi\ \Phi_{n} \delta_{n', n} \\
+\sum_n \Phi_n\sqrt{n}\, \delta_{n' + 1, n}  &= \sum_n \phi\ \Phi_{n} \delta_{n', n} \\
 \Phi_{n+1}\sqrt{n+1}&=\phi\,\Phi_n
 \end{aligned}
 $$
@@ -73,7 +73,7 @@ So, in the end:
 
 $$|\phi\rangle= \frac{1}{\sqrt{N}} e^{\phi\hat{a}^\dagger}  |0\rangle =  e^{-\frac{|\phi|^2}{2}} e^{\phi\hat{a}^\dagger}  |0\rangle $$
 
-#### Coherent state expansion respect a separable state
+#### Coherent state expansion with respect to a separable state
 Instead of thinking in term of single mode state, lets consider a general state of the Fock space $| n_{\bar{k}s} \dots  n_{\bar{k}'s} \dots \rangle \equiv  | \{ n_{\bar{k}s} \} \rangle$, where $\{ n_{\bar{k}s} \}$ is the collection of the occupation number of the state (i.e. a multi-index).
 Then the same ansatz as before applies:
 
@@ -100,6 +100,5 @@ $$|\phi\rangle= \bigotimes_{\bar{k}, s}| \phi_{\bar{k}s}  \rangle  $$
 Then by applying the previous results, one obtains the decomposition:
 
 $$|\phi\rangle= \prod_{\bar{k}s} e^{-\frac{|\phi_{\bar{k}s}|^2}{2}} e^{\phi_{\bar{k}s}\hat{a}_{\bar{k}s}^\dagger}  |0\dots\ 0\rangle $$
-
 
 

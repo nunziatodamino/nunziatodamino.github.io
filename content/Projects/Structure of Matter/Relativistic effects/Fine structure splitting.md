@@ -1,2 +1,2 @@
 All these relativistic corrections for the hydrogenic atoms or ions we saw in [[Relativistic energy corrections via perturbation theory]] or [[]] are called **fine structure corrections**.
-The reason is quite simple, the corrections remove the $2n^2$ degeneracy for $E_n$ that one seen in [[The non-relativistic hydrogenic atom]] in favor of the $n$ degeneracy we see for $E_{nj}$.
+For each fixed $n$, the $2n^2$ states split into $n$ distinct energies $E_{nj}$, with $j=\frac12,\frac32,\ldots,n-\frac12$. Each energy has degeneracy $2(2j+1)$ when both orbital branches $\ell=j\pm\frac12$ are allowed, and $2n$ for the highest $j=n-\frac12$, where only one branch exists. The total number of states remains $2n^2$.

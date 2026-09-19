@@ -1,4 +1,5 @@
 import path from "path"
+import fs from "fs/promises"
 import { visit } from "unist-util-visit"
 import { Root } from "hast"
 import { VFile } from "vfile"
@@ -10,11 +11,16 @@ import { pageResources, renderPage } from "../../components/renderPage"
 import { FullPageLayout } from "../../cfg"
 import { Argv } from "../../util/ctx"
 import { FilePath, isRelativeURL, joinSegments, pathToRoot } from "../../util/path"
-import { defaultContentPageLayout, sharedPageComponents } from "../../../quartz.layout"
+import {
+  defaultContentPageLayout,
+  personalPageLayout,
+  sharedPageComponents,
+} from "../../../quartz.layout"
 import { Content } from "../../components"
 import chalk from "chalk"
 import { write } from "./helpers"
 import DepGraph from "../../depgraph"
+import { getArtwork, getExhibition, exhibitionArtworks, isPhysicsPage } from "../../util/site"
 
 // get all the dependencies for the markdown file
 // eg. images, scripts, stylesheets, transclusions
@@ -66,7 +72,18 @@ export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOp
   return {
     name: "ContentPage",
     getQuartzComponents() {
-      return [Head, Header, Body, ...header, ...beforeBody, pageBody, ...left, ...right, Footer]
+      return [
+        Head,
+        Header,
+        Body,
+        ...header,
+        ...beforeBody,
+        pageBody,
+        ...left,
+        ...right,
+        Footer,
+        personalPageLayout.pageBody,
+      ]
     },
     async getDependencyGraph(ctx, content, _resources) {
       const graph = new DepGraph<FilePath>()
@@ -75,6 +92,31 @@ export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOp
         const sourcePath = file.data.filePath!
         const slug = file.data.slug!
         graph.addEdge(sourcePath, joinSegments(ctx.argv.output, slug + ".html") as FilePath)
+        const artwork = getArtwork(file.data)
+        if (artwork) {
+          graph.addEdge(
+            sourcePath,
+            joinSegments(ctx.argv.directory, "painter/index.md") as FilePath,
+          )
+          graph.addEdge(
+            joinSegments(ctx.argv.directory, artwork.imageSource) as FilePath,
+            sourcePath,
+          )
+        }
+        const exhibition = getExhibition(file.data)
+        if (exhibition) {
+          for (const asset of [exhibition.posterSource, exhibition.posterOriginalSource]) {
+            if (!asset) continue
+            graph.addEdge(joinSegments(ctx.argv.directory, asset) as FilePath, sourcePath)
+          }
+          for (const index of ["painter/index.md", "painter/exhibitions/index.md"]) {
+            graph.addEdge(sourcePath, joinSegments(ctx.argv.directory, index) as FilePath)
+          }
+          for (const paintingSlug of exhibition.artworks) {
+            const painting = content.find(([, candidate]) => candidate.data.slug === paintingSlug)
+            if (painting) graph.addEdge(painting[1].data.filePath!, sourcePath)
+          }
+        }
 
         parseDependencies(ctx.argv, tree as Root, file).forEach((dep) => {
           graph.addEdge(dep as FilePath, sourcePath)
@@ -87,6 +129,25 @@ export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOp
       const cfg = ctx.cfg.configuration
       const fps: FilePath[] = []
       const allFiles = content.map((c) => c[1].data)
+
+      for (const file of allFiles) {
+        const artwork = getArtwork(file)
+        if (artwork) {
+          await fs.access(path.join(ctx.argv.directory, artwork.imageSource)).catch(() => {
+            throw new Error(`Painting ${file.slug}: image not found: ${artwork.imageSource}`)
+          })
+        }
+        const exhibition = getExhibition(file)
+        if (exhibition) {
+          exhibitionArtworks(exhibition, allFiles)
+          for (const asset of [exhibition.posterSource, exhibition.posterOriginalSource]) {
+            if (!asset) continue
+            await fs.access(path.join(ctx.argv.directory, asset)).catch(() => {
+              throw new Error(`Exhibition ${file.slug}: file not found: ${asset}`)
+            })
+          }
+        }
+      }
 
       let containsIndex = false
       for (const [tree, file] of content) {
@@ -106,7 +167,8 @@ export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOp
           allFiles,
         }
 
-        const content = renderPage(cfg, slug, componentData, opts, externalResources)
+        const layout = isPhysicsPage(file.data) ? opts : personalPageLayout
+        const content = renderPage(cfg, slug, componentData, layout, externalResources)
         const fp = await write({
           ctx,
           content,

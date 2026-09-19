@@ -12,16 +12,18 @@
     "url": "https://github.com/jackyzha0/quartz.git"
   },
   "scripts": {
+    "dev": "node ./quartz/bootstrap-cli.mjs build --serve",
+    "build": "node ./quartz/bootstrap-cli.mjs build",
     "quartz": "./quartz/bootstrap-cli.mjs",
     "docs": "npx quartz build --serve -d docs",
     "check": "tsc --noEmit && npx prettier . --check",
     "format": "npx prettier . --write",
-    "test": "tsx ./quartz/util/path.test.ts && tsx ./quartz/depgraph.test.ts",
+    "test": "tsx ./quartz/util/path.test.ts && tsx ./quartz/depgraph.test.ts && tsx ./quartz/util/site.test.ts",
     "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1"
   },
   "engines": {
     "npm": ">=9.3.1",
-    "node": ">=18.14"
+    "node": ">=22 <23"
   },
   "keywords": [
     "site generator",

@@ -19,11 +19,7 @@ $$
 An important note is that the action of the annihilation operator on the vacuum state will lead to 0, as no particle can be destroyed, so $\hat{a}_{\bar{k}s}|\dots 0 \dots\rangle = 0$.
 This is illustrated in the following picture:
 
-![[Action of the annihilation and creation operator over a state.png]]
+![[Action of the annihilation and creation operator over a state.png|500]]
 
-##### Cards
-#Structure_of_matter
 
-What is the action of the creation operator on a Fock space vector ?:: $$\hat{a}^\dagger_{\bar{k}s}|\dots n_{\bar{k}s} \dots\rangle =\sqrt{n_{\bar{k}s}+1}\ |\dots (n_{\bar{k}s} +1) \dots\rangle$$
-<!--SR:!2026-03-20,8,250-->
- 
+

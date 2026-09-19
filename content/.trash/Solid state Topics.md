@@ -1,4 +1,0 @@
-- [ ] Aggiungere nota sulla [[Zincblende and Wurtzite]]
-- [ ] Aggiungere in [[Ionic bond]] un discorso sull'energia di legame o una nota aggiuntiva
-- [ ] Covalent bond 
-- [ ] Hydrogen bond

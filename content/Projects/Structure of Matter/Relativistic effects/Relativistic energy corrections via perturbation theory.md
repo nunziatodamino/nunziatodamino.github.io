@@ -11,9 +11,9 @@ E_n
 $$
 
 (A review note on the non-relativistic hydrogen atom can be found [[The non-relativistic hydrogenic atom]].)
-Let's evaluate the energy corrections up to $O(\lambda^2)$, $\lambda=\frac{1}{c^2}$ (see [[A note on perturbation theory]])
+Let's evaluate the first-order energy corrections in $\lambda=\frac{1}{c^2}$, with remainder $O(\lambda^2)$ (see [[A note on perturbation theory]])
 
-- The first correction is
+#### Second order momentum correction
 
 $$
 \Delta E_1
@@ -134,7 +134,7 @@ $$
 \right).
 $$
 
-- The second correction is the spin-orbit one.
+#### Spin-orbit correction
 Consider
 
 $$
@@ -157,7 +157,7 @@ we have
 $$
 \xi(r)
 =
-\frac{1}{2mc^2}
+\frac{1}{2m^2c^2}
 k_eZe^2
 \frac1{r^3}.
 $$
@@ -352,14 +352,14 @@ We have
 $$
 \langle\xi(r)\rangle
 =
-\frac{1}{2mc^2}
+\frac{1}{2m^2c^2}
 k_eZe^2
 \left\langle
 \frac1{r^3}
 \right\rangle.
 $$
 
-Where (see [[Mean value of radial functions respect the hydrogenic wavefunction]])
+Where, for $\ell>0$ (see [[Mean value of radial functions respect the hydrogenic wavefunction]])
 
 $$
 \left\langle
@@ -378,7 +378,7 @@ Thus
 $$
 \langle\xi(r)\rangle
 =
-\frac{1}{2mc^2}
+\frac{1}{2m^2c^2}
 k_eZe^2
 \frac{Z^3}
 {a_0^3n^3
@@ -423,7 +423,7 @@ j=\ell+\frac12\\
 
 \Delta E_2
 =
--E_n
+E_n
 \frac{(Z\alpha)^2}
 {2n(j+1)\left(j+\frac12\right)}
 \qquad
@@ -431,7 +431,7 @@ j=\ell-\frac12.
 \end{cases}
 $$
 
--  Finally the third term is the Darwin term.
+#### Darwin term correction
 Given
 
 $$
@@ -493,7 +493,7 @@ Ze^2k_e
 \right|^2
 =
 -E_n
-\frac{(Z\alpha)^2}{n^2}.
+\frac{(Z\alpha)^2}{n}.
 $$
 
 Where we used implictly
@@ -533,6 +533,7 @@ Y_{00}(\theta,\phi)
 \frac{Z^3}{\pi a_0^3n^3}.
 \end{aligned}
 $$
+#### Total correction
 
 Finally we can put all the corrections together by recasting $\ell$ respect to $j$.
 

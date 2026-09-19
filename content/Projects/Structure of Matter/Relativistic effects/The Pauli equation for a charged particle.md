@@ -94,8 +94,6 @@ $$\hat\beta-\mathbb{1}_4 =
 0 & -2\mathbb{1}_2  
 \end{pmatrix}   $$
 
-
-
 We obtain:
 
 $$  
@@ -137,7 +135,11 @@ c\bar\sigma\cdot\hat{\bar\pi} & (q\Phi-2mc^2)\mathbb{1}_2
 \end{aligned}
 $$
 
-From this point we can consider the classical limit, the is within the conditions:
+From this point we can consider the non-relativistic limit, considering the approximation:
+
+$$(i\hbar \partial_t  - q\Phi+2mc^2)\eta \sim 2mc^2\eta$$
+
+This is satisfied when 
 
 $$  
 \left|i\hbar\partial_t\eta\right|\ll 2mc^2|\eta|  
@@ -145,7 +147,7 @@ $$
 |q\Phi\eta|\ll 2mc^2|\eta|.  
 $$
 
-In this approximation:
+I.e. the energies in play are well below the mass rest energy. In this approximation:
 
 $$  
 i\hbar  
@@ -183,7 +185,7 @@ $$
 From here one can solve the lower equation trivially:
 
 $$  
-\eta=\frac{c,\bar\sigma\cdot\hat{\bar\pi}}{2mc^2}\varphi  
+\eta=\frac{c(\bar\sigma\cdot\hat{\bar\pi})}{2mc^2}\varphi  
 =\frac{\bar\sigma\cdot\hat{\bar\pi}}{2mc}\varphi .  
 $$
 
@@ -210,21 +212,21 @@ $$
 \end{aligned}  
 $$
 
-Note now that:
+Note now that (proof [[Cross product of operators|here]]):
 
 $$  
 (\hat{\bar\pi}\times\hat{\bar\pi})_k  
-=\frac{1}{2}\varepsilon_{ijk}[\hat\pi_j,\hat\pi_k].  
+=\sum_{i,j}\frac{1}{2}\varepsilon_{ijk}[\hat\pi_i,\hat\pi_j].  
 $$
 
-Then, given $[\hat\pi_i,\hat\pi_j]=iq\hbar\varepsilon_{ijh}B_h$ we obtain
+Then, given $[\hat\pi_i,\hat\pi_j]=iq\hbar\sum_k \varepsilon_{ijk}B_k$ (proof [[Commutator of em conjugate momentum operator]]) we obtain
 
 $$  
 \begin{aligned}  
 (\hat{\bar\pi}\times\hat{\bar\pi})_i  
-=\frac{1}{2}\varepsilon_{ijk}iq\hbar\varepsilon_{jkl}B_l  
+=\frac{1}{2}iq\hbar\sum_{ijk}\varepsilon_{ijk}\varepsilon_{jkl}B_l  
   
-=\frac{1}{2}iq\hbar,2\delta_{il}B_l  
+=\frac{1}{2}iq\hbar \sum_{i} 2\delta_{il}B_l  
   
 =iq\hbar B_i.  
 \end{aligned}  
@@ -245,9 +247,9 @@ If one defines $\hat{\bar S}=\frac{\hbar}{2}\bar\sigma$, $q=-e$:
 
 $$  
 i\hbar\partial_t\varphi  
-=\hat{\mathscr{H}}_{\mathrm{classic}}\varphi  
+=\hat{\mathscr{H}}_{\mathrm{non-rel}}\varphi  
 +\left(\frac{e}{m}\hat{\bar S}\cdot\bar B \right)\varphi .  
 $$
 
 Allowing us to predict that at the classical limit exists of an intrinsic magnetic moment for the electron.
-Is possible also to exctract a semiclassical estimation of this magnetic moment, as one can set $\mu_B=\frac{e\hbar}{2m}$, calling it the Bohr magneton.
+Is possible also to extract a semiclassical estimation of this magnetic moment, as one can set $\mu_B=\frac{e\hbar}{2m}$, calling it the Bohr magneton.

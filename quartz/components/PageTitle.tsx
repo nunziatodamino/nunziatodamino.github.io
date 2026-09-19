@@ -1,4 +1,4 @@
-import { pathToRoot } from "../util/path"
+import { joinSegments, pathToRoot } from "../util/path"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { classNames } from "../util/lang"
 import { i18n } from "../i18n"
@@ -8,7 +8,7 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
   const baseDir = pathToRoot(fileData.slug!)
   return (
     <h1 class={classNames(displayClass, "page-title")}>
-      <a href={baseDir}>{title}</a>
+      <a href={joinSegments(baseDir, "physicist/")}>{title}</a>
     </h1>
   )
 }

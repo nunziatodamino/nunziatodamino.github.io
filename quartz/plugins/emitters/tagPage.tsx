@@ -17,6 +17,7 @@ import { TagContent } from "../../components"
 import { write } from "./helpers"
 import { i18n } from "../../i18n"
 import DepGraph from "../../depgraph"
+import { isPhysicsPage } from "../../util/site"
 
 export const TagPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOpts) => {
   const opts: FullPageLayout = {
@@ -58,7 +59,7 @@ export const TagPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOpts) 
     },
     async emit(ctx, content, resources): Promise<FilePath[]> {
       const fps: FilePath[] = []
-      const allFiles = content.map((c) => c[1].data)
+      const allFiles = content.map((c) => c[1].data).filter(isPhysicsPage)
       const cfg = ctx.cfg.configuration
 
       const tags: Set<string> = new Set(

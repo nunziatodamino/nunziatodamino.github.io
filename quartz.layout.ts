@@ -1,15 +1,25 @@
-import { PageLayout, SharedLayout } from "./quartz/cfg"
+import { FullPageLayout, PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import SiteNavigation from "./quartz/components/SiteNavigation"
+import PersonalPage from "./quartz/components/pages/PersonalPage"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
-  header: [],
+  header: [SiteNavigation(), Component.Darkmode()],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/nunziatodamino",
     },
   }),
+}
+
+export const personalPageLayout: FullPageLayout = {
+  ...sharedPageComponents,
+  beforeBody: [],
+  left: [],
+  right: [],
+  pageBody: PersonalPage(),
 }
 
 // components for pages that display a single page (e.g. a single note)
@@ -24,7 +34,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
-    Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer()),
   ],
   right: [
@@ -41,7 +50,6 @@ export const defaultListPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
-    Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer()),
   ],
   right: [],

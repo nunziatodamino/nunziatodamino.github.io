@@ -2,7 +2,7 @@ Consider a 2 level system:
 
 ![[Phenomenological exponential-decay ansatz.png|500]]
 
-Consider now the probability to have a spontaneous emission (as evaluated in the [[Absorption and emission]] note), and lets call it $W_{ba}^{\text{spont}} \equiv A_{ba}$. Then the population equation of level $B$ is simply:
+Consider now the probability to have a spontaneous emission (as evaluated in the [[Absorption and emission for a single mode photon]] note), and lets call it $W_{ba}^{\text{spont}} \equiv A_{ba}$. Then the population equation of level $B$ is simply:
 
 $$
 \begin{aligned}

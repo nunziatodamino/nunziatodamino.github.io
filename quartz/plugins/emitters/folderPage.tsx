@@ -20,6 +20,7 @@ import { FolderContent } from "../../components"
 import { write } from "./helpers"
 import { i18n } from "../../i18n"
 import DepGraph from "../../depgraph"
+import { isPhysicsPage } from "../../util/site"
 
 export const FolderPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOpts) => {
   const opts: FullPageLayout = {
@@ -47,7 +48,13 @@ export const FolderPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOpt
       content.map(([_tree, vfile]) => {
         const slug = vfile.data.slug
         const folderName = path.dirname(slug ?? "") as SimpleSlug
-        if (slug && folderName !== "." && folderName !== "tags") {
+        if (
+          slug &&
+          isPhysicsPage(vfile.data) &&
+          folderName !== "physicist" &&
+          folderName !== "." &&
+          folderName !== "tags"
+        ) {
           graph.addEdge(vfile.data.filePath!, joinSegments(folderName, "index.html") as FilePath)
         }
       })
@@ -56,14 +63,14 @@ export const FolderPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOpt
     },
     async emit(ctx, content, resources): Promise<FilePath[]> {
       const fps: FilePath[] = []
-      const allFiles = content.map((c) => c[1].data)
+      const allFiles = content.map((c) => c[1].data).filter(isPhysicsPage)
       const cfg = ctx.cfg.configuration
 
       const folders: Set<SimpleSlug> = new Set(
         allFiles.flatMap((data) => {
           const slug = data.slug
           const folderName = path.dirname(slug ?? "") as SimpleSlug
-          if (slug && folderName !== "." && folderName !== "tags") {
+          if (slug && folderName !== "physicist" && folderName !== "." && folderName !== "tags") {
             return [folderName]
           }
           return []

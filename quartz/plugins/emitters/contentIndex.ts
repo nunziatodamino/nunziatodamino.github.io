@@ -8,6 +8,7 @@ import { toHtml } from "hast-util-to-html"
 import { write } from "./helpers"
 import { i18n } from "../../i18n"
 import DepGraph from "../../depgraph"
+import { isPhysicsPage } from "../../util/site"
 
 export type ContentIndex = Map<FullSlug, ContentDetails>
 export type ContentDetails = {
@@ -146,11 +147,19 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
         )
       }
 
+      const physicsIndex: ContentIndex = new Map(
+        Array.from(linkIndex).filter(([slug]) => isPhysicsPage({ slug })),
+      )
+      const physicsSlugs = new Set(Array.from(physicsIndex.keys()).map(simplifySlug))
+      for (const entry of physicsIndex.values()) {
+        entry.links = entry.links.filter((slug) => physicsSlugs.has(slug))
+      }
+
       if (opts?.enableRSS) {
         emitted.push(
           await write({
             ctx,
-            content: generateRSSFeed(cfg, linkIndex, opts.rssLimit),
+            content: generateRSSFeed(cfg, physicsIndex, opts.rssLimit),
             slug: "index" as FullSlug,
             ext: ".xml",
           }),
@@ -159,7 +168,7 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
 
       const fp = joinSegments("static", "contentIndex") as FullSlug
       const simplifiedIndex = Object.fromEntries(
-        Array.from(linkIndex).map(([slug, content]) => {
+        Array.from(physicsIndex).map(([slug, content]) => {
           // remove description and from content index as nothing downstream
           // actually uses it. we only keep it in the index as we need it
           // for the RSS feed

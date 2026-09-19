@@ -5,8 +5,20 @@
   margin: 0 10px;
 
   & > .toggle {
-    display: none;
+    position: absolute;
+    inset: -6px;
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    opacity: 0;
+    z-index: 1;
+    cursor: pointer;
     box-sizing: border-box;
+  }
+
+  &:has(> .toggle:focus-visible) {
+    outline: 2px solid var(--secondary);
+    outline-offset: 6px;
   }
 
   & svg {

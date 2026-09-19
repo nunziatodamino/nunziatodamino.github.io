@@ -24,7 +24,7 @@
 	- [[The singular value decomposition (SVD)]]
 	- [[Von Neumann entropy]]
 - [[Study_plan]]
-- [[Topic list]]
+- [[Zettelkasten/Master's degree/Quantum computing/Topic list]]
 
 %% End Waypoint %%
 

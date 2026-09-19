@@ -7,5 +7,4 @@ From a quantum point of view we can evaluate that a perturbation due to the exte
 In these note we will study both approaches:
 
 [[Atomic polarizability - Classical approach]]
-
 [[Atomic polarizability - Quantum approach]]

@@ -1,4 +1,5 @@
 Consider the expression
+
 $$
 \mathcal{H}
 =\int d\bar{r}\left(\frac{1}{2}\,\varepsilon_0\,\bar{E}^{\,2}+\frac{1}{2\mu_0}\,\bar{B}^{\,2}\right).
@@ -13,6 +14,7 @@ $$
 $$
 
 We recall that $\bar{A}(\bar{r},t)$ can be in general written as
+
 $$
 \bar{A}(\bar{r},t)
 =\frac{1}{\sqrt{V}}\sum_{\bar{k}}\sum_{s}\hat{\bar{\epsilon}}_{\bar{k},s}
@@ -112,7 +114,7 @@ $$
 &=\sum_{\bar{n},\bar{k}}\sum_{s,s'}\omega_{\bar{n}}\omega_{\bar{k}}
 \left(\hat{\bar{\epsilon}}_{\bar{n},s}\cdot \hat{\bar{\epsilon}}_{\bar{k},s'}\right)
 \Big[
-\delta(\bar{n}+\bar{k})\Big(A_{\bar{n},s}A_{\bar{k},s'}e^{-i(\omega_{\bar{n}}+\omega_{\bar{k}})t}
+-\delta(\bar{n}+\bar{k})\Big(A_{\bar{n},s}A_{\bar{k},s'}e^{-i(\omega_{\bar{n}}+\omega_{\bar{k}})t}
 + A^{*}_{\bar{n},s}A^{*}_{\bar{k},s'}e^{i(\omega_{\bar{n}}+\omega_{\bar{k}})t}\Big)+
 \\
 &+\delta(\bar{n}-\bar{k})\Big(A_{\bar{n},s}A^{*}_{\bar{k},s'}e^{-i(\omega_{\bar{n}}-\omega_{\bar{k}})t}
@@ -181,7 +183,7 @@ $$
 -(\bar{n}\cdot\hat{\bar{\epsilon}}_{\bar{k},s'})(\bar{k}\cdot\hat{\bar{\epsilon}}_{\bar{n},s})
 \Big]
 \Big[
-\delta(\bar{n}+\bar{k})\Big(A_{\bar{n},s}A_{\bar{k},s'}e^{-i(\omega_{\bar{n}}+\omega_{\bar{k}})t}
+-\delta(\bar{n}+\bar{k})\Big(A_{\bar{n},s}A_{\bar{k},s'}e^{-i(\omega_{\bar{n}}+\omega_{\bar{k}})t}
 + A^{*}_{\bar{n},s}A^{*}_{\bar{k},s'}e^{i(\omega_{\bar{n}}+\omega_{\bar{k}})t}\Big)
 \\
 &+\delta(\bar{n}-\bar{k})\Big(A_{\bar{n},s}A^{*}_{\bar{k},s'}e^{-i(\omega_{\bar{n}}-\omega_{\bar{k}})t}

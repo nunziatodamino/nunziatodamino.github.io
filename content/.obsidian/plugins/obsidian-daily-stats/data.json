@@ -46,12 +46,18 @@
     "2026/7/30": 0,
     "2026/7/31": 1469,
     "2026/8/1": 170,
-    "2026/8/2": 409
+    "2026/8/2": 409,
+    "2026/8/5": 374,
+    "2026/8/6": 2794,
+    "2026/8/7": 54,
+    "2026/8/8": 2245,
+    "2026/8/9": 0,
+    "2026/8/10": 0
   },
   "todaysWordCount": {
-    "Projects/Structure of Matter/A note on permutation operators.md": {
-      "initial": 119,
-      "current": 528
+    "Projects/Structure of Matter/Many-body systems/Effect of the (anti)symmetrizer on a generic state.md": {
+      "initial": 848,
+      "current": 848
     }
   }
 }
