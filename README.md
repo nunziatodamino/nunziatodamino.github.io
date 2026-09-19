@@ -1,6 +1,10 @@
-# Nunziato Damino
+# Nunziato Damino — personal website
 
-A personal site with two entrances: a painting portfolio and **COSM-OS-2**, an Obsidian knowledge garden about physics and mathematics. Built with [Quartz](https://quartz.jzhao.xyz/) and hosted on GitHub Pages.
+My personal website brings together two parts of my work: painting and physics.
+
+The homepage asks which you are interested in: **the painter** or **the physicist**. The painter side collects selected paintings and exhibitions. The physicist side contains **COSM-OS-2**, my Obsidian knowledge garden about physics and mathematics.
+
+This is a personal project inspired by and built on [Quartz](https://quartz.jzhao.xyz/), with a custom homepage, portfolio, and exhibition archive. It is maintained for my own work and published on [nunziatodamino.github.io](https://nunziatodamino.github.io/).
 
 ## Preview locally
 
@@ -25,7 +29,7 @@ The generated `public/` directory, dependencies, and build caches are ignored by
 
 - `/` — the personal homepage, with Painter and Physicist entrances.
 - `/painter/` — selected paintings and exhibitions.
-- `/painter/exhibitions/` — exhibition archive, including **Allucinazione collettiva** (2019) and **I notturni** (2018).
+- `/painter/exhibitions/` — **I notturni** (2018), **Allucinazione collettiva** (2019), and the group exhibition at **Palazzo Cagnone** (2021).
 - `/physicist/` — the original COSM-OS-2 introduction and subject links.
 - Physics notes retain their original paths and Obsidian links. Search, explorer, graph, and RSS stay focused on physics; the sitemap includes both sections.
 
@@ -33,7 +37,7 @@ The homepage and portfolio use dedicated Quartz components. Physics pages retain
 
 ## Add a painting
 
-1. Put a web-sized JPEG, WebP, PNG, or AVIF image in `content/painter/images/`. Prefer lowercase, hyphenated filenames. Around 1600–2400 pixels on the long edge is usually sufficient; aim below 1 MB per image. Keep full-resolution originals outside this site repository.
+1. Put a web-sized JPEG, WebP, PNG, or AVIF image in `content/painter/images/`. Prefer lowercase, hyphenated filenames. Around 1600–2400 pixels on the long edge is usually sufficient; aim below 1 MB per image. Keep source originals under `exhibitions/`, outside the published `content/` directory.
 2. Create a Markdown file directly in `content/painter/`, for example `content/painter/evening-study.md`:
 
 ```yaml
@@ -61,7 +65,7 @@ Create `content/painter/exhibitions/<exhibition-slug>/index.md`. The `I notturni
 
 The exhibition appears automatically on the painter page and exhibition archive. If no poster is available, omit both poster fields to display a text-only entry. When only the year is known, use a quoted year for `dates` (for example, `dates: "2021"`); use `artworks: []` when the exhibited works have not been identified. The list order in `artworks` controls its gallery independently of portfolio order. Painting detail pages link back to their exhibitions. Markdown below the frontmatter can contain an introduction or press links. Missing referenced painting or poster files stop the build.
 
-Keep source photos and posters under the root `exhibitions/` directory. Only prepared web copies under `content/` are deployed. [I notturni asset notes](docs/i-notturni-assets.md) and [Allucinazione collettiva asset notes](docs/allucinazione-collettiva-assets.md) record the original filenames, processing settings, and known dimensions. Preparing these images is a local step, with no new CI dependencies or image services.
+Keep source photos and posters under the root `exhibitions/` directory. Only prepared web copies under `content/` are deployed. Asset notes for [I notturni](docs/i-notturni-assets.md), [Allucinazione collettiva](docs/allucinazione-collettiva-assets.md), and [Palazzo Cagnone, 2021](docs/palazzo-cagnone-2021-assets.md) record the original filenames, processing settings, and known dimensions. Preparing these images is a local step, with no new CI dependencies or image services.
 
 ## Hosting and costs
 
@@ -70,3 +74,7 @@ Keep this repository **public** and use the existing `nunziatodamino.github.io` 
 The deployment uses standard Ubuntu runners and Node 22, uploads only the Pages artifact with one-day retention, and adds no caches, paid runners, or third-party hosting. Analytics is disabled. Existing Google Fonts are free; homepage images are stored locally and require no runtime image service. See [background assets and generation prompt](docs/homepage-backgrounds.md). This repository does not control account-wide billing, unrelated workflows, or future GitHub pricing changes.
 
 [GitHub Pages limits](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits) include a **1 GB maximum published site**, a recommended 1 GB source repository limit, and a soft 100 GB monthly bandwidth limit. Optimise paintings before adding them. Check the generated size with `du -sh public`. Review account-level Actions storage usage and spending limits before enabling any paid feature; short artifact retention does not replace account-level billing controls.
+
+## Acknowledgements
+
+Thanks to [Jacky Zhao and the Quartz contributors](https://github.com/jackyzha0/quartz) for the foundation of this site, including Markdown publishing, Obsidian link support, search, and graph navigation. The original software licence is retained in [LICENSE.txt](LICENSE.txt).
